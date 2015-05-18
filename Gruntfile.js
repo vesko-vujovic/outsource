@@ -1,5 +1,6 @@
 /**
  * Grunt is a node.js package for running tasks
+ *
  */
 module.exports = function(grunt) {
 
@@ -36,7 +37,19 @@ module.exports = function(grunt) {
 
 
 
-    
+
+
+
+
+
+
+   /*  !!NOTE
+    * When we concatenate files in NSP project, we do it in following steps
+    *   1. app.js
+    *   2. modules
+    *   3. services and directives
+    *   4. controllers
+    */
 
 
 
