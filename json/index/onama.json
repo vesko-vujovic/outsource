@@ -1,0 +1,26 @@
+{
+   "onama":
+   [ 
+      {
+      	"id": 0,
+         "icon": "localhost/outsource/assets/img/nav-icons/1.png",
+      	"title": "O nama"
+      },
+      {
+         "id": 1,
+         "icon": "localhost/outsource/assets/img/nav-icons/2.png",
+         "title": "Usluge"
+      },
+      {
+         "id": 2,
+         "icon": "localhost/outsource/assets/img/nav-icons/3.png",
+         "title": "Projekti"
+      },
+      {
+         "id": 3,
+         "icon": "localhost/outsource/assets/img/nav-icons/4.png",
+         "title": "Contact Us"
+      },  
+      
+   ]
+}

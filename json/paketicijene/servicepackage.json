@@ -1,0 +1,33 @@
+{
+	"package": 
+	[
+	  {
+	  	"id": 0,
+	  	"title": "Order Service packages",
+	  	"text":  "Lorem ipsum dolor sit amet, ut nec condimentum sit duis eget ac
+	  	   ,libero orci. Est pede ut phasellus mi. Urna ac sem posuere eu imperdiet, 
+	  	   sagittis sapien amet non. Morbi aute volutpat nulla facilisi aenean",
+	  	"img":   "localhost/outsource/assets/img/package/pack1.png"
+	  },
+      {
+	  	"id": 1,
+	  	"title": "Choose & order dedicated team",
+	  	"text":  "Lorem ipsum dolor sit amet, ut nec condimentum sit duis eget ac
+	  	   ,libero orci. Est pede ut phasellus mi. Urna ac sem posuere eu imperdiet, 
+	  	   sagittis sapien amet non. Morbi aute volutpat nulla facilisi aenean",
+	  	"img":   "localhost/outsource/assets/img/package/likovi.png"
+	  },
+	  {
+	  	"id": 2,
+	  	"title": "Order Service packages",
+	  	"text":  "Lorem ipsum dolor sit amet, ut nec condimentum sit duis eget ac
+	  	   ,libero orci. Est pede ut phasellus mi. Urna ac sem posuere eu imperdiet, 
+	  	   sagittis sapien amet non. Morbi aute volutpat nulla facilisi aenean",
+	  	"img": "localhost/outsource/assets/img/package/pack2.png"  
+	  }
+
+
+	],
+
+	"mackbook": "localhost/outsource/assets/img/package/macbook.png"
+}

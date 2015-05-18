@@ -1,0 +1,29 @@
+{
+	"footer":
+	[ 
+	   {
+	   	 "id": 0,
+	   	 "title": "Saznajte vise o nama",
+	   	 "text":  "Mi smo digitalna kreativna agencija koju čine talentovani i iskusni stratezi, 
+	   	 menadžeri, dizajneri i programeri koji su intenzivno radoznali i strastveni za strategiju,
+	   	  dizajn i tehnologiju. Većina nas svira, a svi volimo život i ljude :)"
+	   },
+	   {
+	   	 "id": 1,
+	   	 "title": "Zadnje sa bloga",
+	   	 "text":  "Mi smo digitalna kreativna agencija koju čine talentovani i iskusni stratezi,
+	   	  menadžeri, dizajneri i programeri koji su intenzivno radoznali i strastveni za strategiju,
+	   	   dizajn i tehnologiju. Većina nas svira, a svi volimo život i ljude :)"
+	   },
+	   {
+	   	 "id": 2,
+	   	 "title": "Kontaktirajte nas",
+	   	 "text":  "Mail: info@bild-studio.net<br>
+          Telefon:  +382 67 911 37 11; <br>
+          Adresa: Vlaha Bukovca 48, Podgorica, Crna Gora<br>
+          PIB: 02783061"
+	   },
+
+
+	]
+}

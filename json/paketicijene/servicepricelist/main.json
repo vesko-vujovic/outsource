@@ -1,0 +1,273 @@
+{
+	//this is main section of the page
+    
+    "tabs":
+    [ 
+       {
+       	 "id": 0,
+       	 "title": "Logo & Identity",
+       	 "listitems":
+       	 [ 
+       	    {
+       	    	"name": "Logo design",
+       	    	"price": "500",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "Business card",
+       	    	"price": "200",
+       	    	"done": true
+       	    },
+       	    {
+       	    	"name": "Stationery",
+       	    	"price": "200",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "Brand identity pack",
+       	    	"price": "800",
+       	    	"done": false
+       	    },
+
+       	 ]
+       	 
+       },
+       {
+       	 "id": 1,
+       	 "title": "Website & app",
+       	 "listitems":
+       	 [ 
+       	    {
+       	    	"name": "Webiste design",
+       	    	"price": "800",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "Landing page",
+       	    	"price": "400",
+       	    	"done": true
+       	    },
+       	    {
+       	    	"name": "Icon or button",
+       	    	"price": "100",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "Mobile app",
+       	    	"price": "700",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "Social media page",
+       	    	"price": "200",
+       	    	"done": true
+       	    },
+
+
+       	 ]
+       	 
+       },
+       {
+       	 "id": 2,
+       	 "title": "Business & advertising",
+       	 "listitems":
+       	 [ 
+       	    {
+       	    	"name": "Postcard, flyer & print",
+       	    	"price": "200",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "Infographic",
+       	    	"price": "400",
+       	    	"done": true
+       	    },
+       	    {
+       	    	"name": "Brochure",
+       	    	"price": "100",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "Banner add",
+       	    	"price": "700",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "Flash banner",
+       	    	"price": "200",
+       	    	"done": true
+       	    },
+       	    {
+       	    	"name": "Signage",
+       	    	"price": "200",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "Email",
+       	    	"price": "400",
+       	    	"done": true
+       	    },
+         
+         ]
+
+        },
+        {
+       	  "id": 3,
+       	  "title": "Packaging & label",
+       	  "listitems":
+       	 [ 
+       	    {
+       	    	"name": "Product packaging",
+       	    	"price": "600",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "Product label",
+       	    	"price": "400",
+       	    	"done": true
+       	    },
+       	    {
+       	    	"name": "Other packaging label",
+       	    	"price": "400",
+       	    	"done": false
+       	    }
+         
+         ]
+            
+        },
+
+        {
+       	  "id": 4,
+       	  "title": "User experience",
+       	  "listitems":
+       	 [ 
+       	    {
+       	    	"name": "Landscape review",
+       	    	"price": "200",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "Content strategy",
+       	    	"price": "500",
+       	    	"done": true
+       	    },
+       	    {
+       	    	"name": "Information architecture",
+       	    	"price": "200",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "Personas",
+       	    	"price": "300",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "User journeys",
+       	    	"price": "400",
+       	    	"done": true
+       	    },
+       	    {
+       	    	"name": "User journeys",
+       	    	"price": "400",
+       	    	"done": false
+       	    }
+       	    {
+       	    	"name": "Wireframes",
+       	    	"price": "500",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "Rapid prototyping",
+       	    	"price": "300",
+       	    	"done": true
+       	    },
+       	    {
+       	    	"name": "User interface design",
+       	    	"price": "400",
+       	    	"done": false
+       	    }
+         
+         ]
+            
+        }
+
+        {
+       	  "id": 5,
+       	  "title": "Clothing & merchendise",
+       	  "listitems":
+       	 [ 
+       	    {
+       	    	"name": "T-shirt",
+       	    	"price": "150",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name": "Cloathing apparel",
+       	    	"price": "150",
+       	    	"done": true
+       	    },
+       	    {
+       	    	"name": "Merchendise",
+       	    	"price": "200",
+       	    	"done": false
+       	    }
+         
+         ]
+            
+        },
+
+        {
+       	  "id": 6,
+       	  "title": "Art & illustration",
+       	  "listitems":
+       	 [ 
+       	    {
+       	    	"name": "Illustration & graphics",
+       	    	"price": "150",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name":"Card or invitation",
+       	    	"price": "150",
+       	    	"done": true
+       	    },
+       	    {
+       	    	"name": "Other art or illustration",
+       	    	"price": "200",
+       	    	"done": false
+       	    }
+         
+         ]
+            
+        },
+
+        {
+       	  "id": 7,
+       	  "title": "Book & magazine",
+       	  "listitems":
+       	 [ 
+       	    {
+       	    	"name": "Book cover",
+       	    	"price": "150",
+       	    	"done": false
+       	    },
+       	    {
+       	    	"name":"Magazin cover",
+       	    	"price": "150",
+       	    	"done": true
+       	    },
+       	    {
+       	    	"name": "Other book or magazine",
+       	    	"price": "200",
+       	    	"done": false
+       	    }
+         
+         ]
+            
+        }
+
+
+
+
+    ]
+}

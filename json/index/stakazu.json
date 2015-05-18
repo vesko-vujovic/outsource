@@ -1,0 +1,27 @@
+{
+	"stakazu":
+	[
+	   { 
+	   	 "id": 0,
+	   	 "text":  "U agenciji Bild Studio pronašli smo ozbiljnog partnera sa kojim je zadovoljstvo raditi. Vjerujemo da ce naša saradnja biti jos razuđenija, te ih preporučujemo kao pouzdanog i temeljnog...",
+	   	 "img":    "localhost/outsource/assets/img/testimonials/1.jpg",
+	   	 "author": "Lav Lajovic, Direktor, Pobjeda AD"
+	   },
+	   { 
+	   	 "id": 1,
+	   	 "text":  "U agenciji Bild Studio pronašli smo
+	   	  ozbiljnog partnera sa kojim je zadovoljstvo raditi.
+	   	   Vjerujemo da ce naša saradnja biti jos razuđenija,
+	   	    te ih preporučujemo kao pouzdanog i temeljnog...",
+	   	 "img":    "localhost/outsource/assets/img/testimonials/1.jpg",
+	   	 "author": "Lav Lajovic, Direktor, Pobjeda AD"
+	   },
+	   { 
+	   	 "id": 2,
+	   	 "text":  "U agenciji Bild Studio pronašli smo ozbiljnog partnera sa kojim je zadovoljstvo raditi. Vjerujemo da ce naša saradnja biti jos razuđenija, te ih preporučujemo kao pouzdanog i temeljnog...",
+	   	 "img":    "localhost/outsource/assets/img/testimonials/1.jpg",
+	   	 "author": "Lav Lajovic, Direktor, Pobjeda AD"
+	   }
+
+	]
+}

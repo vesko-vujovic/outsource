@@ -1,0 +1,39 @@
+{
+	"header": { "title": "Testimonials"},
+
+	"main": 
+	[
+	  {
+	  	"id": 0,
+	  	"text": "Nas web sajt pokazuje rezultat  nase saradnje, na sta smo ponosni. Bilo je zadovoljstvo
+	  	raditi sa timom koji zna sta treba i kako to da ostvari, iznenadjeni smo kako mladi tim moze da"
+	  	"img" "localhost/outsource/assets/img/testimonials/1.jpg"
+	  },
+	  {
+	  	"id": 1,
+	  	"text": "Nas web sajt pokazuje rezultat  nase saradnje, na sta smo ponosni. Bilo je zadovoljstvo
+	  	raditi sa timom koji zna sta treba i kako to da ostvari, iznenadjeni smo kako mladi tim moze da"
+	  	"img" "localhost/outsource/assets/img/testimonials/1.jpg"
+	  },
+	  {
+	  	"id": 2,
+	  	"text": "Nas web sajt pokazuje rezultat  nase saradnje, na sta smo ponosni. Bilo je zadovoljstvo
+	  	raditi sa timom koji zna sta treba i kako to da ostvari, iznenadjeni smo kako mladi tim moze da"
+	  	"img" "localhost/outsource/assets/img/testimonials/1.jpg"
+	  },
+	  {
+	  	"id": 3,
+	  	"text": "Nas web sajt pokazuje rezultat  nase saradnje, na sta smo ponosni. Bilo je zadovoljstvo
+	  	raditi sa timom koji zna sta treba i kako to da ostvari, iznenadjeni smo kako mladi tim moze da"
+	  	"img" "localhost/outsource/assets/img/testimonials/1.jpg"
+	  },
+	  {
+	  	"id": 4,
+	  	"text": "Nas web sajt pokazuje rezultat  nase saradnje, na sta smo ponosni. Bilo je zadovoljstvo
+	  	raditi sa timom koji zna sta treba i kako to da ostvari, iznenadjeni smo kako mladi tim moze da"
+	  	"img" "localhost/outsource/assets/img/testimonials/1.jpg"
+	  }
+
+
+	]
+}

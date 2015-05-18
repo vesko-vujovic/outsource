@@ -1,0 +1,27 @@
+{
+	"header": "FAQ",
+	"questions":
+	[  
+	   { 
+	   	 "id": 0,
+	   	 "title": "Can i hire one developer?",
+	   	 "text" : "Lorem ipsum dolor sit amet, ut nec condimentum sit duis eget ac"
+	   },
+	   {
+	   	 "id": 1,
+	   	 "title": "How many hours does each person work per week?",
+	   	 "text" : "Lorem ipsum dolor sit amet, ut nec condimentum sit duis eget ac"
+	   },
+	   {
+	   	 "id": 2,
+	   	 "title": "What is the minimum monthly budget for a dedicated team?",
+	   	 "text" : "Lorem ipsum dolor sit amet, ut nec condimentum sit duis eget ac"
+	   },
+	   {
+	   	 "id": 3,
+	   	 "title": "Will i be able to cuminicate directly with my team and developer",
+	   	 "text" : "Lorem ipsum dolor sit amet, ut nec condimentum sit duis eget ac"
+	   },
+	  
+	]
+}
