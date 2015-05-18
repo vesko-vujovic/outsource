@@ -22,12 +22,9 @@ module.exports = function(grunt) {
     //configuration for concatenate package
     grunt.initConfig({
     concat: {
-       options: {
-       separator: ';',
-    },
-    dist: {
-      src: ['src/intro.js', 'src/project.js', 'src/outro.js'],
-      dest: 'dist/built.js',
+     dist: {
+       src: ['src/intro.js', 'src/project.js', 'src/outro.js'],
+       dest: 'dist/built.js',
       },
     },
    });
