@@ -1,7 +1,3 @@
-
-    //we are calling module
-	outsource.module('outsourceApp')
-    
     //service for fetching json data
     outsource.service('getService', function($http){
 

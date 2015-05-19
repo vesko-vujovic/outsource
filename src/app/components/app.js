@@ -5,8 +5,5 @@
 //create module with ui router
 var outsource = angular.module('outsourceApp', ['ui.router']);
 
-//routes for app 
-outsource.config(function($stateProvider){
-   $stateProvider
-       .state('index',{url:"/index", templateUrl: "views/main.html"});
-});
+//here i will define routes for this module
+

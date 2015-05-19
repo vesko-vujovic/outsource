@@ -5,23 +5,17 @@
 //create module with ui router
 var outsource = angular.module('outsourceApp', ['ui.router']);
 
-//routes for app 
-outsource.config(function($stateProvider){
-   $stateProvider
-       .state('index',{url:"/index", templateUrl: "views/main.html"});
-});
-
-(function(outsource){
-    //we are calling module
-	outsource.module('outsourceApp')
-
-    //define controller
-    outsource.controller('mainCtrl', [$scope], function($scope){
-       alert('radi');
-    });
+//here i will define routes for this module
 
 
-});
+
+//this is the main controller
+var app = angular.module('outsourceApp');
+
+//define controller
+app.controller('mainCtrl', ['$scope', function($scope){
+        alert('radi');
+}]);
 
 (function(outsource){
 
@@ -38,10 +32,6 @@ outsource.config(function($stateProvider){
     })
 });
 
-
-    //we are calling module
-	outsource.module('outsourceApp')
-    
     //service for fetching json data
     outsource.service('getService', function($http){
 
