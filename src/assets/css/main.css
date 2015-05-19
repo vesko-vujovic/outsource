@@ -5635,8 +5635,12 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.navigation {
-  background-color: #000066;
+.nav-color {
+  background-color: #000042; }
+
+.navbar-default .navbar-text {
   color: #ffffff; }
+.navbar-default .order {
+  color: #019AE6; }
 
 /*# sourceMappingURL=main.css.map */
