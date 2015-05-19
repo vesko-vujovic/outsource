@@ -1,8 +1,5 @@
 /**
- * This is our main initialization file, here we have initialization and configuration
+ * This is the main config file in this app, here we define initialization and all other things
  */
- 
- function vesko(){
-	 
- }
 
+var outsource = angular.module('outsource', ['ui.router']);
