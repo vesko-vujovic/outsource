@@ -2,14 +2,11 @@
  * This is the main config file in this app, here we define initialization and all other things
  */
 
-var outsource = angular.module('outsourceApp', []);
+//create module with ui router
+var outsource = angular.module('outsourceApp', ['ui.router']);
 
-//module for angular routing
-var routes    = angular.module('route',['ui.router']);
-
-
-//config for routes
-routes.config(function($stateProvider){
+//routes for app 
+outsource.config(function($stateProvider){
    $stateProvider
        .state('index',{url:"/index", templateUrl: "views/main.html"});
 });

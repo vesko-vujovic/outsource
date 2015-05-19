@@ -4,7 +4,7 @@
 
     //define controller
     outsource.controller('mainCtrl', [$scope], function($scope){
-     console.log('radi');
+       alert('radi');
     });
 
 
