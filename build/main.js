@@ -17,10 +17,14 @@ var app = angular.module('outsourceApp');
 app.controller('mainCtrl', ['$scope', 'sharedService', function($scope, sharedService){
    
     //this functions calls service method to load data from json file
+    $scope.client = [];
 	$scope.data   = sharedService.getData().then(function(data){
-	    $scope.data = data.client;
+		console.log(data);
+	    $scope.client = data;  
 	});
-	console.log($scope.data);
+
+	//console.log($scope.client);
+	
 }]);
 
 
