@@ -14,7 +14,7 @@ var app = angular.module('outsourceApp');
 
 //define controller
 app.controller('mainCtrl', ['$scope', function($scope){
-        alert('radi');
+        
 }]);
 
 (function(outsource){
@@ -28,7 +28,7 @@ app.controller('mainCtrl', ['$scope', function($scope){
             restrict: 'AE',
     		replace: 'true',
     		template: '<h3> Hello world </h3>'
-    	}
+    	};
     })
 });
 
