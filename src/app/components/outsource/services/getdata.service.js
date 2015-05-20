@@ -1,15 +1,22 @@
     //service for fetching json data
-    outsource.service('getService', function($http){
+    outsource.service('sharedService', function($http, $q){
 
-        //fetch data from json file
         /**
+         * This function fetch data from json
          * @param path - this is the url of file
-         * @param part - this is the part of json array you want 
-         */
-       
-        this.fetchData = function(path, part){
+         */  
+        this.getData = function() {
+            
+          var defer  = $q.defer();
+          $http.get('json/index/klijenti.json')
+             .success(function(result){
+               defer.resolve(result);
+          });
+
+          return defer.promise;  
 
         };
+     
     });
 
 
