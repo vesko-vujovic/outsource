@@ -13,12 +13,14 @@ var outsource = angular.module('outsourceApp', ['ui.router']);
 var app = angular.module('outsourceApp');
 
 //define controller
+
 app.controller('mainCtrl', ['$scope', 'sharedService', function($scope, sharedService){
-
-	$scope.data = sharedService.getData();
+   
+    //this functions calls service method to load data from json file
+	$scope.data   = sharedService.getData().then(function(data){
+	    $scope.data = data.client;
+	});
 	console.log($scope.data);
-
-        
 }]);
 
 
@@ -31,14 +33,18 @@ app.controller('mainCtrl', ['$scope', 'sharedService', function($scope, sharedSe
          */  
         this.getData = function() {
             
-          var defer  = $q.defer();
-          $http.get('json/index/klijenti.json')
-             .success(function(result){
-               defer.resolve(result);
-          });
+            //$q method to deal with async methods
+            var deferred  = $q.defer();
+            $http.get("/outsource/json/index/klijenti.json")
+              .success(function(data){
+                  console.log('radi');
+                  deferred.resolve(data);
+              })
+              .error(function(err, status){
+                  deferred.reject(err);
+              });
 
-          return defer.promise;  
-
+            return deferred.promise;
         };
      
     });
