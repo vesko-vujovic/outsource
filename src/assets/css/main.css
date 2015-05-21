@@ -5648,6 +5648,10 @@ button.close {
   border: none;
   margin-bottom: 0px; }
 
+header {
+  background: #002637;
+  min-width: 980px; }
+
 .footer {
   padding-top: 50px;
   background-color: #012638;
@@ -5689,5 +5693,31 @@ button.close {
       margin-left: 3px; }
   .footer .more_about_us:hover, .footer .contact :hover, .footer ul li:hover {
     color: white; }
+
+#slider {
+  height: 520px;
+  background: #e6e6e6;
+  position: relative;
+  z-index: 5; }
+
+.slider-heading {
+  color: #fff;
+  font-size: 45px;
+  line-height: 48px;
+  margin: 0px;
+  font-family: KlavikaMedium, Arial, Helvetica, sans-serif; }
+  .slider-heading .orange {
+    color: #F8A01A; }
+  .slider-heading .blue {
+    color: #009AE2; }
+
+.slider-p {
+  font-family: KlavikaRegular, Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0px; }
+  .slider-p.dark {
+    color: #646464; }
 
 /*# sourceMappingURL=main.css.map */

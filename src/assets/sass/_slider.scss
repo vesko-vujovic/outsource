@@ -1,0 +1,27 @@
+#slider{
+  height: 25%;
+  background: #e6e6e6;
+  position: relative;
+  z-index: 5
+}
+.slider-heading{
+	color: #fff;
+	font-size: 45px;
+	line-height: 48px;
+	margin: 0px;
+	.orange{
+		color: #F8A01A;
+	}
+	.blue{
+		color: #009AE2;
+	}
+}
+.slider-p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0px;
+	&.dark {
+		color: #646464;
+	}
+}

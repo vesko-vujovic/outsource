@@ -14,47 +14,62 @@ var app = angular.module('outsourceApp');
 
 //define controller
 
-app.controller('mainCtrl', ['$scope', 'sharedService', function($scope, sharedService){
+app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedService){
    
     //this functions calls service method to load data from json file
-    $scope.client = [];
-	$scope.data   = sharedService.getData().then(function(data){
-		console.log(data);
-	    $scope.client = data;  
+    $scope.client;
+	$scope.data   = sharedService.getData('/outsource/json/index/klijenti.json').then(function(data){
+	    $scope.client = data.client;
 	});
 
-	//console.log($scope.client);
+	
 	
 }]);
 
-//custom directive
+/**
+ * Here we have custom directive
+ * restrict E means that this directive will we used as an element
+ * link is to connect directive to scope of controller
+ */
 
 outsource.directive('name', function(){
 
 	return {
 	   restrict: 'E',
 	   link: function(scope, element, attribute){
-	   	 scope.fullName = attribute.first + '' + attribute.last
+	   	 scope.fullName = attribute.first + ' ' + attribute.last;
 	   },
 	   replace: true,
 	   template: "<h1> {{fullName}} </h1>"
-	}
+	};
 });
+/**
+ * This is the directive for slider 
+ */
 
+outsource.directive('name', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+	   	 scope.fullName = attribute.first + ' ' + attribute.last;
+	   },
+	   replace: true,
+	   template: "<h1> {{fullName}} </h1>"
+	};
+});
     //service for fetching json data
     outsource.service('sharedService', function($http, $q){
 
         /**
          * This function fetch data from json
-         * @param path - this is the url of file
+         * @param path - this is the url of  the json file
          */  
-        this.getData = function() {
-            
+        this.getData = function(path) {
             //$q method to deal with async methods
             var deferred  = $q.defer();
-            $http.get("/outsource/json/index/klijenti.json")
+            $http.get(path)
               .success(function(data){
-                  console.log('radi');
                   deferred.resolve(data);
               })
               .error(function(err, status){

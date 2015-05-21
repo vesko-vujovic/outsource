@@ -3,15 +3,13 @@
 
         /**
          * This function fetch data from json
-         * @param path - this is the url of file
+         * @param path - this is the url of  the json file
          */  
-        this.getData = function() {
-            
+        this.getData = function(path) {
             //$q method to deal with async methods
             var deferred  = $q.defer();
-            $http.get("/outsource/json/index/klijenti.json")
+            $http.get(path)
               .success(function(data){
-                  console.log('radi');
                   deferred.resolve(data);
               })
               .error(function(err, status){
