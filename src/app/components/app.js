@@ -2,8 +2,38 @@
  * This is the main config file in this app, here we define initialization and all other things
  */
 
-//create module with ui router
+/**
+ * outsource app module
+ *
+ */
 var outsource = angular.module('outsourceApp', ['ui.router']);
 
-//here i will define routes for this module
+outsource.config(function($stateProvider, $urlRouterProvider){
+      $urlRouterProvider.otherwise('/');
 
+      $stateProvider
+        .state('home', {
+          url: '/home',
+          templateUrl: 'home.html',
+          controller: 'indexCtrl'
+          	
+          
+        })
+        .state('slider',{
+          url: '/slider',
+          templateUrl: 'src/app/components/views/slider.html',
+          controller: 'indexCtrl'
+
+        });
+
+
+});
+
+
+
+
+
+
+
+
+// end of outsource

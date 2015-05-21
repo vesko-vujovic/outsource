@@ -26,7 +26,7 @@ module.exports = function(grunt) {
     grunt.initConfig({
     concat: {
        js: {
-          src: ['src/app/components/app.js', 'src/app/components/**/*.model.js',
+          src: ['src/app/components/*.js', 'src/app/components/**/*.model.js',
           'src/app/components/**/*.controller.js', 'src/app/components/**/*.directive.js',
           'src/app/components/**/*.service.js'  ],
           dest: 'build/main.js',
