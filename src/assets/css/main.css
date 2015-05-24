@@ -5695,7 +5695,7 @@ header {
     color: white; }
 
 #slider {
-  height: 520px;
+  height: 25%;
   background: #e6e6e6;
   position: relative;
   z-index: 5; }
@@ -5704,15 +5704,13 @@ header {
   color: #fff;
   font-size: 45px;
   line-height: 48px;
-  margin: 0px;
-  font-family: KlavikaMedium, Arial, Helvetica, sans-serif; }
+  margin: 0px; }
   .slider-heading .orange {
     color: #F8A01A; }
   .slider-heading .blue {
     color: #009AE2; }
 
 .slider-p {
-  font-family: KlavikaRegular, Arial, Helvetica, sans-serif;
   color: #fff;
   font-size: 14px;
   line-height: 18px;

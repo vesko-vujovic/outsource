@@ -15,15 +15,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
         .state('home', {
           url: '/home',
           templateUrl: 'home.html',
-          controller: 'indexCtrl'
-          	
-          
-        })
-        .state('slider',{
-          url: '/slider',
-          templateUrl: 'src/app/components/views/slider.html',
-          controller: 'indexCtrl'
-
+          controller: 'indexCtrl'          	          
         });
 
 

@@ -14,7 +14,12 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
- $('.tp-banner').show().revolution({
+
+
+  setTimeout(function(){
+
+
+  $('.tp-banner').show().revolution({
             delay:9000,
             startwidth:980,
             startheight:520,
@@ -28,6 +33,9 @@ $(document).ready(function() {
             parallaxBgFreeze:"on",
             parallaxLevels:[10,7,4,3,2,5,4,3,2,1]
     });         
+   
+ }, 15);
+ 
 }); 
 
 $(document).ready(function() {
