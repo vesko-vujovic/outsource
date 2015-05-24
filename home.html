@@ -23,11 +23,14 @@
   <!-- custom directive example 
      <name first="Veselin" last="Dion">  </name>
   -->
- <div ng-include src="'src/app/components/views/navbar.html'"> </div>
- <slider> </slider>
- <ui-view></ui-view>
+ 
+ <ui-view>
+  <div ng-include src="'src/app/components/views/navbar.html'"> </div>
+  <slider> </slider>
+  <div ng-include src="'src/app/components/views/footer.html'"> </div>
+ </ui-view>
 
- <div ng-include src="'src/app/components/views/footer.html'"> </div>
+
 
   <!-- footer --> 
   

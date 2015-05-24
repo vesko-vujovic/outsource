@@ -91,7 +91,7 @@ outsource.directive('slider', function(){
 	   },
 
 	   replace: true,
-	   template: "<h1> {{fullName}} </h1>"
+	   templateUrl: 'src/app/components/views/slider.html'
 	};
 });
     //service for fetching json data
