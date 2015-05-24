@@ -13,6 +13,7 @@ $(document).ready(function() {
   });
 });
 
+/*
 $(document).ready(function() {
 
 
@@ -37,6 +38,7 @@ $(document).ready(function() {
  }, 15);
  
 }); 
+*/
 
 $(document).ready(function() {
   $("#order-now").click(function() {
