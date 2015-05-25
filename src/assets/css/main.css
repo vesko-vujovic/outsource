@@ -6013,4 +6013,19 @@ div.links > a:hover {
     .why-us .us-right p {
       line-height: 20px; }
 
+.nav > li {
+  margin-top: 1.2%;
+  font-size: 20px !important;
+  display: inline-block;
+  margin-bottom: 1.2%; }
+
+#about > li {
+  color: black;
+  margin-right: 25px;
+  text-transform: uppercase; }
+  #about > li a {
+    color: black; }
+  #about > li #last {
+    text-transform: lowercase; }
+
 /*# sourceMappingURL=main.css.map */
