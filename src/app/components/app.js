@@ -17,18 +17,18 @@ outsource.config(function($stateProvider, $urlRouterProvider){
       $stateProvider
         .state('home', {
           url: '/home',
-          templateUrl: '',
-          controller: 'indexCtrl'          	          
+          templateUrl: 'src/app/components/views/homepage.html',        	          
         })
             .state('index', {
             	parent: 'home',
             	url: '/index',
-            	views:{
-            		inner:{
+            	views: {
+            		inner: {
             			templateUrl: 'src/app/components/views/homepage.html',
-            			controller: 'indexCtrl' 
+                        controller: 'indexCtrl' 
             		}
             	}
+            	
             })
 
 

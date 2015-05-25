@@ -19,19 +19,18 @@
   
     <title>Main layout</title>
 </head>
-<body>
+<body ng-controller="indexCtrl">
  
   <!-- custom directive example 
      <name first="Veselin" last="Dion">  </name>
   -->
-  
- <div ng-include src="'src/app/components/views/navbar.html'"> </div>
-
+<div ng-include src="'src/app/components/views/navbar.html'"> </div>
 
  <ui-view>
-   <div ui-view="inner" ></div>
- </ui-view>
+   <div ui-view="inner" >
 
+   </div>
+ </ui-view>
  <div ng-include src="'src/app/components/views/footer.html'"> </div>
 
 
@@ -39,4 +38,5 @@
   <!-- footer --> 
   
 </body>
+
 </html>

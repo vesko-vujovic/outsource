@@ -40,8 +40,10 @@ $(document).ready(function() {
 }); 
 */
 
+
 $(document).ready(function() {
   $("#order-now").click(function() {
+  
       var $this = $(this);
       if ($this.hasClass("clicked")) {
       $(".dropdown-nav").slideUp(300);
@@ -52,6 +54,8 @@ $(document).ready(function() {
         $(this).addClass('clicked');
       }
   });
+
+
 }); 
 
 $(document).ready(function() {
@@ -61,3 +65,5 @@ $(document).ready(function() {
    pagination: false
  });
 });
+
+
