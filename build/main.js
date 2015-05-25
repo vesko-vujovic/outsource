@@ -52,14 +52,19 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
    
     //this functions calls service method to load data from json file
     $scope.client;
-	$scope.data   = sharedService.getData('/outsource/json/index/klijenti.json').then(function(data){
-	    $scope.client = data.client;
+	$scope.data          = sharedService.getData('/outsource/json/index/klijenti.json').then(function(data){
+	    $scope.client    = data.client;
 	});
 	//data for packages
 	$scope.packages;
 	$scope.packageData   = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
-	    $scope.packages = data.packages;
-	    console.log($scope.packages);
+	    $scope.packages  = data.packages;
+	  
+	});
+    //data for why us 
+    $scope.whyus;
+	$scope.whyusData     = sharedService.getData('/outsource/json/index/whyus.json').then(function(data){
+	    $scope.whyus     = data.why;  
 	});
 
 
@@ -156,6 +161,18 @@ outsource.directive('slider', function(){
 
 	   replace: true,
 	   templateUrl: 'src/app/components/views/slider.html'
+	};
+});
+outsource.directive('whyus', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+	
+	   },
+
+	   replace: true,
+	   templateUrl: 'src/app/components/views/whyus.html'
 	};
 });
     //service for fetching json data
