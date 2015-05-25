@@ -5920,4 +5920,12 @@ div.links > a:hover {
   -moz-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out; }
 
+.other-link {
+  padding: 20px 10px;
+  text-align: right; }
+  .other-link a {
+    font-size: 16px;
+    color: #f8a01a;
+    font-style: italic; }
+
 /*# sourceMappingURL=main.css.map */
