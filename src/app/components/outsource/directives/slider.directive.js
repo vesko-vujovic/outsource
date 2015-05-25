@@ -39,7 +39,7 @@ outsource.directive('slider', function(){
 	   link: function(scope, element, attribute){
 	   	  angular.element('.tp-banner').show().revolution({
 
-	   	  	delay:9000,
+	   	delay:9000,
             startwidth:980,
             startheight:520,
             hideThumbs:10,

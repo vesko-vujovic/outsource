@@ -58,7 +58,7 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
 	//data for packages
 	$scope.packages;
 	$scope.packageData   = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
-	    $scope.packages = data;
+	    $scope.packages = data.packages;
 	    console.log($scope.packages);
 	});
 
@@ -84,6 +84,18 @@ outsource.directive('name', function(){
 	   },
 	   replace: true,
 	   template: "<h1> {{fullName}} </h1>"
+	};
+});
+outsource.directive('packages', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+	   	 
+	   },
+
+	   replace: true,
+	   templateUrl: 'src/app/components/views/packages.html'
 	};
 });
 /**
@@ -127,7 +139,7 @@ outsource.directive('slider', function(){
 	   link: function(scope, element, attribute){
 	   	  angular.element('.tp-banner').show().revolution({
 
-	   	  	delay:9000,
+	   	delay:9000,
             startwidth:980,
             startheight:520,
             hideThumbs:10,

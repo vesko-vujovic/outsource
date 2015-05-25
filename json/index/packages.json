@@ -3,7 +3,7 @@
 	[
 	   {
 	   	    "id": 0,
-	   	    "img": "localhost/outsource/assets/img/offer1.png",
+	   	    "img": "outsource/assets/img/offer1.png",
 	    	"title": "DIZAJN & BRANDING",
 	    	"body_title": "Package",
 	    	"body_text": "",
@@ -11,7 +11,7 @@
 	   },
 	   {
 	   	    "id": 2,
-	   	    "img": "localhost/outsource/assets/img/offer2.png",
+	   	    "img": "outsource/assets/img/offer2.png",
 	    	"title": "TEMPLATE WEB SITE",
 	    	"body_title": "Presentation Package",
 	    	"body_text": "Lorem ipsum dolor sit amet, sea malis recteque explicari ne, aliquip persequeris ut nec",
@@ -19,7 +19,7 @@
 	   },
 	   {
 	   	    "id": 3,
-	   	    "img": "localhost/outsource/assets/img/offer3.png",
+	   	    "img": "outsource/assets/img/offer3.png",
 	    	"title": "UNIQUE WEB SITE",
 	    	"body_title": "Portofolio Package",
 	    	"body_text": "Lorem ipsum dolor sit amet, sea malis recteque explicari ne, aliquip persequeris ut nec",
@@ -27,7 +27,7 @@
 	   },
 	   {
 	   	    "id": 4,
-	   	    "img": "localhost/outsource/assets/img/offer4.png",
+	   	    "img": "outsource/assets/img/offer4.png",
 	    	"title": "MOBILE APPLICATION",
 	    	"body_title": "Simple Application",
 	    	"body_text": "Lorem ipsum dolor sit amet, sea malis recteque explicari ne, aliquip persequeris ut nec",
