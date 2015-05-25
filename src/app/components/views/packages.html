@@ -1,11 +1,11 @@
 
-
+<div class="container-fluid"> 
 <div class="row">
 <div class="packages-offer">
   <div class="wrapper">
     <div class="packages">
       <div class="offer-block">
-        <div class="offer-title"> <img src="assets/img/offer1.png" alt="dizajn">
+        <div class="offer-title"> <img src="{{packages[0].img}}" alt="dizajn">
           <h2>{{packages[0].title}}</h2>
         </div>
         <div class="offer-desc">
@@ -17,46 +17,45 @@
         </div>
         <a href="#" class="offer-hover"> <img src="src/assets/img/choose.png" alt=""> </a> </div>
       <div class="offer-block">
-        <div class="offer-title"> <img src="assets/img/offer2.png" alt="dizajn">
-          <h2>Template<br>
-            web site</h2>
+        <div class="offer-title"> <img src="{{packages[1].img}}" alt="dizajn">
+          <h2>{{packages[1].title}}</h2>
         </div>
         <div class="offer-desc">
-          <h5>Presentation package</h5>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when </p>
+          <h5>{{packages[1].body_title}}</h5>
+          <p>{{packages[1].body_text}} </p>
           <hr>
           <div class="start-from">starting from</div>
-          <div class="price">1000€</div>
+          <div class="price">{{packages[1].price}}€</div>
         </div>
-        <a href="#" class="offer-hover"> <img src="assets/img/choose.png" alt=""> </a> </div>
+        <a href="#" class="offer-hover"> <img src="src/assets/img/choose.png" alt=""> </a> </div>
       <div class="offer-block">
-        <div class="offer-title"> <img src="assets/img/offer3.png" alt="dizajn">
-          <h2>Unique <br>
-            web site</h2>
+        <div class="offer-title"> <img src="{{packages[2].img}}" alt="dizajn">
+          <h2> {{packages[2].title}}</h2>
         </div>
         <div class="offer-desc">
-          <h5>Portfolio package</h5>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when </p>
+          <h5>{{packages[2].body_title}}</h5>
+          <p>{{packages[2].body_text}} </p>
           <hr>
           <div class="start-from">starting from</div>
-          <div class="price">5000€</div>
+          <div class="price">{{packages[2].price}}€</div>
         </div>
-        <a href="#" class="offer-hover"> <img src="assets/img/choose.png" alt=""> </a> </div>
+        <a href="#" class="offer-hover"> <img src="src/assets/img/choose.png" alt=""> </a> </div>
       <div class="offer-block">
-        <div class="offer-title"> <img src="assets/img/offer4.png" alt="dizajn">
-          <h2>Mobile application</h2>
+        <div class="offer-title"> <img src="{{packages[3].img}}" alt="dizajn">
+          <h2>{{packages[3].title}}</h2>
         </div>
         <div class="offer-desc">
-          <h5>Simple application</h5>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when </p>
+          <h5>{{packages[3].body_title}}</h5>
+          <p>{{packages[3].body_text}} </p>
           <hr>
           <div class="start-from">starting from</div>
-          <div class="price">4000€</div>
+          <div class="price">{{packages[1].price}}€</div>
         </div>
-        <a href="#" class="offer-hover"> <img src="assets/img/choose.png" alt=""> </a> </div>
+         <a href="#" class="offer-hover"> <img src="src/assets/img/choose.png" alt=""> </a> </div>
     </div>
-    <div class="other-link"> <a href="#">pogledaj sve pakete &gt;</a> </div>
+    <div class="all-packages"> <a href="#">pogledaj sve pakete &gt;</a> </div>
     <div class="hourly-link"> <a href="#">Pogledajte satnice naših profesionalaca</a> </div>
   </div>
 </div>
+<div>
 <div>

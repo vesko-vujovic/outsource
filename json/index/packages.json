@@ -3,31 +3,31 @@
 	[
 	   {
 	   	    "id": 0,
-	   	    "img": "outsource/assets/img/offer1.png",
+	   	    "img": "src/assets/img/offer1.png",
 	    	"title": "DIZAJN & BRANDING",
 	    	"body_title": "Basic Package",
 	    	"body_text": "Lorem ipsum dolor sit amet, sea malis recteque explicari ne, aliquip persequeris ut nec",
 	    	"price" : "500"
 	   },
 	   {
-	   	    "id": 2,
-	   	    "img": "outsource/assets/img/offer2.png",
+	   	    "id": 1,
+	   	    "img": "src/assets/img/offer2.png",
 	    	"title": "TEMPLATE WEB SITE",
-	    	"body_title": "Presentation Package",
+	    	"body_title": "Present Package",
 	    	"body_text": "Lorem ipsum dolor sit amet, sea malis recteque explicari ne, aliquip persequeris ut nec",
 	    	"price" : "1000"
 	   },
 	   {
-	   	    "id": 3,
-	   	    "img": "outsource/assets/img/offer3.png",
+	   	    "id": 2,
+	   	    "img": "src/assets/img/offer3.png",
 	    	"title": "UNIQUE WEB SITE",
 	    	"body_title": "Portofolio Package",
 	    	"body_text": "Lorem ipsum dolor sit amet, sea malis recteque explicari ne, aliquip persequeris ut nec",
 	    	"price" : "5000"
 	   },
 	   {
-	   	    "id": 4,
-	   	    "img": "outsource/assets/img/offer4.png",
+	   	    "id": 3,
+	   	    "img": "src/assets/img/offer4.png",
 	    	"title": "MOBILE APPLICATION",
 	    	"body_title": "Simple Application",
 	    	"body_text": "Lorem ipsum dolor sit amet, sea malis recteque explicari ne, aliquip persequeris ut nec",
