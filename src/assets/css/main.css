@@ -5928,4 +5928,89 @@ div.links > a:hover {
     color: #f8a01a;
     font-style: italic; }
 
+.why-us {
+  background: #002637;
+  min-width: 980px;
+  padding: 30px 0;
+  color: #fff; }
+  .why-us h3 {
+    text-align: center;
+    color: #f8a01a;
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: normal;
+    margin-bottom: 60px; }
+  .why-us .us-left {
+    width: 50%;
+    padding: 0 40px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .why-us .us-left > div {
+      margin-bottom: 60px; }
+      .why-us .us-left > div:before, .why-us .us-left > div:after {
+        content: " ";
+        display: table; }
+      .why-us .us-left > div:after {
+        clear: both; }
+      .why-us .us-left > div:hover img {
+        -webkit-animation: flip 2s;
+        -o-animation: flip 2s;
+        animation: flip 2s; }
+    .why-us .us-left h4 {
+      font-size: 20px;
+      color: #fff;
+      line-height: 30px;
+      margin: 0px;
+      margin-bottom: 5px;
+      font-weight: normal; }
+    .why-us .us-left .why-img {
+      float: left;
+      height: 130px;
+      width: 25%; }
+      .why-us .us-left .why-img img {
+        padding-top: 8px; }
+    .why-us .us-left .why-desc {
+      float: left;
+      width: 75%; }
+    .why-us .us-left p {
+      line-height: 20px; }
+  .why-us .us-right {
+    width: 50%;
+    padding: 0 40px;
+    float: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .why-us .us-right > div {
+      margin-bottom: 60px; }
+      .why-us .us-right > div:before, .why-us .us-right > div:after {
+        content: " ";
+        display: table; }
+      .why-us .us-right > div:after {
+        clear: both; }
+      .why-us .us-right > div:hover img {
+        -webkit-animation: flip 2s;
+        -o-animation: flip 2s;
+        animation: flip 2s; }
+    .why-us .us-right h4 {
+      font-size: 20px;
+      color: #fff;
+      line-height: 30px;
+      margin: 0px;
+      margin-bottom: 5px;
+      font-weight: normal; }
+    .why-us .us-right .why-img {
+      float: left;
+      height: 130px;
+      width: 25%; }
+      .why-us .us-right .why-img img {
+        padding-top: 8px; }
+    .why-us .us-right .why-desc {
+      float: left;
+      width: 75%; }
+    .why-us .us-right p {
+      line-height: 20px; }
+
 /*# sourceMappingURL=main.css.map */

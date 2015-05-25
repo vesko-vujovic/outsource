@@ -64,7 +64,8 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
     //data for why us 
     $scope.whyus;
 	$scope.whyusData     = sharedService.getData('/outsource/json/index/whyus.json').then(function(data){
-	    $scope.whyus     = data.why;  
+	    $scope.whyus     = data.why; 
+	    console.log($scope.whyus); 
 	});
 
 
