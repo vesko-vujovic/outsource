@@ -5955,9 +5955,9 @@ div.links > a:hover {
       .why-us .us-left > div:after {
         clear: both; }
       .why-us .us-left > div:hover img {
-        -webkit-animation: flip 2s;
-        -o-animation: flip 2s;
-        animation: flip 2s; }
+        -webkit-animation: rubberBand 3s;
+        -o-animation: rubberBand 3s;
+        animation: rubberBand 3s; }
     .why-us .us-left h4 {
       font-size: 20px;
       color: #fff;
@@ -5991,9 +5991,9 @@ div.links > a:hover {
       .why-us .us-right > div:after {
         clear: both; }
       .why-us .us-right > div:hover img {
-        -webkit-animation: flip 2s;
-        -o-animation: flip 2s;
-        animation: flip 2s; }
+        -webkit-animation: rubberBand 3s;
+        -o-animation: rubberBand 3s;
+        animation: rubberBand 3s; }
     .why-us .us-right h4 {
       font-size: 20px;
       color: #fff;

@@ -21,7 +21,7 @@
       margin-bottom: 60px;
       &:hover{
         img{
-        @include animation(flip 2s);
+        @include animation(rubberBand 3s);
       }
       }
     }
@@ -59,7 +59,7 @@
       margin-bottom: 60px;
       &:hover{
         img{
-        @include animation(flip 2s);
+        @include animation(rubberBand 3s);
       }
       }
     }
