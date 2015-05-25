@@ -14,7 +14,7 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
 	$scope.packages;
 	$scope.packageData   = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
 	    $scope.packages = data;
-	    console.log(data);
+	    console.log($scope.packages);
 	});
 
 

@@ -17,9 +17,9 @@ outsource.config(function($stateProvider, $urlRouterProvider){
       $stateProvider
         .state('home', {
           url: '/home',
-          templateUrl: 'src/app/components/views/homepage.html',        	          
+          template:'',        	          
         })
-            .state('index', {
+            .state('index', { 
             	parent: 'home',
             	url: '/index',
             	views: {
@@ -59,7 +59,7 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
 	$scope.packages;
 	$scope.packageData   = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
 	    $scope.packages = data;
-	    console.log(data);
+	    console.log($scope.packages);
 	});
 
 
