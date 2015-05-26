@@ -67,14 +67,15 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
 	    $scope.aboutus         = data.about;
 	});
     //data for clients
-    $scope.client;
+    $scope.clients;
 	$scope.clientData          = sharedService.getData('/outsource/json/index/klijenti.json').then(function(data){
-	    $scope.client          = data.client;
+	    $scope.clients         = data.client;
 	});
     //what they say
     $scope.whatTheySay;
     $scope.whatTheySayData     = sharedService.getData('/outsource/json/index/stakazu.json').then(function(data){
         $scope.whatTheySay     = data.stakazu;
+        console.log($scope.whatTheySay);
     });
 
 
@@ -97,17 +98,6 @@ outsource.directive('about', function(){
 	   templateUrl: 'src/app/components/views/aboutus.html'
 	};
 });
-outsource.directive('client', function(){
-
-	return {
-	   restrict: 'E',
-	   link: function(scope, element, attribute){
-	   	 
-	   },
-	   replace: true,
-	   templateUrl: 'src/app/components/views/clients.html'
-	};
-});
 /**
  * Here we have custom directive
  * restrict E means that this directive will we used as an element
@@ -124,6 +114,17 @@ outsource.directive('name', function(){
 	   replace: true,
 	   template: "<h1> {{fullName}} </h1>"
 	};
+});
+outsource.directive('client', function(){
+
+      return {
+         restrict: 'E',
+         link: function(scope, element, attribute){
+         },
+
+         replace: true,
+         templateUrl: 'src/app/components/views/klijenti.html'
+      };
 });
 outsource.directive('packages', function(){
 

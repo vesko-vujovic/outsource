@@ -22,14 +22,15 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
 	    $scope.aboutus         = data.about;
 	});
     //data for clients
-    $scope.client;
+    $scope.clients;
 	$scope.clientData          = sharedService.getData('/outsource/json/index/klijenti.json').then(function(data){
-	    $scope.client          = data.client;
+	    $scope.clients         = data.client;
 	});
     //what they say
     $scope.whatTheySay;
     $scope.whatTheySayData     = sharedService.getData('/outsource/json/index/stakazu.json').then(function(data){
         $scope.whatTheySay     = data.stakazu;
+        console.log($scope.whatTheySay);
     });
 
 
