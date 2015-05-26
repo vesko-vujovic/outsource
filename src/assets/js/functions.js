@@ -40,11 +40,9 @@ $(document).ready(function() {
 }); 
 */
 
-
-$(document).ready(function() {
-  $("#order-now").click(function() {
-  
-      var $this = $(this);
+  this.menu     = function(obj) {
+      var $this = $(obj);
+      console.log(obj);
       if ($this.hasClass("clicked")) {
       $(".dropdown-nav").slideUp(300);
       $(this).removeClass('clicked');
@@ -53,10 +51,9 @@ $(document).ready(function() {
         $(".dropdown-nav").slideDown(300);
         $(this).addClass('clicked');
       }
-  });
+  };
+      
 
-
-}); 
 
 $(document).ready(function() {
   $("#testimonials-carusel").owlCarousel({
