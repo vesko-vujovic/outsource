@@ -25,17 +25,12 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
     $scope.clients;
 	$scope.clientData          = sharedService.getData('/outsource/json/index/klijenti.json').then(function(data){
 	    $scope.clients         = data.client;
-	    console.log($scope.clients);
 	});
-    //what they say
+    //data  for what they say
     $scope.what;
     $scope.whatData     = sharedService.getData('/outsource/json/index/stakazu.json').then(function(data){
         $scope.what     = data.stakazu;
-        console.log($scope.what);
     });
-
-
-
 
 	
 	

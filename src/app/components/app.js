@@ -30,7 +30,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
             	}
             	
             })
-
+       
 
 });
 

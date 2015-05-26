@@ -67,3 +67,15 @@ div.links > a:hover{
   @include clearfix;
 }
 
+#links a p.navbar-text:hover {
+
+   @include animation(pulse 3s);
+}
+
+.navbar-text.navbar-right:hover {
+
+   @include animation(pulse 3s);
+}
+
+
+

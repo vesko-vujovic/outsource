@@ -5684,6 +5684,16 @@ div.links > a:hover {
   .wrapper:after {
     clear: both; }
 
+#links a p.navbar-text:hover {
+  -webkit-animation: pulse 3s;
+  -o-animation: pulse 3s;
+  animation: pulse 3s; }
+
+.navbar-text.navbar-right:hover {
+  -webkit-animation: pulse 3s;
+  -o-animation: pulse 3s;
+  animation: pulse 3s; }
+
 .footer {
   padding-top: 50px;
   background-color: #012638;
@@ -6079,6 +6089,7 @@ div.links > a:hover {
       margin: auto; }
 
 .hr-client {
+  background: url(/outsource/src/assets/img/hr-clients.png) no-repeat;
   width: 100%;
   height: 49px;
   border: none;
