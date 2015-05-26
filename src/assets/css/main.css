@@ -5736,6 +5736,9 @@ div.links > a:hover {
   .footer .more_about_us:hover, .footer .contact :hover, .footer ul li:hover {
     color: white; }
 
+#clientpic img:hover {
+  opacity: 0.4; }
+
 #slider {
   height: 25%;
   background: #e6e6e6;
