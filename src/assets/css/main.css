@@ -6021,11 +6021,16 @@ div.links > a:hover {
 
 #about > li {
   color: black;
-  margin-right: 25px;
+  margin-right: 1%;
   text-transform: uppercase; }
   #about > li a {
     color: black; }
   #about > li #last {
     text-transform: lowercase; }
+  #about > li a img {
+    margin-right: 20px; }
+
+#aboutusmenu.navbar.navbar-default {
+  background-color: #E6E6E6; }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,20 +3,28 @@
   font-size: 20px !important;
   display: inline-block;
   margin-bottom: 1.2%;
+
 }
 
 #about > li {
   color: black;
-  margin-right: 25px;
+  margin-right: 1%;
   text-transform: uppercase;
   a  {
         color: black;
   }
   #last {
   text-transform: lowercase;
-  
- }
+
+  }
+
+  a img {
+  margin-right: 20px;
+  }
 
 }
 
 
+#aboutusmenu.navbar.navbar-default {
+  background-color:  #E6E6E6;
+}
