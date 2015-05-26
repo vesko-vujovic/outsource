@@ -40,19 +40,19 @@ $(document).ready(function() {
 }); 
 */
 
-  this.menu     = function(obj) {
-      var $this = $(obj);
-      console.log(obj);
-      if ($this.hasClass("clicked")) {
+  this.menu     = function(e) {
+      var obj = $(e);
+      if (obj.hasClass("clicked")) {
       $(".dropdown-nav").slideUp(300);
-      $(this).removeClass('clicked');
+        obj.removeClass('clicked');
       }
       else {
         $(".dropdown-nav").slideDown(300);
-        $(this).addClass('clicked');
+        obj.addClass('clicked');
       }
   };
-      
+  
+    
 
 
 $(document).ready(function() {
