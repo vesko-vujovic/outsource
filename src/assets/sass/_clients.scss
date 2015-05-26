@@ -43,9 +43,40 @@
   }
 }
 .hr-client {
-  background: url(/src/assets/img/hr-clients.png) no-repeat;
+
   width: 100%;
   height: 49px;
   border:none;
   margin-bottom: 30px;
 }
+
+  .testimonials-block{
+    width: 33.33%;
+    float: left;
+    @include clearfix;
+    .test-img{
+      width: 25%;
+      float: left;
+      img{
+        @include border-top-radius(50%);
+@include border-bottom-radius(50%);
+border: 1px solid #E4E4E4;
+overflow: hidden;
+      }
+    }
+    .test-desc{
+       float: right;
+      width: 75%;
+      padding: 0 50px 0 15px;
+       @include box-sizing(border-box);
+       p{
+        font-size: 13px;
+        line-height: 18px;
+       }
+    }
+    .author{
+      color: #000;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }

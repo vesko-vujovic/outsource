@@ -4,32 +4,32 @@
 	   { 
 	   	 "id": 0,
 	   	 "title": " Ministarstvo Crne Gore",
-	   	 "img":   "/outsource/src/assets/img/clients/1.jpg" 	 
+	   	 "img":   "/outsource/src/assets/img/clients/1.png" 	 
 	   },
 	   { 
 	   	 "id": 1,
 	   	 "title": "Elektroprivreda Crne Gore",
-	   	 "img":   "/outsource/src/assets/img/clients/2.jpg" 	 
+	   	 "img":   "/outsource/src/assets/img/clients/2.png" 	 
 	   },
 	   { 
 	   	 "id": 2,
 	   	 "title": "Microsoft",
-	   	 "img":   "/outsource/src/assets/img/clients/3.jpg" 	 
+	   	 "img":   "/outsource/src/assets/img/clients/3.png" 	 
 	   },
 	   { 
 	   	 "id": 3,
 	   	 "title": "Elektroprivreda Crne Gore",
-	   	 "img":   "/outsource/src/assets/img/clients/4.jpg" 	 
+	   	 "img":   "/outsource/src/assets/img/clients/4.png" 	 
 	   },
 	   { 
 	   	 "id": 4,
 	   	 "title": "Venom",
-	   	 "img":   "/outsource/src/assets/img/clients/5.jpg" 	 
+	   	 "img":   "/outsource/src/assets/img/clients/5.png" 	 
 	   },
 	   { 
 	   	 "id": 5,
 	   	 "title": "Vlada Crne Gore",
-	   	 "img":   "/outsource/src/assets/img/clients/6.jpg" 	 
+	   	 "img":   "/outsource/src/assets/img/clients/6.png" 	 
 	   }
 
 	]
