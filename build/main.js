@@ -52,25 +52,30 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
       
 	//data for packages
 	$scope.packages;
-	$scope.packageData   = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
-	    $scope.packages  = data.packages;
+	$scope.packageData         = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
+	    $scope.packages        = data.packages;
 	  
 	});
     //data for why us 
     $scope.whyus;
-	$scope.whyusData     = sharedService.getData('/outsource/json/index/whyus.json').then(function(data){
-	    $scope.whyus     = data.why; 
+	$scope.whyusData           = sharedService.getData('/outsource/json/index/whyus.json').then(function(data){
+	    $scope.whyus           = data.why; 
 	});
 	//data about us
 	$scope.aboutus;
-	$scope.aboutusData     = sharedService.getData('/outsource/json/index/onama.json').then(function(data){
-	    $scope.aboutus     = data.about;
+	$scope.aboutusData         = sharedService.getData('/outsource/json/index/onama.json').then(function(data){
+	    $scope.aboutus         = data.about;
 	});
     //data for clients
     $scope.client;
 	$scope.clientData          = sharedService.getData('/outsource/json/index/klijenti.json').then(function(data){
-	    $scope.client    = data.client;
+	    $scope.client          = data.client;
 	});
+    //what they say
+    $scope.whatTheySay;
+    $scope.whatTheySayData     = sharedService.getData('/outsource/json/index/stakazu.json').then(function(data){
+        $scope.whatTheySay     = data.stakazu;
+    });
 
 
 
@@ -92,15 +97,13 @@ outsource.directive('about', function(){
 	   templateUrl: 'src/app/components/views/aboutus.html'
 	};
 });
-outsource.directive('clients', function(){
+outsource.directive('client', function(){
 
 	return {
 	   restrict: 'E',
 	   link: function(scope, element, attribute){
 	   	 
-          
 	   },
-
 	   replace: true,
 	   templateUrl: 'src/app/components/views/clients.html'
 	};
