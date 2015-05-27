@@ -27,9 +27,21 @@ outsource.config(function($stateProvider, $urlRouterProvider){
             			templateUrl: 'src/app/components/views/homepage.html',
                         controller: 'indexCtrl' 
             		}
-            	}
-            	
+            	}  	
             })
+            .state('paketi', { 
+            	parent: 'home',
+            	url: '/order-service-package',
+            	views: {
+            		inner: {
+            			templateUrl: 'src/app/components/views/order-service-package.html',
+                        controller:  'servicePackageCtrl' 
+            		}
+            	}  	
+            });
+            
+            
+
        
 
 });
@@ -43,7 +55,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
 
 // end of outsource
 
-//this is the main controller
+//this is the main module
 var app = angular.module('outsourceApp');
 
 //define controller
@@ -81,6 +93,29 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
 	
 }]);
 
+//this is the main module
+var app = angular.module('outsourceApp');
+
+//define controller
+
+app.controller('servicePackageCtrl', ['$scope', 'sharedService', function($scope, sharedService){
+      
+	//data for packages
+	$scope.packages;
+	$scope.packageData         = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
+	    $scope.packages        = data.packages;
+	  
+	});
+
+    //data  for what they say
+    $scope.what;
+    $scope.whatData     = sharedService.getData('/outsource/json/index/stakazu.json').then(function(data){
+        $scope.what     = data.stakazu;
+    });
+
+	
+	
+}]);
 outsource.directive('about', function(){
 
 	return {

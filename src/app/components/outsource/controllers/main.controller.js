@@ -1,4 +1,4 @@
-//this is the main controller
+//this is the main module
 var app = angular.module('outsourceApp');
 
 //define controller

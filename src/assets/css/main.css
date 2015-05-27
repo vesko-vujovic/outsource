@@ -5635,6 +5635,36 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+@font-face {
+  font-family: 'KlavikaLight';
+  src: url(/outsource/src/assets/fonts/KlavikaWebBasicLight.eot);
+  src: url(/outsource/src/assets/fonts/KlavikaWebBasicLight.eot?#iefix) format("embedded-opentype"), url(/outsource/src/assets/fonts/KlavikaWebBasicLight.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'KlavikaLightItalic';
+  src: url(/outsource/src/assets/fonts/KlavikaWebBasicLightItalic.eot);
+  src: url(/outsource/src/assets/fonts/KlavikaWebBasicLightItalic.eot?#iefix) format("embedded-opentype"), url(/outsource/src/assets/fonts/KlavikaWebBasicLightItalic.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'KlavikaRegular';
+  src: url(/outsource/src/assets/fonts/KlavikaWebBasicRegular.eot);
+  src: url(/outsource/src/assets/fonts/KlavikaWebBasicRegular.eot?#iefix) format("embedded-opentype"), url(/outsource/src/assets/fonts/KlavikaWebBasicRegular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'KlavikaMedium';
+  src: url(/outsource/src/assets/fonts/KlavikaWebBasicMedium.eot);
+  src: url(/outsource/src/assets/fonts/KlavikaWebBasicMedium.eot?#iefix) format("embedded-opentype"), url(/outsource/src/assets/fonts/KlavikaWebBasicMedium.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'KlavikaMediumItalic';
+  src: url(/outsource/src/assets/fonts/KlavikaWebBasicMediumItalic.eot);
+  src: url(/outsource/src/assets/fonts/KlavikaWebBasicMediumItalic.eot?#iefix) format("embedded-opentype"), url(/outsource/src/assets/fonts/KlavikaWebBasicMediumItalic.woff) format("woff");
+  font-weight: normal;
+  font-style: normal; }
 .nav-color {
   background-color: #002637; }
 

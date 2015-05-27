@@ -27,9 +27,21 @@ outsource.config(function($stateProvider, $urlRouterProvider){
             			templateUrl: 'src/app/components/views/homepage.html',
                         controller: 'indexCtrl' 
             		}
-            	}
-            	
+            	}  	
             })
+            .state('paketi', { 
+            	parent: 'home',
+            	url: '/order-service-package',
+            	views: {
+            		inner: {
+            			templateUrl: 'src/app/components/views/order-service-package.html',
+                        controller:  'servicePackageCtrl' 
+            		}
+            	}  	
+            });
+            
+            
+
        
 
 });
