@@ -157,6 +157,38 @@ outsource.directive('client', function(){
          templateUrl: 'src/app/components/views/klijenti.html'
       };
 });
+/*
+ * This is the directive for order-now header
+ */
+
+outsource.directive('orderheader', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+
+	   },
+
+	   replace: true,
+	   templateUrl: 'src/app/components/views/order-header.html'
+	};
+});
+/*
+ * This is the directive for order-now header
+ */
+
+outsource.directive('ordermain', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+
+	   },
+
+	   replace: true,
+	   templateUrl: 'src/app/components/views/order-main.html'
+	};
+});
 outsource.directive('packages', function(){
 
 	return {

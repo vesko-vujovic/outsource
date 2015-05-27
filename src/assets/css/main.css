@@ -6165,4 +6165,31 @@ div.links > a:hover {
     font-size: 16px;
     line-height: 20px; }
 
+body {
+  font-family: KlavikaRegular, Arial, Helvetica, sans-serif !important; }
+
+.container .row > h1 {
+  font-style: italic;
+  color: #F7A033;
+  font-weight: bold;
+  margin-left: 10px; }
+
+.order-heading p {
+  color: #787878;
+  font-size: 18px; }
+
+.order-main {
+  background-color: #E6E6E6; }
+
+.order-packages {
+  margin-left: 3%;
+  margin-top: 3%; }
+  .order-packages h2 {
+    font-weight: bold; }
+  .order-packages p {
+    color: #787878; }
+  .order-packages img {
+    width: 80%;
+    height: 70%; }
+
 /*# sourceMappingURL=main.css.map */
