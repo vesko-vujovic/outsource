@@ -10,16 +10,6 @@ $text-color: #787878;
  .nav-color {
   background-color:#002637;
 }
-//text color of navbar with sass nesting
-.navbar-default    {
-	.navbar-text {
-		color: #ffffff;
-	}
-	.order {
-		color: #019AE6;
-	}
-}
-//order now text
 
 .navbar {
 	border-radius: 0px;
@@ -67,14 +57,10 @@ div.links > a:hover{
   @include clearfix;
 }
 
-#links a p.navbar-text:hover {
 
-   @include animation(pulse 3s);
+div ul.nav.navbar-nav {
+	margin-top: 2%;
+	& .navbar-text {
+		color: white;
+	}
 }
-
-.navbar-text.navbar-right:hover {
-
-   @include animation(pulse 3s);
-}
-
-

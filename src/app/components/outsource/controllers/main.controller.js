@@ -8,7 +8,8 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
     //data for navbar
 	$scope.navbar;
 	$scope.navbarData         = sharedService.getData('/outsource/json/header.json').then(function(data){
-	    $scope.packages        = data.packages;
+	    $scope.navbar         = data.header;
+	    
 	});
 
 	//data for packages

@@ -47,12 +47,6 @@ outsource.config(function($stateProvider, $urlRouterProvider){
 });
 
 
-
-
-
-
-
-
 // end of outsource
 
 //this is the main module
@@ -62,6 +56,13 @@ var app = angular.module('outsourceApp');
 
 app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedService){
       
+    //data for navbar
+	$scope.navbar;
+	$scope.navbarData         = sharedService.getData('/outsource/json/header.json').then(function(data){
+	    $scope.navbar         = data.header;
+	    
+	});
+
 	//data for packages
 	$scope.packages;
 	$scope.packageData         = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
@@ -100,20 +101,6 @@ var app = angular.module('outsourceApp');
 
 app.controller('servicePackageCtrl', ['$scope', 'sharedService', function($scope, sharedService){
       
-	//data for packages
-	$scope.packages;
-	$scope.packageData         = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
-	    $scope.packages        = data.packages;
-	  
-	});
-
-    //data  for what they say
-    $scope.what;
-    $scope.whatData     = sharedService.getData('/outsource/json/index/stakazu.json').then(function(data){
-        $scope.what     = data.stakazu;
-    });
-
-	
 	
 }]);
 outsource.directive('about', function(){

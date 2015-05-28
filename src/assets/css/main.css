@@ -5668,11 +5668,6 @@ button.close {
 .nav-color {
   background-color: #002637; }
 
-.navbar-default .navbar-text {
-  color: #ffffff; }
-.navbar-default .order {
-  color: #019AE6; }
-
 .navbar {
   border-radius: 0px;
   border: none;
@@ -5714,15 +5709,10 @@ div.links > a:hover {
   .wrapper:after {
     clear: both; }
 
-#links a p.navbar-text:hover {
-  -webkit-animation: pulse 3s;
-  -o-animation: pulse 3s;
-  animation: pulse 3s; }
-
-.navbar-text.navbar-right:hover {
-  -webkit-animation: pulse 3s;
-  -o-animation: pulse 3s;
-  animation: pulse 3s; }
+div ul.nav.navbar-nav {
+  margin-top: 2%; }
+  div ul.nav.navbar-nav .navbar-text {
+    color: white; }
 
 .footer {
   padding-top: 50px;
@@ -6213,7 +6203,6 @@ body {
     top: -52px;
     right: 15%; }
 
-#contact-us >
 .mac {
   margin-top: -30.9%;
   margin-bottom: auto;
