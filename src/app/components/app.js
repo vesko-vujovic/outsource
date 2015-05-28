@@ -47,10 +47,4 @@ outsource.config(function($stateProvider, $urlRouterProvider){
 });
 
 
-
-
-
-
-
-
 // end of outsource

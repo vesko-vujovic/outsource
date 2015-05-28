@@ -1,0 +1,10 @@
+{
+	"header": 
+	{
+		"option1": "početna",
+		"option2": "paketi i cijene",
+		"option3": "zašto mi",
+		"option4": "official web site",
+		"icon":    "/outsource/src/assets/img/link-icon.png"
+	}
+}

@@ -5,6 +5,12 @@ var app = angular.module('outsourceApp');
 
 app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedService){
       
+    //data for navbar
+	$scope.navbar;
+	$scope.navbarData         = sharedService.getData('/outsource/json/header.json').then(function(data){
+	    $scope.packages        = data.packages;
+	});
+
 	//data for packages
 	$scope.packages;
 	$scope.packageData         = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
