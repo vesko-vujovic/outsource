@@ -6,6 +6,9 @@ $blue: #009ae2;
 $link-hover: #f8a01a;
 $border-color: #dadada;
 $text-color: #787878;
+$order-now-color: #009AE7;
+
+
 //this is background color for navbar
  .nav-color {
   background-color:#002637;
@@ -60,7 +63,27 @@ div.links > a:hover{
 
 div ul.nav.navbar-nav {
 	margin-top: 2%;
+	margin-bottom: 2%;
 	& .navbar-text {
 		color: white;
+	}
+}
+
+#logo {
+	
+	margin-top: 15%;
+	margin-left: 32%;
+}
+
+#order-now {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: $order-now-color;
+}
+
+#links  {
+	margin-left: 25%;
+	&> ul >li.navbar-text {
+		font-size: 15px !important;
 	}
 }

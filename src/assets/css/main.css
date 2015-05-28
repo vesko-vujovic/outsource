@@ -5710,9 +5710,24 @@ div.links > a:hover {
     clear: both; }
 
 div ul.nav.navbar-nav {
-  margin-top: 2%; }
+  margin-top: 2%;
+  margin-bottom: 2%; }
   div ul.nav.navbar-nav .navbar-text {
     color: white; }
+
+#logo {
+  margin-top: 15%;
+  margin-left: 32%; }
+
+#order-now {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #009AE7; }
+
+#links {
+  margin-left: 25%; }
+  #links > ul > li.navbar-text {
+    font-size: 15px !important; }
 
 .footer {
   padding-top: 50px;
