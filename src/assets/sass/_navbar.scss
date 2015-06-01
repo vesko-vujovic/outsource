@@ -1,0 +1,89 @@
+
+$blue-bg: #002637;
+$grey-bg: #e6e6e6;
+$orange: #f8a01a;
+$blue: #009ae2;
+$link-hover: #f8a01a;
+$border-color: #dadada;
+$text-color: #787878;
+$order-now-color: #009AE7;
+
+
+//this is background color for navbar
+ .nav-color {
+  background-color:#002637;
+}
+
+.navbar {
+	border-radius: 0px;
+	border: none;
+	margin-bottom: 0px;
+}
+
+header {
+  background: #002637;
+  min-width: 980px;
+}
+
+div.links > a:hover{
+	color: blue;
+}
+
+.dropdown-nav{
+	background: #009ae2;
+	min-width: 980px;
+	display: none;
+	ul {
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+		line-height: 30px;
+		li{
+			float: left;
+			width: 33.33%;
+			text-align: center;
+			a {
+				display: block;
+				color: $blue-bg;
+				&:hover {
+					color: #fff;
+					background: #00608d;
+				}
+			}
+		}
+	}
+}
+
+.wrapper{
+  width: 980px;
+  margin: 0 auto;
+  @include clearfix;
+}
+
+
+div ul.nav.navbar-nav {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	& .navbar-text {
+		color: white;
+	}
+}
+
+#logo {
+	
+	margin-top: 15%;
+	margin-left: 32%;
+}
+
+#order-now {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: $order-now-color;
+}
+
+#links  {
+	margin-left: 25%;
+	&> ul >li.navbar-text {
+		font-size: 15px !important;
+	}
+}

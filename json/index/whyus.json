@@ -1,0 +1,58 @@
+{
+	 "why":
+    [
+        {
+	   	    "id": 0,
+	   	    "img": "/outsource/src/assets/img/why-us/1.png",
+	    	"title": "Full service agencija",
+	    	"body_text": "....It is a long establishedfact that a reader will be distractedby the readable content of a page whenlooking at its layout."   	
+	    },
+	    {
+	   	    "id": 1,
+	   	    "img": "/outsource/src/assets/img/why-us/2.png",
+	    	"title": "Dizajn standardi",
+	    	"body_text": "....It is a long establishedfact that a reader will be distractedby the readable content of a page whenlooking at its layout." 	
+	    },
+	    {
+	   	    "id": 2,
+	   	    "img": "/outsource/src/assets/img/why-us/3.png",
+	    	"title": "10 godina postojanja",
+	    	"body_text": "....It is a long establishedfact that a reader will be distractedby the readable content of a page whenlooking at its layout." 	
+	    },
+	    {
+	   	    "id": 3,
+	   	    "img": "/outsource/src/assets/img/why-us/4.png",
+	    	"title": "100% satisfaction",
+	    	"body_text": "....It is a long establishedfact that a reader will be distractedby the readable content of a page whenlooking at its layout."
+	    },
+	    {
+	   	    "id": 4,
+	   	    "img": "/outsource/src/assets/img/why-us/5.png",
+	    	"title": "On time on budget",
+	    	"body_text": "....It is a long establishedfact that a reader will be distractedby the readable content of a page whenlooking at its layout."   	
+	    },
+	    {
+	   	    "id": 5,
+	   	    "img": "/outsource/src/assets/img/why-us/6.png",
+	    	"title": "Jedna od najvećih",
+	    	"body_text": "....It is a long establishedfact that a reader will be distractedby the readable content of a page whenlooking at its layout."   	
+	    },
+	    {
+	   	    "id": 6,
+	   	    "img": "/outsource/src/assets/img/why-us/7.png",
+	    	"title": "Great support",
+	    	"body_text": "....It is a long establishedfact that a reader will be distractedby the readable content of a page whenlooking at its layout."   	
+	    },
+	    {
+	   	    "id": 7,
+	   	    "img": "/outsource/src/assets/img/why-us/8.png",
+	    	"title": "Full service agencija",
+	    	"body_text": "....It is a long establishedfact that a reader will be distractedby the readable content of a page whenlooking at its layout." 	
+	    }
+	   
+	  
+	  
+
+    ]
+    
+}

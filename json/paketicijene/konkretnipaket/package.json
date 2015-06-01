@@ -1,0 +1,155 @@
+{   
+	//this is image file
+	"hand": "localhost/outsource/assets/img/hand.png",
+
+	"header": 
+	{
+	  "title": "Template website",
+	  "text": "Narucite web sajt tako sto cete odabrati paket koji vam odgovara"
+	},
+
+	"packages":
+	[ 
+	   {
+	   	 "id": 0,
+	   	 "title": "Presentation Package",
+	   	 "text": "It is a long established fact
+	   	  that a reader will be distracted by the readable content of a page when",
+	   	 "price": "1000" 
+	   },
+	    {
+	   	 "id": 1,
+	   	 "title": "Portofolio web site",
+	   	 "text": "It is a long established fact
+	   	  that a reader will be distracted by the readable content of a page when",
+	   	 "price": "1500" 
+	   },
+	   {
+	   	 "id": 2,
+	   	 "title": "Improve your business",
+	   	 "text": "It is a long established fact
+	   	  that a reader will be distracted by the readable content of a page when",
+	   	 "price": "2000" 
+	   },
+	   {
+	   	 "id": 3,
+	   	 "title": "Presentation Package",
+	   	 "text": "It is a long established fact
+	   	  that a reader will be distracted by the readable content of a page when",
+	   	 "price": "4900" 
+	   }
+	],
+
+	"offers":
+	[ 
+	  {
+	  	"id": 0,
+	  	"title": "Sistem za azuriranje sajta",
+	  	"done1": true,
+	  	"done2": true, 
+	  	"done3": true,
+	  	"done4": true,  
+	  },
+	  {
+	  	"id": 1,
+	  	"title": "Upustvo za azuriranje",
+	  	"done1": true,
+	  	"done2": true, 
+	  	"done3": true,
+	  	"done4": true,  
+	  },
+	  {
+	  	"id": 2,
+	  	"title": "Vijesti",
+	  	"done1": true,
+	  	"done2": true, 
+	  	"done3": true,
+	  	"done4": true,  
+	  },
+	  {
+	  	"id": 3,
+	  	"title": "Kontakt forma",
+	  	"done1": true,
+	  	"done2": true, 
+	  	"done3": true,
+	  	"done4": true,  
+	  },
+	  {
+	  	"id": 4,
+	  	"title": "Hosting",
+	  	"done1": false,
+	  	"done2": true, 
+	  	"done3": true,
+	  	"done4": true,  
+	  },
+	   {
+	  	"id": 5,
+	  	"title": "Foto galerija",
+	  	"done1": false,
+	  	"done2": true, 
+	  	"done3": true,
+	  	"done4": true,  
+	  },
+	  {
+	  	"id": 6,
+	  	"title": "Prilagodjavanje sablona logotipu",
+	  	"done1": false,
+	  	"done2": false, 
+	  	"done3": true,
+	  	"done4": true,  
+	  },
+	  {
+	  	"id": 7,
+	  	"title": "Pretraga",
+	  	"done1": false,
+	  	"done2": false, 
+	  	"done3": true,
+	  	"done4": true,  
+	  },
+	  {
+	  	"id": 8,
+	  	"title": "Promjena rasporeda elemenata",
+	  	"done1": false,
+	  	"done2": false, 
+	  	"done3": true,
+	  	"done4": true,  
+	  },
+	  {
+	  	"id": 9,
+	  	"title": "Domen",
+	  	"done1": false,
+	  	"done2": false, 
+	  	"done3": true,
+	  	"done4": true,  
+	  },
+	  {
+	  	"id": 10,
+	  	"title": "SEO optimizacija",
+	  	"done1": false,
+	  	"done2": false, 
+	  	"done3": true,
+	  	"done4": true,  
+	  }
+
+	],
+
+	"projects":
+	[ 
+	   {
+	   	 "id": 0,
+	   	 "img": "localhost/outsource/assets/img/project1.png",
+	   	 "title": "Office of Montenegro EXPO Milano 2015"
+	   },
+	   {
+	   	 "id": 1,
+	   	 "img": "localhost/outsource/assets/img/project2.png",
+	   	 "title": "Common environmental actions for the conservation of the river Cijevna"
+	   },
+	   {
+	   	 "id": 2,
+	   	 "img": "localhost/outsource/assets/img/project3.png",
+	   	 "title": "T-mobile - Ritual Party"
+	   },
+	  
+	]   
+}

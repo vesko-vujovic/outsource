@@ -1,0 +1,29 @@
+{
+	"nasi":
+	[ 
+	   {
+	   	 "id": 0,
+	   	 "img": "localhost/outsource/assets/img/clients/cdm.png"
+	   },
+	   {
+	   	 "id": 1,
+	   	 "img": "D:/localhost/outsource/assets/img/clients/cdm.png"
+	   },
+	   {
+	   	 "id": 2,
+	   	 "img": "localhost/outsource/assets/img/clients/cdm.png"
+	   },
+	   {
+	   	 "id": 3,
+	   	 "img": "localhost/outsource/assets/img/clients/cdm.png"
+	   },
+	   {
+	   	 "id": 4,
+	   	 "img": "localhost/outsource/assets/img/clients/cdm.png"
+	   },
+	   {
+	   	 "id": 5,
+	   	 "img": "D:localhost/outsource/assets/img/clients/cdm.png"
+	   }
+	]
+}

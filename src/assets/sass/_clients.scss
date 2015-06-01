@@ -1,0 +1,86 @@
+.main-content {
+  h4 { 
+    width:100%; 
+    text-align:center; 
+    color: $blue;
+    line-height:0em; 
+    margin:10px 0 20px; 
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: KlavikaMedium, Arial, Helvetica, sans-serif;
+    &.line{
+      border-bottom: 1px solid $blue; 
+    }
+    span { background: #fff; padding:0 15px; }
+  } 
+  
+  .clients{
+    margin-top: 70px; 
+    @include clearfix;
+    .clients-row {
+      @include clearfix;
+      &.line{
+        border-bottom: 1px solid #cfcfcf;
+        margin-top: 40px;
+      }
+      .client-logo{
+        width: 33.33%;
+        float: left;
+        border-right: 1px solid #cfcfcf;
+        @include box-sizing(border-box); 
+        height: 222px;
+        position: relative;
+        &:last-child{
+          border-right: none;
+        }
+        img {     
+          display:block;
+          margin:auto;
+        }
+
+        img:hover{
+          @include animation(pulse 3s);
+        }
+      }
+    }
+  }
+}
+.hr-client {
+  background: url(/outsource/src/assets/img/hr-clients.png) no-repeat;
+  width: 100%;
+  height: 49px;
+  border:none;
+  margin-bottom: 30px;
+}
+
+  .testimonials-block{
+    width: 33.33%;
+    float: left;
+    @include clearfix;
+    .test-img{
+      width: 25%;
+      float: left;
+      img{
+        @include border-top-radius(50%);
+@include border-bottom-radius(50%);
+border: 1px solid #E4E4E4;
+overflow: hidden;
+      }
+    }
+    .test-desc{
+       float: right;
+      width: 75%;
+      padding: 0 50px 0 15px;
+       @include box-sizing(border-box);
+       p{
+        font-size: 13px;
+        line-height: 18px;
+       }
+    }
+    .author{
+      color: #000;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }

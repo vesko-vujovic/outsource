@@ -1,0 +1,90 @@
+.why-us{
+  background: $blue-bg;
+  min-width: 980px;
+  padding: 30px 0;
+  color: #fff;
+  h3{
+    text-align: center;
+    color: $orange;
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: normal;
+    margin-bottom: 60px;
+  }
+  .us-left {
+    width: 50%;
+    padding: 0 40px;
+    float: left;
+    @include box-sizing(border-box); 
+    & > div{
+      @include clearfix;
+      margin-bottom: 60px;
+      &:hover{
+        img{
+        @include animation(rubberBand 3s);
+      }
+      }
+    }
+    h4{
+      font-size: 20px;
+      color: #fff;
+      line-height: 30px;
+      margin: 0px;
+      margin-bottom: 5px;
+      font-weight: normal;
+    }
+    .why-img{
+      float: left;
+      height: 130px;
+      width: 25%;
+      img{
+        padding-top: 8px;
+      }
+    }
+    .why-desc{
+      float: left;
+      width: 75%;
+    }
+    p{
+      line-height: 20px;
+    }
+  }
+  .us-right{
+    width: 50%;
+    padding: 0 40px;
+    float: right;
+    @include box-sizing(border-box); 
+    & > div{
+      @include clearfix;
+      margin-bottom: 60px;
+      &:hover{
+        img{
+        @include animation(rubberBand 3s);
+      }
+      }
+    }
+    h4{
+      font-size: 20px;
+      color: #fff;
+      line-height: 30px;
+      margin: 0px;
+      margin-bottom: 5px;
+      font-weight: normal;
+    }
+    .why-img{
+      float: left;
+      height: 130px;
+      width: 25%;
+      img{
+        padding-top: 8px;
+      }
+    }
+    .why-desc{
+      float: left;
+      width: 75%;
+    }
+    p{
+      line-height: 20px;
+    }
+  }
+}

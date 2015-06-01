@@ -1,0 +1,56 @@
+.order-main {
+	background-color: $bg-color;
+}
+
+.order-packages {
+	margin-left: 3%;
+	margin-top:  5%;
+	div > h3 {
+		text-align: center;
+		font-weight: bold;
+	}
+	p { 
+		color: $font-color;
+		text-align: justify;
+	}
+
+	img {
+		width: 80%;
+		height: 70%;
+	}
+
+}
+
+#contact-us {
+	position: relative;
+	margin-top: 10%;
+	margin-bottom: 89px;
+	padding-top: 10px;
+	padding-bottom: auto;
+	background-color: white;
+
+	p {
+		font-size: 20px;
+		font-weight: bold;
+		padding-left: 320px;
+		color: #0F5376;
+		&:hover {
+			color: #012638;
+		}
+	}
+
+	img {
+		position: absolute;
+		top: -52px;
+		right: 15%;
+	}
+
+}
+
+.mac {
+
+	margin-top: -30.9%;
+	margin-bottom: auto;
+	margin-left: 75%;
+}
+

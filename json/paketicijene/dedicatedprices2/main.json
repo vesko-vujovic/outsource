@@ -1,0 +1,36 @@
+{   
+	//this is the main content for dedicated team prices2.jpg
+	"article1": 
+	{
+		"title": "Cost Effective",
+		"text":  "Lorem ipsum dolor sit amet, ut nec condimentum sit duis eget ac
+	  	,libero orci. Est pede ut phasellus mi. Urna ac sem posuere eu imperdiet, 
+	  	sagittis sapien amet non. Morbi aute volutpat nulla facilisi aenean"
+	},
+	"article2": 
+	{
+		"title": "Top class professionals",
+		"text":  "Lorem ipsum dolor sit amet, ut nec condimentum sit duis eget ac
+	  	,libero orci. Est pede ut phasellus mi. Urna ac sem posuere eu imperdiet, 
+	  	sagittis sapien amet non. Morbi aute volutpat nulla facilisi aenean"
+	},
+	"article3": 
+	{
+		"title": "Our infrastructure",
+		"text":  "Lorem ipsum dolor sit amet, ut nec condimentum sit duis eget ac
+	  	,libero orci. Est pede ut phasellus mi. Urna ac sem posuere eu imperdiet, 
+	  	sagittis sapien amet non. Morbi aute volutpat nulla facilisi aenean"
+	},
+
+	//these are all images for the main content
+
+	"cloud"  : "localhost/outsource/assets/img/package/cloud.png",
+	"lupa"   : "localhost/outsource/assets/img/package/lupa.png",
+	"pc"     : "localhost/outsource/assets/img/package/pc.png",
+	"yellow" : "localhost/outsource/assets/img/package/yellow.png",	
+	"line"   : "localhost/outsource/assets/img/package/line.png",
+	"people" : "localhost/outsource/assets/img/package/people.png",
+	  
+
+
+}

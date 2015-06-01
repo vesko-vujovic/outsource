@@ -1,0 +1,22 @@
+$bg-color: #E6E6E6;
+$heading: #F7A033;
+$font-color: #787878;
+
+body {
+	  font-family: KlavikaRegular, Arial, Helvetica, sans-serif !important;
+}
+
+.container .row > h1 {
+	font-style: italic;
+	color: $heading;
+  	font-weight: bold;
+  	margin-left: 10px;
+}
+
+.order-heading {
+	p {
+		color: $font-color;
+		font-size: 18px;
+	}
+}
+

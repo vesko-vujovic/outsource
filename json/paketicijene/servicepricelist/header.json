@@ -1,0 +1,8 @@
+{
+	//this is json file for service price list
+    "header": {
+      	"title": "Service price list",
+      	"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices malesuada pretium. 
+      	 Cras non purus sit amet massa consequat consequat id sit amet tortor."
+      }
+}

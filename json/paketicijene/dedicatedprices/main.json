@@ -1,0 +1,203 @@
+{
+	//this is main content header
+    "main": 
+    [
+       { 
+       	 "id": 0,
+       	 "title": "Our Price",
+       	 "text" : "Lorem ipsum dolor sit amet, ut nec condimentum sit duis eget ac
+	  	   ,libero orci. Est pede ut phasellus mi. Urna ac sem posuere eu imperdiet, 
+	  	   sagittis sapien amet non. Morbi aute volutpat nulla facilisi aenean",
+	  	 "note1": "Long term contract hourly rate - Angazovanje tima ili izrada projekta duze od tri mjeseca",
+	  	 "note2": "Short term contract hourly rate- Angazovanje tima ili izrada projekta manje od tri mjeseca"  
+       }
+    ],
+
+    "user_exp":
+    [ 
+       {
+       	 "id": 0,
+       	 "title": "User Experience & Desing team",
+       	 "text":  "Lorem ipsum dolor sit amet, ut nec condimentum sit duis eget ac
+	  	   ,libero orci. Est pede ut phasellus mi. Urna ac sem posuere eu imperdiet, 
+	  	   sagittis sapien amet non. Morbi aute volutpat nulla facilisi aenean",
+	  	 "img": "localhost/outsource/assets/img/package/man.png" 
+       },
+       {
+       	 "id": 1,
+       	 "title": "Technology Team",
+       	 "text":  "Lorem ipsum dolor sit amet, ut nec condimentum sit duis eget ac
+	  	   ,libero orci. Est pede ut phasellus mi. Urna ac sem posuere eu imperdiet, 
+	  	   sagittis sapien amet non. Morbi aute volutpat nulla facilisi aenean",
+	  	 "img": "localhost/outsource/assets/img/package/man2.png" 
+       },
+       {
+       	 "id": 2,
+       	 "title": "Managers & Maerketing Team",
+       	 "text":  "Lorem ipsum dolor sit amet, ut nec condimentum sit duis eget ac
+	  	   ,libero orci. Est pede ut phasellus mi. Urna ac sem posuere eu imperdiet, 
+	  	   sagittis sapien amet non. Morbi aute volutpat nulla facilisi aenean",
+	  	 "img": "localhost/outsource/assets/img/package/man3.png" 
+       }
+    ],
+
+    //tabs with offers
+
+    "tabs":
+    [ 
+      {
+      	"id": 0,
+      	"tab_name": "Long Term contract hourly rate",
+      	"list_elem":
+      	[ 
+      	   {
+      	   	 "id": 0,
+      	   	 "name": "Graphic designer",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": true
+      	   },
+      	   {
+      	   	 "id": 1,
+      	   	 "name": "Mobile & web deweloper",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": false
+      	   },
+      	   {
+      	   	 "id": 2,
+      	   	 "name": "3D Artist",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": false
+      	   },
+      	   {
+      	   	 "id": 3,
+      	   	 "name": "Multimedia designer",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": true
+      	   },
+      	   {
+      	   	 "id": 4,
+      	   	 "name": "UX designer",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": false
+      	   },
+
+      	]
+
+    },
+    {
+      	"id": 2,
+      	"tab_name": "Long Term contract hourly rate",
+      	"list_elem":
+      	[ 
+      	   {
+      	   	 "id": 0,
+      	   	 "name": "Web developer",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": true
+      	   },
+      	   {
+      	   	 "id": 1,
+      	   	 "name": "Mobile developer",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": false
+      	   },
+      	   {
+      	   	 "id": 2,
+      	   	 "name": "Front End developer",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": false
+      	   },
+      	   {
+      	   	 "id": 3,
+      	   	 "name": "Server administrator",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": true
+      	   },
+      	   {
+      	   	 "id": 4,
+      	   	 "name": "Lead Developer",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": false
+      	   },
+      	   {
+      	   	 "id": 5,
+      	   	 "name": "QA Tester",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": false
+      	   },
+      	]
+    } 	
+
+    {
+      	"id": 2,
+      	"tab_name": "Long Term contract hourly rate",
+      	"list_elem":
+      	[ 
+      	   {
+      	   	 "id": 0,
+      	   	 "name": "Project manager / consultant",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": true
+      	   },
+      	   {
+      	   	 "id": 1,
+      	   	 "name": "Marketing manager / consultant",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": false
+      	   },
+      	   {
+      	   	 "id": 2,
+      	   	 "name": "Digital marketing manager / consultant ",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": false
+      	   },
+      	   {
+      	   	 "id": 3,
+      	   	 "name": "SEO expert / consultant",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": true
+      	   },
+      	   {
+      	   	 "id": 4,
+      	   	 "name": "It manager / consultant",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": false
+      	   },
+      	   {
+      	   	 "id": 5,
+      	   	 "name": "Brand manager / consultant",
+      	   	 "junior_price": "12.00",
+      	   	 "senior_price": "15.00",
+      	   	 "done": false
+      	   },
+
+      	]
+
+    },
+      
+      	  
+      
+
+
+
+
+    ]
+
+
+}

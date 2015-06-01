@@ -1,0 +1,26 @@
+{
+	"nav":
+	[
+	  {
+	  	"id": 0,
+	  	"title": "početna",
+	  	"img"  : "",
+	  },
+	  {
+	  	"id": 1,
+	  	"title": "paketi i cijene",
+	  	"img"  : "",
+	  },
+	  {
+	  	"id": 2,
+	  	"title": "zašto mi",
+	  	"img"  : "",
+	  },
+	  {
+	  	"id": 3,
+	  	"title": "official web site",
+	  	"img"  : "/localhost/outsource/assets/img/link-icon.png",
+	  },
+
+	]
+}

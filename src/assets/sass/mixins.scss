@@ -1,0 +1,28 @@
+ @mixin tabs {
+  background-color: #0099e1;
+
+  ul {
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+    
+    li {
+      padding: 2px 0px 5px;
+      a {
+        color: $headerblue;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+    
+    li.active {
+      background-color: $darkblue;
+      a {
+        color: white;
+      }
+    } 
+  }  
+}
+
+
