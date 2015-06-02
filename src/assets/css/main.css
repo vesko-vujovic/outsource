@@ -6223,6 +6223,7 @@ body {
   margin-bottom: auto;
   margin-left: 75%; }
 
+<<<<<<< HEAD
 #order_now {
   /*BUBBLE TABS*/ }
   #order_now .tabs {
@@ -6300,4 +6301,6 @@ body {
           #order_now #bubble_tabs .nav-tabs li .tab .description p {
             font-size: 13px; }
 
+=======
+>>>>>>> 01cb3217118d6be48fe1fe74ea634b58715ab86a
 /*# sourceMappingURL=main.css.map */

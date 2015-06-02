@@ -64,6 +64,7 @@ $(document).ready(function() {
 });
 
 
+<<<<<<< HEAD
 this.changeClass     = function(e) {
       var obj = $(e);
       if (!obj.hasClass("clicked")) {
@@ -72,3 +73,5 @@ this.changeClass     = function(e) {
      
   };   
  
+=======
+>>>>>>> 01cb3217118d6be48fe1fe74ea634b58715ab86a
