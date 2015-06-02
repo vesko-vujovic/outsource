@@ -75,7 +75,6 @@ var app = angular.module('outsourceApp');
 
 //define controller
 
-<<<<<<< HEAD
 app.controller('dedicatedCtrl', ['$scope', 'sharedService', function($scope, sharedService){
       	
 }]);
@@ -85,8 +84,6 @@ var app = angular.module('outsourceApp');
 
 //define controller
 
-=======
->>>>>>> 01cb3217118d6be48fe1fe74ea634b58715ab86a
 app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedService){
       
     //data for navbar
@@ -149,7 +146,6 @@ outsource.directive('about', function(){
 	   templateUrl: 'src/app/components/views/aboutus.html'
 	};
 });
-<<<<<<< HEAD
 /*
  * This is the directive for order-now header
  */
@@ -166,8 +162,6 @@ outsource.directive('dedicated', function(){
 	   templateUrl: 'src/app/components/views/dedicated-prices.html'
 	};
 });
-=======
->>>>>>> 01cb3217118d6be48fe1fe74ea634b58715ab86a
 /**
  * Here we have custom directive
  * restrict E means that this directive will we used as an element
