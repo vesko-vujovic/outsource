@@ -10,12 +10,11 @@ var outsource = angular.module('outsourceApp', ['ui.router']);
 
 outsource.config(function($stateProvider, $urlRouterProvider){
       $urlRouterProvider.otherwise('ne radi');
-<<<<<<< HEAD
-       /*
-=======
+
+
+
       
       /**
->>>>>>> 01cb3217118d6be48fe1fe74ea634b58715ab86a
         * These are route for app the first route is parent other routes are child routes
         */
       $stateProvider
@@ -42,7 +41,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                         controller:  'servicePackageCtrl' 
             		}
             	}  	
-<<<<<<< HEAD
+
             })
             .state('dedicated', { 
                 parent: 'home',
@@ -56,14 +55,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
             })
             
             
-                  
-=======
-            });
-            
-            
->>>>>>> 01cb3217118d6be48fe1fe74ea634b58715ab86a
-
-       
+    
 
 });
 
