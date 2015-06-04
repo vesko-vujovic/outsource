@@ -6316,7 +6316,12 @@ div.wrapper.dedicated-packages {
   margin-left: -1%; }
 
 .packages-offer .wrapper.dedicated-packages {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+#packages2 .packages-offer .wrapper.dedicated-packages {
+  margin-top: 0;
+  margin-bottom: 50px; }
 
 .order-main {
   background-color: #E6E6E6; }
