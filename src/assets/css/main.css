@@ -5727,7 +5727,12 @@ div ul.nav.navbar-nav {
 #links {
   margin-left: 25%; }
   #links > ul > li.navbar-text {
-    font-size: 15px !important; }
+    font-size: 18px !important; }
+  #links > ul > a > li:hover {
+    text-decoration: underline; }
+
+.dropdown-nav ul > li {
+  font-weight: bold; }
 
 .footer {
   padding-top: 50px;
@@ -6198,6 +6203,10 @@ body {
   .order-packages img {
     width: 80%;
     height: 70%; }
+  .order-packages > div:hover {
+    -webkit-animation: tada 1s;
+    -o-animation: tada 1s;
+    animation: tada 1s; }
 
 #contact-us {
   position: relative;
@@ -6223,7 +6232,6 @@ body {
   margin-bottom: auto;
   margin-left: 75%; }
 
-<<<<<<< HEAD
 #order_now {
   /*BUBBLE TABS*/ }
   #order_now .tabs {
@@ -6301,6 +6309,48 @@ body {
           #order_now #bubble_tabs .nav-tabs li .tab .description p {
             font-size: 13px; }
 
-=======
->>>>>>> 01cb3217118d6be48fe1fe74ea634b58715ab86a
+.order-main {
+  background-color: #E6E6E6; }
+
+.order-packages {
+  margin-left: 3%;
+  margin-top: 5%; }
+  .order-packages div > h3 {
+    text-align: center;
+    font-weight: bold; }
+  .order-packages p {
+    color: #787878;
+    text-align: justify; }
+  .order-packages img {
+    width: 80%;
+    height: 70%; }
+  .order-packages > div:hover {
+    -webkit-animation: tada 1s;
+    -o-animation: tada 1s;
+    animation: tada 1s; }
+
+#contact-us {
+  position: relative;
+  margin-top: 10%;
+  margin-bottom: 89px;
+  padding-top: 10px;
+  padding-bottom: auto;
+  background-color: white; }
+  #contact-us p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 320px;
+    color: #0F5376; }
+    #contact-us p:hover {
+      color: #012638; }
+  #contact-us img {
+    position: absolute;
+    top: -52px;
+    right: 15%; }
+
+.mac {
+  margin-top: -30.9%;
+  margin-bottom: auto;
+  margin-left: 75%; }
+
 /*# sourceMappingURL=main.css.map */

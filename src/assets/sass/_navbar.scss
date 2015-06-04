@@ -84,6 +84,14 @@ div ul.nav.navbar-nav {
 #links  {
 	margin-left: 25%;
 	&> ul >li.navbar-text {
-		font-size: 15px !important;
+		font-size: 18px !important;
 	}
+	&> ul > a > li:hover {
+
+        text-decoration: underline;
+	}
+}
+
+.dropdown-nav ul > li {
+	font-weight: bold;
 }

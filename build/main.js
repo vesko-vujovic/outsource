@@ -122,8 +122,12 @@ var app = angular.module('outsourceApp');
 //define controller
 
 app.controller('servicePackageCtrl', ['$scope', 'sharedService', function($scope, sharedService){
-      
-	
+    
+    //data for packages
+	$scope.packageData         = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
+	    $scope.packages        = data.packages; 
+	});
+
 }]);
 outsource.directive('about', function(){
 
@@ -139,7 +143,7 @@ outsource.directive('about', function(){
 	};
 });
 /*
- * This is the directive for order-now header
+ * This is the directive for dedicated
  */
 
 outsource.directive('dedicated', function(){
@@ -147,7 +151,11 @@ outsource.directive('dedicated', function(){
 	return {
 	   restrict: 'E',
 	   link: function(scope, element, attribute){
-
+            
+                $("#klik").click(function(){
+                alert('works');
+             });
+            
 	   },
 
 	   replace: true,

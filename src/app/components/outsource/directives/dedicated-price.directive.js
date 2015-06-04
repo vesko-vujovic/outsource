@@ -1,5 +1,5 @@
 /*
- * This is the directive for order-now header
+ * This is the directive for dedicated
  */
 
 outsource.directive('dedicated', function(){
@@ -7,7 +7,11 @@ outsource.directive('dedicated', function(){
 	return {
 	   restrict: 'E',
 	   link: function(scope, element, attribute){
-
+            
+                $("#klik").click(function(){
+                alert('works');
+             });
+            
 	   },
 
 	   replace: true,

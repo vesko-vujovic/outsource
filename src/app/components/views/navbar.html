@@ -4,15 +4,15 @@
     <div class="container-fluid">
      <div class="row">
         <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
-            <p><img id="logo" src="src/assets/img/logo.png"></p>
+            <a ui-sref="index"><p><img id="logo" src="src/assets/img/logo.png"></p>
         </div>
         <div id="links" class=" col-xs-7 col-md-7 col-sm-7 col-lg-7 col-xs-7">
           <ul class="nav navbar-nav">
-           <li class="navbar-text">početna</li>
-           <li class="navbar-text">paketi i cijene</li>
-           <li class="navbar-text">zašto mi</li>
-           <li class="navbar-text"><img src="/outsource/src/assets/img/link-icon.png" alt="link icon">official web site</li>
-           <li id="order-now" onclick="menu(this)" class="navbar-text"> Order Now</li>
+           <a ui-sref="index"><li class="navbar-text">početna</li></a>
+           <a href=""><li class="navbar-text">paketi i cijene</li></a>
+           <a href=""><li class="navbar-text">zašto mi</li></a>
+           <a href=""><li class="navbar-text"><img src="/outsource/src/assets/img/link-icon.png" alt="link icon">official web site</li></a>
+           <a href=""><li id="order-now" onclick="menu(this)" class="navbar-text"> Order Now</li></a>
           </ul>           
         </div>
      </div>
@@ -24,9 +24,9 @@
 <div class="dropdown-nav">
   <div class="wrapper">
     <ul>
-      <li><a href="#">Order service package</a></li>
-      <li><a href="#">Choose and order dedicated team</li>
-      <li><a href="#">Order our specific service</a></li>
+      <li><a ui-sref="paketi">Order service package</a></li>
+      <li><a href="">Choose and order dedicated team</li>
+      <li><a href="">Order our specific service</a></li>
     </ul>
   </div>
 </div>
