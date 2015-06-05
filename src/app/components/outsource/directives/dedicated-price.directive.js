@@ -8,8 +8,12 @@ outsource.directive('dedicated', function(){
 	   restrict: 'E',
 	   link: function(scope, element, attribute){
             
-                $("#klik").click(function(){
-                alert('works');
+             $("#order_now ul.nav.nav-tabs > li").click(function(){
+               if(!$(this).hasClass('active')){
+                  
+                 $("ul.nav.nav-tabs > li").removeClass('active'); 
+               	 $(this).addClass('active');
+               }
              });
             
 	   },
