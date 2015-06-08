@@ -59,7 +59,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 views: {
                      
                     inner: {
-                        templateUrl: 'src/app/components/views/dedicated-prices.html',
+                        templateUrl: 'src/app/components/views/dedicated-package.html',
                         controller:  'dedicatedCtrl'
                     }
                      

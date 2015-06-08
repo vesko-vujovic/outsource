@@ -2,7 +2,7 @@
  * This is the directive for dedicated-packages, group of packages
  */
 
-outsource.directive('dedicated-packages', function(){
+outsource.directive('pack', function(){
 
 	return {
 	   restrict: 'E',
