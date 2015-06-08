@@ -53,6 +53,34 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                     }
                 }   
             })
+            .state('step-one', { 
+                parent: 'dedicated',
+                url: '/step-one',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/dedicated-prices.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+            .state('step-two', { 
+                parent: 'dedicated',
+                url: '/step-two',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/dedicated-package.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+
+
             
             
     

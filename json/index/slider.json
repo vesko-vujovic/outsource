@@ -4,9 +4,7 @@
 	    {
 	    	"id": 0,
 	    	"img": "/outsource/src/assets/img/slider/1.jpg",
-	    	"text": "Želite da oursorsujete vaš posao ne
-            razmišljajući o kontroli kvaliteta i
-            rokovima, skraćujući vaše troškove?"
+	    	"text": "Želite da oursorsujete vaš posao ne razmišljajući o kontroli kvaliteta i rokovima, skraćujući vaše troškove?"
 
 	    },
 	    {
@@ -18,11 +16,7 @@
 	    {
 	    	"id": 2,
 	    	"img": "/outsource/src/assets/img/slider/3.jpg",
-	    	"text": "Lorem ipsum dolor sit amet,
-	    	 sea malis recteque explicari ne, 
-	    	 aliquip persequeris ut nec, quo te natum delicatissimi.
-	    	 Sea nobis aeterno ocurreret ei. Impedit percipit ei mei, ut dicat saepe vis. 
-	    	 Et nihil senserit sit, te tantas eleifend convenire eum."
+	    	"text": "Lorem ipsum dolor sit amet, sea malis recteque explicari ne, aliquip persequeris ut nec, quo te natum delicatissimi. Sea nobis aeterno ocurreret ei. Impedit percipit ei mei, ut dicat saepe vis. Et nihil senserit sit, te tantas eleifend convenire eum."
 
 	    },
 	    {
@@ -36,12 +30,7 @@
 	    {
 	    	"id": 4,
 	    	"img" : "/outsource/src/assets/img/slider/5.jpg",
-	    	"text": "Lorem ipsum dolor sit amet,
-	    	 sea malis recteque explicari ne, 
-	    	 aliquip persequeris ut nec, quo te natum delicatissimi.
-	    	 Sea nobis aeterno ocurreret ei. Impedit percipit ei mei, ut dicat saepe vis. 
-	    	 Et nihil senserit sit, te tantas eleifend convenire eum."
-
+	    	"text": "Lorem ipsum dolor sit amet,sea malis recteque explicari ne, aliquip persequeris ut nec, quo te natum delicatissimi.Sea nobis aeterno ocurreret ei. Impedit percipit ei mei, ut dicat saepe vis. Et nihil senserit sit, te tantas eleifend convenire eum."
 	    }
 	]
 

@@ -4,7 +4,16 @@ var app = angular.module('outsourceApp');
 //define controller
 
 app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedService){
-      
+     
+     //data for slider
+	$scope.slider;
+	$scope.sliderData         = sharedService.getData('/outsource/json/index/slider.json').then(function(data){
+	    $scope.slider         = data.slider;
+
+	    
+	});
+    
+
     //data for navbar
 	$scope.navbar;
 	$scope.navbarData         = sharedService.getData('/outsource/json/header.json').then(function(data){

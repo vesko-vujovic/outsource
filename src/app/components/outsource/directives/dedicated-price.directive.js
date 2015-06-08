@@ -1,5 +1,5 @@
 /*
- * This is the directive for dedicated
+ * This is the directive for dedicated-prices steps  1,2,3,4
  */
 
 outsource.directive('dedicated', function(){
@@ -9,7 +9,7 @@ outsource.directive('dedicated', function(){
 	   link: function(scope, element, attribute){
             
              $("#order_now ul.nav.nav-tabs > li").click(function(){
-               if(!$(this).hasClass('active')){
+               if(!$(this).hasClass('active')) {
                   
                  $("ul.nav.nav-tabs > li").removeClass('active'); 
                	 $(this).addClass('active');

@@ -107,3 +107,19 @@ div.wrapper.dedicated-packages {
   }
 
 }
+
+
+
+/* step2   */
+
+ /*tab_2*/
+
+  #select_panel {
+    .template_web {
+      @include template_web;
+    }
+
+    #table {
+      @include table;
+    }
+  }

@@ -53,6 +53,34 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                     }
                 }   
             })
+            .state('step-one', { 
+                parent: 'dedicated',
+                url: '/step-one',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/dedicated-prices.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+            .state('step-two', { 
+                parent: 'dedicated',
+                url: '/step-two',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/dedicated-package.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+
+
             
             
     
@@ -81,7 +109,16 @@ var app = angular.module('outsourceApp');
 //define controller
 
 app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedService){
-      
+     
+     //data for slider
+	$scope.slider;
+	$scope.sliderData         = sharedService.getData('/outsource/json/index/slider.json').then(function(data){
+	    $scope.slider         = data.slider;
+
+	    
+	});
+    
+
     //data for navbar
 	$scope.navbar;
 	$scope.navbarData         = sharedService.getData('/outsource/json/header.json').then(function(data){
@@ -143,7 +180,7 @@ outsource.directive('about', function(){
 	};
 });
 /*
- * This is the directive for dedicated
+ * This is the directive for dedicated-prices steps  1,2,3,4
  */
 
 outsource.directive('dedicated', function(){
@@ -153,7 +190,7 @@ outsource.directive('dedicated', function(){
 	   link: function(scope, element, attribute){
             
              $("#order_now ul.nav.nav-tabs > li").click(function(){
-               if(!$(this).hasClass('active')){
+               if(!$(this).hasClass('active')) {
                   
                  $("ul.nav.nav-tabs > li").removeClass('active'); 
                	 $(this).addClass('active');
