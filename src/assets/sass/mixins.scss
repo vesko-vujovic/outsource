@@ -51,7 +51,7 @@
   }
   .overflow {
     overflow: hidden;
-
+    height: 100%;
   }
 
   .back {
@@ -59,7 +59,7 @@
     line-height: 205px;
     font-weight: bolder;
     float: right;
-    margin-right: -43px;
+    margin-right: -30px;
   }
 
   .absolute {
@@ -67,9 +67,10 @@
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
+
     .package_description {
       padding: 25px 15px 10px;
-      border-bottom: 1px solid $lightgray;
 
       h4 {
         font-style: italic;
@@ -116,9 +117,19 @@
     text-align: center;
     font-size: 43px;
     font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #e6e6e6;
+
     p {
       margin: 0px;
     }
+  }
+
+  .col_lightblue {
+    color: #35b7f3;
   }
 }
 

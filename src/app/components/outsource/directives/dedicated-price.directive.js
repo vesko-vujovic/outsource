@@ -7,7 +7,7 @@ outsource.directive('dedicated', function(){
 	return {
 	   restrict: 'E',
 	   link: function(scope, element, attribute){
-            
+               
              $("#order_now ul.nav.nav-tabs > li").click(function(){
                if(!$(this).hasClass('active')) {
                   

@@ -1,3 +1,7 @@
+.no-padding {
+  padding: 0px;
+}
+
 #order_now {
   .tabs {
     @include tabs;
@@ -123,3 +127,4 @@ div.wrapper.dedicated-packages {
       @include table;
     }
   }
+

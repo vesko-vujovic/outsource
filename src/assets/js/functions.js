@@ -65,11 +65,20 @@ $(document).ready(function() {
 
 
 
-this.changeClass     = function(e) {
+this.changeClass          = function(e) {
       var obj = $(e);
       if (!obj.hasClass("clicked")) {
         obj.addClass("clicked")
       }
      
-  };   
- 
+};
+
+this.resetActiveClass     = function(e) {
+      $("#order_now ul.nav.nav-tabs > li").removeClass('active');
+      $("#order_now ul > li:first-child").addClass('active');
+}
+
+
+
+
+
