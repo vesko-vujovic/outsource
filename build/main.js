@@ -10,10 +10,6 @@ var outsource = angular.module('outsourceApp', ['ui.router']);
 
 outsource.config(function($stateProvider, $urlRouterProvider){
       $urlRouterProvider.otherwise('ne radi');
-
-
-
-      
       /**
         * These are route for app the first route is parent other routes are child routes
         */
@@ -59,7 +55,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 views: {
                      
                     inner: {
-                        templateUrl: 'src/app/components/views/dedicated-package.html',
+                        templateUrl: 'src/app/components/views/dedicated-package-directives.html',
                         controller:  'dedicatedCtrl'
                     }
                      
@@ -72,7 +68,20 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 views: {
                      
                     inner: {
-                        templateUrl: 'src/app/components/views/dedicated-step-two.html',
+                        templateUrl: 'src/app/components/views/dedicated-step-two-directive.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+            .state('step-three', { 
+                parent: 'dedicated',
+                url: '/step-three',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/dedicated-step-three-directive.html',
                         controller:  'dedicatedCtrl'
                     }
                      
@@ -86,7 +95,6 @@ outsource.config(function($stateProvider, $urlRouterProvider){
     
 
 });
-
 
 // end of outsource
 
@@ -180,6 +188,22 @@ outsource.directive('about', function(){
 	};
 });
 /*
+ * This is the directive for packages on first step
+ */
+
+outsource.directive('pack', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+
+	   },
+
+	   replace: true,
+	   templateUrl: "src/app/components/views/dedicated-package.html"
+	};
+});
+/*
  * This is the directive for dedicated-prices steps  1,2,3,4
  */
 
@@ -201,6 +225,38 @@ outsource.directive('dedicated', function(){
 
 	   replace: true,
 	   templateUrl: 'src/app/components/views/dedicated-prices.html'
+	};
+});
+/*
+ * This is the directive for packages on first step
+ */
+
+outsource.directive('dedicatedstepthree', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+
+	   },
+
+	   replace: true,
+	   templateUrl: "src/app/components/views/dedicated-step-three.html"
+	};
+});
+/*
+ * This is the directive for packages on first step
+ */
+
+outsource.directive('dedicatedprices', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+
+	   },
+
+	   replace: true,
+	   templateUrl: "src/app/components/views/dedicated-step-two.html"
 	};
 });
 /**

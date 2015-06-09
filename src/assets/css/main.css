@@ -6579,4 +6579,43 @@ div.wrapper.dedicated-packages {
   margin-bottom: auto;
   margin-left: 75%; }
 
+#step-three.container-fluid {
+  background-color: #E6E6E6; }
+  #step-three.container-fluid .container {
+    margin-left: 20.6%; }
+
+ul.bubble {
+  margin-top: 4%; }
+  ul.bubble li {
+    border: none;
+    list-style: none;
+    display: inline-block; }
+    ul.bubble li.col-md-4 {
+      padding-left: 4%;
+      padding-right: auto;
+      padding-top: 2%;
+      font-size: 25px;
+      color: #818181; }
+  ul.bubble li {
+    position: relative;
+    width: 29.1%;
+    height: 60px;
+    padding: 0px;
+    background: #FFFFFF;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px; }
+  ul.bubble li:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-left: -15px;
+    bottom: -15px;
+    left: 50%; }
+
 /*# sourceMappingURL=main.css.map */

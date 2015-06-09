@@ -10,10 +10,6 @@ var outsource = angular.module('outsourceApp', ['ui.router']);
 
 outsource.config(function($stateProvider, $urlRouterProvider){
       $urlRouterProvider.otherwise('ne radi');
-
-
-
-      
       /**
         * These are route for app the first route is parent other routes are child routes
         */
@@ -59,7 +55,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 views: {
                      
                     inner: {
-                        templateUrl: 'src/app/components/views/dedicated-package.html',
+                        templateUrl: 'src/app/components/views/dedicated-package-directives.html',
                         controller:  'dedicatedCtrl'
                     }
                      
@@ -72,7 +68,20 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 views: {
                      
                     inner: {
-                        templateUrl: 'src/app/components/views/dedicated-step-two.html',
+                        templateUrl: 'src/app/components/views/dedicated-step-two-directive.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+            .state('step-three', { 
+                parent: 'dedicated',
+                url: '/step-three',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/dedicated-step-three-directive.html',
                         controller:  'dedicatedCtrl'
                     }
                      
@@ -86,6 +95,5 @@ outsource.config(function($stateProvider, $urlRouterProvider){
     
 
 });
-
 
 // end of outsource
