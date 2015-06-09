@@ -88,6 +88,19 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
+            .state('step-four', { 
+                parent: 'dedicated',
+                url: '/step-three',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/dedicated-step-four-directive.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
 
 
             
@@ -228,6 +241,23 @@ outsource.directive('dedicated', function(){
 	};
 });
 /*
+ * This is the directive for step 4 
+ */
+
+outsource.directive('stepfour', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute) {
+
+
+	   },
+
+	   replace: true,
+	   templateUrl: "src/app/components/views/dedicated-step-four.html"
+	};
+});
+/*
  * This is the directive for packages on first step
  */
 
@@ -236,6 +266,14 @@ outsource.directive('dedicatedstepthree', function(){
 	return {
 	   restrict: 'E',
 	   link: function(scope, element, attribute){
+          
+        $("#choose_form .nav.nav-tabs li").click(function (){
+        	if(!$(this).hasClass('active')){
+        		
+                $('#choose_form .nav.nav-tabs li').removeClass('active');
+        		$(this).addClass('active');
+        	}   
+        });	   
 
 	   },
 

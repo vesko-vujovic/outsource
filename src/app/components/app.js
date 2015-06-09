@@ -88,6 +88,19 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
+            .state('step-four', { 
+                parent: 'dedicated',
+                url: '/step-three',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/dedicated-step-four-directive.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
 
 
             

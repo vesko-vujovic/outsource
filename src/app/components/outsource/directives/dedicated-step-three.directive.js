@@ -7,6 +7,14 @@ outsource.directive('dedicatedstepthree', function(){
 	return {
 	   restrict: 'E',
 	   link: function(scope, element, attribute){
+          
+        $("#choose_form .nav.nav-tabs li").click(function (){
+        	if(!$(this).hasClass('active')){
+        		
+                $('#choose_form .nav.nav-tabs li').removeClass('active');
+        		$(this).addClass('active');
+        	}   
+        });	   
 
 	   },
 

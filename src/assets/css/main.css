@@ -6673,4 +6673,89 @@ div.wrapper.dedicated-packages {
       right: 4px;
       top: 2px; }
 
+#project_panel #order_panel {
+  background-color: #e6e6e6;
+  padding: 50px 0px 70px; }
+  #project_panel #order_panel .panel {
+    border-radius: 0px;
+    margin-bottom: 0px; }
+    #project_panel #order_panel .panel .panel-heading {
+      background-color: #00608c;
+      color: white;
+      border-radius: 0px;
+      padding: 15px; }
+      #project_panel #order_panel .panel .panel-heading .panel-title {
+        font-size: 22px; }
+    #project_panel #order_panel .panel .panel-body {
+      padding: 0px; }
+      #project_panel #order_panel .panel .panel-body .option {
+        padding: 10px 20px 25px;
+        border-bottom: 1px solid #dddddd; }
+        #project_panel #order_panel .panel .panel-body .option:last-child {
+          border: none;
+          background-color: #00608c;
+          color: white;
+          padding: 15px; }
+          #project_panel #order_panel .panel .panel-body .option:last-child h3 {
+            font-weight: bold;
+            margin: 0px; }
+        #project_panel #order_panel .panel .panel-body .option .option_title .circle {
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          background-color: #f8a01a;
+          float: left;
+          margin-right: 10px; }
+          #project_panel #order_panel .panel .panel-body .option .option_title .circle p {
+            color: white;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 24px; }
+        #project_panel #order_panel .panel .panel-body .option .option_title h4 {
+          color: #f8a01a;
+          font-size: 16px;
+          text-transform: uppercase;
+          vertical-align: inherit;
+          line-height: 24px; }
+        #project_panel #order_panel .panel .panel-body .option .price {
+          color: #00608c;
+          margin-top: 25px; }
+        #project_panel #order_panel .panel .panel-body .option .table {
+          text-align: right; }
+          #project_panel #order_panel .panel .panel-body .option .table tr td {
+            border: none;
+            padding: 0px; }
+          #project_panel #order_panel .panel .panel-body .option .table tr td:first-child {
+            text-align: left; }
+      #project_panel #order_panel .panel .panel-body form {
+        padding: 20px 0px 50px; }
+        #project_panel #order_panel .panel .panel-body form .form-group {
+          margin-bottom: 25px; }
+          #project_panel #order_panel .panel .panel-body form .form-group label {
+            font-weight: normal; }
+          #project_panel #order_panel .panel .panel-body form .form-group input, #project_panel #order_panel .panel .panel-body form .form-group select {
+            border-radius: 0px;
+            background-color: #f8f8f8;
+            height: 44px; }
+          #project_panel #order_panel .panel .panel-body form .form-group textarea {
+            border-radius: 0px;
+            background-color: #f8f8f8; }
+        #project_panel #order_panel .panel .panel-body form .checkbox label {
+          padding-left: 30px; }
+        #project_panel #order_panel .panel .panel-body form .checkbox input[type="checkbox"] {
+          height: 20px;
+          width: 20px;
+          margin: 0px 0px 0px -30px;
+          border-radius: 50%; }
+          #project_panel #order_panel .panel .panel-body form .checkbox input[type="checkbox"]:focus {
+            outline: none; }
+        #project_panel #order_panel .panel .panel-body form .btn-green {
+          background-color: #49b009;
+          border: none;
+          color: white;
+          font-size: 18px;
+          padding: 10px 15px;
+          margin-top: 20px; }
+
 /*# sourceMappingURL=main.css.map */
