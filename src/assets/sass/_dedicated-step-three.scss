@@ -5,55 +5,57 @@ $tab-font: #818181;
 #step-three.container-fluid {
 	background-color: $grey;
 
- .container {
-    margin-left: 20.6%;
-  }	
+	.container {
+		margin-left: 20.6%;
+	}	
 }
 
 ul.bubble {
 
-  margin-top: 4%;
+	margin-top: 4%;
 
-  li {
-  	&.col-md-4 {
-      padding-left: 4%;
-      padding-right: auto;	
-      padding-top: 2%;	
-  	  font-size: 25px;
-      color:$tab-font;
-  	}
 
-  	border: none;
-	list-style: none;
-	display: inline-block;
-  }
+	li {
+		&.col-md-4 {
 
-li 
-{
-position: relative;
-width: 29.1%;
-height: 60px;
-padding: 0px;
-background: #FFFFFF;
--webkit-border-radius: 0px;
--moz-border-radius: 0px;
-border-radius: 0px;
-}
+			padding-left: 4%;
+			padding-right: auto;	
+			padding-top: 1%;	
+			font-size: 25px;
+			color:$tab-font;
+		}
 
-li:after 
-{
-content: '';
-position: absolute;
-border-style: solid;
-border-width: 15px 15px 0;
-border-color: #FFFFFF transparent;
-display: block;
-width: 0;
-z-index: 1;
-margin-left: -15px;
-bottom: -15px;
-left: 50%;
-}
+		border: none;
+		list-style: none;
+		display: inline-block;
+	}
+
+	li 
+	{
+		position: relative;
+		width: 29.1%;
+		height: 60px;
+		padding: 0px;
+		background: #FFFFFF;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+	}
+
+	li:after 
+	{
+		content: '';
+		position: absolute;
+		border-style: solid;
+		border-width: 15px 15px 0;
+		border-color: #FFFFFF transparent;
+		display: block;
+		width: 0;
+		z-index: 1;
+		margin-left: -15px;
+		bottom: -15px;
+		left: 50%;
+	}
 
 }
 
