@@ -5710,22 +5710,36 @@ div.links > a:hover {
     clear: both; }
 
 div ul.nav.navbar-nav {
-  margin-top: 2%;
-  margin-bottom: 2%; }
+  min-height: 79px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 100%; }
+  div ul.nav.navbar-nav li {
+    float: left;
+    width: 18%;
+    margin: 0px;
+    min-height: 80px;
+    padding-top: 30px;
+    text-align: center; }
+    div ul.nav.navbar-nav li a {
+      color: white;
+      padding: 0px; }
   div ul.nav.navbar-nav .navbar-text {
     color: white; }
+  div ul.nav.navbar-nav .navbar-official {
+    width: 22%; }
+  div ul.nav.navbar-nav #order-now a {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #009AE7; }
 
 #logo {
   margin-top: 15%;
   margin-left: 32%; }
 
-#order-now {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #009AE7; }
-
 #links {
-  margin-left: 25%; }
+  margin-left: 25%;
+  min-height: 79px; }
   #links > ul > li.navbar-text {
     font-size: 18px !important; }
   #links > ul > a > li:hover {
@@ -6579,43 +6593,84 @@ div.wrapper.dedicated-packages {
   margin-bottom: auto;
   margin-left: 75%; }
 
-#step-three.container-fluid {
-  background-color: #E6E6E6; }
-  #step-three.container-fluid .container {
-    margin-left: 20.6%; }
-
-ul.bubble {
-  margin-top: 4%; }
-  ul.bubble li {
-    border: none;
-    list-style: none;
-    display: inline-block; }
-    ul.bubble li.col-md-4 {
-      padding-left: 4%;
-      padding-right: auto;
-      padding-top: 1%;
-      font-size: 25px;
-      color: #818181; }
-  ul.bubble li {
-    position: relative;
-    width: 29.1%;
-    height: 60px;
-    padding: 0px;
-    background: #FFFFFF;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px; }
-  ul.bubble li:after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 15px 15px 0;
-    border-color: #FFFFFF transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-left: -15px;
-    bottom: -15px;
-    left: 50%; }
+#choose_add_panel #add_form {
+  background-color: #e6e6e6;
+  padding: 50px 0px; }
+  #choose_add_panel #add_form #choose_form {
+    border: 1px solid #dddddd;
+    background-color: white; }
+    #choose_add_panel #add_form #choose_form .nav li {
+      margin-top: 0; }
+    #choose_add_panel #add_form #choose_form .nav.nav-tabs {
+      margin-bottom: 10px;
+      border-bottom: 2px solid #dddddd !important;
+      /*bubble_tabs*/ }
+      #choose_add_panel #add_form #choose_form .nav.nav-tabs li {
+        text-align: center;
+        margin-bottom: -2px; }
+        #choose_add_panel #add_form #choose_form .nav.nav-tabs li a {
+          color: #767676;
+          font-size: 18px;
+          padding: 15px; }
+          #choose_add_panel #add_form #choose_form .nav.nav-tabs li a:hover {
+            background-color: #f8f8f8; }
+        #choose_add_panel #add_form #choose_form .nav.nav-tabs li.active a {
+          background-color: #009ae2;
+          color: white; }
+      #choose_add_panel #add_form #choose_form .nav.nav-tabs li.active:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        display: block;
+        z-index: 1;
+        border-width: 10px 10px 0px;
+        border-color: #009ae2 transparent;
+        bottom: -10px;
+        margin-left: 158px; }
+    #choose_add_panel #add_form #choose_form .check_list {
+      border-bottom: 1px solid #dddddd; }
+      #choose_add_panel #add_form #choose_form .check_list .col-sm-6 {
+        padding: 40px; }
+      #choose_add_panel #add_form #choose_form .check_list .checkbox {
+        background-image: asset-url("gray-line.png");
+        background-repeat: repeat-x;
+        background-size: 5px 1px;
+        background-position: left 14px;
+        margin-top: 0; }
+        #choose_add_panel #add_form #choose_form .check_list .checkbox p {
+          float: right;
+          padding-left: 4px;
+          background-color: white; }
+        #choose_add_panel #add_form #choose_form .check_list .checkbox label {
+          padding-right: 4px;
+          background-color: white; }
+      #choose_add_panel #add_form #choose_form .check_list .class_checkbox {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid #009ae2;
+        background-color: white;
+        margin: -5px 5px 0px 0px;
+        float: left; }
+        #choose_add_panel #add_form #choose_form .check_list .class_checkbox.checked {
+          background-image: asset-url("check.png");
+          background-position: center;
+          background-size: 32px 32px; }
+    #choose_add_panel #add_form #choose_form .form {
+      background-color: white;
+      padding-top: 15px; }
+      #choose_add_panel #add_form #choose_form .form .btn {
+        margin-top: 15px; }
+        #choose_add_panel #add_form #choose_form .form .btn:last-child {
+          border: none; }
+  #choose_add_panel #add_form .next_step {
+    float: right;
+    margin-top: 25px;
+    padding: 6px 35px;
+    position: relative; }
+    #choose_add_panel #add_form .next_step i {
+      position: absolute;
+      right: 4px;
+      top: 2px; }
 
 /*# sourceMappingURL=main.css.map */

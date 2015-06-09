@@ -62,10 +62,34 @@ div.links > a:hover{
 
 
 div ul.nav.navbar-nav {
-	margin-top: 2%;
-	margin-bottom: 2%;
+	min-height: 79px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 100%;
+	li {
+		float: left;
+		width: 18%;
+		margin: 0px;
+		min-height: 80px;
+		padding-top: 30px;
+		text-align: center;
+		a {
+			color: white;
+			padding: 0px;
+		}
+	}
 	& .navbar-text {
 		color: white;
+	}
+	.navbar-official {
+		width: 22%;
+	}
+	#order-now {
+		a {
+			font-weight: bold;
+			text-transform: uppercase;
+			color: $order-now-color;
+		}
 	}
 }
 
@@ -75,14 +99,10 @@ div ul.nav.navbar-nav {
 	margin-left: 32%;
 }
 
-#order-now {
-	font-weight: bold;
-	text-transform: uppercase;
-	color: $order-now-color;
-}
 
 #links  {
 	margin-left: 25%;
+	min-height: 79px;
 	&> ul >li.navbar-text {
 		font-size: 18px !important;
 	}
