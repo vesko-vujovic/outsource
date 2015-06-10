@@ -10,8 +10,8 @@
           <ul class="nav navbar-nav">
            <li class="navbar-text"><a ui-sref="index">početna</a></li>
            <li class="navbar-text"><a href="">paketi i cijene</a></li>
-           <li class="navbar-text"><a href="">zašto mi</a></li>
-           <li class="navbar-text navbar-official"><a href=""><img src="/outsource/src/assets/img/link-icon.png" alt="link icon">official web site</a></li>
+           <li class="navbar-text" onclick="whyUs(this)"><a ui-sref="why-us">zašto mi</a></li>
+           <li class="navbar-text navbar-official"><a href="http://www.bild-studio.com/"><img src="/outsource/src/assets/img/link-icon.png" alt="link icon">official web site</a></li>
            <li id="order-now" onclick="menu(this)" class="navbar-text"><a href="">Order Now</a></li>
           </ul>           
         </div>
@@ -20,15 +20,30 @@
   </div>
 </nav>
 <div class="container-fluid">
-<div class="row">
-<div class="dropdown-nav">
-  <div class="wrapper">
-    <ul>
-      <li><a ui-sref="paketi">Order service package</a></li>
-      <li><a ui-sref="step-one" onclick="resetActiveClass(this)">Choose and order dedicated team</li>
-      <li><a href="">Order our specific service</a></li>
-    </ul>
+  <div class="row">
+    <div class="dropdown-nav">
+      <div class="wrapper">
+        <ul>
+          <li><a ui-sref="paketi">Order service package</a></li>
+          <li><a ui-sref="step-one">Choose and order dedicated team</li>
+          <li><a href="">Order our specific service</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
-</div>
+
+<!-- whyus dropdown -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="whyus">
+      <div class="wrapper">
+        <ul>
+          <li><a href="">Order service package</a></li>
+          <li><a href="">Choose and order dedicated team</li>
+          <li><a href="">Order our specific service</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>

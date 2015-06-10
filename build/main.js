@@ -28,7 +28,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
             		}
             	}  	
             })
-            .state('paketi', { 
+            .state('packages', { 
             	parent: 'home',
             	url: '/order-service-package',
             	views: {
@@ -96,6 +96,19 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                     inner: {
                         templateUrl: 'src/app/components/views/dedicated-step-four-directive.html',
                         controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+            .state('why-us', { 
+                parent: 'home',
+                url: '/step-three',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/why-us-home.html',
+                        controller:  'whyusCtrl'
                     }
                      
                 }
@@ -187,6 +200,16 @@ app.controller('servicePackageCtrl', ['$scope', 'sharedService', function($scope
     
 
 }]);
+//this is our module
+var app = angular.module('outsourceApp');
+
+//here we define controller
+app.controller('whyusCtrl', ['$scope', 'sharedService', function($scope, sharedService){
+     
+   
+    	
+}]);
+
 outsource.directive('about', function(){
 
 	return {

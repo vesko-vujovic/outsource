@@ -63,22 +63,18 @@ $(document).ready(function() {
  });
 });
 
-
-
-this.changeClass          = function(e) {
+this.whyUs     = function(e) {
       var obj = $(e);
-      if (!obj.hasClass("clicked")) {
-        obj.addClass("clicked")
+      if (obj.hasClass("clicked")) {
+      $(".whyus").slideUp(300);
+        obj.removeClass('clicked');
       }
-     
-};
-
-this.resetActiveClass     = function(e) {
-      $("#order_now ul.nav.nav-tabs > li").removeClass('active');
-      $("#order_now ul > li:first-child").addClass('active');
-}
-
-
+      else {
+        $(".whyus").slideDown(300);
+        obj.addClass('clicked');
+      }
+  };
+  
 
 
 

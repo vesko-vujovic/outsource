@@ -5680,23 +5680,23 @@ header {
 div.links > a:hover {
   color: blue; }
 
-.dropdown-nav {
+.dropdown-nav, .whyus {
   background: #009ae2;
   min-width: 980px;
   display: none; }
-  .dropdown-nav ul {
+  .dropdown-nav ul, .whyus ul {
     list-style: none;
     padding: 0px;
     margin: 0px;
     line-height: 30px; }
-    .dropdown-nav ul li {
+    .dropdown-nav ul li, .whyus ul li {
       float: left;
       width: 33.33%;
       text-align: center; }
-      .dropdown-nav ul li a {
+      .dropdown-nav ul li a, .whyus ul li a {
         display: block;
         color: #002637; }
-        .dropdown-nav ul li a:hover {
+        .dropdown-nav ul li a:hover, .whyus ul li a:hover {
           color: #fff;
           background: #00608d; }
 
