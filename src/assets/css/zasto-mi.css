@@ -13,54 +13,6 @@
 .present p {
   color: #787878; }
 
-.testimonials {
-  /* positioning element 'testimonials' */
-  position: relative;
-  left: 0px;
-  background-color: white;
-  width: 100%;
-  margin-top: 3355px; }
-  .testimonials .container {
-    padding-left: 15px; }
-
-.testim-head h3 {
-  padding-bottom: 30px;
-  color: #009AE2;
-  text-align: center;
-  font-weight: 600; }
-
-.client-block {
-  /* setting width for each client's testimonial */
-  width: 33.33%;
-  color: #646464; }
-
-.client-block:hover {
-  /* animating client block */
-  animation-name: pulse;
-  animation-duration: 2s; }
-
-.testim p, .client-name p {
-  /* positioning and editing client's testimonial text */
-  width: 70%;
-  position: relative;
-  left: 100px;
-  bottom: 75px; }
-
-.client-name p {
-  /* editing text for name of client */
-  font-weight: 600;
-  font-size: 1.2em;
-  color: black; }
-
-.img-circle {
-  /* editing client's image */
-  border: 1px solid #C8C8C8; }
-
-nav.footer-wrap {
-  /* positioning footer for this page */
-  top: 3930px;
-  /* temporary solution */ }
-
 #topclass {
   background-color: #E6E6E6 !important; }
 
@@ -104,14 +56,6 @@ nav.footer-wrap {
       left: 75%;
       top: -50px;
       text-align: justify; }
-
-.veskov-dio {
-  position: absolute;
-  left: 0;
-  background-color: #002637;
-  width: 100%;
-  margin-top: 600px;
-  height: 650px; }
 
 .work-areas {
   position: absolute;
@@ -195,56 +139,44 @@ nav.footer-wrap {
   width: 100%;
   margin-top: 2710px;
   padding-left: 55px; }
-  .faqs .container {
-    position: relative;
-    padding: 0;
-    color: white; }
-    .faqs .container h3 {
-      color: #F9B348; }
-    .faqs .container .hidden {
-      display: none; }
-    .faqs .container .faqs-header {
-      padding-top: 30px;
-      text-align: right;
-      background-image: url("../img/order/question1.png");
-      background-position: 0px 0px;
-      background-size: cover;
-      padding-bottom: 400px; }
-      .faqs .container .faqs-header p {
-        width: 40%;
-        margin-left: 50%; }
-      .faqs .container .faqs-header h2 {
-        font-size: 3.5em;
-        font-weight: 600;
-        font-style: oblique;
-        width: 60%;
-        margin-left: 30%; }
-    .faqs .container .question {
-      margin-bottom: 40px;
+  .faqs .container h3 {
+    color: #F9B348; }
+  .faqs .container .hidden {
+    display: none; }
+  .faqs .container .faqs-header {
+    padding-top: 30px;
+    text-align: right;
+    background-image: url("../img/order/question1.png");
+    background-position: 0px 0px;
+    background-size: cover;
+    padding-bottom: 400px; }
+    .faqs .container .faqs-header p {
+      width: 40%;
+      margin-left: 50%; }
+    .faqs .container .faqs-header h2 {
+      font-size: 3.5em;
+      font-weight: 600;
+      font-style: oblique;
+      width: 60%;
+      margin-left: 30%; }
+  .faqs .container .question {
+    margin-bottom: 40px; }
+    .faqs .container .question h3 {
+      float: left;
+      font-size: 3em;
+      font-weight: 600;
+      font-style: oblique;
+      margin-right: 3%; }
+    .faqs .container .question h4 {
+      font-weight: 600;
+      font-style: oblique; }
+    .faqs .container .question h4, .faqs .container .question p {
       position: relative;
-      top: 30px; }
-      .faqs .container .question h3 {
-        float: left;
-        font-size: 3em;
-        font-weight: 600;
-        font-style: oblique;
-        margin-right: 3%; }
-      .faqs .container .question h4 {
-        font-weight: 600;
-        font-style: oblique; }
-      .faqs .container .question h4, .faqs .container .question p {
-        position: relative;
-        top: 20px; }
-    .faqs .container #expander {
-      background-image: url("../img/order/arrow1.png");
-      background-size: cover;
-      width: 130px;
-      height: 40px;
-      position: relative;
-      top: 60px;
-      left: 40%; }
-
-div.container-fluid .front {
-  background-color: #E6E6E6; }
+      top: 20px; }
+  .faqs .container #expander {
+    background-image: url("../img/order/arrow1.png");
+    background-size: cover;
+    width: 130px;
+    height: 40px; }
 
 /*# sourceMappingURL=zasto-mi.css.map */
