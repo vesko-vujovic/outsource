@@ -1,14 +1,24 @@
 #slider{
   height: 25%;
+  width: 102%;
   background: #e6e6e6;
   position: relative;
-  z-index: 5
+  left: -2%;
+  z-index: 5;
+  .slider2 {
+	.slider-heading {
+		padding-top: 0px;
+		padding-bottom: 30px;
+	}
+  }
 }
 .slider-heading{
 	color: #fff;
-	font-size: 45px;
-	line-height: 48px;
+	font-size: 53px;
+	font-weight: 600;
+	line-height: 56px;
 	margin: 0px;
+	padding-top: 5px;
 	.orange{
 		color: #F8A01A;
 	}
@@ -25,3 +35,4 @@
 		color: #646464;
 	}
 }
+

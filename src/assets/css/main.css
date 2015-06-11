@@ -5668,6 +5668,9 @@ button.close {
 .nav-color {
   background-color: #002637; }
 
+.header-nav, .header-nav div {
+  height: 73px; }
+
 .navbar {
   border-radius: 0px;
   border: none;
@@ -5680,23 +5683,24 @@ header {
 div.links > a:hover {
   color: blue; }
 
-.dropdown-nav, .whyus {
+.dropdown-nav, .whyus, .packageprices {
   background: #009ae2;
   min-width: 980px;
   display: none; }
-  .dropdown-nav ul, .whyus ul {
+  .dropdown-nav ul, .whyus ul, .packageprices ul {
     list-style: none;
     padding: 0px;
     margin: 0px;
     line-height: 30px; }
-    .dropdown-nav ul li, .whyus ul li {
+    .dropdown-nav ul li, .whyus ul li, .packageprices ul li {
+      font-weight: bold;
       float: left;
       width: 33.33%;
       text-align: center; }
-      .dropdown-nav ul li a, .whyus ul li a {
+      .dropdown-nav ul li a, .whyus ul li a, .packageprices ul li a {
         display: block;
         color: #002637; }
-        .dropdown-nav ul li a:hover, .whyus ul li a:hover {
+        .dropdown-nav ul li a:hover, .whyus ul li a:hover, .packageprices ul li a:hover {
           color: #fff;
           background: #00608d; }
 
@@ -5710,36 +5714,59 @@ div.links > a:hover {
     clear: both; }
 
 div ul.nav.navbar-nav {
-  min-height: 79px;
+  min-height: 73px;
   padding-top: 0px;
   padding-bottom: 0px;
+  padding-left: 2.5%;
   width: 100%; }
   div ul.nav.navbar-nav li {
     float: left;
     width: 18%;
     margin: 0px;
-    min-height: 80px;
-    padding-top: 30px;
+    min-height: 73px;
     text-align: center; }
     div ul.nav.navbar-nav li a {
-      color: white;
       padding: 0px; }
+    div ul.nav.navbar-nav li .navbar-link {
+      width: 100%;
+      height: 73px;
+      color: white;
+      font-size: 16px;
+      padding-top: 27px; }
+      div ul.nav.navbar-nav li .navbar-link:hover {
+        color: white;
+        background-color: #009AE7;
+        text-decoration: underline; }
   div ul.nav.navbar-nav .navbar-text {
     color: white; }
   div ul.nav.navbar-nav .navbar-official {
-    width: 22%; }
-  div ul.nav.navbar-nav #order-now a {
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #009AE7; }
+    width: 27.5%; }
+    div ul.nav.navbar-nav .navbar-official img {
+      position: relative;
+      bottom: 2px;
+      left: 2px;
+      margin-right: 6px; }
+  div ul.nav.navbar-nav .home-link {
+    width: 14%; }
+  div ul.nav.navbar-nav .prices-link {
+    width: 16.5%; }
+  div ul.nav.navbar-nav .us-link {
+    width: 15%; }
+  div ul.nav.navbar-nav #order-now {
+    width: 19.5%; }
+    div ul.nav.navbar-nav #order-now .navbar-link {
+      text-transform: uppercase;
+      color: #009AE7; }
+      div ul.nav.navbar-nav #order-now .navbar-link:hover {
+        color: #002637; }
 
 #logo {
-  margin-top: 15%;
+  margin-top: 12%;
   margin-left: 32%; }
 
 #links {
-  margin-left: 25%;
-  min-height: 79px; }
+  margin-left: 22%;
+  min-height: 73px; }
   #links > ul > li.navbar-text {
     font-size: 18px !important; }
   #links > ul > a > li:hover {
@@ -5759,6 +5786,9 @@ div ul.nav.navbar-nav {
     display: inline;
     font-size: 17px;
     margin-left: 4px; }
+  .footer h5:hover {
+    color: white;
+    text-decoration: underline; }
   .footer p {
     font-size: 13px;
     line-height: 17px; }
@@ -5787,23 +5817,38 @@ div ul.nav.navbar-nav {
     .footer .rights i {
       float: right;
       margin-left: 3px; }
-  .footer .more_about_us:hover, .footer .contact :hover, .footer ul li:hover {
+      .footer .rights i:hover {
+        color: white; }
+  .footer .more_about_us:hover, .footer .contact:hover, .footer .blog-info:hover, .footer .footer_clients:hover {
     color: white; }
+  .footer ul li a {
+    text-decoration: none;
+    color: #314E5C; }
+    .footer ul li a:hover {
+      text-decoration: underline;
+      color: white; }
 
 #clientpic img:hover {
   opacity: 0.4; }
 
 #slider {
   height: 25%;
+  width: 102%;
   background: #e6e6e6;
   position: relative;
+  left: -2%;
   z-index: 5; }
+  #slider .slider2 .slider-heading {
+    padding-top: 0px;
+    padding-bottom: 30px; }
 
 .slider-heading {
   color: #fff;
-  font-size: 45px;
-  line-height: 48px;
-  margin: 0px; }
+  font-size: 53px;
+  font-weight: 600;
+  line-height: 56px;
+  margin: 0px;
+  padding-top: 5px; }
   .slider-heading .orange {
     color: #F8A01A; }
   .slider-heading .blue {

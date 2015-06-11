@@ -20,6 +20,10 @@ $lightgray: #e6e6e6;
     font-size: 17px;
     margin-left: 4px;
   }
+  h5:hover {
+      color: white;
+      text-decoration: underline;
+  }
 
   p {
     font-size: 13px;
@@ -61,11 +65,22 @@ $lightgray: #e6e6e6;
     i {
       float: right;
       margin-left: 3px;
+      &:hover {
+        color:white;
+      }
     }
   }
 
-  .more_about_us:hover, .contact :hover, ul li:hover {
+  .more_about_us:hover, .contact:hover, .blog-info:hover, .footer_clients:hover {
     color: white;
+  }
+  ul li a{
+    text-decoration: none;
+    color: #314E5C;
+    &:hover {
+      text-decoration: underline;
+      color: white;
+    }
   }
 }
 

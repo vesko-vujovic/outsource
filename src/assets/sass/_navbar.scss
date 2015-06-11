@@ -8,12 +8,13 @@ $border-color: #dadada;
 $text-color: #787878;
 $order-now-color: #009AE7;
 
-
 //this is background color for navbar
  .nav-color {
   background-color:#002637;
 }
-
+.header-nav, .header-nav div  {
+	height: 73px;
+}
 .navbar {
 	border-radius: 0px;
 	border: none;
@@ -29,7 +30,7 @@ div.links > a:hover{
 	color: blue;
 }
 
-.dropdown-nav, .whyus {
+.dropdown-nav, .whyus, .packageprices {
 	background: #009ae2;
 	min-width: 980px;
 	display: none;
@@ -38,7 +39,8 @@ div.links > a:hover{
 		padding: 0px;
 		margin: 0px;
 		line-height: 30px;
-		li{
+		li {
+			font-weight: bold;
 			float: left;
 			width: 33.33%;
 			text-align: center;
@@ -62,47 +64,76 @@ div.links > a:hover{
 
 
 div ul.nav.navbar-nav {
-	min-height: 79px;
+	min-height: 73px;
 	padding-top: 0px;
 	padding-bottom: 0px;
+	padding-left: 2.5%;
 	width: 100%;
 	li {
 		float: left;
 		width: 18%;
 		margin: 0px;
-		min-height: 80px;
-		padding-top: 30px;
+		min-height: 73px;
 		text-align: center;
 		a {
-			color: white;
 			padding: 0px;
+		}
+		.navbar-link {
+			width: 100%;
+			height: 73px;
+			color: white;
+			font-size: 16px;
+			padding-top: 27px;
+			&:hover {
+				color: white;
+				background-color: $order-now-color;
+				text-decoration: underline;
+			}
 		}
 	}
 	& .navbar-text {
 		color: white;
 	}
 	.navbar-official {
-		width: 22%;
+		width: 27.5%;
+		img {
+			position: relative;
+			bottom: 2px;
+			left: 2px;
+			margin-right: 6px;
+		}
+	}
+	.home-link {
+		width: 14%;
+	}
+	.prices-link {
+		width: 16.5%;
+	}
+	.us-link {
+		width: 15%;
 	}
 	#order-now {
-		a {
-			font-weight: bold;
+		width: 19.5%;
+		.navbar-link {
 			text-transform: uppercase;
-			color: $order-now-color;
+			color: $order-now-color;		
+			&:hover {
+				color: $blue-bg;
+			}
 		}
 	}
 }
 
 #logo {
 	
-	margin-top: 15%;
+	margin-top: 12%;
 	margin-left: 32%;
 }
 
 
 #links  {
-	margin-left: 25%;
-	min-height: 79px;
+	margin-left: 22%;
+	min-height: 73px;
 	&> ul >li.navbar-text {
 		font-size: 18px !important;
 	}
