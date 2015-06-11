@@ -114,6 +114,32 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
+            .state('testimonials', { 
+                parent: 'home',
+                url: ' /why-us/testimonials',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/why-us-testimonials.html',
+                        controller:  'whyusCtrl'
+                    }
+                     
+                }
+                  
+            })
+            .state('why-us-technology', { 
+                parent: 'home',
+                url: ' /why-us/technology',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/why-us-testimonials.html',
+                        controller:  'whyusCtrl'
+                    }
+                     
+                }
+                  
+            })
 
 
             
@@ -217,6 +243,18 @@ app.controller('whyusCtrl', ['$scope', 'sharedService', function($scope, sharedS
     $scope.what;
     $scope.whatData     = sharedService.getData('/outsource/json/index/stakazu.json').then(function(data){
         $scope.what     = data.stakazu;
+    });
+
+   //whyus testimonials header
+    $scope.header;
+    $scope.headerData     = sharedService.getData('/outsource/json/testimonials/main.json').then(function(data){
+        $scope.header     = data.header;
+    });
+
+    //whyus testimonials
+    $scope.testimon;
+    $scope.testimonData     = sharedService.getData('/outsource/json/testimonials/main.json').then(function(data){
+        $scope.testimon     = data.main;
     });
 
 
@@ -542,6 +580,22 @@ outsource.directive('whysection', function(){
      replace: true,
      templateUrl: "src/app/components/views/why-us-section.html"
   };
+});
+/*
+ * This is the directive for packages on first step
+ */
+
+outsource.directive('whyustestimonials', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute) {
+          
+	   },
+
+	   replace: true,
+	   templateUrl: "src/app/components/views/why-us-testimonials-directive.html"
+	};
 });
 /*
  * This is the directive working areas on why-us page

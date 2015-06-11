@@ -1,0 +1,42 @@
+<div>
+<div class="container">
+<section class="page-header">
+    <div class="row">
+      <div class="col-md-8 col-sm-8 col-lg-8 col-xs-8">
+        <span class="present">
+          <h1>{{ header.title }}</h1>
+          <p>
+            Svojim kvalitetnim radom smo zavrijedili povjerenje preko <strong>200</strong> 
+            naših klijenata, o čemu najbolje  svjedoči svaki od <strong>1000</strong> 
+            projekata na kojima smo vrijedno radili prethodnih <strong>10</strong> godina.
+          </p>
+        </span>
+      </div>
+      <div class="col-md-4 col-sm-4 col-lg-4 col-xs-4"> </div>
+    </div>
+</section>
+</div>
+
+<div class="container-fluid testimon"> 
+<div class="main-content">
+<div class="wrapper">
+<div class="clients">
+ <div class="testimonials">
+  <div id="testimonials-carusel">
+    <div ng-repeat=" x in testimon" class="testimonials-block">
+      <div class="test-img"><img src="{{ x.img}}" alt=""></div>
+      <div class="test-desc">
+        <p> {{ x.text}}</p>
+        <div class="author">{{ x.author}}</div>
+        <p></p>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<p id="testimon-margin"></p>
+</div>
+</div>

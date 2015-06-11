@@ -114,6 +114,32 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
+            .state('testimonials', { 
+                parent: 'home',
+                url: ' /why-us/testimonials',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/why-us-testimonials.html',
+                        controller:  'whyusCtrl'
+                    }
+                     
+                }
+                  
+            })
+            .state('why-us-technology', { 
+                parent: 'home',
+                url: ' /why-us/technology',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/why-us-testimonials.html',
+                        controller:  'whyusCtrl'
+                    }
+                     
+                }
+                  
+            })
 
 
             

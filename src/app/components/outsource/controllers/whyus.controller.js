@@ -16,6 +16,18 @@ app.controller('whyusCtrl', ['$scope', 'sharedService', function($scope, sharedS
         $scope.what     = data.stakazu;
     });
 
+   //whyus testimonials header
+    $scope.header;
+    $scope.headerData     = sharedService.getData('/outsource/json/testimonials/main.json').then(function(data){
+        $scope.header     = data.header;
+    });
+
+    //whyus testimonials
+    $scope.testimon;
+    $scope.testimonData     = sharedService.getData('/outsource/json/testimonials/main.json').then(function(data){
+        $scope.testimon     = data.main;
+    });
+
 
 	
 }]);

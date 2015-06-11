@@ -85,6 +85,9 @@ div ul.nav.navbar-nav {
 	padding-left: 2.5%;
 	width: 100%;
 	li {
+		&.clicked {
+			background-color: #009AE2;
+		}
 		float: left;
 		width: 18%;
 		margin: 0px;
@@ -129,11 +132,13 @@ div ul.nav.navbar-nav {
 	}
 	#order-now {
 		width: 19.5%;
+
 		.navbar-link {
 			text-transform: uppercase;
 			color: $order-now-color;		
 			&:hover {
-				color: $blue-bg;
+				color: white;
+
 			}
 		}
 	}
