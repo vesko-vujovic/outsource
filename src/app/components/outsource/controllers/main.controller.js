@@ -12,7 +12,6 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
 
 	    
 	});
-    
 
     //data for navbar
 	$scope.navbar;
@@ -37,11 +36,13 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
 	$scope.aboutusData         = sharedService.getData('/outsource/json/index/onama.json').then(function(data){
 	    $scope.aboutus         = data.about;
 	});
+	
     //data for clients
     $scope.clients;
 	$scope.clientData          = sharedService.getData('/outsource/json/index/klijenti.json').then(function(data){
 	    $scope.clients         = data.client;
 	});
+
     //data  for what they say
     $scope.what;
     $scope.whatData     = sharedService.getData('/outsource/json/index/stakazu.json').then(function(data){

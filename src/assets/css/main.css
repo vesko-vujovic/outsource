@@ -6803,4 +6803,252 @@ div.wrapper.dedicated-packages {
           padding: 10px 15px;
           margin-top: 20px; }
 
+/* style for 'za┼íto mi' page */
+.page-header {
+  margin-top: 50px;
+  border: none;
+  padding-top: 15px; }
+
+.present h1 {
+  color: #F7A033;
+  /* adjusting 'Tehnology and solution' header */
+  font-weight: 600;
+  font-style: oblique; }
+.present p {
+  color: #787878; }
+
+.testimonials {
+  /* positioning element 'testimonials' */
+  position: relative;
+  left: 0px;
+  background-color: white;
+  width: 100%;
+  margin-top: 3355px; }
+  .testimonials .container {
+    padding-left: 15px; }
+
+.testim-head h3 {
+  padding-bottom: 30px;
+  color: #009AE2;
+  text-align: center;
+  font-weight: 600; }
+
+.client-block {
+  /* setting width for each client's testimonial */
+  width: 33.33%;
+  color: #646464; }
+
+.client-block:hover {
+  /* animating client block */
+  animation-name: pulse;
+  animation-duration: 2s; }
+
+.testim p, .client-name p {
+  /* positioning and editing client's testimonial text */
+  width: 70%;
+  position: relative;
+  left: 100px;
+  bottom: 75px; }
+
+.client-name p {
+  /* editing text for name of client */
+  font-weight: 600;
+  font-size: 1.2em;
+  color: black; }
+
+.img-circle {
+  /* editing client's image */
+  border: 1px solid #C8C8C8; }
+
+nav.footer-wrap {
+  /* positioning footer for this page */
+  top: 3930px;
+  /* temporary solution */ }
+
+#topclass {
+  background-color: #E6E6E6 !important; }
+
+.front {
+  left: 0;
+  width: 100%;
+  margin-top: 30px;
+  padding-left: 55px; }
+  .front .container {
+    background-image: url("../img/zasto-mi/front.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; }
+    .front .container h3 {
+      font-size: 1.2em;
+      font-style: oblique;
+      font-weight: 600;
+      color: #646464; }
+    .front .container .cost-eff {
+      width: 25%;
+      position: relative;
+      left: 43%;
+      top: 10px;
+      text-align: justify; }
+    .front .container .our-team {
+      width: 12%;
+      position: relative;
+      left: 84%;
+      top: 20px;
+      text-align: center; }
+    .front .container .top-profi {
+      float: left;
+      width: 35%;
+      margin-top: 6%;
+      margin-right: 0;
+      /*position: relative;
+      top: 50%;*/
+      text-align: justify; }
+    .front .container .our-infra {
+      width: 20%;
+      position: relative;
+      left: 75%;
+      top: -50px;
+      text-align: justify; }
+
+.veskov-dio {
+  position: absolute;
+  left: 0;
+  background-color: #002637;
+  width: 100%;
+  margin-top: 600px;
+  height: 650px; }
+
+.work-areas {
+  position: absolute;
+  left: 0;
+  background-color: #E6E6E6;
+  width: 100%;
+  margin-top: 1250px; }
+  .work-areas .feature {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding-left: 2%;
+    background-color: white;
+    width: 32%;
+    height: 190px; }
+    .work-areas .feature h2 {
+      width: 70%;
+      color: #009AE2;
+      font-weight: 600;
+      font-style: oblique;
+      font-size: 1.6em; }
+    .work-areas .feature p {
+      color: #646464; }
+  .work-areas .feature-left {
+    background-image: url("src/assets/img/zasto-mi/ads1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 99% 100%; }
+    .work-areas .feature-left p {
+      width: 75%; }
+  .work-areas .feature-mid {
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: url("src/assets/img/zasto-mi/ads2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 99% 100%; }
+    .work-areas .feature-mid p {
+      width: 85%; }
+  .work-areas .feature-right {
+    background-image: url("src/assets/img/zasto-mi/ads3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 99% 100%; }
+    .work-areas .feature-right p {
+      width: 60%; }
+  .work-areas .sub-header {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px; }
+    .work-areas .sub-header h2 {
+      font-size: 2.4em;
+      font-weight: 600; }
+    .work-areas .sub-header p {
+      font-size: 1.4em; }
+  .work-areas .round-areas {
+    padding-top: 30px;
+    background-image: url("src/assets/img/zasto-mi/round.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .work-areas .round-areas .go-right {
+      float: right;
+      text-align: right; }
+    .work-areas .round-areas h2 {
+      font-size: 1.4em;
+      font-weight: 600;
+      color: #00608D; }
+    .work-areas .round-areas p {
+      color: #646464; }
+    .work-areas .round-areas .stay-left, .work-areas .round-areas .go-right {
+      margin-top: 20px; }
+    .work-areas .round-areas .first-row, .work-areas .round-areas .second-row, .work-areas .round-areas .third-row {
+      padding-top: 10px; }
+    .work-areas .round-areas .fourth-row {
+      padding-bottom: 100px; }
+
+.faqs {
+  background-color: #F8A01A;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin-top: 2710px;
+  padding-left: 55px; }
+  .faqs .container {
+    position: relative;
+    padding: 0;
+    color: white; }
+    .faqs .container h3 {
+      color: #F9B348; }
+    .faqs .container .hidden {
+      display: none; }
+    .faqs .container .faqs-header {
+      padding-top: 30px;
+      text-align: right;
+      background-image: url("../img/order/question1.png");
+      background-position: 0px 0px;
+      background-size: cover;
+      padding-bottom: 400px; }
+      .faqs .container .faqs-header p {
+        width: 40%;
+        margin-left: 50%; }
+      .faqs .container .faqs-header h2 {
+        font-size: 3.5em;
+        font-weight: 600;
+        font-style: oblique;
+        width: 60%;
+        margin-left: 30%; }
+    .faqs .container .question {
+      margin-bottom: 40px;
+      position: relative;
+      top: 30px; }
+      .faqs .container .question h3 {
+        float: left;
+        font-size: 3em;
+        font-weight: 600;
+        font-style: oblique;
+        margin-right: 3%; }
+      .faqs .container .question h4 {
+        font-weight: 600;
+        font-style: oblique; }
+      .faqs .container .question h4, .faqs .container .question p {
+        position: relative;
+        top: 20px; }
+    .faqs .container #expander {
+      background-image: url("../img/order/arrow1.png");
+      background-size: cover;
+      width: 130px;
+      height: 40px;
+      position: relative;
+      top: 60px;
+      left: 40%; }
+
+div.container-fluid .front {
+  background-color: #E6E6E6; }
+
 /*# sourceMappingURL=main.css.map */

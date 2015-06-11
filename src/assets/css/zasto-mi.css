@@ -1,10 +1,7 @@
 @charset "UTF-8";
 /* style for 'za┼íto mi' page */
 .page-header {
-  position: relative;
-  /* positioning white div-'present' under header */
-  top: 45px;
-  left: 15px;
+  margin-top: 50px;
   border: none;
   padding-top: 15px; }
 
@@ -64,10 +61,11 @@ nav.footer-wrap {
   top: 3930px;
   /* temporary solution */ }
 
+#topclass {
+  background-color: #E6E6E6 !important; }
+
 .front {
-  position: absolute;
   left: 0;
-  background-color: #E6E6E6;
   width: 100%;
   margin-top: 30px;
   padding-left: 55px; }
@@ -137,7 +135,7 @@ nav.footer-wrap {
     .work-areas .feature p {
       color: #646464; }
   .work-areas .feature-left {
-    background-image: url("../img/zasto-mi/ads1.jpg");
+    background-image: url("src/assets/img/zasto-mi/ads1.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 99% 100%; }
@@ -146,14 +144,14 @@ nav.footer-wrap {
   .work-areas .feature-mid {
     margin-left: 2%;
     margin-right: 2%;
-    background-image: url("../img/zasto-mi/ads2.jpg");
+    background-image: url("src/assets/img/zasto-mi/ads2.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 99% 100%; }
     .work-areas .feature-mid p {
       width: 85%; }
   .work-areas .feature-right {
-    background-image: url("../img/zasto-mi/ads3.jpg");
+    background-image: url("src/assets/img/zasto-mi/ads3.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 99% 100%; }
@@ -171,7 +169,7 @@ nav.footer-wrap {
       font-size: 1.4em; }
   .work-areas .round-areas {
     padding-top: 30px;
-    background-image: url("../img/zasto-mi/round.jpg");
+    background-image: url("src/assets/img/zasto-mi/round.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
     .work-areas .round-areas .go-right {
@@ -245,5 +243,8 @@ nav.footer-wrap {
       position: relative;
       top: 60px;
       left: 40%; }
+
+div.container-fluid .front {
+  background-color: #E6E6E6; }
 
 /*# sourceMappingURL=zasto-mi.css.map */

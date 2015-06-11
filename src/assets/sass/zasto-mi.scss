@@ -1,0 +1,320 @@
+/* style for 'zašto mi' page */
+
+
+.page-header {
+	margin-top: 50px;
+	border: none;
+	padding-top: 15px;
+}
+.present {
+	h1 {
+	color: #F7A033;			/* adjusting 'Tehnology and solution' header */
+	font-weight: 600;
+	font-style: oblique;
+	}
+	 p {			
+	color: #787878;
+	}
+}
+.testimonials {					/* positioning element 'testimonials' */
+	position: relative;
+	left: 0px;
+	background-color: white;
+	width: 100%;
+	margin-top: 3355px;
+	 .container {
+	padding-left: 15px;
+	}
+}
+.testim-head h3 {
+	padding-bottom: 30px;
+	color: #009AE2;
+	text-align: center;
+	font-weight: 600;
+}
+.client-block {		/* setting width for each client's testimonial */
+	width: 33.33%;
+	color: #646464;
+}
+.client-block:hover {		/* animating client block */
+	animation-name: pulse;									
+	animation-duration: 2s;
+}
+.testim, .client-name {
+	p {					/* positioning and editing client's testimonial text */
+	width: 70%;
+	position: relative;
+	left: 100px;
+	bottom: 75px;
+	}
+}
+.client-name p {		/* editing text for name of client */
+	font-weight: 600;
+	font-size: 1.2em;
+	color: black;
+}
+.img-circle {					/* editing client's image */
+	border: 1px solid #C8C8C8;
+}
+nav.footer-wrap {		/* positioning footer for this page */
+	top: 3930px;			/* temporary solution */
+}
+
+ 
+#topclass {
+
+    	background-color: #E6E6E6 !important;
+}
+  
+	.front {
+	left: 0;
+	width: 100%;
+	margin-top: 30px;
+	padding-left: 55px;
+
+	.container{
+		background-image: url('../img/zasto-mi/front.jpg');
+		background-repeat: no-repeat;
+		background-size: contain;
+
+		h3 {
+			font-size: 1.2em;
+			font-style: oblique;
+			font-weight: 600;
+			color: #646464;
+		}
+
+		.cost-eff {
+			width: 25%;
+			position: relative;
+			left: 43%;
+			top: 10px;
+			text-align: justify;
+		}
+
+		.our-team {
+			width: 12%;
+			position: relative;
+			left: 84%;
+			top: 20px;
+			text-align: center;
+		}
+
+		.top-profi {
+			float: left;
+			width: 35%;
+			margin-top: 6%;
+			margin-right: 0;
+			/*position: relative;
+			top: 50%;*/
+			text-align: justify;
+		}
+		.our-infra {
+			width: 20%;
+			position: relative;
+			left: 75%;
+			top: -50px;
+			text-align: justify;
+		}
+	}
+}
+
+
+
+
+.veskov-dio {
+	position: absolute;
+	left: 0;
+	background-color: #002637;
+	width: 100%;
+	margin-top: 600px;
+	height: 650px;
+}
+.work-areas {
+	position: absolute;
+	left: 0;
+	background-color: #E6E6E6;
+	width: 100%;
+	margin-top: 1250px;
+
+	.feature {
+		margin-top: 70px;
+		margin-bottom: 30px;
+		padding-left: 2%;
+		background-color: white;
+		width: 32%;
+		height: 190px;
+
+		 h2 {
+		 	width: 70%;
+		 	color: #009AE2;
+		 	font-weight: 600;
+		 	font-style: oblique;
+		 	font-size: 1.6em;
+		 }
+
+		 p {
+		 	color: #646464;
+		 }
+	}
+	.feature-left {
+		background-image: url('src/assets/img/zasto-mi/ads1.jpg');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: 99% 100%;
+
+		p {
+			width: 75%;
+		}
+	}
+	.feature-mid {
+		margin-left: 2%;
+		margin-right: 2%;
+		background-image: url('src/assets/img/zasto-mi/ads2.jpg');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: 99% 100%;
+
+		p {
+			width: 85%;
+		}
+	}
+	.feature-right {
+		background-image: url('src/assets/img/zasto-mi/ads3.jpg');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: 99% 100%;
+
+		p {
+			width: 60%;
+		}
+	}
+
+	.sub-header {
+		text-align: center;
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top: 30px;
+
+
+		h2 {
+			font-size: 2.4em;
+			font-weight: 600;
+		}
+
+		p {
+			font-size: 1.4em;
+		}
+	}
+
+	.round-areas {
+		padding-top: 30px;
+		background-image: url('src/assets/img/zasto-mi/round.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		.go-right {
+			float: right;
+			text-align: right;
+		}
+		h2 {
+			font-size: 1.4em;
+			font-weight: 600;
+			color: #00608D;
+		}
+		p {
+			color: #646464;
+		}
+		.stay-left, .go-right {
+			margin-top: 20px;
+		}
+		.first-row, .second-row, .third-row {
+			padding-top: 10px; 
+		}
+		.fourth-row {
+			padding-bottom: 100px;
+		}
+	}
+}
+.faqs {
+	background-color: #F8A01A;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	margin-top: 2710px;
+	padding-left: 55px;
+
+	.container {
+		position: relative;
+		padding: 0;
+		color: white;
+
+		h3 {
+			color: #F9B348;
+		}
+
+		.hidden {
+			display: none;
+		}
+
+		.faqs-header {
+			padding-top: 30px;
+			text-align: right;
+			background-image: url("../img/order/question1.png");
+			background-position: 0px 0px;
+			background-size: cover;
+			padding-bottom: 400px;
+
+			p {
+				width: 40%;
+				margin-left: 50%;
+			}
+
+			h2 {
+				font-size: 3.5em;
+				font-weight: 600;
+				font-style: oblique;
+				width: 60%;
+				margin-left: 30%;
+			}
+		}
+
+		.question {
+			margin-bottom: 40px;
+			position: relative;
+			top: 30px;
+
+			h3 {
+				float: left;
+				font-size: 3em;
+				font-weight: 600;
+				font-style: oblique;
+				margin-right: 3%;
+			}
+
+			h4 {
+				font-weight: 600;
+				font-style: oblique;
+			}
+
+			h4, p {
+				position: relative;
+				top: 20px;
+			}
+		}
+
+		#expander {
+			background-image: url("../img/order/arrow1.png");
+			background-size: cover;
+			width: 130px;
+			height: 40px;
+			position: relative;
+			top: 60px;
+			left: 40%;
+		}
+	}
+}
+
+div.container-fluid .front {
+	background-color: #E6E6E6;
+}

@@ -103,7 +103,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
             })
             .state('why-us', { 
                 parent: 'home',
-                url: '/step-three',
+                url: '/why-us',
                 views: {
                      
                     inner: {
