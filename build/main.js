@@ -207,11 +207,19 @@ var app = angular.module('outsourceApp');
 //here we define controller
 app.controller('whyusCtrl', ['$scope', 'sharedService', function($scope, sharedService){
      
-   //data for why us 
+    //data for why us 
     $scope.whyus;
 	$scope.whyusData           = sharedService.getData('/outsource/json/index/whyus.json').then(function(data){
 	    $scope.whyus           = data.why; 
 	});
+
+	//data  for what they say
+    $scope.what;
+    $scope.whatData     = sharedService.getData('/outsource/json/index/stakazu.json').then(function(data){
+        $scope.what     = data.stakazu;
+    });
+
+
 	
 }]);
 
@@ -458,6 +466,37 @@ outsource.directive('slider', function(){
 	};
 });
 /*
+ * This is the directive working areas on why-us page
+ */
+
+outsource.directive('whyusclient', function() {
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute) {
+
+	   },
+
+	   replace: true,
+	   templateUrl: 'src/app/components/views/why-us-client.html'
+	};
+});
+/*
+ * This is the directive working areas on why-us frequent asked questions
+ */
+outsource.directive('whyusfaq', function() {
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+
+	   },
+
+	   replace: true,
+	   templateUrl: 'src/app/components/views/why-us-faq.html'
+	};
+});
+/*
  * This is the directive why-us fonr part 
  * part where you have top class professionals
  */
@@ -503,6 +542,22 @@ outsource.directive('whysection', function(){
      replace: true,
      templateUrl: "src/app/components/views/why-us-section.html"
   };
+});
+/*
+ * This is the directive working areas on why-us page
+ */
+
+outsource.directive('workareas', function() {
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+
+	   },
+
+	   replace: true,
+	   templateUrl: 'src/app/components/views/why-us-work-areas.html'
+	};
 });
 outsource.directive('whyus', function(){
 

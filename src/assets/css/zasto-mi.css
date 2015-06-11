@@ -58,11 +58,8 @@
       text-align: justify; }
 
 .work-areas {
-  position: absolute;
-  left: 0;
   background-color: #E6E6E6;
-  width: 100%;
-  margin-top: 1250px; }
+  width: 100%; }
   .work-areas .feature {
     margin-top: 70px;
     margin-bottom: 30px;
@@ -79,7 +76,7 @@
     .work-areas .feature p {
       color: #646464; }
   .work-areas .feature-left {
-    background-image: url("src/assets/img/zasto-mi/ads1.jpg");
+    background-image: url("../img/zasto-mi/ads1.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 99% 100%; }
@@ -88,14 +85,14 @@
   .work-areas .feature-mid {
     margin-left: 2%;
     margin-right: 2%;
-    background-image: url("src/assets/img/zasto-mi/ads2.jpg");
+    background-image: url("../img/zasto-mi/ads2.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 99% 100%; }
     .work-areas .feature-mid p {
       width: 85%; }
   .work-areas .feature-right {
-    background-image: url("src/assets/img/zasto-mi/ads3.jpg");
+    background-image: url("../img/zasto-mi/ads3.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 99% 100%; }
@@ -113,7 +110,7 @@
       font-size: 1.4em; }
   .work-areas .round-areas {
     padding-top: 30px;
-    background-image: url("src/assets/img/zasto-mi/round.jpg");
+    background-image: url("../img/zasto-mi/round.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
     .work-areas .round-areas .go-right {
@@ -134,10 +131,6 @@
 
 .faqs {
   background-color: #F8A01A;
-  position: absolute;
-  left: 0;
-  width: 100%;
-  margin-top: 2710px;
   padding-left: 55px; }
   .faqs .container h3 {
     color: #F9B348; }
@@ -149,7 +142,8 @@
     background-image: url("../img/order/question1.png");
     background-position: 0px 0px;
     background-size: cover;
-    padding-bottom: 400px; }
+    padding-bottom: 400px;
+    color: white; }
     .faqs .container .faqs-header p {
       width: 40%;
       margin-left: 50%; }
@@ -158,7 +152,8 @@
       font-weight: 600;
       font-style: oblique;
       width: 60%;
-      margin-left: 30%; }
+      margin-left: 30%;
+      color: white; }
   .faqs .container .question {
     margin-bottom: 40px; }
     .faqs .container .question h3 {
@@ -169,8 +164,10 @@
       margin-right: 3%; }
     .faqs .container .question h4 {
       font-weight: 600;
-      font-style: oblique; }
+      font-style: oblique;
+      color: white; }
     .faqs .container .question h4, .faqs .container .question p {
+      color: white;
       position: relative;
       top: 20px; }
   .faqs .container #expander {

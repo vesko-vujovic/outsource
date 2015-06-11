@@ -30,6 +30,8 @@ div.links > a:hover{
 	color: blue;
 }
 
+
+
 .dropdown-nav, .whyus, .packageprices {
 	background: #009ae2;
 	min-width: 980px;
@@ -55,6 +57,19 @@ div.links > a:hover{
 		}
 	}
 }
+
+.whyus ul  li{
+	  
+		 	font-weight: bold;
+			float: left;
+			width: 20.00%;
+			text-align: center;			
+		
+}
+
+
+
+
 
 .wrapper{
   width: 980px;
