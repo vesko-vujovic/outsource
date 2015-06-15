@@ -101,6 +101,19 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
+            .state('dedicated-team-price-step-one', { 
+                parent: 'home',
+                url: '/dedicated-team-price-step-one',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/dedicated-team-price-homepage.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
             .state('why-us', { 
                 parent: 'home',
                 url: '/why-us',
@@ -369,6 +382,22 @@ outsource.directive('dedicatedprices', function(){
 
 	   replace: true,
 	   templateUrl: "src/app/components/views/dedicated-step-two.html"
+	};
+});
+/*
+ * This is the directive for dedicated-team-prices-step-one
+ */
+
+outsource.directive('dedicatedteampricestepone', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+              
+	   },
+
+	   replace: true,
+	   templateUrl: 'src/app/components/views/dedicated-team-prices-step-one.html'
 	};
 });
 /**

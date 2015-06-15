@@ -101,6 +101,19 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
+            .state('dedicated-team-price-step-one', { 
+                parent: 'home',
+                url: '/dedicated-team-price-step-one',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/dedicated-team-price-homepage.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
             .state('why-us', { 
                 parent: 'home',
                 url: '/why-us',
