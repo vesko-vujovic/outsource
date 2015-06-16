@@ -2,7 +2,7 @@
  * This is the directive for dedicated-team-prices-step-two
  */
 
-outsource.directive('dedicatedteampricestepone', function(){
+outsource.directive('dedicatedteampricesteptwo', function(){
 
 	return {
 	   restrict: 'E',

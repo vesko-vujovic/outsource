@@ -442,7 +442,7 @@ outsource.directive('dedicatedteampricestepone', function(){
  * This is the directive for dedicated-team-prices-step-two
  */
 
-outsource.directive('dedicatedteampricestepone', function(){
+outsource.directive('dedicatedteampricesteptwo', function(){
 
 	return {
 	   restrict: 'E',
@@ -530,7 +530,7 @@ outsource.directive('packages', function(){
  * This is the service price list directive steo one
  */
 
-outsource.directive('stepfour', function(){
+outsource.directive('servicepriceliststepone', function(){
 
 	return {
 	   restrict: 'E',

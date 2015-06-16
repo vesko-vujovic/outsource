@@ -2,7 +2,7 @@
  * This is the service price list directive steo one
  */
 
-outsource.directive('stepfour', function(){
+outsource.directive('servicepriceliststepone', function(){
 
 	return {
 	   restrict: 'E',
