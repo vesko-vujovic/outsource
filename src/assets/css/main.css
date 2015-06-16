@@ -7274,4 +7274,159 @@ div.wrapper.dedicated-packages {
     width: 97%;
     margin: auto; }
 
+#service-one-wrap {
+  background-color: #E6E6E6; }
+  #service-one-wrap .service-price-list {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 50px; }
+    #service-one-wrap .service-price-list .list-header {
+      background-color: white; }
+      #service-one-wrap .service-price-list .list-header ul {
+        list-style-type: none;
+        padding: 0; }
+      #service-one-wrap .service-price-list .list-header li {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+        font-size: 1.4em;
+        color: #A0A0A0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #c6c6c6; }
+      #service-one-wrap .service-price-list .list-header li:hover {
+        background-color: #009AE2;
+        color: white; }
+    #service-one-wrap .service-price-list .list-table {
+      background-color: white;
+      margin-bottom: 20px; }
+      #service-one-wrap .service-price-list .list-table h3 {
+        font-size: 1.2em;
+        color: #009AE2;
+        font-weight: 600;
+        margin-left: 3%; }
+      #service-one-wrap .service-price-list .list-table li {
+        margin-top: 20px;
+        color: #646464;
+        padding-left: 3%;
+        height: 33px; }
+      #service-one-wrap .service-price-list .list-table ul {
+        position: relative;
+        background-color: white;
+        width: 200px;
+        z-index: 2;
+        list-style-type: none; }
+      #service-one-wrap .service-price-list .list-table .horizontal-line {
+        border: 1px solid #E6E6E6;
+        position: relative;
+        top: -225px;
+        left: 0px;
+        width: 100%;
+        margin-top: 50px;
+        z-index: 1; }
+      #service-one-wrap .service-price-list .list-table .check-price {
+        height: 33px;
+        width: 50px;
+        margin-top: 20px;
+        text-align: center;
+        color: #646464;
+        background-color: white;
+        position: relative;
+        top: -415px;
+        left: 90%;
+        z-index: 2; }
+      #service-one-wrap .service-price-list .list-table .logo-id {
+        float: left;
+        width: 45%;
+        padding-top: 20px;
+        padding-left: 3%;
+        height: 300px; }
+      #service-one-wrap .service-price-list .list-table .ux {
+        float: right;
+        width: 47%;
+        padding-top: 20px;
+        padding-right: 2%;
+        height: 520px; }
+        #service-one-wrap .service-price-list .list-table .ux ul {
+          width: 250px; }
+        #service-one-wrap .service-price-list .list-table .ux .horizontal-line {
+          top: -435px; }
+        #service-one-wrap .service-price-list .list-table .ux .check-price {
+          top: -835px; }
+      #service-one-wrap .service-price-list .list-table .web-site {
+        clear: left;
+        float: left;
+        width: 45%;
+        padding-left: 3%;
+        height: 340px; }
+        #service-one-wrap .service-price-list .list-table .web-site .horizontal-line {
+          top: -278px; }
+        #service-one-wrap .service-price-list .list-table .web-site .check-price {
+          top: -520px; }
+      #service-one-wrap .service-price-list .list-table .clothing {
+        clear: right;
+        float: right;
+        width: 47%;
+        padding-right: 2%;
+        height: 240px; }
+        #service-one-wrap .service-price-list .list-table .clothing .horizontal-line {
+          top: -173px; }
+        #service-one-wrap .service-price-list .list-table .clothing .check-price {
+          top: -310px; }
+      #service-one-wrap .service-price-list .list-table .business {
+        clear: left;
+        float: left;
+        width: 45%;
+        padding-left: 3%;
+        height: 450px; }
+        #service-one-wrap .service-price-list .list-table .business .horizontal-line {
+          top: -381px; }
+        #service-one-wrap .service-price-list .list-table .business .check-price {
+          top: -730px; }
+      #service-one-wrap .service-price-list .list-table .art {
+        clear: right;
+        float: right;
+        width: 47%;
+        padding-right: 2%;
+        height: 240px; }
+        #service-one-wrap .service-price-list .list-table .art .horizontal-line {
+          top: -171px; }
+        #service-one-wrap .service-price-list .list-table .art .check-price {
+          top: -308px; }
+      #service-one-wrap .service-price-list .list-table .book {
+        clear: right;
+        float: right;
+        width: 47%;
+        padding-right: 2%;
+        height: 240px; }
+        #service-one-wrap .service-price-list .list-table .book .horizontal-line {
+          top: -171px; }
+        #service-one-wrap .service-price-list .list-table .book .check-price {
+          top: -308px; }
+      #service-one-wrap .service-price-list .list-table .packaging {
+        clear: left;
+        float: left;
+        width: 45%;
+        padding-left: 3%;
+        height: 240px; }
+        #service-one-wrap .service-price-list .list-table .packaging .horizontal-line {
+          top: -173px; }
+        #service-one-wrap .service-price-list .list-table .packaging .check-price {
+          top: -310px; }
+    #service-one-wrap .service-price-list .order-select {
+      margin-top: 0px;
+      margin-bottom: 50px;
+      width: 20%;
+      margin-left: 80%;
+      margin-right: 0%;
+      background-color: #F8A01A;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      border: 0px;
+      font-size: 1.2em;
+      font-weight: 400;
+      text-align: center;
+      color: white; }
+
 /*# sourceMappingURL=main.css.map */

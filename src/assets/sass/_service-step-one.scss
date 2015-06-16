@@ -1,0 +1,198 @@
+#service-one-wrap {
+	background-color: #E6E6E6;
+	.service-price-list {
+		width: 100%;
+		padding-left: 8%;
+		padding-right: 8%;
+		margin-top: 50px;
+		.list-header {
+			background-color: white;
+			ul {
+				list-style-type: none;
+				padding: 0;
+			}
+			li {
+				float:left;
+				width: 33.33%;
+				text-align: center;
+				font-size: 1.4em;
+				color: #A0A0A0;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				border-bottom: 2px solid #c6c6c6;
+			}
+			li:hover {
+				background-color: #009AE2;
+				color: white;
+			}
+		}
+		.list-table {
+			background-color: white;
+			margin-bottom: 20px;
+			h3 {
+				font-size: 1.2em;
+				color: #009AE2;
+				font-weight: 600;
+				margin-left: 3%;
+			}
+			li {
+				margin-top: 20px;
+				color: #646464;
+				padding-left: 3%;
+				height: 33px;
+			}
+			ul {
+				position: relative;
+				background-color: white;
+				width: 200px;
+				z-index: 2;
+				list-style-type: none;
+			}
+			.horizontal-line {
+					border: 1px solid #E6E6E6;
+					position: relative;
+					top: -225px;
+					left: 0px;
+					width: 100%;
+					margin-top: 50px;
+					z-index: 1;
+			}
+			.check-price {
+				height: 33px;
+				width: 50px;
+				margin-top: 20px;
+				text-align: center;
+				color: #646464;
+				background-color: white;
+				position: relative;
+				top: -415px;
+				left: 90%;
+				z-index: 2;
+			}
+			.logo-id {
+				float: left;
+				width: 45%;
+				padding-top: 20px;
+				padding-left: 3%;
+				height: 300px;
+			}	
+			.ux {
+				float: right;
+				width: 47%;
+				padding-top: 20px;
+				padding-right: 2%;
+				height: 520px;
+				ul {
+					width: 250px;
+				}
+				.horizontal-line{
+					top: -435px;
+				}
+				.check-price {
+					top: -835px;
+				}
+			}
+			.web-site {
+				clear: left;
+				float: left;
+				width: 45%;
+				padding-left: 3%;
+				height: 340px;
+
+				.horizontal-line{
+					top: -278px;
+				}
+
+				.check-price {
+					top: -520px;
+				}
+			}
+			.clothing {
+				clear: right;
+				float: right;
+				width: 47%;
+				padding-right: 2%;
+				height: 240px;
+
+				.horizontal-line{
+					top: -173px;
+				}
+
+				.check-price {
+					top: -310px;
+				}
+			}
+			.business {
+				clear: left;
+				float: left;
+				width: 45%;
+				padding-left: 3%;
+				height: 450px;
+
+				.horizontal-line{
+					top: -381px;
+				}
+
+				.check-price {
+					top: -730px;
+				}
+			}
+			.art {
+				clear: right;
+				float: right;
+				width: 47%;
+				padding-right: 2%;
+				height: 240px;
+
+				.horizontal-line{
+					top: -171px;
+				}
+
+				.check-price {
+					top: -308px;
+				}
+			}
+			.book {
+				clear: right;
+				float: right;
+				width: 47%;
+				padding-right: 2%;
+				height: 240px;
+				.horizontal-line{
+					top: -171px;
+				}
+				.check-price {
+					top: -308px;
+				}
+			}
+			.packaging {
+				clear: left;
+				float: left;
+				width: 45%;
+				padding-left: 3%;
+				height: 240px;
+				.horizontal-line{
+					top: -173px;
+				}
+				.check-price {
+					top: -310px;
+				}
+			}
+		}
+		.order-select {
+    	  margin-top: 0px;
+    	  margin-bottom: 50px;
+    	  width: 20%;
+  		  margin-left: 80%;
+ 		  margin-right: 0%;
+ 		  background-color: #F8A01A;
+	      padding-top: 20px;
+	      padding-bottom: 10px;
+	      border: 0px;
+	      font-size: 1.2em;
+	      font-weight: 400;
+	      text-align: center;
+	      color: white; 		
+	    }
+	}
+}
