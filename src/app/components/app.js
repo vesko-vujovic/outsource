@@ -114,6 +114,44 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
+            .state('dedicated-team-price-step-two', { 
+                parent: 'home',
+                url: '/dedicated-team-price-step-one',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/dedicated-team-prices-step-two.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+             .state('service-price-list-home', { 
+                parent: 'home',
+                url: '/service-price-list-home',
+                views: {
+                    inner: {
+                        templateUrl: 'src/app/components/views/service-price-list-homepage.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+            .state('service-price-list-step-one', { 
+                parent: 'home',
+                url: '/service-price-list-step-one',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/service-price-list-step-one.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
             .state('why-us', { 
                 parent: 'home',
                 url: '/why-us',
