@@ -7429,4 +7429,132 @@ div.wrapper.dedicated-packages {
       text-align: center;
       color: white; }
 
+#package-prices-wrap .page-header {
+  margin-top: 30px;
+  padding-top: 0px;
+  padding-left: 6%; }
+#package-prices-wrap .veskov-dio1 {
+  background-color: #E6E6E6;
+  height: 450px; }
+#package-prices-wrap .dedicated-present {
+  padding-left: 4%; }
+  #package-prices-wrap .dedicated-present div {
+    height: 330px; }
+    #package-prices-wrap .dedicated-present div h3 {
+      width: 65%;
+      color: #009AE2;
+      font-style: oblique;
+      font-weight: 600; }
+    #package-prices-wrap .dedicated-present div p {
+      width: 55%;
+      color: #646464; }
+    #package-prices-wrap .dedicated-present div a {
+      color: #F8A01A;
+      text-decoration: none;
+      font-weight: 600; }
+  #package-prices-wrap .dedicated-present .design-team {
+    background-image: url("../img/package/man.png");
+    background-repeat: no-repeat;
+    background-position: 78% 0px; }
+  #package-prices-wrap .dedicated-present .tech-team {
+    background-image: url("../img/package/man2.png");
+    background-repeat: no-repeat;
+    background-position: 78% 0px;
+    background-size: contain; }
+  #package-prices-wrap .dedicated-present .menag-team {
+    background-image: url("../img/package/man32.png");
+    background-repeat: no-repeat;
+    background-position: 78% 0px;
+    background-size: contain; }
+#package-prices-wrap .price-list-tab {
+  background-color: #E6E6E6;
+  padding-left: 5%; }
+  #package-prices-wrap .price-list-tab .page-header {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 95%;
+    height: 150px;
+    background-color: #135276;
+    background-image: url("../img/package/pricelist.png");
+    background-repeat: no-repeat;
+    background-position: 60% 0px;
+    background-size: contain; }
+    #package-prices-wrap .price-list-tab .page-header .present {
+      padding-left: 0px; }
+      #package-prices-wrap .price-list-tab .page-header .present h3 {
+        margin-right: 20%;
+        width: 55%; }
+      #package-prices-wrap .price-list-tab .page-header .present p {
+        color: white;
+        width: 55%; }
+
+#whyus-tehnology-wrap .page-header {
+  margin-top: 30px;
+  padding-top: 0px;
+  padding-left: 6%; }
+#whyus-tehnology-wrap .tehnology-blocks {
+  background-color: #E6E6E6; }
+  #whyus-tehnology-wrap .tehnology-blocks .container {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding-left: 4%;
+    padding-top: 30px; }
+    #whyus-tehnology-wrap .tehnology-blocks .container .row {
+      margin-left: 0px; }
+  #whyus-tehnology-wrap .tehnology-blocks .tehno-block {
+    width: 30%;
+    min-width: 280px;
+    padding: 1% 2% 1% 2%;
+    background-color: white;
+    margin: .5%;
+    color: #646464; }
+    #whyus-tehnology-wrap .tehnology-blocks .tehno-block .tehno-head {
+      padding: 0px; }
+      #whyus-tehnology-wrap .tehnology-blocks .tehno-block .tehno-head h3 {
+        font-weight: 600;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 10%;
+        text-align: left; }
+    #whyus-tehnology-wrap .tehnology-blocks .tehno-block .tehno-text ul {
+      margin-top: 50px;
+      padding-left: 12%; }
+      #whyus-tehnology-wrap .tehnology-blocks .tehno-block .tehno-text ul li {
+        font-style: oblique;
+        font-size: .8em;
+        line-height: 1.6em; }
+    #whyus-tehnology-wrap .tehnology-blocks .tehno-block .float-left {
+      padding-left: 6%;
+      float: left;
+      position: relative;
+      width: 50%; }
+  #whyus-tehnology-wrap .tehnology-blocks .app-fix {
+    margin-top: -30px; }
+  #whyus-tehnology-wrap .tehnology-blocks .data-fix {
+    margin-top: -62px; }
+  #whyus-tehnology-wrap .tehnology-blocks .opp-fix {
+    margin-top: -55px; }
+#whyus-tehnology-wrap .testimonial-section .container {
+  padding-left: 4%; }
+  #whyus-tehnology-wrap .testimonial-section .container h3 {
+    padding-bottom: 30px;
+    color: #009AE2;
+    text-align: center;
+    font-weight: 600; }
+  #whyus-tehnology-wrap .testimonial-section .container .client-block {
+    width: 33.33%;
+    color: #646464; }
+  #whyus-tehnology-wrap .testimonial-section .container .client-name p {
+    font-weight: 600;
+    font-size: 1.2em;
+    color: black; }
+  #whyus-tehnology-wrap .testimonial-section .container .img-circle {
+    border: 1px solid #C8C8C8; }
+  #whyus-tehnology-wrap .testimonial-section .container .testim p, #whyus-tehnology-wrap .testimonial-section .container .client-name p {
+    /* positioning and editing client's testimonial text */
+    width: 70%;
+    position: relative;
+    left: 100px;
+    bottom: 75px; }
+
 /*# sourceMappingURL=main.css.map */

@@ -184,7 +184,20 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 views: {
                      
                     inner: {
-                        templateUrl: 'src/app/components/views/why-us-testimonials.html',
+                        templateUrl: 'src/app/components/views/why-us-technology-directive.html',
+                        controller:  'whyusCtrl'
+                    }
+                     
+                }
+                  
+            })
+            .state('packageprices', { 
+                parent: 'home',
+                url: ' /package-prices',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/package-prices-directive.html',
                         controller:  'whyusCtrl'
                     }
                      
@@ -514,6 +527,22 @@ outsource.directive('ordermain', function(){
 	   templateUrl: 'src/app/components/views/order-main.html'
 	};
 });
+/*
+ * This is the directive for package and prices
+ */
+
+outsource.directive('packageandprices', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+
+	   },
+
+	   replace: true,
+	   templateUrl: "src/app/components/views/package-prices-directive.html"
+	};
+});
 outsource.directive('packages', function(){
 
 	return {
@@ -680,6 +709,21 @@ outsource.directive('whysection', function(){
      replace: true,
      templateUrl: "src/app/components/views/why-us-section.html"
   };
+});
+/*
+ * This is the directive for why us technology
+ */
+outsource.directive('whyustechnology', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+
+	   },
+
+	   replace: true,
+	   templateUrl: "src/app/components/views/why-us-technology-directive.html"
+	};
 });
 /*
  * This is the directive for packages on first step

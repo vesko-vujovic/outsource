@@ -184,7 +184,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 views: {
                      
                     inner: {
-                        templateUrl: 'src/app/components/views/why-us-technology-homepage.html',
+                        templateUrl: 'src/app/components/views/why-us-technology-directive.html',
                         controller:  'whyusCtrl'
                     }
                      
@@ -197,7 +197,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 views: {
                      
                     inner: {
-                        templateUrl: 'src/app/components/views/package-prices-homepage.html',
+                        templateUrl: 'src/app/components/views/package-prices-directive.html',
                         controller:  'whyusCtrl'
                     }
                      
