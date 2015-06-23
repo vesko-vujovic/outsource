@@ -230,6 +230,19 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
+            .state('packageprices-technology', { 
+                parent: 'home',
+                url: '/package-prices-technology-services',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/package-prices-technology-services.html',
+                        controller:  'packageAndPricesCtrl'
+                    }
+                     
+                }
+                  
+            })
 
             
             

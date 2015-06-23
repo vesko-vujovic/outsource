@@ -230,6 +230,19 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
+            .state('packageprices-technology', { 
+                parent: 'home',
+                url: '/package-prices-technology-services',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/package-prices-technology-services.html',
+                        controller:  'packageAndPricesCtrl'
+                    }
+                     
+                }
+                  
+            })
 
             
             
@@ -591,6 +604,22 @@ outsource.directive('packages', function(){
 
 	   replace: true,
 	   templateUrl: 'src/app/components/views/packages.html'
+	};
+});
+/*
+ * This is the directive for projects ( view projects from other categories section)
+ */
+
+outsource.directive('projects', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+
+	   },
+
+	   replace: true,
+	   templateUrl: "src/app/components/views/projects.html"
 	};
 });
 /*
