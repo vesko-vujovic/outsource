@@ -152,13 +152,26 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
-            .state('service-price-list-step-one', { 
+            .state('service-price-list-design', { 
                 parent: 'home',
-                url: '/service-price-list-step-one',
+                url: '/service-price-list-design',
                 views: {
                      
                     inner: {
                         templateUrl: 'src/app/components/views/service-price-list-step-one.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+             .state('service-price-list-technology', { 
+                parent: 'home',
+                url: '/service-price-list-technology',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/service-price-list-step-two.html',
                         controller:  'dedicatedCtrl'
                     }
                      
@@ -206,18 +219,17 @@ outsource.config(function($stateProvider, $urlRouterProvider){
             })
             .state('packageprices', { 
                 parent: 'home',
-                url: ' /package-prices',
+                url: '/package-prices',
                 views: {
                      
                     inner: {
                         templateUrl: 'src/app/components/views/package-prices-directive.html',
-                        controller:  'whyusCtrl'
+                        controller:  'packageAndPricesCtrl'
                     }
                      
                 }
                   
             })
-
 
             
             

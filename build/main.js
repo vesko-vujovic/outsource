@@ -152,13 +152,26 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
-            .state('service-price-list-step-one', { 
+            .state('service-price-list-design', { 
                 parent: 'home',
-                url: '/service-price-list-step-one',
+                url: '/service-price-list-design',
                 views: {
                      
                     inner: {
                         templateUrl: 'src/app/components/views/service-price-list-step-one.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+             .state('service-price-list-technology', { 
+                parent: 'home',
+                url: '/service-price-list-technology',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/service-price-list-step-two.html',
                         controller:  'dedicatedCtrl'
                     }
                      
@@ -206,18 +219,17 @@ outsource.config(function($stateProvider, $urlRouterProvider){
             })
             .state('packageprices', { 
                 parent: 'home',
-                url: ' /package-prices',
+                url: '/package-prices',
                 views: {
                      
                     inner: {
                         templateUrl: 'src/app/components/views/package-prices-directive.html',
-                        controller:  'whyusCtrl'
+                        controller:  'packageAndPricesCtrl'
                     }
                      
                 }
                   
             })
-
 
             
             
@@ -293,6 +305,19 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
 
 	
 	
+}]);
+
+//this is the main module
+var app = angular.module('outsourceApp');
+
+//define controller
+
+app.controller('packageAndPricesCtrl', ['$scope', 'sharedService', function($scope, sharedService){
+	
+    //data for packages
+	$scope.packageData         = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
+	    $scope.packages        = data.packages; 
+	});
 }]);
 
 //this is the main module
