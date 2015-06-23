@@ -116,7 +116,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
             })
             .state('dedicated-team-price-step-two', { 
                 parent: 'home',
-                url: '/dedicated-team-price-step-one',
+                url: '/dedicated-team-price-step-two',
                 views: {
                      
                     inner: {
