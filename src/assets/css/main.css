@@ -7454,12 +7454,187 @@ div.wrapper.dedicated-packages {
           top: -310px; }
     #service-one-wrap .service-price-list .order-select {
       margin-top: 0px;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
       width: 20%;
       margin-left: 80%;
       margin-right: 0%;
       background-color: #F8A01A;
-      padding-top: 20px;
+      background-image: url("../img/order/nextStep.png");
+      background-repeat: no-repeat;
+      background-position: 93% 5px;
+      padding-top: 15px;
+      padding-bottom: 10px;
+      border: 0px;
+      font-size: 1.2em;
+      font-weight: 400;
+      text-align: center;
+      color: white; }
+
+#service-two-wrap {
+  background-color: #E6E6E6; }
+  #service-two-wrap .service-price-list {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 50px; }
+    #service-two-wrap .service-price-list .list-header {
+      background-color: white; }
+      #service-two-wrap .service-price-list .list-header ul {
+        list-style-type: none;
+        padding: 0; }
+      #service-two-wrap .service-price-list .list-header li {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+        font-size: 1.4em;
+        color: #A0A0A0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #c6c6c6; }
+      #service-two-wrap .service-price-list .list-header li:hover {
+        background-color: #009AE2;
+        color: white; }
+    #service-two-wrap .service-price-list .list-table {
+      background-color: white;
+      margin-bottom: 20px; }
+      #service-two-wrap .service-price-list .list-table h3 {
+        font-size: 1.2em;
+        color: #009AE2;
+        font-weight: 600;
+        margin-left: 3%; }
+      #service-two-wrap .service-price-list .list-table li {
+        margin-top: 20px;
+        color: #646464;
+        padding-left: 3%;
+        height: 33px; }
+      #service-two-wrap .service-price-list .list-table ul {
+        position: relative;
+        background-color: white;
+        width: 200px;
+        z-index: 2;
+        list-style-type: none; }
+      #service-two-wrap .service-price-list .list-table .horizontal-line {
+        border: 1px solid #E6E6E6;
+        position: relative;
+        top: -225px;
+        left: 0px;
+        width: 100%;
+        margin-top: 50px;
+        z-index: 1; }
+      #service-two-wrap .service-price-list .list-table .check-price {
+        height: 33px;
+        width: 50px;
+        margin-top: 20px;
+        text-align: center;
+        color: #646464;
+        background-color: white;
+        position: relative;
+        top: -415px;
+        left: 90%;
+        z-index: 2; }
+      #service-two-wrap .service-price-list .list-table .web-sites {
+        float: left;
+        width: 45%;
+        padding-top: 20px;
+        padding-left: 3%;
+        height: 330px; }
+        #service-two-wrap .service-price-list .list-table .web-sites .horizontal-line {
+          top: -282px; }
+        #service-two-wrap .service-price-list .list-table .web-sites .check-price {
+          top: -525px; }
+      #service-two-wrap .service-price-list .list-table .template {
+        float: right;
+        width: 47%;
+        padding-top: 20px;
+        padding-right: 2%;
+        height: 280px; }
+        #service-two-wrap .service-price-list .list-table .template ul {
+          width: 250px; }
+        #service-two-wrap .service-price-list .list-table .template .horizontal-line {
+          top: -230px; }
+        #service-two-wrap .service-price-list .list-table .template .check-price {
+          top: -420px; }
+      #service-two-wrap .service-price-list .list-table .component {
+        clear: left;
+        float: left;
+        width: 45%;
+        padding-left: 3%;
+        height: 1120px; }
+        #service-two-wrap .service-price-list .list-table .component .horizontal-line {
+          top: -1078px; }
+        #service-two-wrap .service-price-list .list-table .component .check-price {
+          top: -2110px; }
+      #service-two-wrap .service-price-list .list-table .device-development {
+        clear: right;
+        float: right;
+        width: 47%;
+        padding-right: 2%;
+        height: 280px; }
+        #service-two-wrap .service-price-list .list-table .device-development .horizontal-line {
+          top: -230px; }
+        #service-two-wrap .service-price-list .list-table .device-development .check-price {
+          top: -420px; }
+      #service-two-wrap .service-price-list .list-table .front-end {
+        clear: right;
+        float: right;
+        width: 47%;
+        padding-right: 2%;
+        height: 280px; }
+        #service-two-wrap .service-price-list .list-table .front-end .horizontal-line {
+          top: -230px; }
+        #service-two-wrap .service-price-list .list-table .front-end .check-price {
+          top: -420px; }
+      #service-two-wrap .service-price-list .list-table .open-source {
+        clear: right;
+        float: right;
+        width: 47%;
+        padding-right: 2%;
+        height: 240px; }
+        #service-two-wrap .service-price-list .list-table .open-source .horizontal-line {
+          top: -171px; }
+        #service-two-wrap .service-price-list .list-table .open-source .check-price {
+          top: -308px; }
+      #service-two-wrap .service-price-list .list-table .comercial {
+        clear: right;
+        float: right;
+        width: 47%;
+        padding-right: 2%;
+        height: 240px; }
+        #service-two-wrap .service-price-list .list-table .comercial .horizontal-line {
+          top: -171px; }
+        #service-two-wrap .service-price-list .list-table .comercial .check-price {
+          top: -308px; }
+      #service-two-wrap .service-price-list .list-table .hosting {
+        clear: left;
+        float: left;
+        width: 45%;
+        padding-left: 3%;
+        height: 240px; }
+        #service-two-wrap .service-price-list .list-table .hosting .horizontal-line {
+          top: -230px; }
+        #service-two-wrap .service-price-list .list-table .hosting .check-price {
+          top: -425px; }
+      #service-two-wrap .service-price-list .list-table .maintenence {
+        clear: left;
+        float: left;
+        width: 45%;
+        padding-left: 3%;
+        height: 240px; }
+        #service-two-wrap .service-price-list .list-table .maintenence .horizontal-line {
+          top: -173px; }
+        #service-two-wrap .service-price-list .list-table .maintenence .check-price {
+          top: -310px; }
+    #service-two-wrap .service-price-list .order-select {
+      margin-top: 0px;
+      margin-bottom: 30px;
+      width: 20%;
+      margin-left: 80%;
+      margin-right: 0%;
+      background-color: #F8A01A;
+      background-image: url("../img/order/nextStep.png");
+      background-repeat: no-repeat;
+      background-position: 93% 5px;
+      padding-top: 15px;
       padding-bottom: 10px;
       border: 0px;
       font-size: 1.2em;
@@ -7473,7 +7648,7 @@ div.wrapper.dedicated-packages {
   padding-left: 6%; }
 #package-prices-wrap .veskov-dio1 {
   background-color: #E6E6E6;
-  height: 450px; }
+  height: 870px; }
 #package-prices-wrap .dedicated-present {
   padding-left: 4%; }
   #package-prices-wrap .dedicated-present div {
