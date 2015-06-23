@@ -11,6 +11,6 @@ outsource.directive('dedicatedteampricesteptwo', function(){
 	   },
 
 	   replace: true,
-	   templateUrl: 'src/app/components/views/dedicated-team-prices-step-two.html'
+	   templateUrl: 'src/app/components/views/dedicated-team-prices-step-two-directive.html'
 	};
 });
