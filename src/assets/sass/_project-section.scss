@@ -1,0 +1,27 @@
+.project-clients {
+	.row {
+		margin-left: 4%;
+		margin-right: 6%;
+	}
+	.other-categories {
+		font-weight: 600;
+		font-size: 1.2em;
+		padding-top: 20px;
+		height: 60px;
+		a {
+			color: black;
+		}
+		.all-portfolio {
+			color: #a6a6a6;
+			img {
+				margin-bottom: 5px;
+			}
+		}
+	}
+	.clients-logo {
+		h4 {
+			font-weight: 600;
+			font-size: 1.6em;
+		}
+	}
+}

@@ -1,5 +1,5 @@
 /**
- * This is the main config file in this app, here we define initialization and all other things
+ * This is the main config file in this app
  */
 
 /**
@@ -101,9 +101,9 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
-            .state('dedicated-team-price-step-one', { 
+            .state('dedicated-team-price-homepage', { 
                 parent: 'home',
-                url: '/dedicated-team-price-step-one',
+                url: '/dedicated-team-price-home',
                 views: {
                      
                     inner: {
@@ -114,9 +114,28 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
+<<<<<<< HEAD
             .state('dedicated-team-price-step-two', { 
                 parent: 'home',
                 url: '/dedicated-team-price-step-two',
+=======
+            .state('dedicated-team-price-one', { 
+                parent: 'dedicated-team-price-homepage',
+                url: '/team-price-one',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/dedicated-team-prices-step-one.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+            .state('dedicated-team-price-two', { 
+                parent: 'dedicated-team-price-homepage',
+                url: '/team-price-two',
+>>>>>>> origin/master
                 views: {
                      
                     inner: {
@@ -139,13 +158,26 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
-            .state('service-price-list-step-one', { 
+            .state('service-price-list-design', { 
                 parent: 'home',
-                url: '/service-price-list-step-one',
+                url: '/service-price-list-design',
                 views: {
                      
                     inner: {
                         templateUrl: 'src/app/components/views/service-price-list-step-one.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+             .state('service-price-list-technology', { 
+                parent: 'home',
+                url: '/service-price-list-technology',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/service-price-list-step-two.html',
                         controller:  'dedicatedCtrl'
                     }
                      
@@ -184,7 +216,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 views: {
                      
                     inner: {
-                        templateUrl: 'src/app/components/views/why-us-technology-homepage.html',
+                        templateUrl: 'src/app/components/views/why-us-technology-directive.html',
                         controller:  'whyusCtrl'
                     }
                      
@@ -193,17 +225,37 @@ outsource.config(function($stateProvider, $urlRouterProvider){
             })
             .state('packageprices', { 
                 parent: 'home',
-                url: ' /package-prices',
+                url: '/package-prices',
                 views: {
                      
                     inner: {
-                        templateUrl: 'src/app/components/views/package-prices-homepage.html',
-                        controller:  'whyusCtrl'
+                        templateUrl: 'src/app/components/views/package-prices-directive.html',
+                        controller:  'packageAndPricesCtrl'
                     }
                      
                 }
                   
+            })
+            .state('packageprices-technology', { 
+                parent: 'home',
+                url: '/package-prices-technology-services',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/package-prices-technology-services.html',
+                        controller:  'packageAndPricesCtrl'
+                    }
+                     
+                }
+                  
+<<<<<<< HEAD
             })         
+=======
+            })
+
+            
+            
+>>>>>>> origin/master
     
 });
 

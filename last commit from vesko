@@ -1,0 +1,289 @@
+[33mcommit 1101624c8924182a8764ea7ee6df5453af69c202[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Tue Jun 23 11:20:16 2015 +0200
+
+    commit for filip
+    
+    task1: remove hader and fix the last guy  text wraped around picture the
+    file you need is located in
+    src/app/components/views/dedicated-team-prices-step-one-directive.html
+    
+    url for this page is
+    http://localhost/outsource/#/home/dedicated-team-price-home/team-price-one
+    
+    task2: make header on second page
+    http://localhost/outsource/#/home/dedicated-team-price-home/team-price-two
+    
+    the file you need is loacted in
+    src/app/components/views/dedicated-team-prices-step-two-directive.html
+
+[33mcommit a14f0ffbecb1ac47077b4018c8bf0e45511335ac[m
+Author: filip-andjelic <filip.andjelic@bild-studio.net>
+Date:   Thu Jun 18 19:54:07 2015 +0200
+
+    PAges technology and package prices completed
+    
+    Edited main.scss
+    imported icons for technology packages
+    edited html and scss files
+
+[33mcommit 27fd6fa563294cac869eb4a9b3d3b1f1d9c4ac81[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Thu Jun 18 08:44:46 2015 +0200
+
+    task2
+    
+    src/app/components/views/why-us-technology-directive.html       this is
+    the file.
+    The url is home//why-us/technology
+
+[33mcommit 3c3a5ae6d871cda0cb7e70fa16b60257a0825466[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Thu Jun 18 08:30:02 2015 +0200
+
+    task for filip
+    
+    the url for page is     home/package-prices
+    
+    the file you need is stored in
+    src/app/components/views/package-prices-directive.html
+
+[33mcommit 436073c679ea3ebc52ed74dfe85a05381e3101e7[m
+Author: filip-andjelic <filip.andjelic@bild-studio.net>
+Date:   Tue Jun 16 18:20:26 2015 +0200
+
+    Service-page-one completed
+    
+    1. main.scsss edited
+    2. html page created and edited
+    3. scss created
+
+[33mcommit e5d02a4ffa9b67cc6a6f9c54320809c9c7ae6f02[m
+Author: filip-andjelic <filip.andjelic@bild-studio.net>
+Date:   Tue Jun 16 14:56:48 2015 +0200
+
+    Revert "..."
+    
+    This reverts commit c04b31b3f67b0157d62a2e7b308822f62d761cc8.
+
+[33mcommit c04b31b3f67b0157d62a2e7b308822f62d761cc8[m
+Author: filip-andjelic <filip.andjelic@bild-studio.net>
+Date:   Tue Jun 16 14:51:23 2015 +0200
+
+    ...
+
+[33mcommit a1058103aab3a0c04793a6477ff216689d508e71[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Tue Jun 16 13:54:15 2015 +0200
+
+    sync this one
+    
+    filip sync this one
+
+[33mcommit 8cee91e24615d1531042d3149758bfc7a54be428[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Tue Jun 16 13:50:06 2015 +0200
+
+    commit for filip
+    
+    the link is  /home/service-price-list-step-one
+    
+    src/app/components/views/service-price-list-step-one.html
+
+[33mcommit 917a47561af3cda33e6bdb86efd6b5ee8082c112[m
+Author: filip-andjelic <filip.andjelic@bild-studio.net>
+Date:   Tue Jun 16 04:06:25 2015 +0200
+
+    Dedicated-team-prices-page-two completed
+    
+    1. Edited main.scss with new include
+    2. Created new HTML page
+    3. Created new SCSS page
+
+[33mcommit 3f56cb1bc738e6553531fc37eef9ea1a71c5e7ea[m
+Author: filip-andjelic <filip.andjelic@bild-studio.net>
+Date:   Mon Jun 15 16:29:43 2015 +0200
+
+    Page 'dedicated-step-one' completed
+    
+    1. File main.scss updated (new import)
+    2. HTML for page edited and upgraded
+    3. SCSS file for page created and edited
+
+[33mcommit 4f4b380a09794549ca1863a6b87180b7285d93d7[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Mon Jun 15 11:25:30 2015 +0200
+
+    commit for filip
+    
+    the file to strat working is in   views  called
+    dedicated-team-price-step-one.html
+
+[33mcommit ac4772d49ad53fb6b86b1e7b3adf40aef98ad16f[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Thu Jun 11 18:45:40 2015 +0200
+
+    testimonials finished
+    
+    i've finished testimonials
+
+[33mcommit d4feae660d2f910f2527a908020bd8df5e5d2bf9[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Thu Jun 11 15:44:00 2015 +0200
+
+    why us page finished
+    
+    i've finished why us page
+
+[33mcommit e89b0fe75e98285397c1206cea3be4d156b64ebb[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Thu Jun 11 13:52:06 2015 +0200
+
+    solved problem with classes
+    
+    i had problem with filips css classes
+
+[33mcommit 267d139c642325e67f55d657b50fbda41162da1c[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Thu Jun 11 12:52:22 2015 +0200
+
+    whyus page almost finished
+    
+    i've almost finished why us page
+
+[33mcommit 03126eabc55fd80361451e8bc70b2c78b4a0d698[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Thu Jun 11 10:27:20 2015 +0200
+
+    made on click dropdowns
+    
+    i've made on click drop downs for the menu
+
+[33mcommit a8f3f63754273d91ad5c25071e455a808e9280cb[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Wed Jun 10 09:36:01 2015 +0200
+
+    why us route made
+
+[33mcommit 17b91589d66658b4f4b9fd604403316e3b5caba5[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Tue Jun 9 17:07:03 2015 +0200
+
+    finished step 4
+    
+    i've finished step 4
+
+[33mcommit e2563df3f03fffe07fa7037d22d9a6ef662db892[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Tue Jun 9 16:20:14 2015 +0200
+
+    third step almost finished
+    
+    almost finished with  third step
+
+[33mcommit 605b3380d599c7b014df46da1903448d62dd00fb[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Tue Jun 9 13:03:58 2015 +0200
+
+    last changes
+    
+    last changes
+
+[33mcommit e5edb71a24ebaf0795f7c0b3031d6e2fced4d095[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Tue Jun 9 12:41:09 2015 +0200
+
+    made tabs for step3
+    
+    made tabs for step 3
+
+[33mcommit c79808fb40f1955ec5efe49ff9fa59a4e5efc21c[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Tue Jun 9 08:29:52 2015 +0200
+
+    last changes
+    
+    last changes
+
+[33mcommit ea387feafc8e8bc9a284dbe70636b7b482a1f613[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Mon Jun 8 12:36:54 2015 +0200
+
+    first two steps finished
+    
+    i've finished routing problem with ordering steps
+
+[33mcommit e3521d479759db7b483dc4d06eea39b6948d8158[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Mon Jun 8 12:26:56 2015 +0200
+
+    linking steps together
+    
+    linking steps for ordering together
+
+[33mcommit c026f51b365d9785f568ba6ff653676bd736a471[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Fri Jun 5 10:45:38 2015 +0200
+
+    finished javascript for tabed steps
+    
+    finished tabbed steps for ordering product
+
+[33mcommit 047dc73370f0c07a1ec88f519e89bebc08314754[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Thu Jun 4 19:00:17 2015 +0200
+
+    finished packages page
+
+[33mcommit bda5531cb2ed5768347db4731aa0b020a4cea54f[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Thu Jun 4 18:13:42 2015 +0200
+
+    first step in dedicated prices almost finished
+    
+    this is almost finished
+
+[33mcommit 4cc9bc32d1149d10b75eb5d53d2b6a4e255317b6[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Thu Jun 4 12:48:46 2015 +0200
+
+    i've linked pages
+    
+    i linked pages and added small animation on hover
+
+[33mcommit c12e6b39df40ba1aaaedc16cf1369e03b0996f41[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Tue Jun 2 12:37:09 2015 +0200
+
+    small changes to directive
+    
+    made some changes
+
+[33mcommit fce1291dd7754995d1cdb49433fe0fa32574c116[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Tue Jun 2 10:21:51 2015 +0200
+
+    Revert "Revert "small changes""
+    
+    This reverts commit 37ddfb27ca1b912cd6e9849db05a9ca48068d81e.
+
+[33mcommit 5f44779f01998bd7e30ef16f577b9912f798930d[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Tue Jun 2 10:07:10 2015 +0200
+
+    new changes
+    
+    some changes
+
+[33mcommit 37ddfb27ca1b912cd6e9849db05a9ca48068d81e[m
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Tue Jun 2 10:05:32 2015 +0200
+
+    Revert "small changes"
+    
+    This reverts commit 48c18706ee48f0eed6b822437f2360c78229ce5d.
+
+[33mcommit 1c6d7e7d20252647711b167c3752f6642952001f[m
+Merge: 48c1870 01cb321
+Author: Vesko Vujovic <veskovujovic@yahoo.com>
+Date:   Tue Jun 2 10:03:25 2015 +

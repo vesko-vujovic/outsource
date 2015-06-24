@@ -1,4 +1,4 @@
-#service-one-wrap {
+#service-two-wrap {
 	background-color: #E6E6E6;
 	.service-price-list {
 		width: 100%;
@@ -69,75 +69,81 @@
 				left: 90%;
 				z-index: 2;
 			}
-			.logo-id {
+			.web-sites {
 				float: left;
 				width: 45%;
 				padding-top: 20px;
 				padding-left: 3%;
-				height: 300px;
+				height: 330px;
+				.horizontal-line{
+					top: -282px;
+				}
+				.check-price {
+					top: -525px;
+				}
 			}	
-			.ux {
+			.template {
 				float: right;
 				width: 47%;
 				padding-top: 20px;
 				padding-right: 2%;
-				height: 520px;
+				height: 280px;
 				ul {
 					width: 250px;
 				}
 				.horizontal-line{
-					top: -435px;
+					top: -230px;
 				}
 				.check-price {
-					top: -835px;
+					top: -420px;
 				}
 			}
-			.web-site {
+			.component {
 				clear: left;
 				float: left;
 				width: 45%;
 				padding-left: 3%;
-				height: 340px;
+				height: 1120px;
 
 				.horizontal-line{
-					top: -278px;
+					top: -1078px;
 				}
 
 				.check-price {
-					top: -520px;
+					top: -2110px;
 				}
 			}
-			.clothing {
+			.device-development {
 				clear: right;
 				float: right;
 				width: 47%;
 				padding-right: 2%;
-				height: 240px;
+				height: 280px;
 
 				.horizontal-line{
-					top: -173px;
+					top: -230px;
 				}
 
 				.check-price {
-					top: -310px;
+					top: -420px;
 				}
 			}
-			.business {
-				clear: left;
-				float: left;
-				width: 45%;
-				padding-left: 3%;
-				height: 450px;
+			.front-end {
+				clear: right;
+				float: right;
+				width: 47%;
+				padding-right: 2%;
+				height: 280px;
 
 				.horizontal-line{
-					top: -381px;
+					top: -230px;
 				}
 
 				.check-price {
-					top: -730px;
+					top: -420px;
 				}
 			}
-			.art {
+			.open-source {
 				clear: right;
 				float: right;
 				width: 47%;
@@ -152,7 +158,7 @@
 					top: -308px;
 				}
 			}
-			.book {
+			.comercial {
 				clear: right;
 				float: right;
 				width: 47%;
@@ -165,7 +171,20 @@
 					top: -308px;
 				}
 			}
-			.packaging {
+			.hosting {
+				clear: left;
+				float: left;
+				width: 45%;
+				padding-left: 3%;
+				height: 240px;
+				.horizontal-line{
+					top: -230px;
+				}
+				.check-price {
+					top: -425px;
+				}
+			}
+			.maintenence {
 				clear: left;
 				float: left;
 				width: 45%;

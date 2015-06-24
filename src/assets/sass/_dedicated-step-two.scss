@@ -6,9 +6,52 @@
 		margin-right: 5%;
 		width: 90%;
 		.team-header {
-			background-color: #002336;
+			background-color: #005278;
 			width: 100%;
 			height: 70px;
+			div {
+				padding: 0px;
+			}
+			h3 {
+				font-size: 1.4em;
+				color: white;
+				padding: 0px;
+				margin: 0px;
+				text-align: center;
+			}
+			.name-header, .total-header {
+				h3 {
+					font-weight: 600;
+				}
+			}
+			.name-header, .total-header, .price-header, .member-header, .delete-header {
+				padding-top: 25px;
+			}
+			.name-header {
+				width: 21%;
+			}
+			.price-header {
+				width: 13%;
+			}
+			.period-header {
+				padding-top: 10px;
+				margin-left: 4%;
+				width: 16%;
+				text-align: center;
+			}
+			.member-header {
+				width: 25%;
+				margin-left: 2%;
+				h3 {
+					text-align: right;
+				}
+			}
+			.total-header {
+				width: 10%;
+				h3 {
+					text-align: right;
+				}
+			}
 		}
 		.team-table{
 			color: #646464;
@@ -115,21 +158,26 @@
 	}
 	.submit-btn {
 		padding-left: 4%;
-		padding-right: 6%;
+		padding-right: 3%;
 		margin-top: 30px;
 	    margin-bottom: 50px;
 		.order-select {
-	    	  width: 26%;
-	  		  margin-left: 77%;
-	 		  margin-right: 0%;
-	 		  background-color: #F8A01A;
-		      padding-top: 20px;
-		      padding-bottom: 10px;
-		      border: 0px;
-		      font-size: 1.2em;
-		      font-weight: 400;
-		      text-align: center;
-		      color: white;  		
+    	  margin-top: 0px;
+    	  margin-bottom: 30px;
+    	  width: 20%;
+  		  margin-left: 80%;
+ 		  margin-right: 0%;
+ 		  background-color: #F8A01A;
+ 		  background-image: url("../img/order/nextStep.png");
+ 		  background-repeat: no-repeat;
+ 		  background-position: 93% 5px;
+	      padding-top: 15px;
+	      padding-bottom: 10px;
+	      border: 0px;
+	      font-size: 1.2em;
+	      font-weight: 400;
+	      text-align: center;
+	      color: white; 		
 	    }
 	}
 	.horizontal-line1 {

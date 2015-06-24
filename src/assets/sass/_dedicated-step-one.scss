@@ -117,7 +117,7 @@
 	        border: 1px solid #E6E6E6;
 	        position: relative;
 	        top: -278px;
-	        width: 93%;
+	        width: 53%;
 	        margin-top: 50px;
 	    }
 	    .table {
@@ -196,7 +196,7 @@
 	      .block-header {
 
 	        img { 
-	          left: 37%;
+	          left: 60%;
 	        }
 
 	        p {
@@ -231,7 +231,10 @@
   		  margin-left: 80%;
  		  margin-right: 0%;
  		  background-color: #F8A01A;
-	      padding-top: 20px;
+ 		  background-image: url("../img/order/nextStep.png");
+ 		  background-repeat: no-repeat;
+ 		  background-position: 93% 5px;
+	      padding-top: 15px;
 	      padding-bottom: 10px;
 	      border: 0px;
 	      font-size: 1.2em;

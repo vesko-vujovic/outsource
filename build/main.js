@@ -1,5 +1,5 @@
 /**
- * This is the main config file in this app, here we define initialization and all other things
+ * This is the main config file in this app
  */
 
 /**
@@ -101,9 +101,9 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
-            .state('dedicated-team-price-step-one', { 
+            .state('dedicated-team-price-homepage', { 
                 parent: 'home',
-                url: '/dedicated-team-price-step-one',
+                url: '/dedicated-team-price-home',
                 views: {
                      
                     inner: {
@@ -114,9 +114,22 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
-            .state('dedicated-team-price-step-two', { 
-                parent: 'home',
-                url: '/dedicated-team-price-step-one',
+            .state('dedicated-team-price-one', { 
+                parent: 'dedicated-team-price-homepage',
+                url: '/team-price-one',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/dedicated-team-prices-step-one.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+            .state('dedicated-team-price-two', { 
+                parent: 'dedicated-team-price-homepage',
+                url: '/team-price-two',
                 views: {
                      
                     inner: {
@@ -139,13 +152,26 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
-            .state('service-price-list-step-one', { 
+            .state('service-price-list-design', { 
                 parent: 'home',
-                url: '/service-price-list-step-one',
+                url: '/service-price-list-design',
                 views: {
                      
                     inner: {
                         templateUrl: 'src/app/components/views/service-price-list-step-one.html',
+                        controller:  'dedicatedCtrl'
+                    }
+                     
+                }
+                  
+            })
+             .state('service-price-list-technology', { 
+                parent: 'home',
+                url: '/service-price-list-technology',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/service-price-list-step-two.html',
                         controller:  'dedicatedCtrl'
                     }
                      
@@ -184,14 +210,39 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 views: {
                      
                     inner: {
-                        templateUrl: 'src/app/components/views/why-us-testimonials.html',
+                        templateUrl: 'src/app/components/views/why-us-technology-directive.html',
                         controller:  'whyusCtrl'
                     }
                      
                 }
                   
             })
-
+            .state('packageprices', { 
+                parent: 'home',
+                url: '/package-prices',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/package-prices-directive.html',
+                        controller:  'packageAndPricesCtrl'
+                    }
+                     
+                }
+                  
+            })
+            .state('packageprices-technology', { 
+                parent: 'home',
+                url: '/package-prices-technology-services',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/package-prices-technology-services.html',
+                        controller:  'packageAndPricesCtrl'
+                    }
+                     
+                }
+                  
+            })
 
             
             
@@ -267,6 +318,19 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
 
 	
 	
+}]);
+
+//this is the main module
+var app = angular.module('outsourceApp');
+
+//define controller
+
+app.controller('packageAndPricesCtrl', ['$scope', 'sharedService', function($scope, sharedService){
+	
+    //data for packages
+	$scope.packageData         = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
+	    $scope.packages        = data.packages; 
+	});
 }]);
 
 //this is the main module
@@ -435,7 +499,7 @@ outsource.directive('dedicatedteampricestepone', function(){
 	   },
 
 	   replace: true,
-	   templateUrl: 'src/app/components/views/dedicated-team-prices-step-one.html'
+	   templateUrl: 'src/app/components/views/dedicated-team-prices-step-one-directive.html'
 	};
 });
 /*
@@ -451,7 +515,7 @@ outsource.directive('dedicatedteampricesteptwo', function(){
 	   },
 
 	   replace: true,
-	   templateUrl: 'src/app/components/views/dedicated-team-prices-step-two.html'
+	   templateUrl: 'src/app/components/views/dedicated-team-prices-step-two-directive.html'
 	};
 });
 /**
@@ -514,6 +578,22 @@ outsource.directive('ordermain', function(){
 	   templateUrl: 'src/app/components/views/order-main.html'
 	};
 });
+/*
+ * This is the directive for package and prices
+ */
+
+outsource.directive('packageandprices', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+
+	   },
+
+	   replace: true,
+	   templateUrl: "src/app/components/views/package-prices-directive.html"
+	};
+});
 outsource.directive('packages', function(){
 
 	return {
@@ -524,6 +604,22 @@ outsource.directive('packages', function(){
 
 	   replace: true,
 	   templateUrl: 'src/app/components/views/packages.html'
+	};
+});
+/*
+ * This is the directive for projects ( view projects from other categories section)
+ */
+
+outsource.directive('projects', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+
+	   },
+
+	   replace: true,
+	   templateUrl: "src/app/components/views/projects.html"
 	};
 });
 /*
@@ -680,6 +776,21 @@ outsource.directive('whysection', function(){
      replace: true,
      templateUrl: "src/app/components/views/why-us-section.html"
   };
+});
+/*
+ * This is the directive for why us technology
+ */
+outsource.directive('whyustechnology', function(){
+
+	return {
+	   restrict: 'E',
+	   link: function(scope, element, attribute){
+
+	   },
+
+	   replace: true,
+	   templateUrl: "src/app/components/views/why-us-technology-directive.html"
+	};
 });
 /*
  * This is the directive for packages on first step
