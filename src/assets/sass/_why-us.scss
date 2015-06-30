@@ -1,7 +1,7 @@
 .why-us{
   background: $blue-bg;
   min-width: 980px;
-  padding: 30px 0;
+  padding: 40px 0px 20px 0px;
   color: #fff;
   h3{
     text-align: center;
@@ -10,15 +10,17 @@
     line-height: 35px;
     font-weight: normal;
     margin-bottom: 60px;
+    padding-top: 7px;
+    margin-right: 2.5%;
   }
   .us-left {
     width: 50%;
-    padding: 0 40px;
+    padding: 0 25px;
     float: left;
     @include box-sizing(border-box); 
     & > div{
       @include clearfix;
-      margin-bottom: 60px;
+      margin-bottom: 30px;
       &:hover{
         img{
         @include animation(rubberBand 3s);
@@ -30,13 +32,13 @@
       color: #fff;
       line-height: 30px;
       margin: 0px;
-      margin-bottom: 5px;
+      margin-bottom: 3px;
       font-weight: normal;
     }
     .why-img{
       float: left;
       height: 130px;
-      width: 25%;
+      width: 24.5%;
       img{
         padding-top: 8px;
       }
@@ -46,17 +48,58 @@
       width: 75%;
     }
     p{
-      line-height: 20px;
+      line-height: 18px;
+      width: 95%;
+    }
+    .first-block {
+      .why-img {
+        padding-left: 2px;
+        img {
+          padding-top: 5px;
+        }
+      }
+      .why-desc {
+        p {
+          /* here i put style after editing html file */
+        }
+      }
+    }
+    .second-block {
+      .why-img {
+        padding-left: 2px;
+        img {
+          padding-top: 10px;
+        }
+      }
+      .why-desc {
+        padding-top: 2px;
+        p {
+          /* here i put style after editing html file */
+        }
+      }
+    }
+    .third-block {
+      .why-img {
+        img {
+          padding-top: 15px;
+        }
+      }
+      .why-desc {
+        padding-top: 2px;
+        p {
+          /* here i put style after editing html file */
+        }
+      }
     }
   }
   .us-right{
     width: 50%;
-    padding: 0 40px;
+    padding: 0 30px;
     float: right;
     @include box-sizing(border-box); 
     & > div{
       @include clearfix;
-      margin-bottom: 60px;
+      margin-bottom: 30px;
       &:hover{
         img{
         @include animation(rubberBand 3s);
@@ -74,9 +117,10 @@
     .why-img{
       float: left;
       height: 130px;
-      width: 25%;
+      width: 22%;
+      padding-left: 10px;
       img{
-        padding-top: 8px;
+        padding-top: 0px;
       }
     }
     .why-desc{
@@ -84,7 +128,39 @@
       width: 75%;
     }
     p{
-      line-height: 20px;
+      line-height: 18px;
+    }
+    .seventh-block {
+      .why-img {
+        padding-top: 22px;
+        padding-left: 2px;
+        img {
+          padding-top: 5px;
+        }
+      }
+      .why-desc {
+        padding-top: 2px;
+        p {
+          /* here i put style after editing html file */
+        }
+      }
+    }
+    .eight-block {
+      .why-img {
+        padding-top: 5px;
+        padding-left: 5px;
+        img {
+          padding-top: 5px;
+        }
+      }
+      .why-desc {
+        h4 {
+          margin-bottom: 3px;
+        }
+        p {
+          /* here i put style after editing html file */
+        }
+      }
     }
   }
 }

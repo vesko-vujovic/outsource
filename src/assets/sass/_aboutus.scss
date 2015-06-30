@@ -1,11 +1,69 @@
+#aboutusmenu {
+  .container {
+    padding: 0 5%;
+    #about {
+      height: 97px;
+      padding-left: 1%;
+      li {
+        width: 16%;
+      }
+      .us-link {
+        margin-right: 0;
+        img {
+          margin-left: 3px;
+          margin-bottom: 5px;
+        }
+      }
+      .contact-link {
+        width: 19%;
+        margin-right: 0;
+        a {
+          padding-right: 0;
+        }
+        img {
+          padding-left: 9%;
+          margin-bottom: 7px;
+        }
+      }
+      .product-link {
+        padding-left: 1%;
+        img {
+          margin-bottom: 5px;
+        }
+      }
+      .projects-link {
+        margin-right: 0;
+        a {
+          padding-right: 0;
+        }
+        img {
+        padding-left: 5%;
+        margin-bottom: 7px;
+        }
+      }
+      .bracket-icon {
+        width: 4%;
+        margin-left: 2.5%;
+        margin-right: 1%;
+        padding-bottom: 2px;
+      }
+      .bild-icon {
+        width: 22%;
+        margin-right: 0;
+        position: relative;
+        top: -3px;
+        left: -2px;
+      }
+    }
+  }
+}
 .nav > li {
-  margin-top: 1.2%;
+  margin-top: 1%;
   font-size: 20px !important;
   display: inline-block;
   margin-bottom: 1.2%;
 
 }
-
 #about > li {
   color: black;
   margin-right: 1%;
@@ -23,8 +81,6 @@
   }
 
 }
-
-
 #aboutusmenu.navbar.navbar-default {
   background-color:  #E6E6E6;
 }

@@ -1,4 +1,7 @@
 .main-content {
+  .wrapper {
+    margin-left: 7%;
+  }
   h4 { 
     width:100%; 
     text-align:center; 
@@ -43,6 +46,57 @@
           @include animation(pulse 3s);
         }
       }
+      .first-col {
+        a {
+          position: relative;
+          top: 5px;
+          left: -1%;
+        }
+      }
+      .second-col {
+        a {
+          position: relative;
+          top: 12px;
+          left: 0.5%;
+        }
+      } 
+      .third-col {
+        a {
+          position: relative;
+          top: 10px;
+          left: 3%;
+        }
+      }     
+    }
+    .line {
+      .first-col {
+          a {
+            position: relative;
+            top: 3px;
+            left: -2%;
+          }
+        }
+      .second-col {
+        a {
+          position: relative;
+          top: -10px;
+          left: 0.5%;
+        }
+      }
+      .third-col {
+        a {
+          position: relative;
+          top: -15px;
+          left: 0.5%;
+        }
+      }
+    }
+    .other-link {
+      margin-top: 10px;
+      margin-right: 10px;
+      a {
+        letter-spacing: -0.02em;
+      }
     }
   }
 }
@@ -52,8 +106,27 @@
   height: 49px;
   border:none;
   margin-bottom: 30px;
+  margin-top: 0;
 }
-
+.testimonial-h {
+  position: relative;
+  top: 5px;
+}
+.testimonials {
+  margin-top: 62px;
+  .last-block {
+    padding-left: 2%;
+  }
+  .other-link {
+    margin-right: 10px;
+    margin-bottom: 47px;
+    a {
+      position: relative;
+      top: 30px;
+      letter-spacing: -0.02em;
+    }
+  }
+}
   .testimonials-block{
     width: 33.33%;
     float: left;
@@ -63,9 +136,9 @@
       float: left;
       img{
         @include border-top-radius(50%);
-@include border-bottom-radius(50%);
-border: 1px solid #E4E4E4;
-overflow: hidden;
+        @include border-bottom-radius(50%);
+        border: 1px solid #E4E4E4;
+        overflow: hidden;
       }
     }
     .test-desc{
