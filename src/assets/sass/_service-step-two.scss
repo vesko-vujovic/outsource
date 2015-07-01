@@ -1,10 +1,10 @@
 #service-two-wrap {
 	background-color: #E6E6E6;
 	.service-price-list {
-		width: 100%;
-		padding-left: 8%;
+		width: 99.8%;
+		padding-left: 8.5%;
 		padding-right: 8%;
-		margin-top: 50px;
+		margin-top: 54px;
 		.list-header {
 			background-color: white;
 			ul {
@@ -13,17 +13,36 @@
 			}
 			li {
 				float:left;
-				width: 33.33%;
+				width: 34%;
 				text-align: center;
-				font-size: 1.4em;
+				font-size: 1.8em;
 				color: #A0A0A0;
 				padding-top: 10px;
-				padding-bottom: 10px;
+				padding-bottom: 8px;
 				border-bottom: 2px solid #c6c6c6;
 			}
 			li:hover {
 				background-color: #009AE2;
 				color: white;
+				border-bottom: none;
+				height: 55px;
+			}
+			.mid-li {
+				width: 31.7%;
+				padding-right: 3px;
+			}
+			ul li:first-child {
+				padding-right: 9px;
+			}
+			ul li:last-child {
+				width: 34.3%;
+				padding-left: 25px;
+			}
+			.pointer {
+				position: absolute;
+				padding-left: 7.7%;			/****************  ovdje ti se nalazi strelica koja treba da se */
+				margin-top: -4px;						  /*   pojavi kada klikneš na link menija 	*****************/
+				visibility: hidden;			
 			}
 		}
 		.list-table {
@@ -38,8 +57,10 @@
 			li {
 				margin-top: 20px;
 				color: #646464;
-				padding-left: 3%;
-				height: 33px;
+				padding-left: 2%;
+				padding-top: 2px;
+				height: 28px;
+				font-size: 1.2em;
 			}
 			ul {
 				position: relative;
@@ -51,16 +72,16 @@
 			.horizontal-line {
 					border: 1px solid #E6E6E6;
 					position: relative;
-					top: -225px;
+					top: -224px;
 					left: 0px;
 					width: 100%;
-					margin-top: 50px;
+					margin-top: 46px;
 					z-index: 1;
 			}
 			.check-price {
 				height: 33px;
 				width: 50px;
-				margin-top: 20px;
+				margin-top: 15px;
 				text-align: center;
 				color: #646464;
 				background-color: white;
@@ -74,12 +95,12 @@
 				width: 45%;
 				padding-top: 20px;
 				padding-left: 3%;
-				height: 330px;
+				height: 320px;
 				.horizontal-line{
-					top: -282px;
+					top: -250px;
 				}
 				.check-price {
-					top: -525px;
+					top: -465px;
 				}
 			}	
 			.template {
@@ -92,10 +113,10 @@
 					width: 250px;
 				}
 				.horizontal-line{
-					top: -230px;
+					top: -202px;
 				}
 				.check-price {
-					top: -420px;
+					top: -370px;
 				}
 			}
 			.component {
@@ -103,14 +124,13 @@
 				float: left;
 				width: 45%;
 				padding-left: 3%;
-				height: 1120px;
-
+				height: 930px;
 				.horizontal-line{
-					top: -1078px;
+					top: -875px;
 				}
 
 				.check-price {
-					top: -2110px;
+					top: -1716px;
 				}
 			}
 			.device-development {
@@ -119,13 +139,13 @@
 				width: 47%;
 				padding-right: 2%;
 				height: 280px;
-
+				margin-top: -47px;
 				.horizontal-line{
-					top: -230px;
+					top: -202px;
 				}
 
 				.check-price {
-					top: -420px;
+					top: -370px;
 				}
 			}
 			.front-end {
@@ -134,13 +154,13 @@
 				width: 47%;
 				padding-right: 2%;
 				height: 280px;
-
+				margin-top: -27px;
 				.horizontal-line{
-					top: -230px;
+					top: -202px;
 				}
 
 				.check-price {
-					top: -420px;
+					top: -370px;
 				}
 			}
 			.open-source {
@@ -149,13 +169,13 @@
 				width: 47%;
 				padding-right: 2%;
 				height: 240px;
-
+				margin-top: -27px;
 				.horizontal-line{
-					top: -171px;
+					top: -156px;
 				}
 
 				.check-price {
-					top: -308px;
+					top: -278px;
 				}
 			}
 			.comercial {
@@ -164,11 +184,12 @@
 				width: 47%;
 				padding-right: 2%;
 				height: 240px;
+				margin-top: -37px;
 				.horizontal-line{
-					top: -171px;
+					top: -156px;
 				}
 				.check-price {
-					top: -308px;
+					top: -278px;
 				}
 			}
 			.hosting {
@@ -178,10 +199,10 @@
 				padding-left: 3%;
 				height: 240px;
 				.horizontal-line{
-					top: -230px;
+					top: -202px;
 				}
 				.check-price {
-					top: -425px;
+					top: -370px;
 				}
 			}
 			.maintenence {
@@ -189,12 +210,41 @@
 				float: left;
 				width: 45%;
 				padding-left: 3%;
-				height: 240px;
+				height: 223px;
+				margin-top: 15px;
 				.horizontal-line{
-					top: -173px;
+					top: -155px;
 				}
 				.check-price {
-					top: -310px;
+					top: -277px;
+				}
+			}
+			.web-sites, .hosting, .component, .maintenence {
+				padding-left: 0;
+				h3 {
+					padding-left: 1.8%;
+					font-size: 1.4em;
+				}
+				ul {
+					padding-left: 7%;
+					width: 60%;
+					input[type='checkbox'] {
+						margin-right: 12.5%;
+					}
+				}
+			}
+			.template, .device-development, .front-end, .open-source, .comercial {
+				h3 {
+					padding-left: 0;
+					margin-left: 0;
+					font-size: 1.4em;
+				}
+				ul {
+					padding-left: 2.5%;
+					width: 60%;
+					input[type='checkbox'] {
+						margin-right: 12.5%;
+					}
 				}
 			}
 		}
@@ -216,5 +266,14 @@
 	      text-align: center;
 	      color: white; 		
 	    }
+	}
+	.bnt-submit {
+		.order-service {
+			width: 49%;
+			margin-left: 25.5%;
+			margin-right: 31%;
+			font-size: 1.4em;
+			margin-bottom: 57px;
+		}
 	}
 }

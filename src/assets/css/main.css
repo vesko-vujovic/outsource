@@ -7626,10 +7626,10 @@ div.wrapper.dedicated-packages {
 #service-two-wrap {
   background-color: #E6E6E6; }
   #service-two-wrap .service-price-list {
-    width: 100%;
-    padding-left: 8%;
+    width: 99.8%;
+    padding-left: 8.5%;
     padding-right: 8%;
-    margin-top: 50px; }
+    margin-top: 54px; }
     #service-two-wrap .service-price-list .list-header {
       background-color: white; }
       #service-two-wrap .service-price-list .list-header ul {
@@ -7637,16 +7637,33 @@ div.wrapper.dedicated-packages {
         padding: 0; }
       #service-two-wrap .service-price-list .list-header li {
         float: left;
-        width: 33.33%;
+        width: 34%;
         text-align: center;
-        font-size: 1.4em;
+        font-size: 1.8em;
         color: #A0A0A0;
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 8px;
         border-bottom: 2px solid #c6c6c6; }
       #service-two-wrap .service-price-list .list-header li:hover {
         background-color: #009AE2;
-        color: white; }
+        color: white;
+        border-bottom: none;
+        height: 55px; }
+      #service-two-wrap .service-price-list .list-header .mid-li {
+        width: 31.7%;
+        padding-right: 3px; }
+      #service-two-wrap .service-price-list .list-header ul li:first-child {
+        padding-right: 9px; }
+      #service-two-wrap .service-price-list .list-header ul li:last-child {
+        width: 34.3%;
+        padding-left: 25px; }
+      #service-two-wrap .service-price-list .list-header .pointer {
+        position: absolute;
+        padding-left: 7.7%;
+        /****************  ovdje ti se nalazi strelica koja treba da se */
+        margin-top: -4px;
+        /*   pojavi kada klikne┼í na link menija 	*****************/
+        visibility: hidden; }
     #service-two-wrap .service-price-list .list-table {
       background-color: white;
       margin-bottom: 20px; }
@@ -7658,8 +7675,10 @@ div.wrapper.dedicated-packages {
       #service-two-wrap .service-price-list .list-table li {
         margin-top: 20px;
         color: #646464;
-        padding-left: 3%;
-        height: 33px; }
+        padding-left: 2%;
+        padding-top: 2px;
+        height: 28px;
+        font-size: 1.2em; }
       #service-two-wrap .service-price-list .list-table ul {
         position: relative;
         background-color: white;
@@ -7669,15 +7688,15 @@ div.wrapper.dedicated-packages {
       #service-two-wrap .service-price-list .list-table .horizontal-line {
         border: 1px solid #E6E6E6;
         position: relative;
-        top: -225px;
+        top: -224px;
         left: 0px;
         width: 100%;
-        margin-top: 50px;
+        margin-top: 46px;
         z-index: 1; }
       #service-two-wrap .service-price-list .list-table .check-price {
         height: 33px;
         width: 50px;
-        margin-top: 20px;
+        margin-top: 15px;
         text-align: center;
         color: #646464;
         background-color: white;
@@ -7690,11 +7709,11 @@ div.wrapper.dedicated-packages {
         width: 45%;
         padding-top: 20px;
         padding-left: 3%;
-        height: 330px; }
+        height: 320px; }
         #service-two-wrap .service-price-list .list-table .web-sites .horizontal-line {
-          top: -282px; }
+          top: -250px; }
         #service-two-wrap .service-price-list .list-table .web-sites .check-price {
-          top: -525px; }
+          top: -465px; }
       #service-two-wrap .service-price-list .list-table .template {
         float: right;
         width: 47%;
@@ -7704,59 +7723,63 @@ div.wrapper.dedicated-packages {
         #service-two-wrap .service-price-list .list-table .template ul {
           width: 250px; }
         #service-two-wrap .service-price-list .list-table .template .horizontal-line {
-          top: -230px; }
+          top: -202px; }
         #service-two-wrap .service-price-list .list-table .template .check-price {
-          top: -420px; }
+          top: -370px; }
       #service-two-wrap .service-price-list .list-table .component {
         clear: left;
         float: left;
         width: 45%;
         padding-left: 3%;
-        height: 1120px; }
+        height: 930px; }
         #service-two-wrap .service-price-list .list-table .component .horizontal-line {
-          top: -1078px; }
+          top: -875px; }
         #service-two-wrap .service-price-list .list-table .component .check-price {
-          top: -2110px; }
+          top: -1716px; }
       #service-two-wrap .service-price-list .list-table .device-development {
         clear: right;
         float: right;
         width: 47%;
         padding-right: 2%;
-        height: 280px; }
+        height: 280px;
+        margin-top: -47px; }
         #service-two-wrap .service-price-list .list-table .device-development .horizontal-line {
-          top: -230px; }
+          top: -202px; }
         #service-two-wrap .service-price-list .list-table .device-development .check-price {
-          top: -420px; }
+          top: -370px; }
       #service-two-wrap .service-price-list .list-table .front-end {
         clear: right;
         float: right;
         width: 47%;
         padding-right: 2%;
-        height: 280px; }
+        height: 280px;
+        margin-top: -27px; }
         #service-two-wrap .service-price-list .list-table .front-end .horizontal-line {
-          top: -230px; }
+          top: -202px; }
         #service-two-wrap .service-price-list .list-table .front-end .check-price {
-          top: -420px; }
+          top: -370px; }
       #service-two-wrap .service-price-list .list-table .open-source {
         clear: right;
         float: right;
         width: 47%;
         padding-right: 2%;
-        height: 240px; }
+        height: 240px;
+        margin-top: -27px; }
         #service-two-wrap .service-price-list .list-table .open-source .horizontal-line {
-          top: -171px; }
+          top: -156px; }
         #service-two-wrap .service-price-list .list-table .open-source .check-price {
-          top: -308px; }
+          top: -278px; }
       #service-two-wrap .service-price-list .list-table .comercial {
         clear: right;
         float: right;
         width: 47%;
         padding-right: 2%;
-        height: 240px; }
+        height: 240px;
+        margin-top: -37px; }
         #service-two-wrap .service-price-list .list-table .comercial .horizontal-line {
-          top: -171px; }
+          top: -156px; }
         #service-two-wrap .service-price-list .list-table .comercial .check-price {
-          top: -308px; }
+          top: -278px; }
       #service-two-wrap .service-price-list .list-table .hosting {
         clear: left;
         float: left;
@@ -7764,19 +7787,39 @@ div.wrapper.dedicated-packages {
         padding-left: 3%;
         height: 240px; }
         #service-two-wrap .service-price-list .list-table .hosting .horizontal-line {
-          top: -230px; }
+          top: -202px; }
         #service-two-wrap .service-price-list .list-table .hosting .check-price {
-          top: -425px; }
+          top: -370px; }
       #service-two-wrap .service-price-list .list-table .maintenence {
         clear: left;
         float: left;
         width: 45%;
         padding-left: 3%;
-        height: 240px; }
+        height: 223px;
+        margin-top: 15px; }
         #service-two-wrap .service-price-list .list-table .maintenence .horizontal-line {
-          top: -173px; }
+          top: -155px; }
         #service-two-wrap .service-price-list .list-table .maintenence .check-price {
-          top: -310px; }
+          top: -277px; }
+      #service-two-wrap .service-price-list .list-table .web-sites, #service-two-wrap .service-price-list .list-table .hosting, #service-two-wrap .service-price-list .list-table .component, #service-two-wrap .service-price-list .list-table .maintenence {
+        padding-left: 0; }
+        #service-two-wrap .service-price-list .list-table .web-sites h3, #service-two-wrap .service-price-list .list-table .hosting h3, #service-two-wrap .service-price-list .list-table .component h3, #service-two-wrap .service-price-list .list-table .maintenence h3 {
+          padding-left: 1.8%;
+          font-size: 1.4em; }
+        #service-two-wrap .service-price-list .list-table .web-sites ul, #service-two-wrap .service-price-list .list-table .hosting ul, #service-two-wrap .service-price-list .list-table .component ul, #service-two-wrap .service-price-list .list-table .maintenence ul {
+          padding-left: 7%;
+          width: 60%; }
+          #service-two-wrap .service-price-list .list-table .web-sites ul input[type='checkbox'], #service-two-wrap .service-price-list .list-table .hosting ul input[type='checkbox'], #service-two-wrap .service-price-list .list-table .component ul input[type='checkbox'], #service-two-wrap .service-price-list .list-table .maintenence ul input[type='checkbox'] {
+            margin-right: 12.5%; }
+      #service-two-wrap .service-price-list .list-table .template h3, #service-two-wrap .service-price-list .list-table .device-development h3, #service-two-wrap .service-price-list .list-table .front-end h3, #service-two-wrap .service-price-list .list-table .open-source h3, #service-two-wrap .service-price-list .list-table .comercial h3 {
+        padding-left: 0;
+        margin-left: 0;
+        font-size: 1.4em; }
+      #service-two-wrap .service-price-list .list-table .template ul, #service-two-wrap .service-price-list .list-table .device-development ul, #service-two-wrap .service-price-list .list-table .front-end ul, #service-two-wrap .service-price-list .list-table .open-source ul, #service-two-wrap .service-price-list .list-table .comercial ul {
+        padding-left: 2.5%;
+        width: 60%; }
+        #service-two-wrap .service-price-list .list-table .template ul input[type='checkbox'], #service-two-wrap .service-price-list .list-table .device-development ul input[type='checkbox'], #service-two-wrap .service-price-list .list-table .front-end ul input[type='checkbox'], #service-two-wrap .service-price-list .list-table .open-source ul input[type='checkbox'], #service-two-wrap .service-price-list .list-table .comercial ul input[type='checkbox'] {
+          margin-right: 12.5%; }
     #service-two-wrap .service-price-list .order-select {
       margin-top: 0px;
       margin-bottom: 30px;
@@ -7794,6 +7837,12 @@ div.wrapper.dedicated-packages {
       font-weight: 400;
       text-align: center;
       color: white; }
+  #service-two-wrap .bnt-submit .order-service {
+    width: 49%;
+    margin-left: 25.5%;
+    margin-right: 31%;
+    font-size: 1.4em;
+    margin-bottom: 57px; }
 
 #package-prices-wrap .page-header {
   margin-top: 30px;
@@ -7861,18 +7910,32 @@ div.wrapper.dedicated-packages {
   #package-prices-wrap .page-header {
     margin-bottom: 0px;
     margin-top: 0px;
-    padding-bottom: 0px; }
+    padding-bottom: 0px;
+    padding-left: 5.5%; }
     #package-prices-wrap .page-header .present {
-      margin-top: 40px; }
+      padding-right: 15%;
+      margin-top: 58px;
+      padding-bottom: 15px; }
+      #package-prices-wrap .page-header .present h1 {
+        font-size: 3.6em;
+        margin-bottom: 3px; }
+      #package-prices-wrap .page-header .present p {
+        padding-left: 4px; }
   #package-prices-wrap .header-official {
-    width: 15%;
-    height: 171px;
-    padding: 35px 30px 0px 30px;
-    margin-right: 8%;
+    width: 13.3%;
+    height: 179px;
+    padding: 55px 10px 15px 10px;
+    margin-left: 2%;
     text-align: center;
     color: #A0A0A0;
     border-left: 2px solid #c6c6c6;
     border-right: 2px solid #c6c6c6; }
+    #package-prices-wrap .header-official img {
+      margin-left: 2px;
+      margin-top: 4px; }
+    #package-prices-wrap .header-official p {
+      position: relative;
+      top: -4px; }
   #package-prices-wrap .order-service {
     margin-top: 0px;
     margin-bottom: 30px;
