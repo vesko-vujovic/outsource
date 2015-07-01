@@ -5,6 +5,19 @@
 	border: none;
 	padding-top: 15px;
 }
+#testimonial-page, #whyus-page, #order-service-page {
+	.page-header {
+		margin-top: 30px;
+		border: none;
+		padding-top: 0px;
+		padding-left: 6%;
+	}
+}
+#whyus-page {
+	.margin-auto {
+		margin: auto;
+	}
+}
 .present {
 	h1 {
 	color: #F7A033;			/* adjusting 'Tehnology and solution' header */
