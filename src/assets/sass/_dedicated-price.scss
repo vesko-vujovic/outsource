@@ -3,17 +3,28 @@
 }
 
 #order_now {
+  height: 150px;
+  padding-left: 7%;
   .tabs {
     @include tabs;
+}
+.nav-tabs {
+  li:not(.active) {
+    .tab_number {
+      p {
+        color: #e6e6e6 !important; 
+      }
+    }
   }
+}
 
 
   /*BUBBLE TABS*/
   #bubble_tabs {
     .nav-tabs {
-      height: 140px;
+      height: 150px;
       li {
-        width: 140px;
+        width: 150px;
         height: 100%;
         border-right: 1px solid #eeeeee;
         margin: 0;
@@ -21,7 +32,7 @@
           border-left: 1px solid #eeeeee;
         }
         &.active {
-          width: 560px;
+          width: 540px;
           border: none;
           border-right: 1px solid #eeeeee;
           -webkit-box-shadow: 4px 0px 4px 0px rgba(180, 180, 180, 0.2), -4px 0px 4px 0px rgba(180, 180, 180, 0.2);
@@ -44,6 +55,7 @@
         .tab {
           position: relative;
           .tab_number {
+            padding-top: 5px;
             width: 140px;
             height: 100%;
             float: left;
@@ -66,16 +78,21 @@
           }
           .description {
             display: none;
-            width: 410px;
+            width: 390px;
             height: 140px;
             float: right;
-            padding: 5px 20px 0px 0px;
+            padding: 5px 0px 0px 0px;
             h3 {
               color: $orange;
               font-weight: bold;
+              font-size: 1.5em;
+              margin-top: 15px;
+              margin-left: -10px;
             }
             p{
-              font-size: 13px;
+              font-size: 14px;
+              margin-right: 10%;
+              margin-left: -5px;
             }
           }
         }
@@ -89,6 +106,9 @@
 .container-fluid.dedicated {
 
   background-color: #E6E6E6; 
+  .container {
+    padding-left: 4.5%;
+  }
 } 
 
 div.wrapper.dedicated-packages {
@@ -111,8 +131,12 @@ div.wrapper.dedicated-packages {
   }
 
 }
-
-
+/*
+body .ng-scope div.ng-scope .ng-scope #inner-blocks {
+  background-color: #E6E6E6;
+  padding-bottom: 20px !important;
+}
+*/
 
 /* step2   */
 
@@ -122,7 +146,6 @@ div.wrapper.dedicated-packages {
     .template_web {
       @include template_web;
     }
-
     #table {
       @include table;
     }

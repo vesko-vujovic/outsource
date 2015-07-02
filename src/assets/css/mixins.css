@@ -1,3 +1,21 @@
 /* mixin for table */
+#order_inner #table {
+  padding-left: 7%;
+  background-color: white; }
+  #order_inner #table #myTable {
+    width: 87%; }
+    #order_inner #table #myTable tr td:first-child {
+      width: 18.5%; }
+    #order_inner #table #myTable tr td:not(td.col-xs-3) {
+      width: 16%; }
+    #order_inner #table #myTable td {
+      padding-top: 15px;
+      padding-bottom: 6px; }
+    #order_inner #table #myTable tbody tr:last-child {
+      height: 127px;
+      padding-top: 20px; }
+
+div#order_now + .ng-scope #inner-blocks {
+  padding-bottom: 0; }
 
 /*# sourceMappingURL=mixins.css.map */

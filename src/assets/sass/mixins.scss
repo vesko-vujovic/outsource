@@ -27,15 +27,24 @@
 
 
 @mixin template_web {
-  height: 320px;
+  
   background-color: $lightgray;
+  background-image: url("../img/hand.png");
+  background-size: 20% 170%;
+  background-repeat: no-repeat;
+  background-position: 18% 5px;
   padding-top: 64px;
   border-bottom: 1px solid #d6d6d6;
 
   .col_1 {
+    margin-left: 5.5%;
     color: $darkblue;
     font-style: italic;
-    
+    width: 18%;
+    h2 {
+      font-size: 2.5em;
+      font-weight: 600;
+    }
     p {
       font-size: 18px;
     }
@@ -43,10 +52,13 @@
 
   .padding-left-8 {
     padding-left: 8px;
+    width: 66%;
+    margin-left: 2.5%;
   }
 
   .pack {
-    height: 255px;
+    height: 280px;
+    margin-top: -15px;
     -webkit-box-shadow: -2px 0px 6px 0px rgba(50, 50, 50, 0.23);
   }
   .overflow {
@@ -55,11 +67,12 @@
   }
 
   .back {
-    font-size: 260px;
-    line-height: 205px;
+    font-size: 270px;
+    line-height: 230px;
     font-weight: bolder;
     float: right;
     margin-right: -30px;
+    padding-top: 10px;
   }
 
   .absolute {
@@ -70,11 +83,14 @@
     bottom: 0;
 
     .package_description {
-      padding: 25px 15px 10px;
+      padding: 30px 15px 10px;
 
       h4 {
         font-style: italic;
         font-weight: bold;
+        font-size: 1.6em;
+        margin-top: 13px;
+        padding-left: 3px;
       }
       p {
         font-size: 13px;
@@ -115,14 +131,14 @@
   .price {
     background-color: white;
     text-align: center;
-    font-size: 43px;
+    font-size: 47px;
     font-weight: bold;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     border-top: 1px solid #e6e6e6;
-
+    padding-top: 5px;
     p {
       margin: 0px;
     }
@@ -156,7 +172,7 @@
           background-color: transparent !important;
         }
         &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5) {
-          width: 182px !important;
+          width: 16% !important;
         }
 
         .btn {
@@ -217,6 +233,29 @@
     }
   }
 }
-
-
-
+#order_inner {
+  #table {
+    padding-left: 7%;
+    background-color: white;
+    #myTable {
+        width: 87%;
+      tr td:first-child {
+        width:18.5%;
+      }
+      tr td:not(td.col-xs-3) {
+        width: 16%;
+      }
+      td {
+        padding-top: 15px;
+        padding-bottom: 6px;
+      }
+      tbody tr:last-child {
+        height: 127px;
+        padding-top: 20px;
+      }
+    }
+  }
+}
+div#order_now + .ng-scope #inner-blocks {
+  padding-bottom: 0;
+}

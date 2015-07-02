@@ -1,11 +1,48 @@
 /* style for 'zašto mi' page */
-
-.page-header {
-	margin-top: 50px;
-	border: none;
-	padding-top: 15px;
+#whyus-page {
+	.page-header {
+		margin-bottom: 0px;
+		margin-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 6.5%;
+		.present {
+			padding-right: 15%;
+			margin-top: 58px;
+			padding-bottom: 15px;
+			h1 {
+				font-size: 3.6em;
+				margin-bottom: 3px;
+				margin-top: 40px;
+			}
+			p {
+				padding-left: 4px;
+				width: 95%;
+				margin-bottom: 3px;
+			}
+		}
+	}
+	#topclass {
+		margin-top: -30px;
+	}
+	.why-us {
+		margin-top: -42px;
+		padding-top: 68px;
+		padding-bottom: 0;
+		h3 {
+			display: none;
+		}
+	}
+	.clients {
+		margin-top: 20px;
+		h4 {
+			margin-top: 15px;
+		}
+		.other-link {
+			visibility: hidden;
+		}
+	}
 }
-#testimonial-page, #whyus-page, #order-service-page {
+#testimonial-page, #order-service-page {
 	.page-header {
 		margin-top: 30px;
 		border: none;
@@ -43,36 +80,39 @@
 	.container{
 		background-image: url('../img/zasto-mi/front.jpg');
 		background-repeat: no-repeat;
-		background-size: contain;
-
+		background-size: 84% 92%;
+		background-position: 27.5% 3px;
 		h3 {
-			font-size: 1.2em;
+			font-size: 1.3em;
 			font-style: oblique;
 			font-weight: 600;
 			color: #646464;
+			margin-bottom: 7px;
 		}
 
 		.cost-eff {
 			width: 25%;
 			position: relative;
-			left: 43%;
-			top: 10px;
+			left: 40.5%;
+			top: 12px;
 			text-align: justify;
+
 		}
 
 		.our-team {
 			width: 12%;
 			position: relative;
-			left: 84%;
-			top: 20px;
+			left: 73.5%;
+			top: 10px;
 			text-align: center;
 		}
 
 		.top-profi {
 			float: left;
-			width: 35%;
-			margin-top: 6%;
+			width: 26%;
+			margin-top: 3%;
 			margin-right: 0;
+			margin-left: 4%;
 			/*position: relative;
 			top: 50%;*/
 			text-align: justify;
@@ -80,8 +120,8 @@
 		.our-infra {
 			width: 20%;
 			position: relative;
-			left: 75%;
-			top: -50px;
+			left: 68%;
+			top: -64px;
 			text-align: justify;
 		}
 	}
@@ -90,21 +130,27 @@
 
 .work-areas {
 	background-color: #E6E6E6;
-	width: 100%;	
+	width: 100%;
+	.container {
+		padding-left: 5%;
+		padding-right: 6.5%;
+	}	
 	.feature {
 		margin-top: 70px;
 		margin-bottom: 30px;
 		padding-left: 2%;
 		background-color: white;
 		width: 32%;
-		height: 190px;
+		height: 175px;
 
 		 h2 {
 		 	width: 70%;
 		 	color: #009AE2;
 		 	font-weight: 600;
 		 	font-style: oblique;
-		 	font-size: 1.6em;
+		 	font-size: 1.4em;
+		 	margin-top: 12px;
+		 	margin-left: 2px;
 		 }
 
 		 p {
@@ -128,7 +174,9 @@
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: 99% 100%;
-
+		h2 {
+			width: 80%;
+		}
 		p {
 			width: 85%;
 		}
@@ -146,18 +194,18 @@
 
 	.sub-header {
 		text-align: center;
-		padding-left: 10%;
-		padding-right: 10%;
-		padding-top: 30px;
-
-
+		padding-left: 9%;
+		padding-right: 9%;
+		padding-top: 10px;
 		h2 {
-			font-size: 2.4em;
+			margin-top: 7px;
+			font-size: 2.5em;
 			font-weight: 600;
 		}
 
 		p {
-			font-size: 1.4em;
+			font-size: 1.1em;
+			line-height: 16px;
 		}
 	}
 
@@ -183,10 +231,42 @@
 			margin-top: 20px;
 		}
 		.first-row, .second-row, .third-row {
-			padding-top: 10px; 
+			padding-top: 2px; 
+		}
+		.second-row {
+			position: relative;
+			top: -12px;
+			.stay-left, .go-right {
+				margin-top: 0;
+			}
+		}
+		.third-row {
+			position: relative;
+			top: -15px;
+			.stay-left, .go-right {
+				width: 21%;
+				margin-top: 0;
+				h2 {
+					margin-bottom: 7px;
+				}
+			}
 		}
 		.fourth-row {
-			padding-bottom: 100px;
+			padding-bottom: 143px;
+			position: relative;
+			top: -18px;
+			.stay-left, .go-right {
+				width: 27.5%;
+				margin-top: 0;
+				h2 {
+					margin-bottom: 7px;
+				}
+			}
+			.go-right {
+				h2 {
+					margin-top: 16px;
+				}
+			}
 		}
 	}
 }
@@ -195,7 +275,13 @@
 	padding-left: 55px;
 
 	.container {
-		
+		.col-xs-4 {
+			padding-right: 0;
+		}
+		.col-xs-8 {
+			padding-top: 55px;
+			padding-left: 5%;
+		}
 		h3 {
 			color: #F9B348;
 		}
@@ -208,32 +294,35 @@
 			padding-top: 30px;
 			text-align: right;
 			background-image: url("../img/order/question1.png");
-			background-position: 0px 0px;
+			background-position: 30px 0;
 			background-size: cover;
-			padding-bottom: 400px;
+			padding-bottom: 270px;
 			color: white;
 
 			p {
-				width: 40%;
+				width: 48%;
 				margin-left: 50%;
+				margin-top: 22px;
 			}
 
 			h2 {
-				font-size: 3.5em;
+				font-size: 5.2em;
 				font-weight: 600;
 				font-style: oblique;
 				width: 60%;
-				margin-left: 30%;
+				margin-left: 35%;
+				margin-right: 0;
 				color: white;
 			}
 		}
 
 		.question {
-			margin-bottom: 40px;
-
+			margin-bottom: 0;
+			overflow: hidden;
+			min-height: 90px;
 			h3 {
 				float: left;
-				font-size: 3em;
+				font-size: 3.1em;
 				font-weight: 600;
 				font-style: oblique;
 				margin-right: 3%;
@@ -243,20 +332,29 @@
 				font-weight: 600;
 				font-style: oblique;
 				color: white;
+				margin-bottom: 7px;
+				margin-top: 7px;
 			}
 
 			h4, p {
 				color: white;
 				position: relative;
 				top: 20px;
+				padding-left: 5.8%;
+				max-width: 80%;
+				margin-top: -3px;
 			}
 		}
 
 		#expander {
+			margin-left: 33%;
 			background-image: url("../img/order/arrow1.png");
 			background-size: cover;
-			width: 130px;
-			height: 40px;
+			width: 80px;
+			height: 17px;
 		}
 	}
+}
+.hidden {
+	visibility: hidden;
 }

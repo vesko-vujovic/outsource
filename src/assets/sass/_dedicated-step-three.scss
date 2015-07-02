@@ -2,28 +2,36 @@ $grey: #E6E6E6;
 $tab-font: #818181;
 
 #choose_add_panel {
+  padding-left: 7%;
+  background-color: $lightgray;
+  padding-top: 2px;
 	#add_form {
+
 		background-color: $lightgray;
 		padding: 50px 0px;
 
 		#choose_form {
 			border: 1px solid #dddddd;
 			background-color: white;
-            
+            width: 86%;
             .nav li {
             	margin-top: 0;
+            	width: 32%;
             }
-
+            ul.nav-tabs li:first-child, li:last-child {
+            	width: 34%;
+            }
 			.nav.nav-tabs {
 				margin-bottom: 10px;
 				border-bottom: 2px solid #dddddd !important;
-
+				height: 58px;
 				li {
 					text-align: center;
 					margin-bottom: -2px;
+
 					a {
 						color: #767676;
-						font-size: 18px;
+						font-size: 1.2em;
 						padding: 15px;
 						&:hover {
 							background-color: #f8f8f8;
@@ -52,18 +60,26 @@ $tab-font: #818181;
 
 			.check_list {
 				border-bottom: 1px solid #dddddd;
-
+				padding-left: 2%;
+				padding-top: 30px;
 				.col-sm-6 {
 					padding: 40px;
 				}
-
+				.col-xs-6 {
+					width: 46.5%;
+				}
+				.second-col-6 {
+					margin-left: 4.5%;
+					padding-left: 2.5%;
+					width: 48%;
+				}
 				.checkbox {
 					background-image: asset-url("gray-line.png");
 					background-repeat: repeat-x;
 					background-size: 5px 1px;
 					background-position: left 14px; 
 					margin-top: 0;
-
+					line-height: 39px;
 					p {
 						float: right;
 						padding-left: 4px;
@@ -73,6 +89,9 @@ $tab-font: #818181;
 						
 						padding-right: 4px;
 						background-color: white;
+					}
+					.pad-left {
+						padding-left: 25px;
 					}
 				}
 
@@ -111,7 +130,7 @@ $tab-font: #818181;
 			margin-top: 25px;
 			padding: 6px 35px;
 			position: relative;
-
+			margin-right: 20%;
 			i {
 				position: absolute;
 				right: 4px;

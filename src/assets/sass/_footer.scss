@@ -6,12 +6,26 @@ $headerblue: #012638;
 $lightgray: #e6e6e6;
 
 .footer {
-  padding-top: 50px;
+  padding-top: 37px;
   background-color: $headerblue;
   color: #314E5C;
-
+  .container {
+    padding-left: 4.2%;
+    padding-right: 4%;
+    .blog-info {
+      margin-left: 1%;
+      padding-right: 0;
+      width: 31%;
+      ul {
+        margin-top: -4px;
+      }
+    }
+    .contact {
+      width: 30%;
+    }
+  }
   .bottom20 {
-    margin-bottom: 20px;
+    margin-bottom: 9px;
   }
 
   h5 {
@@ -26,7 +40,7 @@ $lightgray: #e6e6e6;
   }
 
   p {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 17px;
   }
 
@@ -45,17 +59,20 @@ $lightgray: #e6e6e6;
   hr {
     border-color: #314E5C;
     margin-bottom: 5px;
+    width: 97%;
+    margin-left: -0.1%;
   }
 
   .footer_clients {
-    margin: 25px 0px;
+    margin-top: 25px;
+    margin-bottom: 45px;
     p {
       display: inline;
     }
     img {
-      width: 120px;
+      width: 115px;
       float: right;
-      margin-left: 30px;
+      margin-right: 32px;
     }
   }
 
@@ -64,13 +81,15 @@ $lightgray: #e6e6e6;
     margin-bottom: 0px;
     i {
       float: right;
-      margin-left: 3px;
+      margin-left: 5px;
       &:hover {
         color:white;
       }
     }
   }
-
+  .rights i:first-child {
+    margin-right: 32px;
+  }
   .more_about_us:hover, .contact:hover, .blog-info:hover, .footer_clients:hover {
     color: white;
   }
