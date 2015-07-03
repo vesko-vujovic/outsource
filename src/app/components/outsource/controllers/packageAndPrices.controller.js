@@ -9,4 +9,9 @@ app.controller('packageAndPricesCtrl', ['$scope', 'sharedService', function($sco
 	$scope.packageData         = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
 	    $scope.packages        = data.packages; 
 	});
+
+
+    
+
+
 }]);

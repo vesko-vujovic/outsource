@@ -9,4 +9,8 @@ app.controller('dedicatedCtrl', ['$scope', 'sharedService', function($scope, sha
 	$scope.packageData         = sharedService.getData('/outsource/json/index/packages.json').then(function(data){
 	    $scope.packages        = data.packages; 
 	});
+
+    
+
+
 }]);

@@ -114,11 +114,6 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
-<<<<<<< HEAD
-            .state('dedicated-team-price-step-two', { 
-                parent: 'home',
-                url: '/dedicated-team-price-step-two',
-=======
             .state('dedicated-team-price-one', { 
                 parent: 'dedicated-team-price-homepage',
                 url: '/team-price-one',
@@ -135,7 +130,6 @@ outsource.config(function($stateProvider, $urlRouterProvider){
             .state('dedicated-team-price-two', { 
                 parent: 'dedicated-team-price-homepage',
                 url: '/team-price-two',
->>>>>>> origin/master
                 views: {
                      
                     inner: {
@@ -248,14 +242,21 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                      
                 }
                   
-<<<<<<< HEAD
-            })         
-=======
-            })
 
-            
-            
->>>>>>> origin/master
+            })
+            .state('packageprices-chosen-package', { 
+                parent: 'home',
+                url: '/package-prices-chosen-package',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/package-prices-chosen-package.html',
+                        controller:  'packageAndPricesCtrl'
+                    }
+                     
+                }                 
+
+            })            
     
 });
 
