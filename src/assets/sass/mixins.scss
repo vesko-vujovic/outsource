@@ -241,6 +241,7 @@
         width: 87%;
       tr td:first-child {
         width:18.5%;
+        position: relative;
       }
       tr td:not(td.col-xs-3) {
         width: 16%;
@@ -252,6 +253,42 @@
       tbody tr:last-child {
         height: 127px;
         padding-top: 20px;
+        &:hover {
+          box-shadow: none;
+          display: table-row;
+        }
+      }
+      tbody tr:hover {
+        display: inline-block;
+        width: 455%;
+        margin-left: -5%;
+        box-shadow: 0 0 2px 2px #35B7F3;
+        padding-left: 5%;
+        td i.fa {
+          visibility: hidden;
+        }
+        .hide-this {
+          display: inline-block;
+           left: 230px;
+           width: 550px;
+        }
+      }
+      .hide-this {
+        position: absolute;
+        left: 230px;
+        top: 16px;
+        width: 275%;
+        display: none;
+        i.glyphicon-info-sign {
+          color: grey;
+          font-size: 14px;
+        }
+        span {
+          font-size: 0.8em;
+          margin-left: 1%;
+          position: relative;
+          top: -2px;
+        }
       }
     }
   }

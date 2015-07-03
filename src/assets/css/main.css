@@ -6077,6 +6077,45 @@ div ul.nav.navbar-nav {
 #packages2 .row .packages-offer {
   height: 430px; }
 
+#chosen-package .page-header {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 6.5%; }
+  #chosen-package .page-header .present {
+    width: 92%;
+    margin-top: 58px;
+    padding-bottom: 15px; }
+    #chosen-package .page-header .present h1 {
+      font-size: 3.6em;
+      margin-bottom: 3px;
+      margin-top: 40px; }
+    #chosen-package .page-header .present p {
+      padding-left: 4px;
+      width: 95%;
+      margin-bottom: 3px; }
+#chosen-package .header-official {
+  width: 12.5%;
+  height: 179px;
+  padding: 55px 10px 15px 10px;
+  margin-left: -2%;
+  text-align: center;
+  color: #A0A0A0;
+  border-left: 2px solid #c6c6c6;
+  border-right: 2px solid #c6c6c6; }
+  #chosen-package .header-official img {
+    margin-left: 2px;
+    margin-top: 4px; }
+  #chosen-package .header-official p {
+    position: relative;
+    top: -4px; }
+
+#chosen-package + #order_inner + div.hr-line {
+  margin-left: 23%;
+  margin-top: -32px;
+  width: 52.5%;
+  border: 1px solid #e6e6e6; }
+
 .why-us {
   background: #002637;
   min-width: 980px;
@@ -6475,7 +6514,8 @@ body {
   #order_inner #table #myTable {
     width: 87%; }
     #order_inner #table #myTable tr td:first-child {
-      width: 18.5%; }
+      width: 18.5%;
+      position: relative; }
     #order_inner #table #myTable tr td:not(td.col-xs-3) {
       width: 16%; }
     #order_inner #table #myTable td {
@@ -6484,6 +6524,35 @@ body {
     #order_inner #table #myTable tbody tr:last-child {
       height: 127px;
       padding-top: 20px; }
+      #order_inner #table #myTable tbody tr:last-child:hover {
+        box-shadow: none;
+        display: table-row; }
+    #order_inner #table #myTable tbody tr:hover {
+      display: inline-block;
+      width: 455%;
+      margin-left: -5%;
+      box-shadow: 0 0 2px 2px #35B7F3;
+      padding-left: 5%; }
+      #order_inner #table #myTable tbody tr:hover td i.fa {
+        visibility: hidden; }
+      #order_inner #table #myTable tbody tr:hover .hide-this {
+        display: inline-block;
+        left: 230px;
+        width: 550px; }
+    #order_inner #table #myTable .hide-this {
+      position: absolute;
+      left: 230px;
+      top: 16px;
+      width: 275%;
+      display: none; }
+      #order_inner #table #myTable .hide-this i.glyphicon-info-sign {
+        color: grey;
+        font-size: 14px; }
+      #order_inner #table #myTable .hide-this span {
+        font-size: 0.8em;
+        margin-left: 1%;
+        position: relative;
+        top: -2px; }
 
 div#order_now + .ng-scope #inner-blocks {
   padding-bottom: 0; }
@@ -6594,7 +6663,7 @@ td btn.btn-orange-o:hover {
   #order_now #bubble_tabs .nav-tabs {
     height: 150px; }
     #order_now #bubble_tabs .nav-tabs li {
-      width: 150px;
+      width: 147px;
       height: 100%;
       border-right: 1px solid #eeeeee;
       margin: 0; }
@@ -6891,16 +6960,19 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
         /*bubble_tabs*/ }
         #choose_add_panel #add_form #choose_form .nav.nav-tabs li {
           text-align: center;
-          margin-bottom: -2px; }
+          margin-bottom: -2px;
+          height: 60px; }
           #choose_add_panel #add_form #choose_form .nav.nav-tabs li a {
             color: #767676;
             font-size: 1.2em;
             padding: 15px; }
             #choose_add_panel #add_form #choose_form .nav.nav-tabs li a:hover {
-              background-color: #f8f8f8; }
+              background-color: #f8f8f8;
+              height: 58px; }
           #choose_add_panel #add_form #choose_form .nav.nav-tabs li.active a {
             background-color: #009ae2;
-            color: white; }
+            color: white;
+            height: 58px; }
         #choose_add_panel #add_form #choose_form .nav.nav-tabs li.active:after {
           content: '';
           position: absolute;
@@ -6909,8 +6981,8 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
           z-index: 1;
           border-width: 10px 10px 0px;
           border-color: #009ae2 transparent;
-          bottom: -10px;
-          margin-left: 158px; }
+          bottom: -8px;
+          margin-left: 47%; }
       #choose_add_panel #add_form #choose_form .check_list {
         border-bottom: 1px solid #dddddd;
         padding-left: 2%;
@@ -6919,26 +6991,37 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
           padding: 40px; }
         #choose_add_panel #add_form #choose_form .check_list .col-xs-6 {
           width: 46.5%; }
+          #choose_add_panel #add_form #choose_form .check_list .col-xs-6 p {
+            padding-left: 3.5%;
+            margin-top: -7px; }
         #choose_add_panel #add_form #choose_form .check_list .second-col-6 {
-          margin-left: 4.5%;
-          padding-left: 2.5%;
+          margin-left: 4.8%;
+          padding-left: 2.7%;
           width: 48%; }
+          #choose_add_panel #add_form #choose_form .check_list .second-col-6 p {
+            padding-left: 3.5%;
+            margin-top: -7px; }
         #choose_add_panel #add_form #choose_form .check_list .checkbox {
           background-image: asset-url("gray-line.png");
           background-repeat: repeat-x;
           background-size: 5px 1px;
           background-position: left 14px;
           margin-top: 0;
+          /*margin-bottom: 9px;*/
           line-height: 39px; }
           #choose_add_panel #add_form #choose_form .check_list .checkbox p {
             float: right;
+            position: relative;
+            right: 0;
             padding-left: 4px;
             background-color: white; }
           #choose_add_panel #add_form #choose_form .check_list .checkbox label {
             padding-right: 4px;
             background-color: white; }
           #choose_add_panel #add_form #choose_form .check_list .checkbox .pad-left {
-            padding-left: 25px; }
+            padding-left: 27px;
+            position: relative;
+            bottom: 7px; }
         #choose_add_panel #add_form #choose_form .check_list .class_checkbox {
           width: 30px;
           height: 30px;
@@ -6954,105 +7037,138 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
       #choose_add_panel #add_form #choose_form .form {
         background-color: white;
         padding-top: 15px; }
+        #choose_add_panel #add_form #choose_form .form .form-group {
+          padding-left: 1%; }
+          #choose_add_panel #add_form #choose_form .form .form-group > label {
+            font-size: 1.2em;
+            font-weight: 400;
+            color: grey; }
+          #choose_add_panel #add_form #choose_form .form .form-group > textarea {
+            width: 85%;
+            background-color: #e6e6e6; }
         #choose_add_panel #add_form #choose_form .form .btn {
           margin-top: 15px; }
           #choose_add_panel #add_form #choose_form .form .btn:last-child {
             border: none; }
     #choose_add_panel #add_form .next_step {
       float: right;
-      margin-top: 25px;
-      padding: 6px 35px;
+      margin-top: 20px;
+      padding: 9px 35px;
       position: relative;
-      margin-right: 20%; }
+      margin-right: 14%;
+      width: 20%;
+      font-size: 1.5em; }
       #choose_add_panel #add_form .next_step i {
         position: absolute;
-        right: 4px;
-        top: 2px; }
+        right: 8%;
+        top: 1px; }
 
-#project_panel #order_panel {
-  background-color: #e6e6e6;
-  padding: 50px 0px 70px; }
-  #project_panel #order_panel .panel {
-    border-radius: 0px;
-    margin-bottom: 0px; }
-    #project_panel #order_panel .panel .panel-heading {
-      background-color: #00608c;
-      color: white;
+#project_panel {
+  padding-left: 0;
+  background-color: #e6e6e6; }
+  #project_panel #order_panel {
+    background-color: #e6e6e6;
+    padding: 50px 0px 70px; }
+    #project_panel #order_panel .container {
+      width: 52.5%;
+      padding-left: 0; }
+      #project_panel #order_panel .container .col-xs-4 {
+        padding-right: 0; }
+    #project_panel #order_panel .panel {
       border-radius: 0px;
-      padding: 15px; }
-      #project_panel #order_panel .panel .panel-heading .panel-title {
-        font-size: 22px; }
-    #project_panel #order_panel .panel .panel-body {
-      padding: 0px; }
-      #project_panel #order_panel .panel .panel-body .option {
-        padding: 10px 20px 25px;
-        border-bottom: 1px solid #dddddd; }
-        #project_panel #order_panel .panel .panel-body .option:last-child {
-          border: none;
-          background-color: #00608c;
-          color: white;
-          padding: 15px; }
-          #project_panel #order_panel .panel .panel-body .option:last-child h3 {
-            font-weight: bold;
-            margin: 0px; }
-        #project_panel #order_panel .panel .panel-body .option .option_title .circle {
-          width: 24px;
-          height: 24px;
-          border-radius: 50%;
-          background-color: #f8a01a;
-          float: left;
-          margin-right: 10px; }
-          #project_panel #order_panel .panel .panel-body .option .option_title .circle p {
-            color: white;
-            text-align: center;
-            font-size: 16px;
-            font-weight: bold;
-            line-height: 24px; }
-        #project_panel #order_panel .panel .panel-body .option .option_title h4 {
-          color: #f8a01a;
-          font-size: 16px;
-          text-transform: uppercase;
-          vertical-align: inherit;
-          line-height: 24px; }
-        #project_panel #order_panel .panel .panel-body .option .price {
-          color: #00608c;
-          margin-top: 25px; }
-        #project_panel #order_panel .panel .panel-body .option .table {
-          text-align: right; }
-          #project_panel #order_panel .panel .panel-body .option .table tr td {
+      margin-bottom: 0px; }
+      #project_panel #order_panel .panel .panel-heading {
+        background-color: #00608c;
+        color: white;
+        border-radius: 0px;
+        padding: 15px; }
+        #project_panel #order_panel .panel .panel-heading .panel-title {
+          font-size: 1.8em;
+          margin-right: 2px;
+          margin-bottom: 3px; }
+      #project_panel #order_panel .panel .panel-body {
+        padding: 0px; }
+        #project_panel #order_panel .panel .panel-body .option {
+          padding: 10px 20px 25px;
+          border-bottom: 1px solid #dddddd; }
+          #project_panel #order_panel .panel .panel-body .option:last-child {
             border: none;
-            padding: 0px; }
-          #project_panel #order_panel .panel .panel-body .option .table tr td:first-child {
-            text-align: left; }
-      #project_panel #order_panel .panel .panel-body form {
-        padding: 20px 0px 50px; }
-        #project_panel #order_panel .panel .panel-body form .form-group {
-          margin-bottom: 25px; }
-          #project_panel #order_panel .panel .panel-body form .form-group label {
-            font-weight: normal; }
-          #project_panel #order_panel .panel .panel-body form .form-group input, #project_panel #order_panel .panel .panel-body form .form-group select {
-            border-radius: 0px;
-            background-color: #f8f8f8;
-            height: 44px; }
-          #project_panel #order_panel .panel .panel-body form .form-group textarea {
-            border-radius: 0px;
-            background-color: #f8f8f8; }
-        #project_panel #order_panel .panel .panel-body form .checkbox label {
-          padding-left: 30px; }
-        #project_panel #order_panel .panel .panel-body form .checkbox input[type="checkbox"] {
-          height: 20px;
-          width: 20px;
-          margin: 0px 0px 0px -30px;
-          border-radius: 50%; }
-          #project_panel #order_panel .panel .panel-body form .checkbox input[type="checkbox"]:focus {
-            outline: none; }
-        #project_panel #order_panel .panel .panel-body form .btn-green {
-          background-color: #49b009;
-          border: none;
-          color: white;
-          font-size: 18px;
-          padding: 10px 15px;
-          margin-top: 20px; }
+            background-color: #00608c;
+            color: white;
+            padding: 15px; }
+            #project_panel #order_panel .panel .panel-body .option:last-child h3 {
+              font-weight: bold;
+              margin: 0px; }
+          #project_panel #order_panel .panel .panel-body .option .option_title .circle {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: #f8a01a;
+            float: left;
+            margin-right: 10px; }
+            #project_panel #order_panel .panel .panel-body .option .option_title .circle p {
+              color: white;
+              text-align: center;
+              font-size: 16px;
+              font-weight: bold;
+              line-height: 24px; }
+          #project_panel #order_panel .panel .panel-body .option .option_title h4 {
+            color: #f8a01a;
+            font-size: 16px;
+            text-transform: uppercase;
+            vertical-align: inherit;
+            line-height: 24px; }
+          #project_panel #order_panel .panel .panel-body .option .price {
+            color: #00608c;
+            margin-top: 25px; }
+          #project_panel #order_panel .panel .panel-body .option .table {
+            text-align: right; }
+            #project_panel #order_panel .panel .panel-body .option .table tr td {
+              border: none;
+              padding: 0px; }
+            #project_panel #order_panel .panel .panel-body .option .table tr td:first-child {
+              text-align: left; }
+        #project_panel #order_panel .panel .panel-body form {
+          padding: 20px 0px 50px; }
+          #project_panel #order_panel .panel .panel-body form .form-group {
+            margin-bottom: 25px; }
+            #project_panel #order_panel .panel .panel-body form .form-group label {
+              font-weight: 400;
+              font-size: 1.2em; }
+            #project_panel #order_panel .panel .panel-body form .form-group input, #project_panel #order_panel .panel .panel-body form .form-group select {
+              margin-right: 6%;
+              border-radius: 0px;
+              background-color: #f8f8f8;
+              height: 44px; }
+            #project_panel #order_panel .panel .panel-body form .form-group input.form-control, #project_panel #order_panel .panel .panel-body form .form-group select {
+              width: 92%;
+              padding-top: 3px;
+              padding-right: 5px; }
+            #project_panel #order_panel .panel .panel-body form .form-group textarea {
+              border-radius: 0px;
+              background-color: #f8f8f8;
+              height: 135px; }
+          #project_panel #order_panel .panel .panel-body form .checkbox label {
+            padding-left: 30px; }
+          #project_panel #order_panel .panel .panel-body form .checkbox input[type="checkbox"] {
+            height: 20px;
+            width: 20px;
+            margin: 0px 0px 0px -30px;
+            border-radius: 50%; }
+            #project_panel #order_panel .panel .panel-body form .checkbox input[type="checkbox"]:focus {
+              outline: none; }
+          #project_panel #order_panel .panel .panel-body form .btn-green {
+            background-color: #49b009;
+            border: none;
+            color: white;
+            font-size: 18px;
+            padding: 12px 15px;
+            margin-top: 27px;
+            margin-left: 10%;
+            width: 78%;
+            font-weight: 600; }
+          #project_panel #order_panel .panel .panel-body form .form-group + div.checkbox {
+            margin-top: 20px; }
 
 /* style for 'za┼íto mi' page */
 #whyus-page .page-header {
@@ -8192,22 +8308,36 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
     left: 100px;
     bottom: 75px; }
 
-.project-clients .row {
-  margin-left: 4%;
-  margin-right: 6%; }
-.project-clients .other-categories {
-  font-weight: 600;
-  font-size: 1.2em;
-  padding-top: 20px;
-  height: 60px; }
-  .project-clients .other-categories a {
-    color: black; }
-  .project-clients .other-categories .all-portfolio {
-    color: #a6a6a6; }
-    .project-clients .other-categories .all-portfolio img {
-      margin-bottom: 5px; }
-.project-clients .clients-logo h4 {
-  font-weight: 600;
-  font-size: 1.6em; }
+.project-clients {
+  padding-left: 2%;
+  padding-right: 2%; }
+  .project-clients .row {
+    margin-left: 4.5%;
+    margin-right: 6.5%; }
+  .project-clients .other-categories {
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-top: 15px;
+    height: 60px; }
+    .project-clients .other-categories a {
+      color: black; }
+    .project-clients .other-categories .col-xs-2 {
+      margin-left: -0.5%;
+      padding-top: 3px; }
+      .project-clients .other-categories .col-xs-2 .all-portfolio {
+        color: #a6a6a6;
+        font-weight: 400; }
+        .project-clients .other-categories .col-xs-2 .all-portfolio img {
+          margin-bottom: 5px; }
+  .project-clients .clients-logo {
+    margin-bottom: 45px; }
+    .project-clients .clients-logo .col-xs-4 {
+      width: 33%; }
+    .project-clients .clients-logo h4 {
+      margin-top: 5px;
+      margin-bottom: 0px;
+      font-weight: 400;
+      font-size: 1.4em;
+      letter-spacing: 0px; }
 
 /*# sourceMappingURL=main.css.map */

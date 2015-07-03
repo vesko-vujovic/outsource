@@ -5,7 +5,8 @@
   #order_inner #table #myTable {
     width: 87%; }
     #order_inner #table #myTable tr td:first-child {
-      width: 18.5%; }
+      width: 18.5%;
+      position: relative; }
     #order_inner #table #myTable tr td:not(td.col-xs-3) {
       width: 16%; }
     #order_inner #table #myTable td {
@@ -14,6 +15,35 @@
     #order_inner #table #myTable tbody tr:last-child {
       height: 127px;
       padding-top: 20px; }
+      #order_inner #table #myTable tbody tr:last-child:hover {
+        box-shadow: none;
+        display: table-row; }
+    #order_inner #table #myTable tbody tr:hover {
+      display: inline-block;
+      width: 455%;
+      margin-left: -5%;
+      box-shadow: 0 0 2px 2px #35B7F3;
+      padding-left: 5%; }
+      #order_inner #table #myTable tbody tr:hover td i.fa {
+        visibility: hidden; }
+      #order_inner #table #myTable tbody tr:hover .hide-this {
+        display: inline-block;
+        left: 230px;
+        width: 550px; }
+    #order_inner #table #myTable .hide-this {
+      position: absolute;
+      left: 230px;
+      top: 16px;
+      width: 275%;
+      display: none; }
+      #order_inner #table #myTable .hide-this i.glyphicon-info-sign {
+        color: grey;
+        font-size: 14px; }
+      #order_inner #table #myTable .hide-this span {
+        font-size: 0.8em;
+        margin-left: 1%;
+        position: relative;
+        top: -2px; }
 
 div#order_now + .ng-scope #inner-blocks {
   padding-bottom: 0; }

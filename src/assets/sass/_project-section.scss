@@ -1,27 +1,41 @@
 .project-clients {
+	padding-left: 2%;
+	padding-right: 2%;
 	.row {
-		margin-left: 4%;
-		margin-right: 6%;
+		margin-left: 4.5%;
+		margin-right: 6.5%;
 	}
 	.other-categories {
 		font-weight: 600;
 		font-size: 1.2em;
-		padding-top: 20px;
+		padding-top: 15px;
 		height: 60px;
 		a {
 			color: black;
 		}
-		.all-portfolio {
-			color: #a6a6a6;
-			img {
-				margin-bottom: 5px;
+		.col-xs-2 {
+			margin-left: -0.5%;
+			padding-top: 3px;
+			.all-portfolio {
+				color: #a6a6a6;
+				font-weight: 400;
+				img {
+					margin-bottom: 5px;
+				}
 			}
 		}
 	}
 	.clients-logo {
+		margin-bottom: 45px;
+		.col-xs-4 {
+			width: 33%;
+		}
 		h4 {
-			font-weight: 600;
-			font-size: 1.6em;
+			margin-top: 5px;
+			margin-bottom: 0px;
+			font-weight: 400;
+			font-size: 1.4em;
+			letter-spacing: 0px;
 		}
 	}
 }

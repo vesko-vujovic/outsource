@@ -28,19 +28,21 @@ $tab-font: #818181;
 				li {
 					text-align: center;
 					margin-bottom: -2px;
-
+					height: 60px;
 					a {
 						color: #767676;
 						font-size: 1.2em;
 						padding: 15px;
 						&:hover {
 							background-color: #f8f8f8;
+							height: 58px;
 						}
 					}
 					&.active {
 						a {
 							background-color: $blue;
 							color: white;
+							height: 58px;
 						}
 					}
 				}
@@ -53,8 +55,8 @@ $tab-font: #818181;
 					z-index: 1;
 					border-width: 10px 10px 0px;
 					border-color: $blue transparent;
-					bottom: -10px;
-					margin-left: 158px;
+					bottom: -8px;
+					margin-left: 47%;
 				}
 			}
 
@@ -67,11 +69,19 @@ $tab-font: #818181;
 				}
 				.col-xs-6 {
 					width: 46.5%;
+					p {
+						padding-left: 3.5%;
+						margin-top: -7px;
+					}
 				}
 				.second-col-6 {
-					margin-left: 4.5%;
-					padding-left: 2.5%;
+					margin-left: 4.8%;
+					padding-left: 2.7%;
 					width: 48%;
+					p {
+						padding-left: 3.5%;
+						margin-top: -7px;
+					}
 				}
 				.checkbox {
 					background-image: asset-url("gray-line.png");
@@ -79,9 +89,12 @@ $tab-font: #818181;
 					background-size: 5px 1px;
 					background-position: left 14px; 
 					margin-top: 0;
+					/*margin-bottom: 9px;*/
 					line-height: 39px;
 					p {
 						float: right;
+						position: relative;
+						right: 0;
 						padding-left: 4px;
 						background-color: white;
 					}
@@ -91,7 +104,9 @@ $tab-font: #818181;
 						background-color: white;
 					}
 					.pad-left {
-						padding-left: 25px;
+						padding-left: 27px;
+						position: relative;
+						bottom: 7px;
 					}
 				}
 
@@ -115,7 +130,18 @@ $tab-font: #818181;
 			.form {
 				background-color: white;
 				padding-top: 15px;
-
+				.form-group {
+					padding-left: 1%;
+					&>label {
+						font-size: 1.2em;
+						font-weight: 400;
+						color: grey;
+					}
+					&>textarea {
+						width: 85%;
+						background-color: $lightgray;
+					}
+				}
 				.btn {
 					margin-top: 15px;
 					&:last-child {
@@ -127,14 +153,17 @@ $tab-font: #818181;
 
 		.next_step {
 			float: right;
-			margin-top: 25px;
-			padding: 6px 35px;
+			margin-top: 20px;
+			padding: 9px 35px;
 			position: relative;
-			margin-right: 20%;
+			margin-right: 14%;
+			
+			width: 20%;
+			font-size: 1.5em;
 			i {
 				position: absolute;
-				right: 4px;
-				top: 2px;
+				right: 8%;
+				top: 1px;
 			}
 		}
 	}
