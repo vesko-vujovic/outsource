@@ -1,4 +1,5 @@
 #dedicated-one-wrap {
+	overflow: hidden;
 	.page-header1 {
 		.page-header {
 			margin: 0;
@@ -13,14 +14,19 @@
 	.page-inner1 {
 		background-color: #E6E6E6;
 		color: #646464;
+		/*margin-top: 113px;*/
 		.row {
 			padding-left: 4%;
-			padding-right: 6%;
+			padding-right: 5.5%;
 		}
 		.table-heading {
+			padding-top: 19px;
 			h1 {
 		      font-weight: 600;
 		      font-style: oblique;
+		      font-size: 3.5em;
+		      margin-top: 15px;
+		      padding-left: 2px;
 		    }
 		    .padding-left {
 		       padding-left: 3%;
@@ -28,21 +34,33 @@
 		    .padding-top {
 		      padding-top: 25px;
 		      padding-right: 5%;
+		      padding-left: 2%;
+		      h3 {
+		      	font-size: 1.4em;
+		      	font-weight: 600;
+		      	font-style: oblique;
+		      	margin-bottom: 0;
+		      }
 		    }
 		}
 		.block-table {
 	      background-color: white;
-	      margin-top: 20px;
+	      margin-top: 5px;
+	      margin-bottom: 20px;
+	      margin-left: 1.5%;
+	      width: 73.5%;
 	      padding: 0;
-	      margin-bottom: 30px;
-	      height: 440px;
+	      height: 365px;
 	    }
 	    .block-header {
 	      position: relative;
 	      h3 {
-	        margin-top: 60px;
+	        margin-top: 40px;
+	        margin-bottom: 0;
+	        padding-left: 5%;
+	        padding-right: 15%;
 	        color: #009AE2;
-	        font-size: 2em;
+	        font-size: 1.7em;
 	        font-weight: 600;
 	        font-style: oblique;
 	        text-transform: uppercase;
@@ -50,13 +68,14 @@
 	      p {
 	        position: absolute;
 	        z-index: 7;
-	        width: 55%;
-	        padding-top: 20px;
+	        padding-left: 5%;
+	        width: 65%;
+	        padding-top: 25px;
 	      }
 	      img {
 	        position: absolute;
-	        top: 115px;
-	        left: 57.3%;
+	        top: 55px;
+	        left: 62%;
 	        z-index: 5;
 	      }
 	    }
@@ -66,8 +85,8 @@
 	      text-align: center;
 	      border-bottom: 2px solid #c6c6c6;
 	      font-size: 1.2em;
-	      padding-top: 10px;
-	      padding-bottom: 10px;
+	      padding-top: 7px;
+	      padding-bottom: 5px;
 	      color: #C8C8C8;
 	      p {
 	        margin: 0;
@@ -86,42 +105,55 @@
 	    }
 	    .pos {
 	      padding-left: 5%;
-	      margin-right: 27%;
+	      margin-right: 35%;
 	      h4 {
 	      color: #F7A033;
 	      text-transform: uppercase;
+	      padding-top: 5px;
+	      font-size: 1.2em;
 	      font-weight: 600;
+	      margin-top: 0;
+	      margin-bottom: 0;
 	      }
 	    }
 	    .junior {
-	      margin-right: 10%;
+	      margin-right: 2%;
 	      h4 {
-	      color: #F7A033;
-	      font-weight: 600;
+		      color: #F7A033;
+		      padding-top: 5px;
+		      font-size: 1.2em;
+		      font-weight: 600;
+		      margin-top: 0;
+		      margin-bottom: 0;
 	      }
 	    }
-	    .senior {
+	    div.senior {
+	    	width: 16%;
 	      h4 {
-	      color: #F7A033;
-	      font-weight: 600;
+	      	  color: #F7A033;
+		      padding-top: 5px;
+		      font-size: 1.2em;
+		      font-weight: 600;
+		      margin-top: 0;
+		      margin-bottom: 0;
 	      }
 	    }
 	    .horizontal-line1 {
 	        border: 1px solid #E6E6E6;
 	        position: relative;
-	        top: 125px;
+	        top: 97px;
 	        width: 93%;
 	        margin: auto;
 	    }
 	    .horizontal-line {
 	        border: 1px solid #E6E6E6;
 	        position: relative;
-	        top: -278px;
+	        top: -250px;
 	        width: 53%;
-	        margin-top: 50px;
+	        margin-top: 45px;
 	    }
 	    .table {
-	      margin-top: 140px;
+	      margin-top: 110px;
 	      ul {
 	        list-style-type: none;
 	        position: relative;
@@ -132,30 +164,37 @@
 	      }
 	      li {
 	        margin-top: 20px;
+	        margin-left: 0;
+	        padding-left: 0;
 	        color: #646464;
 	        padding-left: 3%;
-	        height: 33px;
+	        height: 29px;
 	      }
 	      .check-text {
 	        position: relative;
-	        top: 6px;
-	        left: 50px;
+	        top: 4px;
+	        left: 14%;
+	        font-size: 1.2em;
+	        input[type="checkbox"] {
+	        	margin-right: 10%;
+	        }
 	      }
 	      .junior-price, .price-senior {
-	        height: 33px;
+	        height: 28px;
 	        width: 60px;
 	        margin-top: 20px;
 	        text-align: center;
 	        color: #646464;
+	        font-size: 1.1em;
 	        background-color: white;
 	        position: relative;
-	        top: -520px;
-	        left: 50%;
+	        top: -475px;
+	        left: 54%;
 	        z-index: 2;
 	      }
 	      .price-senior {
-	        top: -783px;
-	        left: 80%;
+	        top: -715px;
+	        left: 78%;
 	      }
 	    }
 	    .designers {
@@ -164,69 +203,111 @@
 	    	}
 	    }
 	    .programmers {
-	      .block-header {
-	        img {
-	          position: absolute;
-	          left: 45.5%;
-	          z-index: 5;
+	    	.block-header {
+		      position: relative;
+		      padding-left: 0;
+		      h3 {
+		        margin-top: 40px;
+		        margin-bottom: 0;
+		        padding-left: 5%;
+		        padding-right: 15%;
+		        color: #009AE2;
+		        font-size: 1.7em;
+		        font-weight: 600;
+		        font-style: oblique;
+		        text-transform: uppercase;
+		      }
+		      p {
+		        position: absolute;
+		        z-index: 7;
+		        padding-left: 5%;
+		        width: 50%; 
+		        padding-top: 25px;
+		      }
+		      img {
+		          position: absolute;
+		          left: 46%;
+		          top: 55px;
+		          z-index: 5;
+		      }
 	        }
-	        p {
-	          width: 50%; 
-	        }
-	      }
 
 	      .block-table {
-	        height: 460px;
+	        height: 410px;
 
 	        .horizontal-line {
-	          top: -330px;
+	          top: -295px;
 	        }
 
 	        .junior-price {
-	          top: -625px;
+	          top: -566px;
 	        }
 
 	        .price-senior {
-	          top: -943px;
+	          top: -858px;
 	        }
 	      }
     	}
     	.menagers {
-
-	      .block-header {
-
-	        img { 
-	          left: 60%;
+    		.block-header {
+		      position: relative;
+		      padding-left: 0;
+		      h3 {
+		        margin-top: 40px;
+		        margin-bottom: 0;
+		        padding-left: 5%;
+		        padding-right: 0;
+		        color: #009AE2;
+		        font-size: 1.7em;
+		        font-weight: 600;
+		        font-style: oblique;
+		        text-transform: uppercase;
+		      }
+		      p {
+		        position: absolute;
+		        z-index: 7;
+		        padding-left: 5%;
+		        width: 75%;
+		        padding-top: 25px;
+		      }
+		      img {
+		          position: absolute;
+		          left: 65%;
+		          top: 65px;
+		          z-index: 5;
+		      }
 	        }
-
-	        p {
-	          width: 65%; 
-	        }
-	      }
 
 	      .block-table {
-	        height: 460px;
+	        height: 415px;
 
 	        ul {
 	          width: 330px;
+	          li {
+	          	padding-left: 0;
+	          	margin-left: -2%;
+	          	input[type="checkbox"] {
+		        	margin-right: 6%;
+		        }
+	          }
 	        }
 
 	        .horizontal-line {
-	          top: -330px;
+	          top: -296px;
 	        }
 
 	        .junior-price {
-	          top: -625px;
+	          top: -565px;
 	        }
 
 	        .price-senior {
-	          top: -943px;
+	          top: -853px;
 	        }
 	      }
 	    }
 	    .order-select {
     	  margin-top: 0px;
-    	  margin-bottom: 30px;
+    	  margin-bottom: 65px;
     	  width: 20%;
   		  margin-left: 80%;
  		  margin-right: 0%;
