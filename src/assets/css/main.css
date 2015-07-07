@@ -5767,6 +5767,10 @@ div ul.nav.navbar-nav {
       color: #009AE7; }
       div ul.nav.navbar-nav #order-now .navbar-link:hover {
         color: white; }
+    div ul.nav.navbar-nav #order-now.clicked a {
+      background-color: #009ae2 !important;
+      /*color: #000;*/
+      color: white !important; }
 
 #logo {
   margin-top: 12%;
@@ -5776,9 +5780,16 @@ div ul.nav.navbar-nav {
   margin-left: 22%;
   min-height: 73px; }
   #links > ul > li.navbar-text {
-    font-size: 18px !important; }
+    font-size: 18px !important;
+    text-decoration: none; }
   #links > ul > a > li:hover {
-    text-decoration: underline; }
+    text-decoration: none; }
+  #links ul.navbar-nav li.navbar-text {
+    text-decoration: none; }
+    #links ul.navbar-nav li.navbar-text:hover {
+      text-decoration: none; }
+    #links ul.navbar-nav li.navbar-text a.navbar-link:hover {
+      text-decoration: none; }
 
 .dropdown-nav ul > li {
   font-weight: bold; }
@@ -6250,6 +6261,14 @@ div ul.nav.navbar-nav {
     padding-left: 1%; }
     #aboutusmenu .container #about li {
       width: 16%; }
+      #aboutusmenu .container #about li a:hover {
+        background-color: #E6E6E6; }
+    #aboutusmenu .container #about li:hover {
+      background-color: #E6E6E6; }
+    #aboutusmenu .container #about .us-link:hover, #aboutusmenu .container #about .product-link:hover, #aboutusmenu .container #about .projects-link:hover, #aboutusmenu .container #about .contact-link:hover {
+      text-decoration: underline; }
+    #aboutusmenu .container #about .us-link a:hover, #aboutusmenu .container #about .product-link a:hover, #aboutusmenu .container #about .projects-link a:hover, #aboutusmenu .container #about .contact-link a:hover {
+      text-decoration: underline; }
     #aboutusmenu .container #about .us-link {
       margin-right: 0; }
       #aboutusmenu .container #about .us-link img {
@@ -6285,6 +6304,10 @@ div ul.nav.navbar-nav {
       position: relative;
       top: -3px;
       left: -2px; }
+    #aboutusmenu .container #about .bild-icon:hover {
+      color: #009ae2; }
+      #aboutusmenu .container #about .bild-icon:hover a {
+        color: #009ae2; }
 
 .nav > li {
   margin-top: 1%;

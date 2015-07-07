@@ -141,6 +141,13 @@ div ul.nav.navbar-nav {
 
 			}
 		}
+		&.clicked {
+			a{
+				background-color: $blue !important;
+				/*color: #000;*/
+				color: white !important;
+			}
+		}
 	}
 }
 
@@ -156,10 +163,21 @@ div ul.nav.navbar-nav {
 	min-height: 73px;
 	&> ul >li.navbar-text {
 		font-size: 18px !important;
+		text-decoration: none;
 	}
 	&> ul > a > li:hover {
-
-        text-decoration: underline;
+        text-decoration: none;
+	}
+	ul.navbar-nav {
+		li.navbar-text {
+			text-decoration: none;
+			&:hover {
+				text-decoration: none;
+			}
+			a.navbar-link:hover {
+				text-decoration: none;
+			}
+		}
 	}
 }
 

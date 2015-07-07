@@ -24,14 +24,17 @@ header{
 			li{
 				display: inline-block;
 				padding-right: 26px;
+				text-decoration: none;
 				a {
 					display: block;
 					color: #fff;
 					font-size: 16px;
 					position: relative;
+					text-decoration: none;
 					&:hover {
 						opacity: 0.8;
 						color: #fff;
+						text-decoration: none;
 					}
 				}
 				&:last-child{
@@ -47,7 +50,7 @@ header{
 			}
 		}
 	}
-	.order-now{
+	#order-now{
 		float: right;
 		width: 120px;
 		text-align: center;
@@ -62,11 +65,12 @@ header{
 		}
 		&.clicked{
 			a{
-				background: $blue !important;
-				color: #000;
+				background-color: $blue !important;
+				/*color: #000;*/
+				color: white !important;
 			}
 		}
-	}
+	}	
 }
 .dropdown-nav{
 	background: $blue;
@@ -91,4 +95,15 @@ header{
 			}
 		}
 	}
+}
+nav.header-nav {
+  div#links {
+	  #order-now.clicked{
+		a.navbar-link{
+			background-color: $blue !important;
+			/*color: #000;*/
+			color: white !important;
+		}
+	}
+  }
 }
