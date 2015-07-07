@@ -6,6 +6,20 @@
       padding-left: 1%;
       li {
         width: 16%;
+        a:hover{
+          background-color: #E6E6E6;
+        }
+      }
+      li:hover {
+        background-color: #E6E6E6;
+      }
+      .us-link, .product-link, .projects-link, .contact-link {
+          &:hover {
+            text-decoration:underline;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
       }
       .us-link {
         margin-right: 0;
@@ -53,6 +67,12 @@
         position: relative;
         top: -3px;
         left: -2px;
+      }
+      .bild-icon:hover {
+        color: $blue;
+        a {
+          color: $blue;
+        }
       }
     }
   }
