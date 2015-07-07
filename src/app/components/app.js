@@ -191,7 +191,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
-            .state('testimonials', { 
+            .state('why-us-testimonials', { 
                 parent: 'home',
                 url: ' /why-us/testimonials',
                 views: {
@@ -217,6 +217,19 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
+            .state('why-us-work', { 
+                parent: 'home',
+                url: ' /why-us/work-process/web',
+                views: {
+                     
+                    inner: {
+                        templateUrl: 'src/app/components/views/why-us-workprocess.html',
+                        controller:  'whyusCtrl'
+                    }
+                     
+                }
+                  
+            })
             .state('packageprices', { 
                 parent: 'home',
                 url: '/package-prices',
@@ -233,7 +246,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
             .state('packageprices-technology', { 
                 parent: 'home',
                 url: '/package-prices-technology-services',
-                views: {
+                views: { 
                      
                     inner: {
                         templateUrl: 'src/app/components/views/package-prices-technology-services.html',
@@ -256,7 +269,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                      
                 }                 
 
-            })            
+            });           
     
 });
 

@@ -72,6 +72,12 @@ this.packagePrices     = function(e) {
   obj.addClass('clicked');
   }
 
-};    
+}; 
 
+this.homePage       = function(e) {
 
+   $('ul.nav.navbar-nav li:nth-child(3)').removeClass('clicked');
+   $('ul.nav.navbar-nav li:nth-child(4)').removeClass('clicked');
+   $('ul.nav.navbar-nav li:nth-child(6)').removeClass('clicked');
+   $(".whyus, .dropdown-nav, .packageprices").slideUp(300);
+};
