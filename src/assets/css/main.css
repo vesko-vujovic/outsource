@@ -5687,6 +5687,8 @@ div.links > a:hover {
   background: #009ae2;
   min-width: 980px;
   display: none; }
+  .dropdown-nav div.wrapper, .whyus div.wrapper, .packageprices div.wrapper {
+    margin-left: 23.5%; }
   .dropdown-nav ul, .whyus ul, .packageprices ul {
     list-style: none;
     padding: 0px;
@@ -5699,10 +5701,12 @@ div.links > a:hover {
       text-align: center; }
       .dropdown-nav ul li a, .whyus ul li a, .packageprices ul li a {
         display: block;
-        color: #002637; }
+        color: #002637;
+        font-size: 1.1em; }
         .dropdown-nav ul li a:hover, .whyus ul li a:hover, .packageprices ul li a:hover {
           color: #fff;
-          background: #00608d; }
+          background: #00608d;
+          text-decoration: none; }
 
 .whyus ul li {
   font-weight: bold;
@@ -5835,9 +5839,14 @@ div ul.nav.navbar-nav {
     margin-bottom: 5px;
     width: 97%;
     margin-left: -0.1%; }
+  .footer div.row + hr {
+    margin-bottom: 0;
+    position: relative;
+    top: 5px;
+    margin-top: 15px; }
   .footer .footer_clients {
-    margin-top: 25px;
-    margin-bottom: 45px; }
+    margin-top: 20px;
+    margin-bottom: 40px; }
     .footer .footer_clients p {
       display: inline; }
     .footer .footer_clients img {
@@ -5846,16 +5855,28 @@ div ul.nav.navbar-nav {
       margin-right: 32px; }
   .footer .rights {
     font-size: 12px;
-    margin-bottom: 0px; }
+    margin-bottom: 5px;
+    padding-top: 3px; }
     .footer .rights i {
       float: right;
-      margin-left: 5px; }
+      margin-left: 5px;
+      font-size: 1.4em; }
       .footer .rights i:hover {
         color: white; }
   .footer .rights i:first-child {
     margin-right: 32px; }
-  .footer .more_about_us:hover, .footer .contact:hover, .footer .blog-info:hover, .footer .footer_clients:hover {
+  .footer .more_about_us:hover div.bottom20, .footer .contact:hover div.bottom20, .footer .blog-info:hover div.bottom20, .footer .footer_clients:hover div.bottom20 {
     color: white; }
+    .footer .more_about_us:hover div.bottom20 a, .footer .contact:hover div.bottom20 a, .footer .blog-info:hover div.bottom20 a, .footer .footer_clients:hover div.bottom20 a {
+      color: white;
+      text-decoration: underline; }
+  .footer .more_about_us > p:hover {
+    color: white; }
+  .footer .blog-info ul > li:hover {
+    color: white; }
+    .footer .blog-info ul > li:hover a {
+      text-decoration: underline;
+      color: white; }
   .footer ul li a {
     text-decoration: none;
     color: #314E5C; }
@@ -5865,6 +5886,26 @@ div ul.nav.navbar-nav {
 
 #clientpic img:hover {
   opacity: 0.4; }
+
+#clientpic > a {
+  position: relative;
+  top: 5px; }
+  #clientpic > a h5 {
+    padding-top: 5px; }
+
+#clientpic > i {
+  position: relative;
+  top: 5px; }
+
+#clientpic i:hover, a:hover {
+  color: white;
+  text-decoration: underline; }
+
+div.footer div.container > div.row div.col-xs-4 {
+  padding-top: 7px; }
+
+div.cli-head {
+  float: left; }
 
 #slider {
   height: 25%;
@@ -8275,6 +8316,10 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
     margin-right: 31%;
     font-size: 1.4em;
     margin-bottom: 57px; }
+
+.mid-li {
+  width: 31.7%;
+  padding-right: 3px; }
 
 #package-prices-wrap .page-header {
   margin-top: 30px;
