@@ -1,0 +1,260 @@
+#work-process {
+	padding-left: 5px;
+	.process-heading {
+		margin-left: 6%;
+		margin-top: 30px;
+		width: 86%;
+		border: none;
+		margin-bottom: 0;
+		padding-bottom: 11px;
+		h1 {
+			margin-left: 0;
+			margin-top: 0;
+			margin-bottom: 0;
+			font-size: 3.6em;
+		}
+		p {
+			margin-left: 1%;
+		}
+	}
+}
+#process-content {
+	background-color: $grey;
+	padding-top: 50px;
+	.container {
+		padding-left: 6%;
+		&>.row h3 {
+			font-size: 2.4em;
+			font-weight: 600;
+			color: #686868;
+			letter-spacing: 1px;
+			margin-left: -1.5%;
+			margin-bottom: 12px;
+		}
+	}
+	.list-header {
+		background-color: white;
+		width: 91.5%;
+		ul {
+			list-style-type: none;
+			padding: 0;
+		}
+		li {
+			position: relative;
+			float:left;
+			width: 33.33%;
+			text-align: center;
+			font-size: 1.7em;
+			color: #A0A0A0;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			border-bottom: 2px solid #c6c6c6;
+			img {
+				position: absolute;
+				left: 47%;
+				margin-top: 44px;
+				visibility: hidden;
+			}
+		}
+		li:hover {
+			background-color: #009AE2;
+			color: white;
+			img {
+				visibility: visible;
+			}
+		}
+	}
+	.process-flow {
+		position: relative;
+		height: 1302px;
+		margin-left: 1.5%;
+		width: 85.5%;
+		margin-top: 33px;
+		background-image: url('../img/order/line-proc-d.png'), 
+						  url('../img/order/line-proc-b.png'), 
+						  url('../img/order/line-proc-c.png'), 
+						  url('../img/order/line-proc-b.png'), 
+						  url('../img/order/line-proc-a.png');
+    	background-repeat: repeat-x, 
+    					   repeat-x, 
+    					   repeat-x, 
+    					   repeat-x, 
+    					   repeat-x;
+    	background-size: contain, 
+    					 contain, 
+    					 contain, 
+    					 contain,
+    					 contain;
+    	background-position: 0px 0px, 
+    						 0px 243px, 
+    						 0px 485px, 
+    						 0px 728px,
+    						 0px 970px;
+		.process-text {
+			position: absolute;
+			width: 81%;
+			left: 10%;
+			text-align: center;
+			h4 {
+				position: relative;
+				font-size: 1.4em;
+				font-weight: 600;
+				color: #A0A0A0;
+				z-index: 15 !important;
+				letter-spacing: 1px;
+			}
+			.process-unit {
+				width: 15%;
+				position: relative;
+				float: left;
+				z-index: 10;
+				text-align: center;
+				.process-p {
+					color: #686868;
+					margin-top: 30px;
+				}
+			}
+			
+			.party-unit {
+				width: 19%;
+			}
+			.zoom-unit {
+				margin-left: 2%;
+				margin-right: 1%;
+			}
+			.deal-unit {
+				width: 17%;
+			}
+		}
+		.text-part-2 {
+			top: 18.5%;
+		}
+		.text-part-3 {
+			top: 37%;
+		}
+		.text-part-4 {
+			top: 55.5%;
+		}
+		.text-part-5 {
+			top: 74.5%;
+		}
+		.flow-line {
+			//opacity: 0;
+			img {
+			  width: 95.5%; 
+			  position: absolute;
+			  z-index: 4;
+			}
+		}
+		.ln-part-1 {
+			img {
+			  top: 2%;
+			  left: 4%;
+			}
+		} 
+		.ln-part-2 {
+			img {
+			  width: 99%;
+			  top: 20.5%;
+			  left: 0.5%;
+			}
+		} 
+		.ln-part-3 {
+			img {
+			  width: 99%;
+			  top: 39%;
+			  left: 0.5%;
+			}
+		} 
+		.ln-part-4 {
+			img {
+			  width: 99%;
+			  top: 57.5%;
+			  left: 0.5%;
+			}
+		} 
+		.ln-part-5 {
+			img {
+			  top: 76%;
+			  left: 0.5%;
+			  height: 14.7%;
+			}
+		} 
+    	.round-proc {
+    		height: 20px;
+    		width: 20px;
+    		position: relative;
+    		opacity: 1;
+    	}
+    	.num-proc {
+    		height: 65px;
+    		width: 65px;
+    		position: relative;
+    		top: -220%;
+    		left: -120%;
+    		font-size: 3em;
+    		z-index: 5;
+    		span {
+    		  text-decoration: none;
+    		  color: white;
+    		  position: absolute;
+    		  top: 0;
+    		  left: 35%;
+    		}
+    	}
+    	.num-proc:hover{
+		  	text-decoration:none;
+		}
+    	.left-float {
+    		float: left;
+    	}
+    	.float-right {
+    		float: right;
+    	}
+    	.num-one {
+    		top: 8%;
+      	}
+    	.num-two {
+    		top: 17.5%;
+    		right: -1%;
+    	}
+    	.num-three {
+    		top: 36%;
+    		left: -3%;
+    	}
+    	.num-four {
+    		top: 54.5%;
+    		right: -3%;
+    	}
+    	.num-five {
+    		top: 73%;
+    		left: -5%;
+    	}
+    	.num-six {
+    		top: 82.5%;
+    		right: -5%;
+    	}
+    	.removeIt {
+    		opacity: 0;
+    	}
+    	.keepIt {
+    		opacity: 1 !important;
+    	}
+	}
+}
+#process-content + div.main-content {
+	.wrapper {
+		margin: auto;
+	}
+	.clients {
+		margin-top: 20px;
+		margin-bottom: 90px;
+		h4 {
+			text-transform: none;
+			margin-top: 20px;
+		}
+		.other-link {
+			display: none;
+		}
+	}
+}

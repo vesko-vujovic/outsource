@@ -81,3 +81,44 @@ this.homePage       = function(e) {
    $('ul.nav.navbar-nav li:nth-child(6)').removeClass('clicked');
    $(".whyus, .dropdown-nav, .packageprices").slideUp(300);
 };
+
+/* functions for process flow on page /why-us/work-process/web */
+
+  this.showNum = function(e){
+    
+    var roundLink = $(e).children();
+    /*$(e).removeClass( "hvr-pulse" );*/
+    roundLink.first().addClass('zoomOut');
+    roundLink.last().removeClass('removeIt').addClass('zoomIn');
+
+  }
+
+  this.hideNum = function(e){
+    
+    var roundLink = $(e).children();    
+    roundLink.first().removeClass('zoomOut');
+    roundLink.last().removeClass('zoomIn').addClass('removeIt');
+   /* $(e).addClass( "hvr-pulse" );*/
+
+  }
+
+  this.expandLinePart = function(e){
+
+    var roundProc = $(e).parent();
+    roundProc.next().removeClass('removeIt').addClass('fadeIn');
+    roundProc.prev().removeClass('removeIt');
+    roundProc.prev().children().addClass('animateFlip');
+    $(e).addClass('keepIt');
+    roundProc.mouseover(function(){
+      $(e).removeClass('zoomIn');
+    });
+  }
+
+  this.expandNum6 = function(e){
+
+    var roundProc = $(e).parent().next().next();
+    roundProc.removeClass('hvr-pulse');
+    roundProc.children().last().removeClass('removeIt').addClass('animateFlip').addClass('keepIt');
+  }
+   
+
