@@ -6594,12 +6594,17 @@ body {
   padding-left: 7%;
   background-color: white; }
   #order_inner #table #myTable {
-    width: 87%; }
+    width: 87%;
+    overflow: hidden; }
     #order_inner #table #myTable tr td:first-child {
       width: 18.5%;
       position: relative; }
     #order_inner #table #myTable tr td:not(td.col-xs-3) {
       width: 16%; }
+    #order_inner #table #myTable tr td.col-xs-3 + td {
+      padding-left: 1%; }
+    #order_inner #table #myTable tr td:last-child {
+      padding-right: 2%; }
     #order_inner #table #myTable td {
       padding-top: 15px;
       padding-bottom: 6px; }
@@ -6610,7 +6615,7 @@ body {
         box-shadow: none;
         display: table-row; }
     #order_inner #table #myTable tbody tr:hover {
-      display: inline-block;
+      display: block-inline;
       width: 455%;
       margin-left: -5%;
       box-shadow: 0 0 2px 2px #35B7F3;
@@ -6619,13 +6624,13 @@ body {
         visibility: hidden; }
       #order_inner #table #myTable tbody tr:hover .hide-this {
         display: inline-block;
-        left: 230px;
-        width: 550px; }
+        right: -253%;
+        width: 250%; }
     #order_inner #table #myTable .hide-this {
       position: absolute;
-      left: 230px;
+      right: 0%;
       top: 16px;
-      width: 275%;
+      /*width: 275%;*/
       display: none; }
       #order_inner #table #myTable .hide-this i.glyphicon-info-sign {
         color: grey;
@@ -6837,7 +6842,7 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
   background-size: 20% 170%;
   background-repeat: no-repeat;
   background-position: 18% 5px;
-  padding-top: 64px;
+  padding-top: 68px;
   border-bottom: 1px solid #d6d6d6; }
   #select_panel .template_web .col_1 {
     margin-left: 5.5%;
@@ -6846,9 +6851,13 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
     width: 18%; }
     #select_panel .template_web .col_1 h2 {
       font-size: 2.5em;
-      font-weight: 600; }
+      font-weight: 600;
+      margin-bottom: 7px; }
     #select_panel .template_web .col_1 p {
-      font-size: 18px; }
+      width: 110%;
+      color: #00608c;
+      font-size: 1.4em;
+      line-height: 1.3em; }
   #select_panel .template_web .padding-left-8 {
     padding-left: 8px;
     width: 66%;
@@ -6861,12 +6870,12 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
     overflow: hidden;
     height: 100%; }
   #select_panel .template_web .back {
-    font-size: 270px;
-    line-height: 230px;
-    font-weight: bolder;
+    font-size: 280px;
+    line-height: 240px;
+    font-weight: 800;
     float: right;
-    margin-right: -30px;
-    padding-top: 10px; }
+    margin-right: -20px;
+    padding-top: 0px; }
   #select_panel .template_web .absolute {
     position: absolute;
     top: 0;
@@ -6878,10 +6887,13 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
       #select_panel .template_web .absolute .package_description h4 {
         font-style: italic;
         font-weight: bold;
-        font-size: 1.6em;
-        margin-top: 13px;
-        padding-left: 3px; }
+        font-size: 1.7em;
+        margin-top: 9px;
+        padding-left: 3px;
+        letter-spacing: -1px; }
       #select_panel .template_web .absolute .package_description p {
+        padding-left: 3%;
+        padding-right: 5%;
         font-size: 13px; }
   #select_panel .template_web .recommended {
     width: 110px;
@@ -6936,8 +6948,10 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
   #select_panel #table .table tr td:nth-child(2), #select_panel #table .table tr td:nth-child(3), #select_panel #table .table tr td:nth-child(4), #select_panel #table .table tr td:nth-child(5) {
     width: 16% !important; }
   #select_panel #table .table tr td .btn {
+    margin-top: -20px;
+    width: 83%;
     border-radius: 0px;
-    font-size: 18px;
+    font-size: 1.3em;
     padding: 10px 40px; }
   #select_panel #table .table tr td a:hover {
     -webkit-box-shadow: 0px 0px 5px 0px #aaaaaa; }
@@ -7043,18 +7057,20 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
   padding-top: 2px; }
   #choose_add_panel #add_form {
     background-color: #e6e6e6;
-    padding: 50px 0px; }
+    padding: 50px 0px 53px 0px; }
     #choose_add_panel #add_form #choose_form {
       border: 1px solid #dddddd;
       background-color: white;
       width: 86%; }
+      #choose_add_panel #add_form #choose_form .tab-content {
+        margin-bottom: 10px; }
       #choose_add_panel #add_form #choose_form .nav li {
         margin-top: 0;
         width: 32%; }
       #choose_add_panel #add_form #choose_form ul.nav-tabs li:first-child, #choose_add_panel #add_form #choose_form li:last-child {
         width: 34%; }
       #choose_add_panel #add_form #choose_form .nav.nav-tabs {
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         border-bottom: 2px solid #dddddd !important;
         height: 58px;
         /*bubble_tabs*/ }
@@ -7065,7 +7081,7 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
           #choose_add_panel #add_form #choose_form .nav.nav-tabs li a {
             color: #767676;
             font-size: 1.2em;
-            padding: 15px; }
+            padding: 12px 15px; }
             #choose_add_panel #add_form #choose_form .nav.nav-tabs li a:hover {
               background-color: #f8f8f8;
               height: 58px; }
@@ -7086,20 +7102,21 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
       #choose_add_panel #add_form #choose_form .check_list {
         border-bottom: 1px solid #dddddd;
         padding-left: 2%;
-        padding-top: 30px; }
+        padding-top: 40px; }
         #choose_add_panel #add_form #choose_form .check_list .col-sm-6 {
           padding: 40px; }
         #choose_add_panel #add_form #choose_form .check_list .col-xs-6 {
           width: 46.5%; }
+          #choose_add_panel #add_form #choose_form .check_list .col-xs-6 .checkbox {
+            margin-bottom: 9px; }
           #choose_add_panel #add_form #choose_form .check_list .col-xs-6 p {
             padding-left: 3.5%;
             margin-top: -7px; }
         #choose_add_panel #add_form #choose_form .check_list .second-col-6 {
-          margin-left: 4.8%;
-          padding-left: 2.7%;
+          margin-left: 5%;
+          padding-left: 2.3%;
           width: 48%; }
           #choose_add_panel #add_form #choose_form .check_list .second-col-6 p {
-            padding-left: 3.5%;
             margin-top: -7px; }
         #choose_add_panel #add_form #choose_form .check_list .checkbox {
           background-image: asset-url("gray-line.png");
@@ -7107,21 +7124,32 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
           background-size: 5px 1px;
           background-position: left 14px;
           margin-top: 0;
-          /*margin-bottom: 9px;*/
+          position: relative;
           line-height: 39px; }
           #choose_add_panel #add_form #choose_form .check_list .checkbox p {
+            z-index: 5;
             float: right;
             position: relative;
-            right: 0;
+            right: -2%;
             padding-left: 4px;
             background-color: white; }
           #choose_add_panel #add_form #choose_form .check_list .checkbox label {
+            font-size: 1.2em;
+            z-index: 5;
+            position: relative;
             padding-right: 4px;
             background-color: white; }
           #choose_add_panel #add_form #choose_form .check_list .checkbox .pad-left {
             padding-left: 27px;
             position: relative;
             bottom: 7px; }
+          #choose_add_panel #add_form #choose_form .check_list .checkbox .h-line {
+            width: 60%;
+            position: absolute;
+            bottom: 20px;
+            right: 5%;
+            border: 1px solid #e6e6e6;
+            z-index: 4; }
         #choose_add_panel #add_form #choose_form .check_list .class_checkbox {
           width: 30px;
           height: 30px;
@@ -7136,44 +7164,72 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
             background-size: 32px 32px; }
       #choose_add_panel #add_form #choose_form .form {
         background-color: white;
-        padding-top: 15px; }
+        padding-top: 20px; }
         #choose_add_panel #add_form #choose_form .form .form-group {
           padding-left: 1%; }
           #choose_add_panel #add_form #choose_form .form .form-group > label {
             font-size: 1.2em;
+            letter-spacing: -1px;
+            word-spacing: 3px;
             font-weight: 400;
             color: grey; }
           #choose_add_panel #add_form #choose_form .form .form-group > textarea {
             width: 85%;
-            background-color: #e6e6e6; }
+            background-color: white; }
         #choose_add_panel #add_form #choose_form .form .btn {
-          margin-top: 15px; }
+          margin-top: 9px; }
           #choose_add_panel #add_form #choose_form .form .btn:last-child {
             border: none; }
+        #choose_add_panel #add_form #choose_form .form textarea + .btn {
+          padding: 5px 9px; }
     #choose_add_panel #add_form .next_step {
       float: right;
-      margin-top: 20px;
+      margin-top: 25px;
       padding: 9px 35px;
       position: relative;
       margin-right: 14%;
-      width: 20%;
+      width: 20.5%;
       font-size: 1.5em; }
       #choose_add_panel #add_form .next_step i {
+        font-size: 1.5em;
         position: absolute;
         right: 8%;
-        top: 1px; }
+        top: 6px; }
 
 #project_panel {
   padding-left: 0;
   background-color: #e6e6e6; }
   #project_panel #order_panel {
     background-color: #e6e6e6;
-    padding: 50px 0px 70px; }
+    padding: 50px 0px 83px; }
     #project_panel #order_panel .container {
       width: 52.5%;
       padding-left: 0; }
       #project_panel #order_panel .container .col-xs-4 {
-        padding-right: 0; }
+        padding-right: 0;
+        width: 32%; }
+      #project_panel #order_panel .container .col-xs-8 {
+        padding-left: 2%;
+        margin-right: 1%; }
+        #project_panel #order_panel .container .col-xs-8 .panel-heading {
+          padding-left: 4%; }
+          #project_panel #order_panel .container .col-xs-8 .panel-heading h3 {
+            letter-spacing: -1px; }
+        #project_panel #order_panel .container .col-xs-8 .panel-body {
+          padding-left: 1%; }
+          #project_panel #order_panel .container .col-xs-8 .panel-body .form-group > label {
+            font-weight: 600;
+            letter-spacing: -1px; }
+          #project_panel #order_panel .container .col-xs-8 .panel-body .form-group input[type="text"] {
+            padding-left: 15px;
+            width: 95%; }
+          #project_panel #order_panel .container .col-xs-8 .panel-body .form-group select.form-control {
+            padding-left: 15px;
+            width: 95%; }
+    #project_panel #order_panel .panel.panel-default + p {
+      font-size: 1.2em;
+      padding-top: 5px;
+      letter-spacing: -1px; }
     #project_panel #order_panel .panel {
       border-radius: 0px;
       margin-bottom: 0px; }
@@ -7188,46 +7244,71 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
           margin-bottom: 3px; }
       #project_panel #order_panel .panel .panel-body {
         padding: 0px; }
+        #project_panel #order_panel .panel .panel-body .col-xs-12 .form-group.no-margin label {
+          margin-top: 5px; }
+        #project_panel #order_panel .panel .panel-body .col-xs-12 .form-group.no-margin textarea {
+          padding-top: 10px;
+          padding-left: 5px; }
+        #project_panel #order_panel .panel .panel-body .col-xs-12 .form-group.no-margin + .checkbox {
+          margin-top: 15px;
+          padding-left: 3px; }
+        #project_panel #order_panel .panel .panel-body .col-xs-12 button.btn {
+          width: 80%; }
         #project_panel #order_panel .panel .panel-body .option {
-          padding: 10px 20px 25px;
+          padding: 8px 20px 20px;
           border-bottom: 1px solid #dddddd; }
+          #project_panel #order_panel .panel .panel-body .option h4 {
+            font-size: 1.4em;
+            margin-top: 10px; }
           #project_panel #order_panel .panel .panel-body .option:last-child {
             border: none;
             background-color: #00608c;
             color: white;
-            padding: 15px; }
+            padding: 15px;
+            margin-top: -7px; }
             #project_panel #order_panel .panel .panel-body .option:last-child h3 {
               font-weight: bold;
               margin: 0px; }
-          #project_panel #order_panel .panel .panel-body .option .option_title .circle {
-            width: 24px;
-            height: 24px;
-            border-radius: 50%;
-            background-color: #f8a01a;
-            float: left;
-            margin-right: 10px; }
-            #project_panel #order_panel .panel .panel-body .option .option_title .circle p {
-              color: white;
-              text-align: center;
-              font-size: 16px;
-              font-weight: bold;
-              line-height: 24px; }
-          #project_panel #order_panel .panel .panel-body .option .option_title h4 {
-            color: #f8a01a;
-            font-size: 16px;
-            text-transform: uppercase;
-            vertical-align: inherit;
-            line-height: 24px; }
+          #project_panel #order_panel .panel .panel-body .option .option_title {
+            margin-left: -1%; }
+            #project_panel #order_panel .panel .panel-body .option .option_title .circle {
+              width: 24px;
+              height: 24px;
+              border-radius: 50%;
+              background-color: #f8a01a;
+              float: left;
+              margin-right: 10px; }
+              #project_panel #order_panel .panel .panel-body .option .option_title .circle p {
+                color: white;
+                text-align: center;
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 24px; }
+            #project_panel #order_panel .panel .panel-body .option .option_title h4 {
+              color: #f8a01a;
+              font-size: 1.4em;
+              font-weight: 600;
+              text-transform: uppercase;
+              vertical-align: inherit;
+              line-height: 24px;
+              letter-spacing: -1px; }
           #project_panel #order_panel .panel .panel-body .option .price {
             color: #00608c;
-            margin-top: 25px; }
+            margin-top: 25px;
+            font-weight: 600; }
           #project_panel #order_panel .panel .panel-body .option .table {
-            text-align: right; }
+            text-align: right;
+            margin-bottom: 15px; }
             #project_panel #order_panel .panel .panel-body .option .table tr td {
               border: none;
               padding: 0px; }
             #project_panel #order_panel .panel .panel-body .option .table tr td:first-child {
               text-align: left; }
+          #project_panel #order_panel .panel .panel-body .option .table-condensed + h4 {
+            margin-top: -5px;
+            margin-bottom: 5px; }
+          #project_panel #order_panel .panel .panel-body .option .table-condensed tbody tr {
+            margin-top: -4px; }
         #project_panel #order_panel .panel .panel-body form {
           padding: 20px 0px 50px; }
           #project_panel #order_panel .panel .panel-body form .form-group {

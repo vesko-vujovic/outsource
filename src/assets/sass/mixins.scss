@@ -33,7 +33,7 @@
   background-size: 20% 170%;
   background-repeat: no-repeat;
   background-position: 18% 5px;
-  padding-top: 64px;
+  padding-top: 68px;
   border-bottom: 1px solid #d6d6d6;
 
   .col_1 {
@@ -44,9 +44,13 @@
     h2 {
       font-size: 2.5em;
       font-weight: 600;
+      margin-bottom: 7px;
     }
     p {
-      font-size: 18px;
+      width: 110%;
+      color: $darkblue;
+      font-size: 1.4em;
+      line-height: 1.3em;
     }
   }
 
@@ -67,12 +71,12 @@
   }
 
   .back {
-    font-size: 270px;
-    line-height: 230px;
-    font-weight: bolder;
+    font-size: 280px;
+    line-height: 240px;
+    font-weight: 800;
     float: right;
-    margin-right: -30px;
-    padding-top: 10px;
+    margin-right: -20px;
+    padding-top: 0px;
   }
 
   .absolute {
@@ -88,11 +92,14 @@
       h4 {
         font-style: italic;
         font-weight: bold;
-        font-size: 1.6em;
-        margin-top: 13px;
+        font-size: 1.7em;
+        margin-top: 9px;
         padding-left: 3px;
+        letter-spacing: -1px;
       }
       p {
+        padding-left: 3%;
+        padding-right: 5%;
         font-size: 13px;
       }
     }
@@ -176,8 +183,10 @@
         }
 
         .btn {
+          margin-top: -20px;
+          width: 83%;
           border-radius: 0px;
-          font-size: 18px;
+          font-size: 1.3em;
           padding: 10px 40px;
         }
         a:hover {
@@ -239,12 +248,19 @@
     background-color: white;
     #myTable {
         width: 87%;
+        overflow: hidden;
       tr td:first-child {
         width:18.5%;
         position: relative;
       }
       tr td:not(td.col-xs-3) {
         width: 16%;
+      }
+      tr td.col-xs-3 + td {
+        padding-left: 1%;
+      }
+      tr td:last-child {
+        padding-right: 2%;
       }
       td {
         padding-top: 15px;
@@ -259,7 +275,7 @@
         }
       }
       tbody tr:hover {
-        display: inline-block;
+        display: block-inline;
         width: 455%;
         margin-left: -5%;
         box-shadow: 0 0 2px 2px #35B7F3;
@@ -269,15 +285,18 @@
         }
         .hide-this {
           display: inline-block;
-           left: 230px;
-           width: 550px;
+          right: -253%;
+          width: 250%;
         }
+      }
+      tbody tr.keep-width:hover {
+          
       }
       .hide-this {
         position: absolute;
-        left: 230px;
+        right: 0%;
         top: 16px;
-        width: 275%;
+        /*width: 275%;*/
         display: none;
         i.glyphicon-info-sign {
           color: grey;
