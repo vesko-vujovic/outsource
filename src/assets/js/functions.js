@@ -55,6 +55,7 @@ else {
 };
 
 this.packagePrices     = function(e) {
+  
      // Slide up and remove all active class, when clicked on packagePrices
     $('ul.nav.navbar-nav li:nth-child(4)').removeClass('clicked');
     $('ul.nav.navbar-nav li:nth-child(6)').removeClass('clicked');
