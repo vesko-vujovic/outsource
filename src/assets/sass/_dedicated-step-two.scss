@@ -96,7 +96,7 @@
 				padding-top: 0;
 			}
 			.team-delete {
-				padding-left: 2%;
+				padding-left: 2.5%;
 			}
 			.team-name {
 				padding-left: 4%;
@@ -117,35 +117,68 @@
 			}
 			.team-days {
 				position: relative;
-				margin-top: 30px;
+				margin-top: 25px;
+				padding-left: 0;
+				width: 13%;
 				input {
-					width: 60%;
-					border-radius: 35% 35% 35% 35%;
+					width: 66%;
+					margin-left: 5%;
+					border-radius: 200px 200px 200px 200px;
 					border: 1px solid #009AE7;
 					text-align: center;
+					padding-top: 3px;
+					padding-bottom: 3px;
 				}
 				p {
 					color: #009AE7;
-					padding-left: 15%;
+					padding-left: 22%;
 				}
 				.minus {
 					position: absolute;
-					bottom: 21px;
-					left: 10%;
+					bottom: 23px;
+					left: 11%;
 					float: left;
-					font-size: 2em;
+					font-size: 2.1em;
+					a:link {
+						color: #009AE7;
+						text-decoration: none;
+					}
+					a:visited {
+						text-decoration: none;
+						color: #009AE7;
+					}
+					
 					a:hover {
 						text-decoration: none;
+						color: #009AE7;
+					}
+					a:active {
+						text-decoration: none;
+						color: #009AE7;
 					}
 				}
 				.plus {
 					position: absolute;
 					bottom: 25px;
-					right: 45%;
+					right: 40%;
 					float: right;
-					font-size: 1.8em;
+					font-size: 1.9em;
+					a:link {
+						color: #009AE7;
+						text-decoration: none;
+					}
+					a:visited {
+						text-decoration: none;
+						color: #009AE7;
+					}
+					
 					a:hover {
 						text-decoration: none;
+						color: #009AE7;
+					}
+					a:active {
+						text-decoration: none;
+						color: #009AE7;
 					}
 				}
 			}
@@ -160,7 +193,7 @@
 			    -webkit-appearance: none;
 			}
 			.team-total {
-				padding-left: 2%;
+				padding-left: 2.5%;
 				padding-right: 0;
 				margin-top: 30px;
 				font-weight: 600;
@@ -169,19 +202,34 @@
 				}
 			}
 			.team-number {
+				width: 28%;
 				margin-top: 30px;
+				padding-left: 5px;
+				padding-right: 0;
 				input, output {
 					float: left;
 				}
 				output {
-					width: 10%;
+					position: relative;
+					z-index: 5;
+					width: 17%;
+					font-size: 1.2em;
 					height: 20px;
 					padding: 0;
 					margin-bottom: 10px;
+					margin-top: -1px;
+					margin-left: 2%;
 					text-align: center;
 				}
 				input {
-					width: 90%;
+					z-index: 3;
+					width: 77%;
+				}
+				img {
+					margin-top: -3px;
+					margin-left: -3px;
+					z-index: 4;
+					position: absolute;
 				}
 			}
 		}
@@ -192,12 +240,14 @@
 		width: 100%;
 		border-top: 1px solid #E6E6E6;
 		.total-sum {
-			margin-left: 70%;
+			margin-left: 71%;
 			width: 30%;
+			margin-top: 20px;
+			margin-bottom: 15px;
 			p {
-				margin-top: 15px;
+				margin-top: 25px;
 				text-align: center;
-				font-size: 1.6em;
+				font-size: 1.5em;
 				font-weight: 600;
 			}
 		}
@@ -205,13 +255,13 @@
 	.submit-btn {
 		padding-left: 4%;
 		padding-right: 3%;
-		margin-top: 30px;
+		margin-top: 25px;
 	    margin-bottom: 50px;
 		.order-select {
     	  margin-top: 0px;
     	  margin-bottom: 30px;
-    	  width: 20%;
-  		  margin-left: 80%;
+    	  width: 25%;
+  		  margin-left: 75%;
  		  margin-right: 0%;
  		  background-color: #F8A01A;
  		  background-image: url("../img/order/nextStep.png");
@@ -220,7 +270,7 @@
 	      padding-top: 15px;
 	      padding-bottom: 10px;
 	      border: 0px;
-	      font-size: 1.2em;
+	      font-size: 1.4em;
 	      font-weight: 400;
 	      text-align: center;
 	      color: white; 		
@@ -230,5 +280,16 @@
 	        border: 1px solid #E6E6E6;
 	        width: 97%;
 	        margin: auto;
+	}
+	.team-day-2 {
+		margin-top: 35px;
+		padding-left: 4%;
+		font-size: 1.1em;
+	}
+	.team-number-2 {
+		margin-top: 35px;
+		padding-left: 3%;
+		font-size: 1.1em;
+		font-style: oblique;
 	}
 }

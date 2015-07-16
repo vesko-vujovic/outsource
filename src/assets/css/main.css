@@ -5707,12 +5707,46 @@ div.links > a:hover {
           color: #fff;
           background: #00608d;
           text-decoration: none; }
+      .dropdown-nav ul li span, .whyus ul li span, .packageprices ul li span {
+        font-weight: 400;
+        font-size: 0.8em;
+        line-height: 0.8em; }
 
 .whyus ul li {
   font-weight: bold;
   float: left;
   width: 20.00%;
   text-align: center; }
+.whyus ul li:first-child {
+  width: 16%; }
+  .whyus ul li:first-child a {
+    padding-right: 12%; }
+  .whyus ul li:first-child span {
+    margin-right: 4%; }
+.whyus ul li:nth-child(2) {
+  width: 21.5%; }
+  .whyus ul li:nth-child(2) a {
+    padding-left: 6%;
+    padding-right: 10%; }
+.whyus ul li:nth-child(3) {
+  width: 15%;
+  margin-right: 16%; }
+.whyus ul li:nth-child(4) {
+  width: 11%; }
+  .whyus ul li:nth-child(4) a {
+    padding-right: 5%; }
+  .whyus ul li:nth-child(4) span {
+    margin-right: 7%; }
+.whyus ul li:nth-child(5) {
+  width: 8%; }
+.whyus ul li:last-child {
+  width: 12.5%;
+  /*a {
+  	padding-right: 12%;
+  }
+  span {
+  	margin-right: 4%;
+  }*/ }
 
 .wrapper {
   width: 980px;
@@ -5914,9 +5948,40 @@ div.cli-head {
   position: relative;
   left: -2%;
   z-index: 5; }
+  #slider .slider1 .slider-heading {
+    margin-top: 4px;
+    padding-left: 5px;
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 47px; }
+  #slider .slider1 .slider-p {
+    margin-top: 5px;
+    padding-left: 5px;
+    font-size: 1.1em; }
   #slider .slider2 .slider-heading {
-    padding-top: 0px;
-    padding-bottom: 30px; }
+    padding-top: 7px;
+    padding-bottom: 25px; }
+  #slider .slider3 .slider-heading {
+    margin-top: -20px;
+    padding-left: 10px; }
+  #slider .slider3 .slider-p {
+    margin-top: -3px; }
+  #slider .slider4 .slider-heading {
+    padding-top: 7px;
+    color: #f8a01a; }
+  #slider .slider4 .slider-p {
+    margin-top: 10px;
+    padding-left: 5px;
+    font-size: 1.1em; }
+  #slider .slider5 .slider-heading {
+    padding-left: 7px;
+    color: #009AE7;
+    font-weight: 600; }
+  #slider .slider5 .slider-p {
+    margin-top: 10px;
+    padding-left: 7px;
+    font-size: 1.1em; }
 
 .slider-heading {
   color: #fff;
@@ -6548,16 +6613,15 @@ body {
     margin-top: 15px;
     font-size: 1.4em;
     width: 110%;
-    margin-left: -10%; }
+    margin-left: -10%;
+    word-spacing: 0.2em; }
   .order-packages p {
     color: #787878;
     text-align: justify;
     width: 105%;
     padding-top: 5px;
-    margin-left: -7%; }
-  .order-packages img {
-    /*	width: 80%;
-    	height: 70%;*/ }
+    margin-left: -7%;
+    letter-spacing: -1px; }
   .order-packages > div:hover {
     -webkit-animation: tada 1s;
     -o-animation: tada 1s;
@@ -6565,7 +6629,7 @@ body {
 
 #contact-us {
   position: relative;
-  margin-top: 8%;
+  margin-top: 10%;
   margin-bottom: 89px;
   padding-bottom: auto;
   background-color: white;
@@ -7010,16 +7074,15 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
     margin-top: 15px;
     font-size: 1.4em;
     width: 110%;
-    margin-left: -10%; }
+    margin-left: -10%;
+    word-spacing: 0.2em; }
   .order-packages p {
     color: #787878;
     text-align: justify;
     width: 105%;
     padding-top: 5px;
-    margin-left: -7%; }
-  .order-packages img {
-    /*	width: 80%;
-    	height: 70%;*/ }
+    margin-left: -7%;
+    letter-spacing: -1px; }
   .order-packages > div:hover {
     -webkit-animation: tada 1s;
     -o-animation: tada 1s;
@@ -7027,7 +7090,7 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
 
 #contact-us {
   position: relative;
-  margin-top: 8%;
+  margin-top: 10%;
   margin-bottom: 89px;
   padding-bottom: auto;
   background-color: white;
@@ -7960,7 +8023,7 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
       #dedicated-two-wrap .chosen-team .team-table .team-choice:nth-child(2n+2) {
         padding-top: 0; }
       #dedicated-two-wrap .chosen-team .team-table .team-delete {
-        padding-left: 2%; }
+        padding-left: 2.5%; }
       #dedicated-two-wrap .chosen-team .team-table .team-name {
         padding-left: 4%; }
         #dedicated-two-wrap .chosen-team .team-table .team-name h3 {
@@ -7977,31 +8040,56 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
         padding-top: 15px; }
       #dedicated-two-wrap .chosen-team .team-table .team-days {
         position: relative;
-        margin-top: 30px; }
+        margin-top: 25px;
+        padding-left: 0;
+        width: 13%; }
         #dedicated-two-wrap .chosen-team .team-table .team-days input {
-          width: 60%;
-          border-radius: 35% 35% 35% 35%;
+          width: 66%;
+          margin-left: 5%;
+          border-radius: 200px 200px 200px 200px;
           border: 1px solid #009AE7;
-          text-align: center; }
+          text-align: center;
+          padding-top: 3px;
+          padding-bottom: 3px; }
         #dedicated-two-wrap .chosen-team .team-table .team-days p {
           color: #009AE7;
-          padding-left: 15%; }
+          padding-left: 22%; }
         #dedicated-two-wrap .chosen-team .team-table .team-days .minus {
           position: absolute;
-          bottom: 21px;
-          left: 10%;
+          bottom: 23px;
+          left: 11%;
           float: left;
-          font-size: 2em; }
-          #dedicated-two-wrap .chosen-team .team-table .team-days .minus a:hover {
+          font-size: 2.1em; }
+          #dedicated-two-wrap .chosen-team .team-table .team-days .minus a:link {
+            color: #009AE7;
             text-decoration: none; }
+          #dedicated-two-wrap .chosen-team .team-table .team-days .minus a:visited {
+            text-decoration: none;
+            color: #009AE7; }
+          #dedicated-two-wrap .chosen-team .team-table .team-days .minus a:hover {
+            text-decoration: none;
+            color: #009AE7; }
+          #dedicated-two-wrap .chosen-team .team-table .team-days .minus a:active {
+            text-decoration: none;
+            color: #009AE7; }
         #dedicated-two-wrap .chosen-team .team-table .team-days .plus {
           position: absolute;
           bottom: 25px;
-          right: 45%;
+          right: 40%;
           float: right;
-          font-size: 1.8em; }
-          #dedicated-two-wrap .chosen-team .team-table .team-days .plus a:hover {
+          font-size: 1.9em; }
+          #dedicated-two-wrap .chosen-team .team-table .team-days .plus a:link {
+            color: #009AE7;
             text-decoration: none; }
+          #dedicated-two-wrap .chosen-team .team-table .team-days .plus a:visited {
+            text-decoration: none;
+            color: #009AE7; }
+          #dedicated-two-wrap .chosen-team .team-table .team-days .plus a:hover {
+            text-decoration: none;
+            color: #009AE7; }
+          #dedicated-two-wrap .chosen-team .team-table .team-days .plus a:active {
+            text-decoration: none;
+            color: #009AE7; }
       #dedicated-two-wrap .chosen-team .team-table .team-day {
         margin-top: 30px; }
       #dedicated-two-wrap .chosen-team .team-table input[type='number'] {
@@ -8010,47 +8098,63 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
       #dedicated-two-wrap .chosen-team .team-table input::-webkit-inner-spin-button {
         -webkit-appearance: none; }
       #dedicated-two-wrap .chosen-team .team-table .team-total {
-        padding-left: 2%;
+        padding-left: 2.5%;
         padding-right: 0;
         margin-top: 30px;
         font-weight: 600; }
         #dedicated-two-wrap .chosen-team .team-table .team-total p {
           color: #F8A01A; }
       #dedicated-two-wrap .chosen-team .team-table .team-number {
-        margin-top: 30px; }
+        width: 28%;
+        margin-top: 30px;
+        padding-left: 5px;
+        padding-right: 0; }
         #dedicated-two-wrap .chosen-team .team-table .team-number input, #dedicated-two-wrap .chosen-team .team-table .team-number output {
           float: left; }
         #dedicated-two-wrap .chosen-team .team-table .team-number output {
-          width: 10%;
+          position: relative;
+          z-index: 5;
+          width: 17%;
+          font-size: 1.2em;
           height: 20px;
           padding: 0;
           margin-bottom: 10px;
+          margin-top: -1px;
+          margin-left: 2%;
           text-align: center; }
         #dedicated-two-wrap .chosen-team .team-table .team-number input {
-          width: 90%; }
+          z-index: 3;
+          width: 77%; }
+        #dedicated-two-wrap .chosen-team .team-table .team-number img {
+          margin-top: -3px;
+          margin-left: -3px;
+          z-index: 4;
+          position: absolute; }
   #dedicated-two-wrap .total {
     color: #646464;
     background-color: white;
     width: 100%;
     border-top: 1px solid #E6E6E6; }
     #dedicated-two-wrap .total .total-sum {
-      margin-left: 70%;
-      width: 30%; }
+      margin-left: 71%;
+      width: 30%;
+      margin-top: 20px;
+      margin-bottom: 15px; }
       #dedicated-two-wrap .total .total-sum p {
-        margin-top: 15px;
+        margin-top: 25px;
         text-align: center;
-        font-size: 1.6em;
+        font-size: 1.5em;
         font-weight: 600; }
   #dedicated-two-wrap .submit-btn {
     padding-left: 4%;
     padding-right: 3%;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 50px; }
     #dedicated-two-wrap .submit-btn .order-select {
       margin-top: 0px;
       margin-bottom: 30px;
-      width: 20%;
-      margin-left: 80%;
+      width: 25%;
+      margin-left: 75%;
       margin-right: 0%;
       background-color: #F8A01A;
       background-image: url("../img/order/nextStep.png");
@@ -8059,7 +8163,7 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
       padding-top: 15px;
       padding-bottom: 10px;
       border: 0px;
-      font-size: 1.2em;
+      font-size: 1.4em;
       font-weight: 400;
       text-align: center;
       color: white; }
@@ -8067,14 +8171,23 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
     border: 1px solid #E6E6E6;
     width: 97%;
     margin: auto; }
+  #dedicated-two-wrap .team-day-2 {
+    margin-top: 35px;
+    padding-left: 4%;
+    font-size: 1.1em; }
+  #dedicated-two-wrap .team-number-2 {
+    margin-top: 35px;
+    padding-left: 3%;
+    font-size: 1.1em;
+    font-style: oblique; }
 
 #service-one-wrap {
   background-color: #E6E6E6; }
   #service-one-wrap .service-price-list {
-    width: 100%;
-    padding-left: 8%;
+    width: 99.8%;
+    padding-left: 8.5%;
     padding-right: 8%;
-    margin-top: 50px; }
+    margin-top: 54px; }
     #service-one-wrap .service-price-list .list-header {
       background-color: white; }
       #service-one-wrap .service-price-list .list-header ul {
@@ -8082,112 +8195,138 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
         padding: 0; }
       #service-one-wrap .service-price-list .list-header li {
         float: left;
-        width: 33.33%;
+        width: 34%;
         text-align: center;
-        font-size: 1.4em;
+        font-size: 1.8em;
         color: #A0A0A0;
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 8px;
         border-bottom: 2px solid #c6c6c6; }
       #service-one-wrap .service-price-list .list-header li:hover {
         background-color: #009AE2;
-        color: white; }
+        color: white;
+        border-bottom: none;
+        height: 55px; }
+      #service-one-wrap .service-price-list .list-header .mid-li {
+        width: 31.7%;
+        padding-right: 3px; }
+      #service-one-wrap .service-price-list .list-header ul li:first-child {
+        padding-right: 9px; }
+      #service-one-wrap .service-price-list .list-header ul li:last-child {
+        width: 34.3%;
+        padding-left: 25px; }
+      #service-one-wrap .service-price-list .list-header .pointer {
+        position: absolute;
+        padding-left: 7.7%;
+        /****************  ovdje ti se nalazi strelica koja treba da se */
+        margin-top: -4px;
+        /*   pojavi kada klikne┼í na link menija 	*****************/
+        visibility: hidden; }
     #service-one-wrap .service-price-list .list-table {
       background-color: white;
       margin-bottom: 20px; }
       #service-one-wrap .service-price-list .list-table h3 {
-        font-size: 1.2em;
+        padding-left: 5%;
+        font-size: 1.4em;
         color: #009AE2;
-        font-weight: 600;
-        margin-left: 3%; }
+        font-weight: 600; }
       #service-one-wrap .service-price-list .list-table li {
         margin-top: 20px;
         color: #646464;
-        padding-left: 3%;
-        height: 33px; }
+        padding-left: 2%;
+        padding-top: 2px;
+        height: 28px;
+        font-size: 1.2em; }
       #service-one-wrap .service-price-list .list-table ul {
         position: relative;
         background-color: white;
-        width: 200px;
+        width: 300px;
         z-index: 2;
-        list-style-type: none; }
+        list-style-type: none;
+        padding-left: 7%; }
+        #service-one-wrap .service-price-list .list-table ul input[type='checkbox'] {
+          margin-right: 12%; }
       #service-one-wrap .service-price-list .list-table .horizontal-line {
         border: 1px solid #E6E6E6;
         position: relative;
         top: -225px;
         left: 0px;
         width: 100%;
-        margin-top: 50px;
+        margin-top: 46px;
         z-index: 1; }
       #service-one-wrap .service-price-list .list-table .check-price {
         height: 33px;
         width: 50px;
-        margin-top: 20px;
+        margin-top: 15px;
         text-align: center;
         color: #646464;
         background-color: white;
         position: relative;
         top: -415px;
-        left: 90%;
+        left: 94%;
         z-index: 2; }
       #service-one-wrap .service-price-list .list-table .logo-id {
         float: left;
         width: 45%;
         padding-top: 20px;
         padding-left: 3%;
-        height: 300px; }
+        height: 270px; }
+        #service-one-wrap .service-price-list .list-table .logo-id .horizontal-line {
+          top: -200px; }
+        #service-one-wrap .service-price-list .list-table .logo-id .check-price {
+          top: -375px; }
       #service-one-wrap .service-price-list .list-table .ux {
         float: right;
         width: 47%;
         padding-top: 20px;
         padding-right: 2%;
-        height: 520px; }
+        height: 465px; }
         #service-one-wrap .service-price-list .list-table .ux ul {
           width: 250px; }
         #service-one-wrap .service-price-list .list-table .ux .horizontal-line {
-          top: -435px; }
+          top: -393px; }
         #service-one-wrap .service-price-list .list-table .ux .check-price {
-          top: -835px; }
+          top: -760px; }
       #service-one-wrap .service-price-list .list-table .web-site {
         clear: left;
         float: left;
         width: 45%;
         padding-left: 3%;
-        height: 340px; }
+        height: 300px; }
         #service-one-wrap .service-price-list .list-table .web-site .horizontal-line {
-          top: -278px; }
+          top: -250px; }
         #service-one-wrap .service-price-list .list-table .web-site .check-price {
-          top: -520px; }
+          top: -470px; }
       #service-one-wrap .service-price-list .list-table .clothing {
         clear: right;
         float: right;
         width: 47%;
         padding-right: 2%;
-        height: 240px; }
+        height: 200px; }
         #service-one-wrap .service-price-list .list-table .clothing .horizontal-line {
-          top: -173px; }
+          top: -157px; }
         #service-one-wrap .service-price-list .list-table .clothing .check-price {
-          top: -310px; }
+          top: -282px; }
       #service-one-wrap .service-price-list .list-table .business {
         clear: left;
         float: left;
         width: 45%;
         padding-left: 3%;
-        height: 450px; }
+        height: 390px; }
         #service-one-wrap .service-price-list .list-table .business .horizontal-line {
-          top: -381px; }
+          top: -343px; }
         #service-one-wrap .service-price-list .list-table .business .check-price {
-          top: -730px; }
+          top: -660px; }
       #service-one-wrap .service-price-list .list-table .art {
         clear: right;
         float: right;
         width: 47%;
         padding-right: 2%;
-        height: 240px; }
+        height: 205px; }
         #service-one-wrap .service-price-list .list-table .art .horizontal-line {
-          top: -171px; }
+          top: -151px; }
         #service-one-wrap .service-price-list .list-table .art .check-price {
-          top: -308px; }
+          top: -275px; }
       #service-one-wrap .service-price-list .list-table .book {
         clear: right;
         float: right;
@@ -8195,33 +8334,46 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
         padding-right: 2%;
         height: 240px; }
         #service-one-wrap .service-price-list .list-table .book .horizontal-line {
-          top: -171px; }
+          top: -151px; }
         #service-one-wrap .service-price-list .list-table .book .check-price {
-          top: -308px; }
+          top: -280px; }
       #service-one-wrap .service-price-list .list-table .packaging {
         clear: left;
         float: left;
         width: 45%;
         padding-left: 3%;
-        height: 240px; }
+        height: 225px; }
         #service-one-wrap .service-price-list .list-table .packaging .horizontal-line {
-          top: -173px; }
+          top: -152px; }
         #service-one-wrap .service-price-list .list-table .packaging .check-price {
-          top: -310px; }
+          top: -278px; }
+    #service-one-wrap .service-price-list .logo-id, #service-one-wrap .service-price-list .web-site, #service-one-wrap .service-price-list .business, #service-one-wrap .service-price-list .packaging {
+      padding-left: 0 !important; }
+    #service-one-wrap .service-price-list .ux h3, #service-one-wrap .service-price-list .clothing h3, #service-one-wrap .service-price-list .art h3, #service-one-wrap .service-price-list .book h3 {
+      padding-left: 0;
+      margin-left: 0;
+      font-size: 1.4em; }
+    #service-one-wrap .service-price-list .ux ul, #service-one-wrap .service-price-list .clothing ul, #service-one-wrap .service-price-list .art ul, #service-one-wrap .service-price-list .book ul {
+      padding-left: 2.5%;
+      width: 60%; }
+      #service-one-wrap .service-price-list .ux ul input[type='checkbox'], #service-one-wrap .service-price-list .clothing ul input[type='checkbox'], #service-one-wrap .service-price-list .art ul input[type='checkbox'], #service-one-wrap .service-price-list .book ul input[type='checkbox'] {
+        margin-right: 12.5%; }
+    #service-one-wrap .service-price-list .ux .check-price, #service-one-wrap .service-price-list .clothing .check-price, #service-one-wrap .service-price-list .art .check-price, #service-one-wrap .service-price-list .book .check-price {
+      left: 90%; }
     #service-one-wrap .service-price-list .order-select {
       margin-top: 0px;
-      margin-bottom: 30px;
-      width: 20%;
-      margin-left: 80%;
+      margin-bottom: 65px;
+      width: 24%;
+      margin-left: 76%;
       margin-right: 0%;
       background-color: #F8A01A;
       background-image: url("../img/order/nextStep.png");
       background-repeat: no-repeat;
-      background-position: 93% 5px;
-      padding-top: 15px;
+      background-position: 93% 3px;
+      padding-top: 10px;
       padding-bottom: 10px;
       border: 0px;
-      font-size: 1.2em;
+      font-size: 1.4em;
       font-weight: 400;
       text-align: center;
       color: white; }
@@ -8316,7 +8468,7 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
         #service-two-wrap .service-price-list .list-table .web-sites .horizontal-line {
           top: -250px; }
         #service-two-wrap .service-price-list .list-table .web-sites .check-price {
-          top: -465px; }
+          top: -470px; }
       #service-two-wrap .service-price-list .list-table .template {
         float: right;
         width: 47%;
@@ -8328,7 +8480,7 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
         #service-two-wrap .service-price-list .list-table .template .horizontal-line {
           top: -202px; }
         #service-two-wrap .service-price-list .list-table .template .check-price {
-          top: -370px; }
+          top: -373px; }
       #service-two-wrap .service-price-list .list-table .component {
         clear: left;
         float: left;
@@ -8349,7 +8501,7 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
         #service-two-wrap .service-price-list .list-table .device-development .horizontal-line {
           top: -202px; }
         #service-two-wrap .service-price-list .list-table .device-development .check-price {
-          top: -370px; }
+          top: -373px; }
       #service-two-wrap .service-price-list .list-table .front-end {
         clear: right;
         float: right;
@@ -8360,7 +8512,7 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
         #service-two-wrap .service-price-list .list-table .front-end .horizontal-line {
           top: -202px; }
         #service-two-wrap .service-price-list .list-table .front-end .check-price {
-          top: -370px; }
+          top: -375px; }
       #service-two-wrap .service-price-list .list-table .open-source {
         clear: right;
         float: right;
@@ -8371,7 +8523,7 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
         #service-two-wrap .service-price-list .list-table .open-source .horizontal-line {
           top: -156px; }
         #service-two-wrap .service-price-list .list-table .open-source .check-price {
-          top: -278px; }
+          top: -280px; }
       #service-two-wrap .service-price-list .list-table .comercial {
         clear: right;
         float: right;
@@ -8392,7 +8544,7 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
         #service-two-wrap .service-price-list .list-table .hosting .horizontal-line {
           top: -202px; }
         #service-two-wrap .service-price-list .list-table .hosting .check-price {
-          top: -370px; }
+          top: -373px; }
       #service-two-wrap .service-price-list .list-table .maintenence {
         clear: left;
         float: left;
@@ -8403,7 +8555,7 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
         #service-two-wrap .service-price-list .list-table .maintenence .horizontal-line {
           top: -155px; }
         #service-two-wrap .service-price-list .list-table .maintenence .check-price {
-          top: -277px; }
+          top: -280px; }
       #service-two-wrap .service-price-list .list-table .web-sites, #service-two-wrap .service-price-list .list-table .hosting, #service-two-wrap .service-price-list .list-table .component, #service-two-wrap .service-price-list .list-table .maintenence {
         padding-left: 0; }
         #service-two-wrap .service-price-list .list-table .web-sites h3, #service-two-wrap .service-price-list .list-table .hosting h3, #service-two-wrap .service-price-list .list-table .component h3, #service-two-wrap .service-price-list .list-table .maintenence h3 {
@@ -8414,6 +8566,8 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
           width: 60%; }
           #service-two-wrap .service-price-list .list-table .web-sites ul input[type='checkbox'], #service-two-wrap .service-price-list .list-table .hosting ul input[type='checkbox'], #service-two-wrap .service-price-list .list-table .component ul input[type='checkbox'], #service-two-wrap .service-price-list .list-table .maintenence ul input[type='checkbox'] {
             margin-right: 12.5%; }
+        #service-two-wrap .service-price-list .list-table .web-sites .check-price, #service-two-wrap .service-price-list .list-table .hosting .check-price, #service-two-wrap .service-price-list .list-table .component .check-price, #service-two-wrap .service-price-list .list-table .maintenence .check-price {
+          margin-left: 3%; }
       #service-two-wrap .service-price-list .list-table .template h3, #service-two-wrap .service-price-list .list-table .device-development h3, #service-two-wrap .service-price-list .list-table .front-end h3, #service-two-wrap .service-price-list .list-table .open-source h3, #service-two-wrap .service-price-list .list-table .comercial h3 {
         padding-left: 0;
         margin-left: 0;
@@ -8425,18 +8579,18 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
           margin-right: 12.5%; }
     #service-two-wrap .service-price-list .order-select {
       margin-top: 0px;
-      margin-bottom: 30px;
-      width: 20%;
-      margin-left: 80%;
+      margin-bottom: 65px;
+      width: 24%;
+      margin-left: 76%;
       margin-right: 0%;
       background-color: #F8A01A;
       background-image: url("../img/order/nextStep.png");
       background-repeat: no-repeat;
-      background-position: 93% 5px;
-      padding-top: 15px;
+      background-position: 93% 3px;
+      padding-top: 10px;
       padding-bottom: 10px;
       border: 0px;
-      font-size: 1.2em;
+      font-size: 1.4em;
       font-weight: 400;
       text-align: center;
       color: white; }

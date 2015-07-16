@@ -6,7 +6,6 @@
 		margin-bottom: 15px;
 	}
 }
-
 .order-packages {
 	margin-top: 50px;
 	padding-right: 2%;
@@ -23,6 +22,7 @@
 		font-size: 1.4em;
 		width: 110%;
 		margin-left: -10%;
+		word-spacing: 0.2em;
 	}
 	p { 
 		color: $font-color;
@@ -30,22 +30,16 @@
 		width: 105%;
 		padding-top: 5px;		
 		margin-left: -7%;
+		letter-spacing: -1px;
 	}
-
-	img {
-	/*	width: 80%;
-		height: 70%;*/
-	}
-
 	&> div:hover {
 		@include animation(tada 1s);
 	}
 
 }
-
 #contact-us {
 	position: relative;
-	margin-top: 8%;
+	margin-top: 10%;
 	margin-bottom: 89px;
 	padding-bottom: auto;
 	background-color: white;
