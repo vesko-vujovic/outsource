@@ -5911,6 +5911,8 @@ div ul.nav.navbar-nav {
     .footer .blog-info ul > li:hover a {
       text-decoration: underline;
       color: white; }
+  .footer .contact > p:hover {
+    color: white; }
   .footer ul li a {
     text-decoration: none;
     color: #314E5C; }
@@ -6436,14 +6438,14 @@ div.cli-head {
   background-color: #E6E6E6; }
 
 .main-content .wrapper {
-  margin-left: 7%; }
+  margin-left: 7%;
+  width: 70%; }
 .main-content h4 {
   width: 100%;
   text-align: center;
   color: #009ae2;
   line-height: 0em;
   margin: 10px 0 20px;
-  text-transform: uppercase;
   font-size: 20px;
   font-weight: normal;
   font-family: KlavikaMedium, Arial, Helvetica, sans-serif; }
@@ -6516,7 +6518,7 @@ div.cli-head {
       letter-spacing: -0.02em; }
 
 .hr-client {
-  background: url(/outsource/src/assets/img/hr-clients.png) no-repeat;
+  background: url("/outsource/src/assets/img/hr-clients.png") no-repeat;
   width: 100%;
   height: 49px;
   border: none;
@@ -6541,7 +6543,8 @@ div.cli-head {
 
 .testimonials-block {
   width: 33.33%;
-  float: left; }
+  float: left;
+  margin-top: -10px; }
   .testimonials-block:before, .testimonials-block:after {
     content: " ";
     display: table; }
@@ -6572,12 +6575,36 @@ div.cli-head {
     font-size: 16px;
     line-height: 20px; }
 
+.testimonials-block:first-child {
+  margin-left: -2%;
+  margin-right: 1%; }
+
+.testimonials-block:last-child {
+  margin-left: 1%; }
+
 div.container-fluid.testimon {
   background-color: #E6E6E6;
   padding-left: 18%; }
 
-#testimon-margin {
-  margin-top: 100px !important; }
+#testimonial-page + div.testimon .testimonials-block {
+  width: 31%;
+  margin: 0;
+  margin-top: -45px;
+  margin-bottom: 110px; }
+  #testimonial-page + div.testimon .testimonials-block .test-desc {
+    padding-left: 10px; }
+
+#aboutusmenu + div.container div.main-content div.wrapper {
+  width: 84%; }
+  #aboutusmenu + div.container div.main-content div.wrapper .clients h4 {
+    text-transform: uppercase; }
+  #aboutusmenu + div.container div.main-content div.wrapper .testimonial-h {
+    text-transform: uppercase; }
+  #aboutusmenu + div.container div.main-content div.wrapper .testimonials-block {
+    width: 33.33%;
+    margin: 0; }
+    #aboutusmenu + div.container div.main-content div.wrapper .testimonials-block .test-desc {
+      padding-left: 10px; }
 
 body {
   font-family: KlavikaRegular, Arial, Helvetica, sans-serif !important; }
@@ -7053,6 +7080,20 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
     padding: 6px 30px;
     border: none; }
 
+#package-prices-wrap .veskov-dio1 {
+  overflow: hidden; }
+#package-prices-wrap #packages2 .packages-offer .wrapper.dedicated-packages {
+  margin-top: 0;
+  margin-bottom: 30px; }
+#package-prices-wrap .dedicated-team-part .container {
+  padding-left: 2%; }
+  #package-prices-wrap .dedicated-team-part .container .page-header {
+    border: none; }
+  #package-prices-wrap .dedicated-team-part .container .dedicated-present {
+    margin-top: -20px; }
+    #package-prices-wrap .dedicated-team-part .container .dedicated-present div.col-md-4 {
+      width: 30%; }
+
 .order-main {
   background-color: #E6E6E6; }
   .order-main .container {
@@ -7448,10 +7489,17 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
     visibility: hidden; }
 
 #testimonial-page .page-header {
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 8px;
   border: none;
   padding-top: 0px;
   padding-left: 6%; }
+  #testimonial-page .page-header h1 {
+    font-size: 3.6em;
+    margin-bottom: 0; }
+  #testimonial-page .page-header p {
+    width: 83%;
+    font-size: 1em; }
 
 #order-service-page .order-heading {
   margin-top: 10px;
@@ -7691,6 +7739,18 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
 
 .hidden {
   visibility: hidden; }
+
+#whyus-page div.faqs + div.main-content .wrapper {
+  width: 54%; }
+  #whyus-page div.faqs + div.main-content .wrapper .testimonials-block {
+    width: 33%;
+    padding-left: 2%; }
+  #whyus-page div.faqs + div.main-content .wrapper .clients {
+    margin-left: 1%; }
+  #whyus-page div.faqs + div.main-content .wrapper .test-img {
+    margin-right: -5px; }
+  #whyus-page div.faqs + div.main-content .wrapper .testimonials-block:last-child {
+    padding-left: 0; }
 
 #dedicated-one-wrap {
   overflow: hidden; }
@@ -8615,7 +8675,9 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
 #package-prices-wrap .dedicated-present {
   padding-left: 4%; }
   #package-prices-wrap .dedicated-present div {
-    height: 330px; }
+    height: 380px;
+    padding-bottom: 135px;
+    margin-bottom: 30px; }
     #package-prices-wrap .dedicated-present div h3 {
       width: 65%;
       color: #009AE2;
@@ -8623,7 +8685,8 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
       font-weight: 600; }
     #package-prices-wrap .dedicated-present div p {
       width: 55%;
-      color: #646464; }
+      color: #646464;
+      margin-bottom: 5px; }
     #package-prices-wrap .dedicated-present div a {
       color: #F8A01A;
       text-decoration: none;
@@ -8631,23 +8694,36 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
   #package-prices-wrap .dedicated-present .design-team {
     background-image: url("../img/package/man.png");
     background-repeat: no-repeat;
-    background-position: 78% 0px; }
+    background-position: 85% 20px;
+    background-size: contain;
+    background-size: 40% 92%; }
+    #package-prices-wrap .dedicated-present .design-team h3 {
+      margin-top: 23px; }
+    #package-prices-wrap .dedicated-present .design-team p {
+      margin-top: 3px; }
   #package-prices-wrap .dedicated-present .tech-team {
+    padding-left: 20px;
     background-image: url("../img/package/man2.png");
     background-repeat: no-repeat;
-    background-position: 78% 0px;
+    background-position: 92% 25px;
     background-size: contain; }
+    #package-prices-wrap .dedicated-present .tech-team p {
+      width: 50%; }
   #package-prices-wrap .dedicated-present .menag-team {
+    padding-left: 20px;
     background-image: url("../img/package/man32.png");
     background-repeat: no-repeat;
-    background-position: 78% 0px;
+    background-position: 92% 5px;
     background-size: contain; }
 #package-prices-wrap .price-list-tab {
   background-color: #E6E6E6;
   padding-left: 5%; }
+  #package-prices-wrap .price-list-tab .container {
+    padding-left: 3%;
+    padding-right: 4.5%; }
   #package-prices-wrap .price-list-tab .page-header {
     margin-top: 50px;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
     width: 95%;
     height: 150px;
     background-color: #135276;
@@ -8657,12 +8733,12 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
     background-size: contain; }
     #package-prices-wrap .price-list-tab .page-header .present {
       padding-left: 0px; }
-      #package-prices-wrap .price-list-tab .page-header .present h3 {
-        margin-right: 20%;
-        width: 55%; }
+      #package-prices-wrap .price-list-tab .page-header .present h1 {
+        margin-left: -3.5%; }
       #package-prices-wrap .price-list-tab .page-header .present p {
+        margin-left: -3.5%;
         color: white;
-        width: 55%; }
+        width: 75%; }
 
 #package-prices-wrap {
   /* part that styles the table inside
@@ -8675,7 +8751,7 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
     padding-left: 5.5%; }
     #package-prices-wrap .page-header .present {
       padding-right: 15%;
-      margin-top: 58px;
+      margin-top: 30px;
       padding-bottom: 15px; }
       #package-prices-wrap .page-header .present h1 {
         font-size: 3.6em;
@@ -8713,67 +8789,102 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
     color: white; }
 
 #whyus-tehnology-wrap .page-header {
-  margin-top: 30px;
-  padding-top: 0px;
-  padding-left: 6%; }
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 5.5%; }
+  #whyus-tehnology-wrap .page-header .present {
+    padding-right: 15%;
+    margin-top: 58px;
+    padding-bottom: 15px; }
+    #whyus-tehnology-wrap .page-header .present h1 {
+      font-size: 3.6em;
+      margin-bottom: 3px; }
+    #whyus-tehnology-wrap .page-header .present p {
+      padding-left: 4px; }
 #whyus-tehnology-wrap .tehnology-blocks {
   background-color: #E6E6E6; }
   #whyus-tehnology-wrap .tehnology-blocks .container {
     margin-top: 20px;
     margin-bottom: 60px;
     padding-left: 4%;
-    padding-top: 30px; }
+    padding-top: 30px;
+    padding-right: 2%; }
     #whyus-tehnology-wrap .tehnology-blocks .container .row {
       margin-left: 0px; }
+    #whyus-tehnology-wrap .tehnology-blocks .container .row:first-child .tehno-block:last-child .float-left:last-child {
+      margin-left: -8%; }
   #whyus-tehnology-wrap .tehnology-blocks .tehno-block {
     width: 30%;
     min-width: 280px;
-    padding: 1% 2% 1% 2%;
+    padding: 1.5% 1% 5px 1%;
     background-color: white;
-    margin: .5%;
+    margin: 4px;
     color: #646464; }
     #whyus-tehnology-wrap .tehnology-blocks .tehno-block .tehno-head {
       padding: 0px; }
       #whyus-tehnology-wrap .tehnology-blocks .tehno-block .tehno-head h3 {
+        width: 90%;
         font-weight: 600;
         margin: 0px;
         padding: 0px;
-        margin-left: 10%;
-        text-align: left; }
+        margin-left: 1%;
+        margin-top: 3px;
+        text-align: left;
+        font-size: 1.4em; }
     #whyus-tehnology-wrap .tehnology-blocks .tehno-block .tehno-text ul {
-      margin-top: 50px;
-      padding-left: 12%; }
+      margin-top: 20px;
+      padding-left: 8%; }
       #whyus-tehnology-wrap .tehnology-blocks .tehno-block .tehno-text ul li {
-        font-style: oblique;
-        font-size: .8em;
-        line-height: 1.6em; }
+        font-size: 1.2em;
+        margin-bottom: 11px;
+        letter-spacing: -1px;
+        line-height: 1.2em; }
+        #whyus-tehnology-wrap .tehnology-blocks .tehno-block .tehno-text ul li p {
+          font-size: 1em;
+          font-style: oblique; }
     #whyus-tehnology-wrap .tehnology-blocks .tehno-block .float-left {
       padding-left: 6%;
       float: left;
       position: relative;
       width: 50%; }
+    #whyus-tehnology-wrap .tehnology-blocks .tehno-block .fix-float .float-left {
+      margin-top: 4px; }
+    #whyus-tehnology-wrap .tehnology-blocks .tehno-block .fix-float .float-left:first-child {
+      margin-left: -25%; }
+    #whyus-tehnology-wrap .tehnology-blocks .tehno-block .fix-float .float-left:last-child {
+      padding-left: 2%; }
   #whyus-tehnology-wrap .tehnology-blocks .app-fix {
-    margin-top: -30px; }
+    margin-top: -35px; }
   #whyus-tehnology-wrap .tehnology-blocks .data-fix {
-    margin-top: -62px; }
+    margin-top: -97px; }
   #whyus-tehnology-wrap .tehnology-blocks .opp-fix {
-    margin-top: -55px; }
+    margin-top: -79px; }
 #whyus-tehnology-wrap .testimonial-section .container {
   padding-left: 4%; }
   #whyus-tehnology-wrap .testimonial-section .container h3 {
     padding-bottom: 30px;
     color: #009AE2;
     text-align: center;
-    font-weight: 600; }
-  #whyus-tehnology-wrap .testimonial-section .container .client-block {
-    width: 33.33%;
-    color: #646464; }
-  #whyus-tehnology-wrap .testimonial-section .container .client-name p {
     font-weight: 600;
+    font-size: 1.4em;
+    width: 93%; }
+  #whyus-tehnology-wrap .testimonial-section .container .client-block {
+    width: 32%;
+    color: #646464;
+    margin-top: -6px; }
+  #whyus-tehnology-wrap .testimonial-section .container .mid-cli-block {
+    margin-left: -2%; }
+  #whyus-tehnology-wrap .testimonial-section .container .client-block:last-child {
+    margin-left: -2%; }
+  #whyus-tehnology-wrap .testimonial-section .container .client-name p {
+    font-weight: 400;
     font-size: 1.2em;
     color: black; }
   #whyus-tehnology-wrap .testimonial-section .container .img-circle {
     border: 1px solid #C8C8C8; }
+  #whyus-tehnology-wrap .testimonial-section .container .client-pic {
+    padding-left: 1%; }
   #whyus-tehnology-wrap .testimonial-section .container .testim p, #whyus-tehnology-wrap .testimonial-section .container .client-name p {
     /* positioning and editing client's testimonial text */
     width: 70%;
@@ -8953,7 +9064,8 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
       opacity: 1 !important; }
 
 #process-content + div.main-content .wrapper {
-  margin: auto; }
+  margin: auto;
+  width: 51%; }
 #process-content + div.main-content .clients {
   margin-top: 20px;
   margin-bottom: 90px; }

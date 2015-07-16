@@ -130,6 +130,7 @@ div.wrapper.dedicated-packages {
     margin-bottom: 50px;
   }
 
+
 }
 /*
 body .ng-scope div.ng-scope .ng-scope #inner-blocks {
@@ -150,4 +151,28 @@ body .ng-scope div.ng-scope .ng-scope #inner-blocks {
       @include table;
     }
   }
-
+#package-prices-wrap {
+  .veskov-dio1 {
+    overflow: hidden;
+  }
+  #packages2 {
+    .packages-offer .wrapper.dedicated-packages {
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+  }
+  .dedicated-team-part {
+    .container {
+      padding-left: 2%;
+      .page-header {
+        border: none;
+      }
+      .dedicated-present{
+        margin-top: -20px;
+        div.col-md-4 {
+          width: 30%;
+        }
+      }
+    }
+  }
+}

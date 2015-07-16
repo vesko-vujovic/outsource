@@ -33,10 +33,17 @@
     visibility: hidden; }
 
 #testimonial-page .page-header {
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 8px;
   border: none;
   padding-top: 0px;
   padding-left: 6%; }
+  #testimonial-page .page-header h1 {
+    font-size: 3.6em;
+    margin-bottom: 0; }
+  #testimonial-page .page-header p {
+    width: 83%;
+    font-size: 1em; }
 
 #order-service-page .order-heading {
   margin-top: 10px;
@@ -276,5 +283,17 @@
 
 .hidden {
   visibility: hidden; }
+
+#whyus-page div.faqs + div.main-content .wrapper {
+  width: 54%; }
+  #whyus-page div.faqs + div.main-content .wrapper .testimonials-block {
+    width: 33%;
+    padding-left: 2%; }
+  #whyus-page div.faqs + div.main-content .wrapper .clients {
+    margin-left: 1%; }
+  #whyus-page div.faqs + div.main-content .wrapper .test-img {
+    margin-right: -5px; }
+  #whyus-page div.faqs + div.main-content .wrapper .testimonials-block:last-child {
+    padding-left: 0; }
 
 /*# sourceMappingURL=zasto-mi.css.map */
