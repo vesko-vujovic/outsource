@@ -4,7 +4,7 @@
     <div class="container-fluid">
      <div class="row">
       <div class="col-md-2 col-sm-2 col-lg-2 col-xs-2">
-        <a ui-sref="index"><p><img id="logo" src="src/assets/img/logo.png"></p>
+        <a onclick="homePage(this)" ui-sref="index"><p><img id="logo" src="src/assets/img/logo.png"></p>
         </div>
         <div id="links" class=" col-xs-7 col-md-7 col-sm-7 col-lg-7 col-xs-7">
           <ul class="nav navbar-nav">
@@ -38,9 +38,9 @@
     <div class="whyus">
       <div class="wrapper">
         <ul>
-          <li><a> <span class="glyphicon glyphicon-th-list"></span> work process </a></li>
+          <li><a ui-sref="why-us-work-process"> <span class="glyphicon glyphicon-th-list"></span> work process </a></li>
           <li><a ui-sref="why-us-technology"> <span class="glyphicon glyphicon-th-large"></span> technology &amp; services </a></li>
-          <li><a ui-sref="testimonials"> <span class="glyphicon glyphicon-ok"></span> testimonials </a></li>
+          <li><a ui-sref="why-us-testimonials"> <span class="glyphicon glyphicon-ok"></span> testimonials </a></li>
           <li><a href=""> <span class="glyphicon glyphicon-new-window"></span> our team </a></li>
           <li><a href=""> our clients </a></li>
           <li><a href=""> see our projects </a></li>

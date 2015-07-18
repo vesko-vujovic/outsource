@@ -1,5 +1,5 @@
 /**
- * This is the main config file in this app
+ * Routes for outsource app
  */
 
 // Outsource app module
@@ -214,7 +214,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
-            .state('why-us-work', { 
+            .state('why-us-work-process', { 
                 parent: 'home',
                 url: ' /why-us/work-process/web',
                 views: {

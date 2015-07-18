@@ -1,5 +1,7 @@
 /**
   * Main file for jquery DOM manipulation inside Outsource app
+  * Note: Please have in mind that on some places DOM manipulation 
+  * is done from directive
   */
 
 // Dropdown menu for ORDER NOW  
@@ -74,8 +76,7 @@ this.homePage       = function(e) {
    $(".whyus, .dropdown-nav, .packageprices").slideUp(300);
 };
 
-// functions for process flow on page /why-us/work-process/web 
-
+// Process flow animation on page /why-us/work-process/web 
   this.showNum = function(e){
     
     var roundLink = $(e).children();

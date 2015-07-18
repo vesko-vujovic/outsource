@@ -1,5 +1,5 @@
 /**
- * This is the main config file in this app
+ * Routes for outsource app
  */
 
 // Outsource app module
@@ -214,7 +214,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
-            .state('why-us-work', { 
+            .state('why-us-work-process', { 
                 parent: 'home',
                 url: ' /why-us/work-process/web',
                 views: {
@@ -316,11 +316,13 @@ app.controller('IndexCtrl', ['$scope', 'sharedService', function($scope, sharedS
 	    $scope.packages        = data.packages;
 	  
 	});
+
     //data for why us 
     $scope.whyus;
 	$scope.whyusData           = sharedService.getData('/outsource/json/index/whyus.json').then(function(data){
 	    $scope.whyus           = data.why; 
 	});
+	
 	//data about us
 	$scope.aboutus;
 	$scope.aboutusData         = sharedService.getData('/outsource/json/index/onama.json').then(function(data){
@@ -419,13 +421,14 @@ outsource.directive('about', function(){
 });
 /**
   * Directive for clients and partners section on index page
+  * Note: Here you have also "what our clients say" section 
   */
 outsource.directive('client', function(){
 
       return {
          restrict: 'E',
          link: function(scope, element, attribute){
-         },
+        },
 
          replace: true,
          templateUrl: 'src/app/components/views/clients.html'

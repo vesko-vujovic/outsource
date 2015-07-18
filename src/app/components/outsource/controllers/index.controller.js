@@ -25,11 +25,13 @@ app.controller('IndexCtrl', ['$scope', 'sharedService', function($scope, sharedS
 	    $scope.packages        = data.packages;
 	  
 	});
+
     //data for why us 
     $scope.whyus;
 	$scope.whyusData           = sharedService.getData('/outsource/json/index/whyus.json').then(function(data){
 	    $scope.whyus           = data.why; 
 	});
+	
 	//data about us
 	$scope.aboutus;
 	$scope.aboutusData         = sharedService.getData('/outsource/json/index/onama.json').then(function(data){
