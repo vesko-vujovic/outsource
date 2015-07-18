@@ -2,8 +2,7 @@
 var app = angular.module('outsourceApp');
 
 //define controller
-
-app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedService){
+app.controller('IndexCtrl', ['$scope', 'sharedService', function($scope, sharedService){
      
      //data for slider
 	$scope.slider;

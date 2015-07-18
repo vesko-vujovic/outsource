@@ -1,3 +1,6 @@
+/**
+  * Directive for clients and partners section on index page
+  */
 outsource.directive('client', function(){
 
       return {
@@ -6,6 +9,6 @@ outsource.directive('client', function(){
          },
 
          replace: true,
-         templateUrl: 'src/app/components/views/klijenti.html'
+         templateUrl: 'src/app/components/views/clients.html'
       };
 });

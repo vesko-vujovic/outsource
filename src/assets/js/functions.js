@@ -1,19 +1,8 @@
-$(document).ready(function() {
-  $('.us-left').addClass("hideit").viewportChecker({
-    classToAdd: 'visibleit animated fadeInLeft ',
-    offset: 100
-  });
-  $('.us-right').addClass("hideit").viewportChecker({
-    classToAdd: 'visibleit animated fadeInRight',
-    offset: 100
-  });
-  $('.client-logo img').addClass("hideit").viewportChecker({
-    classToAdd: 'visibleit animated flipInX',
-    offset: 200
-  });
-});
+/**
+  * Main file for jquery DOM manipulation inside Outsource app
+  */
 
-
+// Dropdown menu for ORDER NOW  
 this.menu     = function(e) {
  
   $('ul.nav.navbar-nav li:nth-child(3)').removeClass('clicked');
@@ -33,7 +22,7 @@ else {
 
 };
 
-
+// Dropdown menu for WHY US
 this.whyUs     = function(e) {
 
     // Slide up and remove all active class, when clicked on whyus
@@ -54,6 +43,7 @@ else {
 
 };
 
+// Dropdown menu for package and prices
 this.packagePrices     = function(e) {
   
      // Slide up and remove all active class, when clicked on packagePrices
@@ -75,6 +65,7 @@ this.packagePrices     = function(e) {
 
 }; 
 
+// Click on home page removes all opened dropdowns
 this.homePage       = function(e) {
 
    $('ul.nav.navbar-nav li:nth-child(3)').removeClass('clicked');
@@ -83,7 +74,7 @@ this.homePage       = function(e) {
    $(".whyus, .dropdown-nav, .packageprices").slideUp(300);
 };
 
-/* functions for process flow on page /why-us/work-process/web */
+// functions for process flow on page /why-us/work-process/web 
 
   this.showNum = function(e){
     

@@ -2,16 +2,13 @@
  * This is the main config file in this app
  */
 
-/**
- * outsource app module
- *
- */
+// Outsource app module
 var outsource = angular.module('outsourceApp', ['ui.router']);
 
 outsource.config(function($stateProvider, $urlRouterProvider){
       $urlRouterProvider.otherwise('ne radi');
       /**
-        * These are route for app the first route is parent other routes are child routes
+        * These are routes for app the first route is parent other routes are child routes
         */
       $stateProvider
         .state('home', {
@@ -24,7 +21,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
             	views: {
             		inner: {
             			templateUrl: 'src/app/components/views/homepage.html',
-                        controller: 'indexCtrl' 
+                        controller: 'IndexCtrl' 
             		}
             	}  	
             })
@@ -296,8 +293,7 @@ app.controller('dedicatedCtrl', ['$scope', 'sharedService', function($scope, sha
 var app = angular.module('outsourceApp');
 
 //define controller
-
-app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedService){
+app.controller('IndexCtrl', ['$scope', 'sharedService', function($scope, sharedService){
      
      //data for slider
 	$scope.slider;
@@ -420,6 +416,20 @@ outsource.directive('about', function(){
 	   replace: true,
 	   templateUrl: 'src/app/components/views/aboutus.html'
 	};
+});
+/**
+  * Directive for clients and partners section on index page
+  */
+outsource.directive('client', function(){
+
+      return {
+         restrict: 'E',
+         link: function(scope, element, attribute){
+         },
+
+         replace: true,
+         templateUrl: 'src/app/components/views/clients.html'
+      };
 });
 /*
  * This is the directive for packages on first step
@@ -567,17 +577,6 @@ outsource.directive('name', function(){
 	   template: "<h1> {{fullName}} </h1>"
 	};
 });
-outsource.directive('client', function(){
-
-      return {
-         restrict: 'E',
-         link: function(scope, element, attribute){
-         },
-
-         replace: true,
-         templateUrl: 'src/app/components/views/klijenti.html'
-      };
-});
 /*
  * This is the directive for order-now header
  */
@@ -672,46 +671,15 @@ outsource.directive('servicepriceliststepone', function(){
 	};
 });
 /**
- * This is the custom directive for slider
- * I've wraped jquery plugin with angular
- */
-
-/*
-outsource.directive('slider', function(){
-
-	return {
-	   restrict: 'E',
-	   link: function(scope, element, attribute){
-	   	 element.show().revolution({
-            delay:9000,
-            startwidth:980,
-            startheight:520,
-            hideThumbs:10,
-            onHoverStop: "off",
-            navigationType: "none",
-            navigationStyle: "preview4",
-            touchenabled: "off",
-            hideTimerBar: "on",
-            parallax:"mouse",
-            parallaxBgFreeze:"on",
-            parallaxLevels:[10,7,4,3,2,5,4,3,2,1]
-         });    
-	   },
-
-	   replace: true,
-	   templateUrl: 'src/app/components/views/slider.html'
-	};
-});
-
-*/
+  * Wraped slider plugin inside directive
+  */ 
 
 outsource.directive('slider', function(){
 
 	return {
 	   restrict: 'E',
 	   link: function(scope, element, attribute){
-	   	  angular.element('.tp-banner').show().revolution({
-
+            angular.element('.tp-banner').show().revolution({
 	   	delay:9000,
             startwidth:980,
             startheight:520,
@@ -725,7 +693,7 @@ outsource.directive('slider', function(){
             parallaxBgFreeze:"on",
             parallaxLevels:[10,7,4,3,2,5,4,3,2,1]
         });
-	   },
+	},
 
 	   replace: true,
 	   templateUrl: 'src/app/components/views/slider.html'
