@@ -298,10 +298,10 @@ app.controller('IndexCtrl', ['$scope', 'sharedService', function($scope, sharedS
      //data for slider
 	$scope.slider;
 	$scope.sliderData         = sharedService.getData('/outsource/json/index/slider.json').then(function(data){
-	    $scope.slider         = data.slider;
-
-	    
+	   $scope.slider          = data.slider;
+	   console.log($scope.slider);
 	});
+
 
     //data for navbar
 	$scope.navbar;
@@ -322,7 +322,7 @@ app.controller('IndexCtrl', ['$scope', 'sharedService', function($scope, sharedS
 	$scope.whyusData           = sharedService.getData('/outsource/json/index/whyus.json').then(function(data){
 	    $scope.whyus           = data.why; 
 	});
-	
+
 	//data about us
 	$scope.aboutus;
 	$scope.aboutusData         = sharedService.getData('/outsource/json/index/onama.json').then(function(data){
