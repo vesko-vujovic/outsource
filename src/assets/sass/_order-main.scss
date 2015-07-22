@@ -1,43 +1,56 @@
 .order-main {
 	background-color: $bg-color;
+	.container {
+		padding-left: 5%;
+		padding-right: 4%;
+		margin-bottom: 15px;
+	}
 }
-
 .order-packages {
-	margin-left: 3%;
-	margin-top:  5%;
+	margin-top: 50px;
+	padding-right: 2%;
+	.col-md-4 {
+		padding-top: 7px;
+		padding-left: 4%;
+		padding-right: 3%; 
+	}
 	div > h3 {
 		text-align: center;
 		font-weight: bold;
+		margin-bottom: 0;
+		margin-top: 15px;
+		font-size: 1.4em;
+		width: 110%;
+		margin-left: -10%;
+		word-spacing: 0.2em;
 	}
 	p { 
 		color: $font-color;
 		text-align: justify;
+		width: 105%;
+		padding-top: 5px;		
+		margin-left: -7%;
+		letter-spacing: -1px;
 	}
-
-	img {
-		width: 80%;
-		height: 70%;
-	}
-
 	&> div:hover {
 		@include animation(tada 1s);
 	}
 
 }
-
 #contact-us {
 	position: relative;
 	margin-top: 10%;
 	margin-bottom: 89px;
-	padding-top: 10px;
 	padding-bottom: auto;
 	background-color: white;
-
+	width: 95%;
 	p {
 		font-size: 20px;
 		font-weight: bold;
-		padding-left: 320px;
+		padding-top: 10px;
+		padding-left: 26.5%;
 		color: #0F5376;
+		font-style: oblique;
 		&:hover {
 			color: #012638;
 		}
@@ -45,8 +58,8 @@
 
 	img {
 		position: absolute;
-		top: -52px;
-		right: 15%;
+		top: -65px;
+		right: 13.5%;
 	}
 
 }

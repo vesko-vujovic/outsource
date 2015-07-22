@@ -1,8 +1,21 @@
 #whyus-tehnology-wrap {
 	.page-header {
-		margin-top: 30px;
-		padding-top: 0px;
-		padding-left: 6%;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 5.5%;
+		.present {
+			padding-right: 15%;
+			margin-top: 58px;
+			padding-bottom: 15px;
+			h1 {
+				font-size: 3.6em;
+				margin-bottom: 3px;
+			}
+			p {
+				padding-left: 4px;
+			}
+		}
 	}
 	.tehnology-blocks {
 		background-color: #E6E6E6;
@@ -11,35 +24,51 @@
 		    margin-bottom: 60px;
 			padding-left: 4%;
 			padding-top: 30px;
+			padding-right: 2%;
 			.row {
 				margin-left: 0px;
+			}
+			.row:first-child {
+				.tehno-block:last-child {
+					.float-left:last-child {
+						margin-left: -8%;
+					}
+				}
 			}
 		}
 		.tehno-block {
 			width: 30%;
 			min-width: 280px;
-			padding: 1% 2% 1% 2%;
+			padding: 1.5% 1% 5px 1%;
 			background-color: white;
-			margin: .5%;
+			margin: 4px;
 			color: #646464;
 		    .tehno-head {
 		    	padding: 0px;
 				h3 {
+					width: 90%;
 					font-weight: 600;
 					margin: 0px;
 					padding: 0px;
-					margin-left: 10%;
+					margin-left: 1%;
+					margin-top: 3px;
 					text-align: left;
+					font-size: 1.4em;
 				}
 			}
 			.tehno-text {
 				ul {
-					margin-top: 50px;
-					padding-left: 12%;
+					margin-top: 20px;
+					padding-left: 8%;
 					li {
-						font-style: oblique;
-						font-size: .8em;
-						line-height: 1.6em;
+						font-size: 1.2em;
+						margin-bottom: 11px;
+						letter-spacing: -1px;
+						line-height: 1.2em;
+						p {
+							font-size: 1em;
+							font-style: oblique;
+						}
 					}
 				}
 			}
@@ -49,15 +78,26 @@
 				position: relative;
 				width: 50%;
 			}
+			.fix-float {
+				.float-left {
+					margin-top: 4px;
+				}
+				.float-left:first-child {
+					margin-left:-25%;
+				}
+				.float-left:last-child {
+					padding-left: 2%;
+				}
+			}
 		}
 		.app-fix {
-			margin-top: -30px;
+			margin-top: -35px;
 		}
 		.data-fix {
-			margin-top: -62px;
+			margin-top: -97px;
 		}	
 		.opp-fix {
-			margin-top: -55px;
+			margin-top: -79px;
 		}		
 	}
 	.testimonial-section {
@@ -68,18 +108,30 @@
 				color: #009AE2;
 				text-align: center;
 				font-weight: 600;
+				font-size: 1.4em;
+				width: 93%;
 			}
 			.client-block {		
-				width: 33.33%;
+				width: 32%;
 				color: #646464;
+				margin-top: -6px;
+			}
+			.mid-cli-block {
+				margin-left: -2%;
+			}
+			.client-block:last-child {
+				margin-left: -2%;
 			}
 			.client-name p {		
-				font-weight: 600;
+				font-weight: 400;
 				font-size: 1.2em;
 				color: black;
 			}
 			.img-circle {					
 				border: 1px solid #C8C8C8;
+			}
+			.client-pic {
+				padding-left: 1%;
 			}
 			.testim, .client-name {
 				p {					/* positioning and editing client's testimonial text */

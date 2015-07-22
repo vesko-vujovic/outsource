@@ -9,7 +9,7 @@ $text-color: #787878;
 $order-now-color: #009AE7;
 
 //this is background color for navbar
- .nav-color {
+.nav-color {
   background-color:#002637;
 }
 .header-nav, .header-nav div  {
@@ -36,6 +36,9 @@ div.links > a:hover{
 	background: #009ae2;
 	min-width: 980px;
 	display: none;
+	div.wrapper {
+		margin-left: 23.5%;
+	}
 	ul {
 		list-style: none;
 		padding: 0px;
@@ -49,22 +52,72 @@ div.links > a:hover{
 			a {
 				display: block;
 				color: $blue-bg;
+				font-size: 1.1em;
 				&:hover {
 					color: #fff;
 					background: #00608d;
+					text-decoration: none;
 				}
+			}
+			span {
+				font-weight: 400;
+				font-size: 0.8em;
+				line-height: 0.8em;
 			}
 		}
 	}
 }
 
-.whyus ul  li{
-	  
-		 	font-weight: bold;
-			float: left;
-			width: 20.00%;
-			text-align: center;			
-		
+.whyus {
+	ul {
+	  li {
+	 	font-weight: bold;
+		float: left;
+		width: 20.00%;
+		text-align: center;	
+	  }
+	  li:first-child {
+	  	width: 16%;
+	  	a {
+	  		padding-right: 12%;
+	  	}
+	  	span {
+	  		margin-right: 4%;
+	  	}
+	  }
+	  li:nth-child(2) {
+	  	width: 21.5%;
+	  	a {
+	  		padding-left: 6%;
+	  		padding-right: 10%;
+	  	}
+	  }
+	  li:nth-child(3) {
+	  	width: 15%;
+	  	margin-right: 16%;
+	  }
+	  li:nth-child(4) {
+	  	width: 11%;
+	  	a {
+	  		padding-right: 5%;
+	  	}
+	  	span {
+	  		margin-right: 7%;
+	  	}
+	  }
+	  li:nth-child(5) {
+	  	width: 8%;
+	  }
+	  li:last-child {
+	  	width: 12.5%;
+	  	/*a {
+	  		padding-right: 12%;
+	  	}
+	  	span {
+	  		margin-right: 4%;
+	  	}*/
+	  }
+	}	
 }
 
 

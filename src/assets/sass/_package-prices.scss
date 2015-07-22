@@ -11,7 +11,9 @@
 	.dedicated-present {
 		padding-left: 4%;
 		div {
-			height: 330px;
+			height: 380px;
+			padding-bottom: 135px;
+			margin-bottom: 30px;
 			h3 {
 				width: 65%;
 				color: #009AE2;
@@ -21,6 +23,7 @@
 			p {			
 				width: 55%;
 				color: #646464;
+				margin-bottom: 5px;
 			}
 			a {
 				color: #F8A01A;
@@ -31,27 +34,44 @@
 		.design-team {
 			background-image: url('../img/package/man.png');
 			background-repeat: no-repeat;
-			background-position: 78% 0px;
+			background-position: 85% 20px;
+			background-size: contain;
+			background-size: 40% 92%;
+			h3 {
+				margin-top: 23px;
+			}
+			p {
+				margin-top: 3px;
+			}
 		}
 		.tech-team {
+			padding-left: 20px;
 			background-image: url('../img/package/man2.png');
 			background-repeat: no-repeat;
-			background-position: 78% 0px;
+			background-position: 92% 25px;
 			background-size: contain;
+			p {
+				width: 50%;
+			}
 		}
 		.menag-team {
+			padding-left: 20px;
 			background-image: url('../img/package/man32.png');
 			background-repeat: no-repeat;
-			background-position: 78% 0px;
+			background-position: 92% 5px;
 			background-size: contain;
 		}
 	}
 	.price-list-tab {
 		background-color: #E6E6E6;
 		padding-left: 5%;
+		.container {
+			padding-left: 3%;
+			padding-right: 4.5%;
+		}
 		.page-header {
 			margin-top: 50px;
-			margin-bottom: 70px;
+			margin-bottom: 90px;
 			width: 95%;
 			height: 150px;
 			background-color: #135276;
@@ -61,13 +81,13 @@
 			background-size: contain;
 			.present {
 				padding-left: 0px;
-				h3 {
-					margin-right: 20%;
-					width: 55%;
+				h1 {
+					margin-left: -3.5%;
 				}
 				p {
+					margin-left: -3.5%;
 					color: white;
-					width: 55%;
+					width: 75%;
 				}
 			}
 		}

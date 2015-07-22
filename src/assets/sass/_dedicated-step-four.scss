@@ -3,13 +3,48 @@
   background-color: $lightgray;
     #order_panel {
       background-color: $lightgray;
-      padding: 50px 0px 70px;
+      padding: 50px 0px 83px;
       .container {
           width: 52.5%;
           padding-left: 0;
           .col-xs-4 {
             padding-right: 0;
+            width: 32%;
           }
+          .col-xs-8 {
+            padding-left: 2%;
+            margin-right: 1%;
+            .panel-heading {
+              padding-left: 4%;
+              h3 {
+                letter-spacing: -1px;
+              }
+            }
+            .panel-body {
+              padding-left: 1%;
+              .form-group > label {
+                font-weight: 600;
+                letter-spacing: -1px;
+              }
+              .form-group {
+                input[type="text"] {
+                  padding-left: 15px;
+                  width: 95%;
+                }
+                select.form-control {
+                  padding-left: 15px;
+                  width: 95%;
+                }
+              }
+            }
+           
+          }
+
+      }
+      .panel.panel-default + p {
+        font-size: 1.2em;
+        padding-top: 5px;
+        letter-spacing: -1px;
       }
       .panel {
         border-radius: 0px;
@@ -30,23 +65,44 @@
 
         .panel-body {
           padding: 0px;
-
+           .col-xs-12 {
+              .form-group.no-margin {
+                label {
+                  margin-top: 5px;
+                }
+                textarea {
+                  padding-top: 10px;
+                  padding-left: 5px;
+                }
+              } 
+              .form-group.no-margin + .checkbox {
+                margin-top: 15px;
+                padding-left: 3px;
+              }
+              button.btn {
+                width: 80%;
+              }
+          }
           .option {
-            padding: 10px 20px 25px;
+            padding: 8px 20px 20px;
             border-bottom: 1px solid #dddddd;
-            
+            h4 {
+              font-size: 1.4em;
+              margin-top: 10px;
+            }
             &:last-child {
               border: none;
               background-color: $darkblue;
               color: white;
               padding: 15px;
+              margin-top: -7px;
               h3 {
                 font-weight: bold;
                 margin: 0px;
               }
             }
-
             .option_title {
+              margin-left: -1%;
               .circle {
                 width: 24px;
                 height: 24px;
@@ -67,27 +123,41 @@
 
               h4 {
                 color: $orange;
-                font-size: 16px;
+                font-size: 1.4em;
+                font-weight: 600;
                 text-transform: uppercase;
                 vertical-align: inherit;
                 line-height: 24px;
+                letter-spacing: -1px;
               }
             }
 
             .price {
               color: $darkblue;
               margin-top: 25px;
+              font-weight: 600;
             }
 
             .table {
               text-align: right;
-
+              margin-bottom: 15px;
               & tr td {
                 border: none;
                 padding: 0px;
               }
               & tr td:first-child {
                 text-align: left;
+              }
+            }
+            .table-condensed + h4 {
+              margin-top: -5px;
+              margin-bottom: 5px;
+            }
+            .table-condensed {
+              tbody {
+                tr {
+                  margin-top: -4px;
+                }
               }
             }
           }

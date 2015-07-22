@@ -1,17 +1,14 @@
 /**
- * This is the main config file in this app
+ * Routes for outsource app
  */
 
-/**
- * outsource app module
- *
- */
+// Outsource app module
 var outsource = angular.module('outsourceApp', ['ui.router']);
 
 outsource.config(function($stateProvider, $urlRouterProvider){
       $urlRouterProvider.otherwise('ne radi');
       /**
-        * These are route for app the first route is parent other routes are child routes
+        * These are routes for app the first route is parent other routes are child routes
         */
       $stateProvider
         .state('home', {
@@ -24,7 +21,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
             	views: {
             		inner: {
             			templateUrl: 'src/app/components/views/homepage.html',
-                        controller: 'indexCtrl' 
+                        controller: 'IndexCtrl' 
             		}
             	}  	
             })
@@ -217,7 +214,7 @@ outsource.config(function($stateProvider, $urlRouterProvider){
                 }
                   
             })
-            .state('why-us-work', { 
+            .state('why-us-work-process', { 
                 parent: 'home',
                 url: ' /why-us/work-process/web',
                 views: {

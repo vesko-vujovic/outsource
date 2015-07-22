@@ -62,10 +62,15 @@ $lightgray: #e6e6e6;
     width: 97%;
     margin-left: -0.1%;
   }
-
+  div.row+hr {
+    margin-bottom: 0;
+    position: relative;
+    top: 5px;
+    margin-top: 15px;
+  }
   .footer_clients {
-    margin-top: 25px;
-    margin-bottom: 45px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     p {
       display: inline;
     }
@@ -78,10 +83,12 @@ $lightgray: #e6e6e6;
 
   .rights {
     font-size: 12px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
+    padding-top: 3px;
     i {
       float: right;
       margin-left: 5px;
+      font-size: 1.4em;
       &:hover {
         color:white;
       }
@@ -91,6 +98,25 @@ $lightgray: #e6e6e6;
     margin-right: 32px;
   }
   .more_about_us:hover, .contact:hover, .blog-info:hover, .footer_clients:hover {
+    div.bottom20 {
+      color: white;
+      a {
+        color: white;
+        text-decoration: underline;
+      }
+    }
+  }
+  .more_about_us>p:hover {
+    color: white;
+  }
+  .blog-info ul>li:hover {
+    color: white;
+    a {
+      text-decoration: underline;
+      color: white;
+    }
+  }
+  .contact>p:hover {
     color: white;
   }
   ul li a{
@@ -104,7 +130,28 @@ $lightgray: #e6e6e6;
 }
 
 #clientpic img:hover {
-
-  opacity: 0.4
-
-};
+  opacity: 0.4;
+}
+#clientpic>a {
+  position: relative;
+  top: 5px;
+  h5,  {
+    padding-top: 5px;
+  }
+}
+#clientpic>i {
+  position: relative;
+  top: 5px;
+}
+#clientpic i:hover, a:hover {
+  color: white;
+  text-decoration: underline;
+}
+div.footer div.container>div.row {
+  div.col-xs-4 {
+    padding-top: 7px;
+  }
+}
+div.cli-head {
+  float: left;
+}

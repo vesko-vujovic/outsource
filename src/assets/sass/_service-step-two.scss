@@ -100,7 +100,7 @@
 					top: -250px;
 				}
 				.check-price {
-					top: -465px;
+					top: -470px;
 				}
 			}	
 			.template {
@@ -116,7 +116,7 @@
 					top: -202px;
 				}
 				.check-price {
-					top: -370px;
+					top: -373px;
 				}
 			}
 			.component {
@@ -145,7 +145,7 @@
 				}
 
 				.check-price {
-					top: -370px;
+					top: -373px;
 				}
 			}
 			.front-end {
@@ -160,7 +160,7 @@
 				}
 
 				.check-price {
-					top: -370px;
+					top: -375px;
 				}
 			}
 			.open-source {
@@ -175,7 +175,7 @@
 				}
 
 				.check-price {
-					top: -278px;
+					top: -280px;
 				}
 			}
 			.comercial {
@@ -202,7 +202,7 @@
 					top: -202px;
 				}
 				.check-price {
-					top: -370px;
+					top: -373px;
 				}
 			}
 			.maintenence {
@@ -216,7 +216,7 @@
 					top: -155px;
 				}
 				.check-price {
-					top: -277px;
+					top: -280px;
 				}
 			}
 			.web-sites, .hosting, .component, .maintenence {
@@ -231,6 +231,9 @@
 					input[type='checkbox'] {
 						margin-right: 12.5%;
 					}
+				}
+				.check-price {
+					margin-left: 3%;
 				}
 			}
 			.template, .device-development, .front-end, .open-source, .comercial {
@@ -250,18 +253,18 @@
 		}
 		.order-select {
     	  margin-top: 0px;
-    	  margin-bottom: 30px;
-    	  width: 20%;
-  		  margin-left: 80%;
+    	  margin-bottom: 65px;
+    	  width: 24%;
+  		  margin-left: 76%;
  		  margin-right: 0%;
  		  background-color: #F8A01A;
  		  background-image: url("../img/order/nextStep.png");
  		  background-repeat: no-repeat;
- 		  background-position: 93% 5px;
-	      padding-top: 15px;
+ 		  background-position: 93% 3px;
+	      padding-top: 10px;
 	      padding-bottom: 10px;
 	      border: 0px;
-	      font-size: 1.2em;
+	      font-size: 1.4em;
 	      font-weight: 400;
 	      text-align: center;
 	      color: white; 		
@@ -276,4 +279,8 @@
 			margin-bottom: 57px;
 		}
 	}
+}
+.mid-li {
+	width: 31.7%;
+	padding-right: 3px;
 }

@@ -2,16 +2,15 @@
 var app = angular.module('outsourceApp');
 
 //define controller
-
-app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedService){
+app.controller('IndexCtrl', ['$scope', 'sharedService', function($scope, sharedService){
      
      //data for slider
 	$scope.slider;
 	$scope.sliderData         = sharedService.getData('/outsource/json/index/slider.json').then(function(data){
-	    $scope.slider         = data.slider;
-
-	    
+	   $scope.slider          = data.slider;
+	   console.log($scope.slider);
 	});
+
 
     //data for navbar
 	$scope.navbar;
@@ -26,11 +25,13 @@ app.controller('indexCtrl', ['$scope', 'sharedService', function($scope, sharedS
 	    $scope.packages        = data.packages;
 	  
 	});
+
     //data for why us 
     $scope.whyus;
 	$scope.whyusData           = sharedService.getData('/outsource/json/index/whyus.json').then(function(data){
 	    $scope.whyus           = data.why; 
 	});
+
 	//data about us
 	$scope.aboutus;
 	$scope.aboutusData         = sharedService.getData('/outsource/json/index/onama.json').then(function(data){

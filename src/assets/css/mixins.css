@@ -3,12 +3,17 @@
   padding-left: 7%;
   background-color: white; }
   #order_inner #table #myTable {
-    width: 87%; }
+    width: 87%;
+    overflow: hidden; }
     #order_inner #table #myTable tr td:first-child {
       width: 18.5%;
       position: relative; }
     #order_inner #table #myTable tr td:not(td.col-xs-3) {
       width: 16%; }
+    #order_inner #table #myTable tr td.col-xs-3 + td {
+      padding-left: 1%; }
+    #order_inner #table #myTable tr td:last-child {
+      padding-right: 2%; }
     #order_inner #table #myTable td {
       padding-top: 15px;
       padding-bottom: 6px; }
@@ -19,7 +24,7 @@
         box-shadow: none;
         display: table-row; }
     #order_inner #table #myTable tbody tr:hover {
-      display: inline-block;
+      display: block-inline;
       width: 455%;
       margin-left: -5%;
       box-shadow: 0 0 2px 2px #35B7F3;
@@ -28,13 +33,13 @@
         visibility: hidden; }
       #order_inner #table #myTable tbody tr:hover .hide-this {
         display: inline-block;
-        left: 230px;
-        width: 550px; }
+        right: -253%;
+        width: 250%; }
     #order_inner #table #myTable .hide-this {
       position: absolute;
-      left: 230px;
+      right: 0%;
       top: 16px;
-      width: 275%;
+      /*width: 275%;*/
       display: none; }
       #order_inner #table #myTable .hide-this i.glyphicon-info-sign {
         color: grey;
