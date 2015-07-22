@@ -14,7 +14,7 @@ $(document).ready(function() {
 });
 
 
-this.menu     = function(e) {
+this.menu              = function(e) {
  
   $('ul.nav.navbar-nav li:nth-child(3)').removeClass('clicked');
   $('ul.nav.navbar-nav li:nth-child(4)').removeClass('clicked');
@@ -34,7 +34,7 @@ else {
 };
 
 
-this.whyUs     = function(e) {
+this.whyUs             = function(e) {
 
     // Slide up and remove all active class, when clicked on whyus
     $('ul.nav.navbar-nav li:nth-child(3)').removeClass('clicked');
@@ -74,7 +74,7 @@ this.packagePrices     = function(e) {
 
 }; 
 
-this.homePage       = function(e) {
+this.homePage          = function(e) {
 
    $('ul.nav.navbar-nav li:nth-child(3)').removeClass('clicked');
    $('ul.nav.navbar-nav li:nth-child(4)').removeClass('clicked');
