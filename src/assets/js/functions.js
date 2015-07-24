@@ -4,12 +4,9 @@
   * is done from directive
   */
 
-<<<<<<< HEAD
-this.menu              = function(e) {
-=======
+
 // Dropdown menu for ORDER NOW  
 this.menu     = function(e) {
->>>>>>> origin/master
  
   $('ul.nav.navbar-nav li:nth-child(3)').removeClass('clicked');
   $('ul.nav.navbar-nav li:nth-child(4)').removeClass('clicked');
@@ -28,13 +25,9 @@ else {
 
 };
 
-<<<<<<< HEAD
 
-this.whyUs             = function(e) {
-=======
 // Dropdown menu for WHY US
 this.whyUs     = function(e) {
->>>>>>> origin/master
 
     // Slide up and remove all active class, when clicked on whyus
     $('ul.nav.navbar-nav li:nth-child(3)').removeClass('clicked');
@@ -76,12 +69,9 @@ this.packagePrices     = function(e) {
 
 }; 
 
-<<<<<<< HEAD
-this.homePage          = function(e) {
-=======
+
 // Click on home page removes all opened dropdowns
 this.homePage       = function(e) {
->>>>>>> origin/master
 
    $('ul.nav.navbar-nav li:nth-child(3)').removeClass('clicked');
    $('ul.nav.navbar-nav li:nth-child(4)').removeClass('clicked');
